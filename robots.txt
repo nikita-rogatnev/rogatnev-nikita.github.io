@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /src/
+Disallow: /node_modules/
+
+Sitemap: http://rogatnev.ru/sitemap.xml

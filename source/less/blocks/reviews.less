@@ -1,0 +1,33 @@
+.reviews {
+  width: @mobile-width;
+  margin: -90px auto 0;
+  padding-top: 45px;
+  text-align: center;
+  background-color: @white;
+}
+
+.reviews__list {
+  margin-bottom: 35px;
+}
+
+.reviews__item {
+  margin: 0;
+
+  &:nth-child(2),
+  &:nth-child(3) {
+    display: none;
+  }
+}
+
+.reviews__author {
+  margin: 0 0 25px 0;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.reviews__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+}

@@ -1,0 +1,42 @@
+{
+	"name": "rogatnev-nikita.github.io",
+	"version": "4.0",
+	"description": "Rogatnev Nikita personal website",
+	"author": "Rogatnev Nikita <mail@rogatnev.ru>",
+	"license": "MIT",
+	"homepage": "https://rogatnev-nikita.github.io",
+	"devDependencies": {
+		"autoprefixer": "7.2.x",
+		"browser-sync": "2.23.x",
+		"gulp": "3.9.x",
+		"gulp-less": "3.4.x",
+		"gulp-plumber": "1.2.x",
+		"gulp-postcss": "7.0.x",
+		"@htmlacademy/editorconfig-cli": "1.x",
+		"stylelint": "8.4.x",
+		"stylelint-config-htmlacademy": "0.1.x"
+	},
+	"scripts": {
+		"editorconfig": "editorconfig-cli",
+		"stylelint": "stylelint 'source/less/**/*.less' --syntax less",
+		"test": "npm run editorconfig && npm run stylelint",
+		"build": "gulp style",
+		"start": "gulp serve"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"IE 11",
+		"Firefox ESR"
+	],
+	"editorconfig-cli": [
+		"*.json",
+		"*.js",
+		"source/*.html",
+		"source/js/**/*.js",
+		"source/img/**/*.svg",
+		"source/less/**/*.less"
+	],
+	"engines": {
+		"node": "8.9"
+	}
+}
