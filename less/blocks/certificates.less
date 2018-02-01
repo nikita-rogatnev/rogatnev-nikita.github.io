@@ -7,30 +7,33 @@
 
     .certificates__items {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        align-items: flex-start;
-        justify-content: space-between;
+        flex-flow: column wrap;
         margin: 0 -0.5rem;
     }
 
-    .portfolio__item {
-        display: flex;
-        flex-direction: column;
+    .certificates__item {
         width: 100%;
         padding: 0.5rem;
     }
 
     @media @medium-up {
+        .certificates__items {
+            max-height: 85rem;
+        }
+
         .certificates__item {
-            max-width: calc(~"100% / 3");
+            width: calc(~"100% / 3");
         }
     }
 
     @media @large-up {
+        .certificates__items {
+            max-height: 55rem;
+        }
+
         .certificates__item {
-            max-width: calc(~"100% / 6");
+            width: calc(~"100% / 5");
         }
     }
+
 }

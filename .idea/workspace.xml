@@ -9,7 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/blocks/portfolio.less" afterPath="$PROJECT_DIR$/less/blocks/portfolio.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/general/global.less" afterPath="$PROJECT_DIR$/less/general/global.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/general/mixins.less" afterPath="$PROJECT_DIR$/less/general/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/general/variables.less" afterPath="$PROJECT_DIR$/less/general/variables.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +23,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="286" column="55" lean-forward="false" selection-start-line="286" selection-start-column="55" selection-end-line="286" selection-end-column="55" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="-753">
+              <caret line="157" column="79" lean-forward="false" selection-start-line="157" selection-start-column="79" selection-end-line="157" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,20 +36,30 @@
       <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="489">
+              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding>
-                <element signature="e#806#999#0" expanded="false" />
+                <element signature="e#902#1095#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="certificates.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="certificates.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/blocks/certificates.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/general/global.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -61,8 +68,8 @@
       <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/general/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -122,11 +129,11 @@
         <option value="$PROJECT_DIR$/less/blocks/contact.less" />
         <option value="$PROJECT_DIR$/less/blocks/intro.less" />
         <option value="$PROJECT_DIR$/less/blocks/resume.less" />
-        <option value="$PROJECT_DIR$/less/general/global.less" />
         <option value="$PROJECT_DIR$/less/general/variables.less" />
-        <option value="$PROJECT_DIR$/less/general/mixins.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/blocks/certificates.less" />
+        <option value="$PROJECT_DIR$/less/general/mixins.less" />
+        <option value="$PROJECT_DIR$/less/general/global.less" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/blocks/portfolio.less" />
       </list>
     </option>
@@ -368,12 +375,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517446203438</updated>
-      <workItem from="1517446204711" duration="10345000" />
+      <workItem from="1517446204711" duration="11337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10345000" />
+    <option name="totallyTimeSpent" value="11337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -645,14 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/general/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/general/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -663,36 +662,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/general/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="286" column="55" lean-forward="false" selection-start-line="286" selection-start-column="55" selection-end-line="286" selection-end-column="55" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#806#999#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/blocks/certificates.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/general/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#902#1095#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="157" column="79" lean-forward="false" selection-start-line="157" selection-start-column="79" selection-end-line="157" selection-end-column="79" />
           <folding />
         </state>
       </provider>
