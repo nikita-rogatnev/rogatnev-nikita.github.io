@@ -1,0 +1,23 @@
+/* ------------------------------------------ */
+/* BUTTON BLOCK
+/* ------------------------------------------ */
+.button {
+    display: inline-block;
+    min-width: 5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+
+    color: @color-accent;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background: fade(@color-accent, 10%);
+    border: 0.1rem solid @color-accent;
+
+    transition: background-color @transition ease;
+
+    &:hover {
+        color: @color-primary-text-light;
+        background-color: @color-accent;
+    }
+}

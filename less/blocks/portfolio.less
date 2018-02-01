@@ -1,0 +1,62 @@
+/* ------------------------------------------ */
+/* PORTFOLIO BLOCK
+/* ------------------------------------------ */
+.portfolio {
+    .wrapper;
+    .heading;
+
+    .portfolio__content {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 -0.5rem;
+
+        outline: 1px solid red;
+    }
+
+    .portfolio__item {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .portfolio__link {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .portfolio__tags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .portfolio__tag {
+        &::after {
+            content: " / ";
+            white-space: pre;
+        }
+
+        &:last-child{
+            &::after {
+                content: "";
+            }
+        }
+    }
+
+    @media @medium {
+        .portfolio__item {
+            max-width: calc(~"100% / 3");
+        }
+    }
+
+    @media @large {
+        .portfolio__item {
+            max-width: calc(~"100% / 5");
+        }
+    }
+}

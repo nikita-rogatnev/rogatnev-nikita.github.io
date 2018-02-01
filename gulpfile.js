@@ -8,25 +8,25 @@ var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 
 gulp.task("style", function () {
-    gulp.src("source/less/style.less")
+    gulp.src("./less/style.less")
         .pipe(plumber())
         .pipe(less())
         .pipe(postcss([
             autoprefixer()
         ]))
-        .pipe(gulp.dest("source/css"))
+        .pipe(gulp.dest("./css"))
         .pipe(server.stream());
 });
 
 gulp.task("serve", ["style"], function () {
     server.init({
-        server: "source/",
+        server: "",
         notify: false,
         open: true,
         cors: true,
         ui: false
     });
 
-    gulp.watch("source/less/**/*.less", ["style"]);
-    gulp.watch("source/*.html").on("change", server.reload);
+    gulp.watch("./less/**/*.less", ["style"]);
+    gulp.watch("./*.html").on("change", server.reload);
 });
