@@ -103,7 +103,7 @@ html {
           box-sizing: inherit;
 }
 body {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -282,6 +282,14 @@ a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+.blog .blog__description h1,
+.blog .blog__description p {
+  font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+.blog .blog__description p {
+  font-size: 1rem;
+  font-weight: 300;
 }
 .blog .blog__link {
   font-size: 0;

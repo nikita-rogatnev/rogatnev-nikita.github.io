@@ -6,13 +6,13 @@
     "license": "MIT",
     "homepage": "https://rogatnev-nikita.github.io",
     "devDependencies": {
-        "autoprefixer": "7.2.x",
-        "browser-sync": "2.23.x",
-        "gulp": "3.9.x",
-        "gulp-less": "3.4.x",
-        "gulp-plumber": "1.2.x",
-        "gulp-postcss": "7.0.x",
-        "stylelint": "8.4.x"
+        "autoprefixer": "^7.2.x",
+        "browser-sync": "^2.23.x",
+        "gulp": "^3.9.x",
+        "gulp-less": "^3.4.x",
+        "gulp-plumber": "^1.2.x",
+        "gulp-postcss": "^7.0.x",
+        "stylelint": "^8.4.x"
     },
     "scripts": {
         "editorconfig": "editorconfig-cli",
