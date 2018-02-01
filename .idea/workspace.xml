@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7bccc5-bb87-4736-b596-2a4344b34802" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/blocks/certificates.less" afterPath="$PROJECT_DIR$/less/blocks/certificates.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/blocks/blog.less" afterPath="$PROJECT_DIR$/less/blocks/blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/blocks/button.less" afterPath="$PROJECT_DIR$/less/blocks/button.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/blocks/statistics.less" afterPath="$PROJECT_DIR$/less/blocks/statistics.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="464" column="55" lean-forward="false" selection-start-line="464" selection-start-column="55" selection-end-line="464" selection-end-column="55" />
+            <state relative-caret-position="393">
+              <caret line="954" column="132" lean-forward="false" selection-start-line="954" selection-start-column="132" selection-end-line="954" selection-end-column="132" />
               <folding>
                 <element signature="e#4223#4230#0" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -39,38 +37,38 @@
                 <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#8;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#26536#26543#0" expanded="true" />
-                <element signature="e#26615#26622#0" expanded="true" />
-                <element signature="e#26696#26703#0" expanded="true" />
-                <element signature="e#26768#26775#0" expanded="true" />
-                <element signature="e#26855#26862#0" expanded="true" />
-                <element signature="e#26934#26941#0" expanded="true" />
-                <element signature="e#27181#27188#0" expanded="true" />
-                <element signature="e#27257#27264#0" expanded="true" />
-                <element signature="e#27345#27352#0" expanded="true" />
-                <element signature="e#27435#27442#0" expanded="true" />
-                <element signature="e#27520#27527#0" expanded="true" />
-                <element signature="e#27595#27602#0" expanded="true" />
-                <element signature="e#27842#27849#0" expanded="true" />
-                <element signature="e#27922#27929#0" expanded="true" />
-                <element signature="e#28013#28020#0" expanded="true" />
-                <element signature="e#28099#28106#0" expanded="true" />
-                <element signature="e#28173#28180#0" expanded="true" />
-                <element signature="e#28249#28256#0" expanded="true" />
+                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#27015#27022#0" expanded="true" />
+                <element signature="e#27094#27101#0" expanded="true" />
+                <element signature="e#27175#27182#0" expanded="true" />
+                <element signature="e#27247#27254#0" expanded="true" />
+                <element signature="e#27334#27341#0" expanded="true" />
+                <element signature="e#27413#27420#0" expanded="true" />
+                <element signature="e#27901#27908#0" expanded="true" />
+                <element signature="e#27977#27984#0" expanded="true" />
+                <element signature="e#28065#28072#0" expanded="true" />
+                <element signature="e#28155#28162#0" expanded="true" />
+                <element signature="e#28240#28247#0" expanded="true" />
+                <element signature="e#28315#28322#0" expanded="true" />
+                <element signature="e#28803#28810#0" expanded="true" />
+                <element signature="e#28883#28890#0" expanded="true" />
+                <element signature="e#28974#28981#0" expanded="true" />
+                <element signature="e#29060#29067#0" expanded="true" />
+                <element signature="e#29134#29141#0" expanded="true" />
+                <element signature="e#29210#29217#0" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#43994#44000#0" expanded="true" />
+                <element signature="e#67086#67092#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistics.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/blocks/statistics.less">
+      <file leaf-file-name="blog.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/blocks/blog.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="575">
+              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -79,8 +77,8 @@
       <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="23" />
+            <state relative-caret-position="441">
+              <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="e#979#1172#0" expanded="false" />
               </folding>
@@ -88,21 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/blocks/contact.less">
+      <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/general/global.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/general/mixins.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="21">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -111,18 +99,8 @@
       <file leaf-file-name="button.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/blocks/button.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/general/global.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -167,6 +145,10 @@
       <find>FAde</find>
       <find>&amp;mdash;</find>
       <find>-</find>
+      <find>&lt;!-- /react-text --&gt;</find>
+      <find>href=&quot;&quot; class=&quot;button&quot;</find>
+      <find>&lt;img src=&quot;&quot; alt=&quot;&quot;&gt;</find>
+      <find>src=&quot;./img/blog/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,7 +169,6 @@
         <option value="$PROJECT_DIR$/source/less/style.less" />
         <option value="$PROJECT_DIR$/less/blocks/header.less" />
         <option value="$PROJECT_DIR$/js/server.js" />
-        <option value="$PROJECT_DIR$/less/blocks/blog.less" />
         <option value="$PROJECT_DIR$/less/general/variables.less" />
         <option value="$PROJECT_DIR$/img/resume/omnigon.svg" />
         <option value="$PROJECT_DIR$/less/blocks/footer.less" />
@@ -197,13 +178,14 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/less/blocks/contact.less" />
         <option value="$PROJECT_DIR$/less/general/global.less" />
-        <option value="$PROJECT_DIR$/less/blocks/button.less" />
         <option value="$PROJECT_DIR$/less/blocks/portfolio.less" />
         <option value="$PROJECT_DIR$/less/blocks/certificates.less" />
         <option value="$PROJECT_DIR$/less/style.less" />
         <option value="$PROJECT_DIR$/less/general/mixins.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/blocks/statistics.less" />
+        <option value="$PROJECT_DIR$/less/blocks/button.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/blocks/blog.less" />
       </list>
     </option>
   </component>
@@ -298,34 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rogatnev-nikita.github.io-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rogatnev-nikita.github.io-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rogatnev-nikita.github.io-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rogatnev-nikita.github.io-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,12 +398,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517446203438</updated>
-      <workItem from="1517446204711" duration="30102000" />
+      <workItem from="1517446204711" duration="33003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30102000" />
+    <option name="totallyTimeSpent" value="33003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -657,14 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/blog.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/resume/omnigon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -713,26 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/general/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/general/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/button.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -761,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="e#979#1172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/general/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -779,10 +699,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/statistics.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/general/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/button.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="464" column="55" lean-forward="false" selection-start-line="464" selection-start-column="55" selection-end-line="464" selection-end-column="55" />
+        <state relative-caret-position="393">
+          <caret line="954" column="132" lean-forward="false" selection-start-line="954" selection-start-column="132" selection-end-line="954" selection-end-column="132" />
           <folding>
             <element signature="e#4223#4230#0" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -794,36 +738,46 @@
             <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#0;n#div#1;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#26536#26543#0" expanded="true" />
-            <element signature="e#26615#26622#0" expanded="true" />
-            <element signature="e#26696#26703#0" expanded="true" />
-            <element signature="e#26768#26775#0" expanded="true" />
-            <element signature="e#26855#26862#0" expanded="true" />
-            <element signature="e#26934#26941#0" expanded="true" />
-            <element signature="e#27181#27188#0" expanded="true" />
-            <element signature="e#27257#27264#0" expanded="true" />
-            <element signature="e#27345#27352#0" expanded="true" />
-            <element signature="e#27435#27442#0" expanded="true" />
-            <element signature="e#27520#27527#0" expanded="true" />
-            <element signature="e#27595#27602#0" expanded="true" />
-            <element signature="e#27842#27849#0" expanded="true" />
-            <element signature="e#27922#27929#0" expanded="true" />
-            <element signature="e#28013#28020#0" expanded="true" />
-            <element signature="e#28099#28106#0" expanded="true" />
-            <element signature="e#28173#28180#0" expanded="true" />
-            <element signature="e#28249#28256#0" expanded="true" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#27015#27022#0" expanded="true" />
+            <element signature="e#27094#27101#0" expanded="true" />
+            <element signature="e#27175#27182#0" expanded="true" />
+            <element signature="e#27247#27254#0" expanded="true" />
+            <element signature="e#27334#27341#0" expanded="true" />
+            <element signature="e#27413#27420#0" expanded="true" />
+            <element signature="e#27901#27908#0" expanded="true" />
+            <element signature="e#27977#27984#0" expanded="true" />
+            <element signature="e#28065#28072#0" expanded="true" />
+            <element signature="e#28155#28162#0" expanded="true" />
+            <element signature="e#28240#28247#0" expanded="true" />
+            <element signature="e#28315#28322#0" expanded="true" />
+            <element signature="e#28803#28810#0" expanded="true" />
+            <element signature="e#28883#28890#0" expanded="true" />
+            <element signature="e#28974#28981#0" expanded="true" />
+            <element signature="e#29060#29067#0" expanded="true" />
+            <element signature="e#29134#29141#0" expanded="true" />
+            <element signature="e#29210#29217#0" expanded="true" />
             <element signature="n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#43994#44000#0" expanded="true" />
+            <element signature="e#67086#67092#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/statistics.less">
+    <entry file="file://$PROJECT_DIR$/less/blocks/portfolio.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="441">
+          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#979#1172#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding />
         </state>
       </provider>

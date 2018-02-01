@@ -144,6 +144,7 @@ a {
   color: #ed4040;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   background: rgba(237, 64, 64, 0.1);
   border: 0.1rem solid #ed4040;
   -webkit-transition: background-color 0.3s ease;
@@ -236,6 +237,67 @@ a {
   .blog__heading h1 {
     font-size: 2.5rem;
     margin-bottom: 0;
+  }
+}
+.blog .blog__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -0.5rem;
+}
+.blog .blog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0.5rem;
+}
+.blog .blog__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 0.5rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.blog .blog__link {
+  font-size: 0;
+  line-height: 0;
+}
+@media (min-width: 768px ) {
+  .blog .blog__item {
+    max-width: calc(100% / 3);
+  }
+  .blog .blog__link img {
+    height: 8.5rem;
+  }
+}
+@media (min-width: 1170px ) {
+  .blog .blog__item {
+    max-width: calc(100% / 5);
   }
 }
 /* ------------------------------------------ */
@@ -1139,6 +1201,10 @@ a {
 .statistics .statistics__content {
   width: 100%;
 }
+.statistics .statistics__content svg {
+  stroke: rgba(235, 224, 202, 0.15);
+  stroke-width: 2;
+}
 .statistics .statistics__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1147,7 +1213,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  margin: 0 -0.5rem 3rem;
+  margin: 0 -0.5rem 4rem;
 }
 .statistics .statistics__item {
   width: 100%;
