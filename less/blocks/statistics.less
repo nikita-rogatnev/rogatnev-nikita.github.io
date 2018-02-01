@@ -1,39 +1,59 @@
 /* ------------------------------------------ */
 /* CERTIFICATES BLOCK
 /* ------------------------------------------ */
-.certificates {
+.statistics {
     .wrapper;
     .heading;
 
-    .certificates__items {
-        display: flex;
-        flex-flow: column wrap;
-        margin: 0 -0.5rem;
+    .statistics__heading {
+        width: 100%;
     }
 
-    .certificates__item {
+    .statistics__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+    }
+
+    .statistics__content {
+        width: 100%;
+    }
+
+    .statistics__items {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0 -0.5rem 3rem;
+    }
+
+    .statistics__item {
         width: 100%;
         padding: 0.5rem;
     }
 
-    @media @medium-up {
-        .certificates__items {
-            max-height: 85rem;
-        }
+    .statistics__action {
+        width: 100%;
+        text-align: center;
 
-        .certificates__item {
-            width: calc(~"100% / 3");
+        a {
+            margin: 0;
+        }
+    }
+
+    @media @medium-up {
+        .statistics__content {
+            width: calc(~"100% / 2");
+
         }
     }
 
     @media @large-up {
-        .certificates__items {
-            max-height: 55rem;
-        }
+        .statistics__content {
+            width: calc(~"100% / 4");
 
-        .certificates__item {
-            width: calc(~"100% / 5");
         }
     }
-
 }
