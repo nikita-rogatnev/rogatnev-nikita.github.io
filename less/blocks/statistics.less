@@ -1,0 +1,39 @@
+/* ------------------------------------------ */
+/* CERTIFICATES BLOCK
+/* ------------------------------------------ */
+.certificates {
+    .wrapper;
+    .heading;
+
+    .certificates__items {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0 -0.5rem;
+    }
+
+    .certificates__item {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    @media @medium-up {
+        .certificates__items {
+            max-height: 85rem;
+        }
+
+        .certificates__item {
+            width: calc(~"100% / 3");
+        }
+    }
+
+    @media @large-up {
+        .certificates__items {
+            max-height: 55rem;
+        }
+
+        .certificates__item {
+            width: calc(~"100% / 5");
+        }
+    }
+
+}
