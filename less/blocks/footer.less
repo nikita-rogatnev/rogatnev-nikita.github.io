@@ -1,0 +1,39 @@
+/* ------------------------------------------ */
+/* FOOTER BLOCK
+/* ------------------------------------------ */
+.footer {
+    position: relative;
+    padding: 0.5rem;
+    font-size: @font-size--5;
+    text-align: center;
+
+    cite {
+        display: block;
+        font-style: normal;
+    }
+
+    span {
+        display: block;
+        position: relative;
+    }
+
+    @media @medium-up {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+
+        span {
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                display: block;
+                width: 2.5rem;
+                height: 0.05rem;
+                background: @color-accent;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

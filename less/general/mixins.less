@@ -3,12 +3,18 @@
 // ------------------------------------------ //
 .wrapper {
     position: relative;
-    padding: 20rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10rem 0;
 
     &__wrapper {
         width: 100%;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0.5rem;
 
         @media @medium-up {
             width: @screen-m-min;
@@ -35,9 +41,11 @@
         h1 {
             font-size: @font-size-00;
             line-height: 1;
-            font-weight: @bold-font-weight;
+            font-weight: @regular-font-weight;
             text-transform: uppercase;
+            color: @color-primary-text-light;
             white-space: nowrap;
+            letter-spacing: 0.2rem;
         }
 
         @media @medium-up {

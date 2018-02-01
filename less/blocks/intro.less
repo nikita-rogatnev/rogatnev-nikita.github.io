@@ -4,4 +4,72 @@
 .intro {
     .wrapper;
     .heading;
+
+    background: url("../img/intro/background.png") repeat-x center;
+    animation: slide 60s linear infinite;
+
+    .intro__content {
+        h3 {
+            margin: 0 0 0 3rem;
+            padding: 0;
+            font-size: @font-size--4;
+            line-height: 1;
+            font-weight: @regular-font-weight;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        span {
+            color: @color-accent;
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+            font-size: @font-size-03;
+            line-height: 1;
+            font-weight: @bold-font-weight;
+            color: @color-primary-text-light;
+            text-transform: uppercase;
+            white-space: pre;
+        }
+    }
+
+    @media @medium-up {
+        .intro__content {
+            h3 {
+                margin: 0 0 0 0.3rem;
+                font-size: 1.78rem;
+            }
+
+            h2 {
+                font-size: 5rem;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    @media @large-up {
+        .intro__content {
+            h3 {
+                margin: 0 0 0 0.4rem;
+                font-size: 3.17rem;
+            }
+
+            h2 {
+                font-size: 9rem;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -100rem 0;
+    }
 }

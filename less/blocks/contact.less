@@ -4,4 +4,79 @@
 .contact {
     .wrapper;
     .heading;
+
+    .contact__content {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: @bold-font-weight;
+            color: @color-primary-text-light;
+            text-transform: uppercase;
+        }
+    }
+
+    .contact__socials {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .contact__social {
+        position: relative;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem;
+        font-size: 0;
+        line-height: 0;
+        border: 0.5rem solid fade(#2b1f31, 50%);
+        background: #2b1f31;
+        background-clip: padding-box;
+
+        &:nth-child(1) {
+
+        }
+
+    }
+
+    svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: @color-primary-text-light;
+    }
+
+    @media @medium-up {
+        .contact__content {
+            h2 {
+                font-size: 5rem;
+            }
+        }
+    }
+
+    @media @large-up {
+        .contact__content {
+            display: flex;
+            flex-direction: row;
+
+            h2 {
+                font-size: 8rem;
+            }
+        }
+
+        .contact__socials {
+            justify-content: center;
+            width: 40%;
+        }
+    }
 }
