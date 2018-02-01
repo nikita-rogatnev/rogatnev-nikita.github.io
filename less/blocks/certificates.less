@@ -4,4 +4,33 @@
 .certificates {
     .wrapper;
     .heading;
+
+    .certificates__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 -0.5rem;
+    }
+
+    .portfolio__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    @media @medium-up {
+        .certificates__item {
+            max-width: calc(~"100% / 3");
+        }
+    }
+
+    @media @large-up {
+        .certificates__item {
+            max-width: calc(~"100% / 6");
+        }
+    }
 }

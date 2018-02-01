@@ -5,19 +5,19 @@
     .wrapper;
     .heading;
 
-    .portfolio__content {
-        display: inline-flex;
+    .portfolio__items {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: flex-start;
         align-items: flex-start;
         justify-content: space-between;
         margin: 0 -0.5rem;
-
-        outline: 1px solid red;
     }
 
     .portfolio__item {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         padding: 0.5rem;
     }
@@ -48,13 +48,13 @@
         }
     }
 
-    @media @medium {
+    @media @medium-up {
         .portfolio__item {
             max-width: calc(~"100% / 3");
         }
     }
 
-    @media @large {
+    @media @large-up {
         .portfolio__item {
             max-width: calc(~"100% / 5");
         }

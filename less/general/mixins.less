@@ -2,20 +2,23 @@
 // MIXINS
 // ------------------------------------------ //
 .wrapper {
+    position: relative;
+
     &__wrapper {
         width: 100%;
         margin: 0 auto;
         padding: 1rem;
 
-        @media @medium {
+        @media @medium-up {
             width: @screen-m-min;
+            margin-right: 0;
         }
 
-        @media @large {
+        @media @large-up {
             width: @screen-l-min;
         }
 
-        @media @extra-large {
+        @media @extra-large-up {
             width: @screen-xl-min;
         }
     }
@@ -23,9 +26,33 @@
 
 .heading {
     &__heading {
+        span {
+            font-size: @font-size--5;
+            color: @color-accent;
+        }
+
         h1 {
-            font-size: @font-size-01;
+            font-size: @font-size-00;
+            line-height: 1;
             font-weight: @bold-font-weight;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        @media @medium-up {
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            display: inline-flex;
+            flex-direction: column;
+            text-align: center;
+            transform: rotate(-90deg) translateX(-50%);
+            transform-origin: left top 0;
+
+            h1 {
+                font-size: @font-size-02;
+                margin-bottom: 0;
+            }
         }
     }
 }
