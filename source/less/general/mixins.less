@@ -38,9 +38,11 @@
 
 .heading {
     &__heading {
-        text-align: center;
         position: relative;
+
         margin-bottom: 5rem;
+
+        text-align: center;
 
         span {
             color: @color-accent;
@@ -61,25 +63,30 @@
         }
 
         &::after {
-            content: "";
             position: absolute;
-            display: block;
-            width: 3rem;
-            height: 0.1rem;
-            border-top: 0.1rem dotted @color-accent;
             bottom: -1rem;
             left: 50%;
+
+            display: block;
+
+            width: 3rem;
+            height: 0.1rem;
+
+            content: "";
             transform: translateX(-50%);
+
+            border-top: 0.1rem dotted @color-accent;
         }
 
         @media @medium-up {
             position: absolute;
             top: 50%;
             left: 1rem;
-            margin-bottom: 0;
 
             display: inline-flex;
             flex-direction: column;
+
+            margin-bottom: 0;
 
             transform: rotate(-90deg) translateX(-50%);
             transform-origin: left top 0;

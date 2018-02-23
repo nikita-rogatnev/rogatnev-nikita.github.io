@@ -1,23 +1,22 @@
 "use strict";
 
-var gulp = require("gulp");
-var less = require("gulp-less");
-var plumber = require("gulp-plumber");
-var postcss = require("gulp-postcss");
-var autoprefixer = require("autoprefixer");
-var server = require("browser-sync").create();
-var minify = require("gulp-csso");
-var imagemin = require("gulp-imagemin");
-var posthtml = require("gulp-posthtml");
-var include = require("posthtml-include");
-var rename = require("gulp-rename");
-var webp = require("gulp-webp");
-var svgstore = require("gulp-svgstore");
-var del = require("del");
-var run = require("run-sequence");
-var htmlmin = require("gulp-htmlmin");
-var jsmin = require("gulp-uglify");
-
+var gulp = require("gulp"),
+    less = require("gulp-less"),
+    plumber = require("gulp-plumber"),
+    postcss = require("gulp-postcss"),
+    autoprefixer = require("autoprefixer"),
+    server = require("browser-sync").create(),
+    minify = require("gulp-csso"),
+    imagemin = require("gulp-imagemin"),
+    posthtml = require("gulp-posthtml"),
+    include = require("posthtml-include"),
+    rename = require("gulp-rename"),
+    webp = require("gulp-webp"),
+    svgstore = require("gulp-svgstore"),
+    del = require("del"),
+    run = require("run-sequence"),
+    htmlmin = require("gulp-htmlmin"),
+    jsmin = require("gulp-uglify");
 
 gulp.task("clean", function () {
     return del("build");
@@ -38,7 +37,7 @@ gulp.task("copy", function () {
 });
 
 
-gulp.task("style", function() {
+gulp.task("style", function () {
     gulp.src("source/less/style.less")
         .pipe(plumber())
         .pipe(less())
@@ -110,7 +109,7 @@ gulp.task("build", function (done) {
 });
 
 
-gulp.task("serve", function() {
+gulp.task("serve", function () {
     server.init({
         server: "build/"
     });

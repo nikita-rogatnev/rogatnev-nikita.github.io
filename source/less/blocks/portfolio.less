@@ -37,6 +37,7 @@
     .portfolio__link {
         font-size: 0;
         line-height: 0;
+
         filter: grayscale(70%);
 
         &:hover {
@@ -81,27 +82,32 @@
 
     @media @large-up {
         .portfolio__item {
+            position: relative;
+
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
 
+            max-width: calc(~"100% / 2");
             margin-bottom: 4rem;
             padding: 0 1rem 0 0;
 
-            max-width: calc(~"100% / 2");
-            position: relative;
+            flex-wrap: nowrap;
+            align-items: center;
 
             &::after {
-                content: "";
                 position: absolute;
-                display: block;
-                width: 3rem;
-                height: 0.1rem;
-                border-top: 0.1rem dotted @color-accent;
                 top: 50%;
                 left: calc(~"55% - 1.5rem");
+
+                display: block;
+
+                width: 3rem;
+                height: 0.1rem;
+
+                content: "";
                 transform: translate(-50%);
+
+                border-top: 0.1rem dotted @color-accent;
             }
 
             &:nth-child(4n),
@@ -121,7 +127,9 @@
         .portfolio__description {
             width: 45%;
             margin: 0 1rem;
+
             text-align: center;
+
             align-items: center;
         }
     }
