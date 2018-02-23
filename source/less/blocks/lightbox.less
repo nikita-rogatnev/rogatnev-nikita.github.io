@@ -21,9 +21,18 @@
     }
 
     .lightbox__image {
-        width: 80vw;
+        width: 100%;
+        min-width: 90vw;
         height: auto;
         max-height: 100vh;
+    }
+
+    @media @medium-up {
+        .lightbox__image {
+            width: 80vw;
+            min-width: 0;
+            height: auto;
+        }
     }
 
     @media @large-up {

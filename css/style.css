@@ -1363,9 +1363,17 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
           transform: translate(-50%, -50%);
 }
 .lightbox .lightbox__image {
-  width: 80vw;
+  width: 100%;
+  min-width: 90vw;
   height: auto;
   max-height: 100vh;
+}
+@media (min-width: 768px ) {
+  .lightbox .lightbox__image {
+    width: 80vw;
+    min-width: 0;
+    height: auto;
+  }
 }
 @media (min-width: 1170px ) {
   .lightbox .lightbox__image {
