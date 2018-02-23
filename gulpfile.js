@@ -69,13 +69,11 @@ gulp.task("html", function () {
         .pipe(gulp.dest("./"));
 });
 
-
 gulp.task("jsminify", function () {
     return gulp.src("source/js/**/*.{js}")
         .pipe(jsmin())
         .pipe(gulp.dest("./js"));
 });
-
 
 gulp.task("build", function (done) {
     run(
@@ -86,7 +84,6 @@ gulp.task("build", function (done) {
         done
     );
 });
-
 
 gulp.task("serve", function () {
     server.init({

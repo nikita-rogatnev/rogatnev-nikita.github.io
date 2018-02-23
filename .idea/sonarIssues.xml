@@ -48,6 +48,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/source/js/aos.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/source/js/jquery-3.3.1.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/source/js/jquery.viewportchecker.min.js">
           <value>
             <set />
@@ -84,6 +94,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/source/less/blocks/intro.less">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/source/less/blocks/lightbox.less">
           <value>
             <set />
           </value>
