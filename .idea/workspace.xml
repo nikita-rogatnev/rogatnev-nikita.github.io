@@ -2,6 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18ca49f-e76f-412c-8b01-2a02b5bff42e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/airbnbopen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/alison.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-36x36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/android-icon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/apple-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bitrix24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ccna-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ccna-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ccna-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ccna-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ccna.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/championshockeyleague.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/concacafchampionsleague.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/entechsolutions.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/googlep-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/googlep-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/googlep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/htmlacademy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/iwa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/mamk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/mcp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/moovy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ms-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ms-icon-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ms-icon-310x310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/ms-icon-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/mta-html5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/mta-mcp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/mta-wosf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/omnigon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/oneworldobservatory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/positive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/positivecommunications.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/schneideruniversities-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/spbgut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/tattoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/vocord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/w3c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/yandex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/script.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sitemap.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
@@ -31,8 +105,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="385">
+              <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -430,12 +504,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519349933189</updated>
       <workItem from="1519349934528" duration="1498000" />
-      <workItem from="1519351751184" duration="20160000" />
+      <workItem from="1519351751184" duration="20210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21658000" />
+    <option name="totallyTimeSpent" value="21708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -893,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="385">
+          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
           <folding />
         </state>
       </provider>
