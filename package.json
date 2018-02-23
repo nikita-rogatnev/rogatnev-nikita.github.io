@@ -27,6 +27,7 @@
         "stylelint": "^9.1.x"
     },
     "scripts": {
+        "test": "npm run editorconfig && npm run stylelint",
         "build": "gulp build",
         "start": "npm run build && gulp serve",
         "deploy": "git subtree push --prefix build origin build"
