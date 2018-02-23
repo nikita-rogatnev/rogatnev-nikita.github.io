@@ -21,8 +21,6 @@
         "gulp-rename": "^1.2.2",
         "gulp-svgstore": "^6.1.1",
         "gulp-uglify": "^3.0.0",
-        "gulp-webp": "^3.0.0",
-        "normalize.less": "^1.0.0",
         "posthtml-include": "^1.1.0",
         "run-sequence": "^2.2.1",
         "stylelint": "^9.1.x",
