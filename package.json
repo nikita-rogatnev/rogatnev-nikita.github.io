@@ -6,7 +6,7 @@
     "license": "MIT",
     "homepage": "https://rogatnev-nikita.github.io",
     "devDependencies": {
-        "editorconfig": "^0.13.0",
+        "@htmlacademy/editorconfig-cli": "1.x",
         "autoprefixer": "^8.0.x",
         "browser-sync": "^2.23.x",
         "del": "^3.0.0",
@@ -25,7 +25,8 @@
         "normalize.less": "^1.0.0",
         "posthtml-include": "^1.1.0",
         "run-sequence": "^2.2.1",
-        "stylelint": "^9.1.x"
+        "stylelint": "^9.1.x",
+        "stylelint-config-htmlacademy": "0.1.x"
     },
     "scripts": {
         "editorconfig": "editorconfig-cli",
