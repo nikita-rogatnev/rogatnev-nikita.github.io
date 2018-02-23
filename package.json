@@ -6,6 +6,7 @@
     "license": "MIT",
     "homepage": "https://rogatnev-nikita.github.io",
     "devDependencies": {
+        "editorconfig": "^0.13.0",
         "autoprefixer": "^8.0.x",
         "browser-sync": "^2.23.x",
         "del": "^3.0.0",
