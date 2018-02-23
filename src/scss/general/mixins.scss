@@ -1,7 +1,7 @@
 // ------------------------------------------ //
 // MIXINS
 // ------------------------------------------ //
-.wrapper {
+$mixin wrapper() {
     position: relative;
 
     display: flex;
@@ -19,24 +19,24 @@
         margin: 0 auto;
         padding: 1.5rem;
 
-        @media @medium-up {
-            width: @screen-m-min;
-            max-width: calc(~"100% - 8rem");
+        @media (min-width: $medium-up) {
+            width: $screen-m-min;
+            max-width: calc(100% - 8rem);
             margin-right: 0;
         }
 
-        @media @large-up {
-            width: @screen-l-min;
-            max-width: calc(~"100% - 10rem");
+        @media ($large-up) {
+            width: $screen-l-min;
+            max-width: calc(100% - 10rem);
         }
 
-        @media @extra-large-up {
-            width: @screen-xl-min;
+        @media ($extra-large-up) {
+            width: $screen-xl-min;
         }
     }
 }
 
-.heading {
+$mixin heading() {
     &__heading {
         position: relative;
 
@@ -45,9 +45,9 @@
         text-align: center;
 
         span {
-            color: @color-accent;
+            color: $color-accent;
 
-            font-size: @font-size--3;
+            font-size: $font-size--3;
         }
 
         h1 {
@@ -55,10 +55,10 @@
             letter-spacing: 0.2rem;
             text-transform: uppercase;
 
-            color: @color-primary-text-light;
+            color: $color-primary-text-light;
 
-            font-size: @font-size-00;
-            font-weight: @regular-font-weight;
+            font-size: $font-size-00;
+            font-weight: $regular-font-weight;
             line-height: 1;
         }
 
@@ -75,10 +75,10 @@
             content: "";
             transform: translateX(-50%);
 
-            border-top: 0.1rem dotted @color-accent;
+            border-top: 0.1rem dotted $color-accent;
         }
 
-        @media @medium-up {
+        @media (min-width: $medium-up) {
             position: absolute;
             top: 50%;
             left: 1rem;
@@ -95,7 +95,7 @@
             h1 {
                 margin-bottom: 0;
 
-                font-size: @font-size-04;
+                font-size: $font-size-04;
             }
 
             &::after {

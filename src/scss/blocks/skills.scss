@@ -54,15 +54,15 @@
         }
     }
 
-    @media @medium-up {
+    @media (min-width: $medium-up) {
         .skills__content {
-            width: calc(~"100% / 2");
+            width: calc(100% / 2);
         }
     }
 
-    @media @large-up {
+    @media (min-width: $large-up) {
         .skills__content {
-            width: calc(~"100% / 4");
+            width: calc(100% / 4);
 
             text-align: left;
         }

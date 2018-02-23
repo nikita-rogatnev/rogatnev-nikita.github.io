@@ -11,10 +11,10 @@
 
             text-align: center;
 
-            color: @color-primary-text-light;
+            color: $color-primary-text-light;
 
-            font-size: @font-size-01;
-            font-weight: @regular-font-weight;
+            font-size: $font-size-01;
+            font-weight: $regular-font-weight;
             line-height: 1;
         }
     }
@@ -52,8 +52,8 @@
 
             letter-spacing: 0;
 
-            color: @color-primary-text-light;
-            background: @color-accent;
+            color: $color-primary-text-light;
+            background: $color-accent;
 
             line-height: 1;
 
@@ -67,8 +67,8 @@
 
                 content: "";
 
-                border: 1rem solid @color-accent;
-                border-color: @color-accent @color-accent @color-accent transparent;
+                border: 1rem solid $color-accent;
+                border-color: $color-accent $color-accent $color-accent transparent;
                 border-right-width: 20px;
             }
 
@@ -76,7 +76,7 @@
                 right: -1.5rem;
                 left: auto;
 
-                border-color: @color-accent transparent @color-accent @color-accent;
+                border-color: $color-accent transparent $color-accent $color-accent;
             }
         }
 
@@ -104,14 +104,14 @@
         text-align: left;
     }
 
-    @media @medium-up {
+    @media (min-width: $large-up) {
         .resume__content {
             margin: 0 -1rem;
 
             h2 {
                 margin: 4rem 0 3rem;
 
-                font-size: @font-size-03;
+                font-size: $font-size-03;
             }
         }
 

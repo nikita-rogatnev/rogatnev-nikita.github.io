@@ -17,13 +17,13 @@
             white-space: nowrap;
             text-transform: uppercase;
 
-            font-size: @font-size-01;
-            font-weight: @regular-font-weight;
+            font-size: $font-size-01;
+            font-weight: $regular-font-weight;
             line-height: 1;
         }
 
         span {
-            color: @color-accent;
+            color: $color-accent;
         }
 
         h2 {
@@ -33,15 +33,15 @@
             white-space: pre;
             text-transform: uppercase;
 
-            color: @color-primary-text-light;
+            color: $color-primary-text-light;
 
-            font-size: @font-size-06;
-            font-weight: @bold-font-weight;
+            font-size: $font-size-06;
+            font-weight: $bold-font-weight;
             line-height: 1;
         }
     }
 
-    @media @medium-up {
+    @media (min-width: $medium-up) {
         .intro__content {
             h3 {
                 margin: 0 0 0 0.3rem;
@@ -52,12 +52,12 @@
             h2 {
                 white-space: nowrap;
 
-                font-size: @font-size-06;
+                font-size: $font-size-06;
             }
         }
     }
 
-    @media @large-up {
+    @media (min-width: $large-up) {
         .intro__content {
             h3 {
                 margin: 0 0 0 0.4rem;
@@ -74,7 +74,7 @@
     }
 }
 
-@keyframes slide {
+$keyframes slide {
     from {
         background-position: 0 0;
     }

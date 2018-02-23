@@ -6,17 +6,17 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: @color-primary;
+    background-color: $color-primary;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: @color-accent;
+    background-color: $color-accent;
 }
 
 html {
     box-sizing: border-box;
 
-    font-size: @html-font-size;
+    font-size: $html-font-size;
 }
 
 *,
@@ -28,12 +28,12 @@ html {
 }
 
 body {
-    color: @color-secondary;
-    background: @color-primary-text-dark url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
+    color: $color-secondary;
+    background: $color-primary-text-dark url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
 
-    font-family: @font-family-primary;
-    font-size: @base-font-size;
-    font-weight: @regular-font-weight;
+    font-family: $font-family-primary;
+    font-size: $base-font-size;
+    font-weight: $regular-font-weight;
     line-height: 1.2;
 
     -webkit-font-smoothing: antialiased;
@@ -64,5 +64,5 @@ p {
 a {
     text-decoration: none;
 
-    color: @color-accent;
+    color: $color-accent;
 }

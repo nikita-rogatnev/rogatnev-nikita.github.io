@@ -12,10 +12,10 @@
         h2 {
             text-transform: uppercase;
 
-            color: @color-primary-text-light;
+            color: $color-primary-text-light;
 
             font-size: 3rem;
-            font-weight: @bold-font-weight;
+            font-weight: $bold-font-weight;
             line-height: 1;
         }
     }
@@ -58,10 +58,10 @@
         width: 2.5rem;
         height: 2.5rem;
 
-        fill: @color-primary-text-light;
+        fill: $color-primary-text-light;
     }
 
-    @media @medium-up {
+    @media (min-width: $medium-up) {
         .contact__content {
             h2 {
                 font-size: 5rem;
@@ -69,7 +69,7 @@
         }
     }
 
-    @media @large-up {
+    @media (min-width: $large-up) {
         .contact__content {
             display: flex;
             flex-direction: row;

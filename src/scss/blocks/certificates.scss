@@ -2,8 +2,8 @@
 /* CERTIFICATES BLOCK
 /* ------------------------------------------ */
 .certificates {
-    .wrapper;
-    .heading;
+    @include wrapper();
+    @include heading();
 
     .certificates__items {
         display: flex;
@@ -16,25 +16,25 @@
         padding: 0 0 1.5rem;
     }
 
-    @media @medium-up {
+    @media (min-width: $medium-up) {
         .certificates__items {
             max-height: 135rem;
             margin: 0 -1rem;
         }
 
         .certificates__item {
-            width: calc(~"100% / 3");
+            width: calc(100% / 3);
             padding: 0 1rem 1.5rem;
         }
     }
 
-    @media @large-up {
+    @media (min-width: $large-up) {
         .certificates__items {
             max-height: 90rem;
         }
 
         .certificates__item {
-            width: calc(~"100% / 5");
+            width: calc(100% / 5);
         }
     }
 }

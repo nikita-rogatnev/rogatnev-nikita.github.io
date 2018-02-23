@@ -35,11 +35,11 @@
 
         h1,
         p {
-            font-family: @font-family-secondary;
+            font-family: $font-family-secondary;
         }
 
         p {
-            font-weight: @light-font-weight;
+            font-weight: $light-font-weight;
         }
     }
 
@@ -48,13 +48,13 @@
         line-height: 0;
     }
 
-    @media @medium-up {
+    @media (min-width: $medium-up) {
         .blog__items {
             margin: 0 -1rem;
         }
 
         .blog__item {
-            max-width: calc(~"100% / 3");
+            max-width: calc(100% / 3);
             padding: 0 1rem 5rem;
         }
 
@@ -64,10 +64,9 @@
             }
         }
     }
-
-    @media @large-up {
+    @media (min-width: $large-up) {
         .blog__item {
-            max-width: calc(~"100% / 4");
+            max-width: calc(100% / 4);
         }
     }
 }
