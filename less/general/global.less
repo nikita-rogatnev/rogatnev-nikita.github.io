@@ -14,6 +14,8 @@
 }
 
 html {
+    font-size: @html-font-size;
+
     box-sizing: border-box;
 }
 
@@ -27,7 +29,7 @@ html {
 
 body {
     color: @color-secondary;
-    background: #000000 url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
+    background: @color-primary-text-dark url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
 
     font-family: @font-family-primary;
     font-size: @base-font-size;
@@ -52,7 +54,7 @@ img {
 h1,
 h2,
 h3 {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 p {

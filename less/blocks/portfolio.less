@@ -9,7 +9,7 @@
         display: flex;
         flex-direction: row;
 
-        margin: 0 -0.5rem;
+        margin: 0;
 
         flex-wrap: wrap;
         align-content: flex-start;
@@ -21,14 +21,14 @@
         flex-direction: column;
 
         width: 100%;
-        padding: 0.5rem;
+        padding: 0 0 5rem;
     }
 
     .portfolio__description {
         display: flex;
         flex-direction: column;
 
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
 
         align-items: flex-start;
         flex-grow: 1;
@@ -37,6 +37,11 @@
     .portfolio__link {
         font-size: 0;
         line-height: 0;
+        filter: grayscale(70%);
+
+        &:hover {
+            filter: none;
+        }
     }
 
     .portfolio__tags {
@@ -64,14 +69,60 @@
     }
 
     @media @medium-up {
+        .portfolio__items {
+            margin: 0 -1rem;
+        }
+
         .portfolio__item {
             max-width: calc(~"100% / 3");
+            padding: 0 1rem 5rem;
         }
     }
 
     @media @large-up {
         .portfolio__item {
-            max-width: calc(~"100% / 5");
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            margin-bottom: 4rem;
+            padding: 0 1rem 0 0;
+
+            max-width: calc(~"100% / 2");
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 3rem;
+                height: 0.1rem;
+                border-top: 0.1rem dotted @color-accent;
+                top: 50%;
+                left: calc(~"55% - 1.5rem");
+                transform: translate(-50%);
+            }
+
+            &:nth-child(4n),
+            &:nth-child(4n-1) {
+                flex-direction: row-reverse;
+
+                &::after {
+                    left: calc(~"45% + 0.5rem");
+                }
+            }
+        }
+
+        .portfolio__link {
+            width: 55%;
+        }
+
+        .portfolio__description {
+            width: 45%;
+            margin: 0 1rem;
+            text-align: center;
+            align-items: center;
         }
     }
 }

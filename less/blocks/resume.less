@@ -7,7 +7,7 @@
 
     .resume__content {
         h2 {
-            margin: 4rem 0 2rem;
+            margin: 0 0 2rem;
 
             text-align: center;
 
@@ -67,7 +67,7 @@
 
                 content: "";
 
-                border: 10px solid @color-accent;
+                border: 1rem solid @color-accent;
                 border-color: @color-accent @color-accent @color-accent transparent;
                 border-right-width: 20px;
             }
@@ -81,7 +81,7 @@
         }
 
         h4 {
-            margin: 0.5rem 0 0;
+            margin: 2rem 0 0;
         }
     }
 
@@ -106,8 +106,10 @@
 
     @media @medium-up {
         .resume__content {
+            margin: 0 -1rem;
+
             h2 {
-                margin: 0 0 3rem;
+                margin: 4rem 0 3rem;
 
                 font-size: @font-size-03;
             }
@@ -115,7 +117,7 @@
 
         .resume__item {
             width: 50%;
-            padding: 0 1rem 1rem;
+            padding: 0 1rem;
         }
     }
 }

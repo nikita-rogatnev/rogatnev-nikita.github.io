@@ -21,14 +21,14 @@
         flex-direction: column;
 
         width: 100%;
-        padding: 0.5rem;
+        padding: 0 0 5rem;
     }
 
     .blog__description {
         display: flex;
         flex-direction: column;
 
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
 
         align-items: flex-start;
         flex-grow: 1;
@@ -39,7 +39,6 @@
         }
 
         p {
-            font-size: @font-size--4;
             font-weight: @light-font-weight;
         }
     }
@@ -50,20 +49,25 @@
     }
 
     @media @medium-up {
+        .blog__items {
+            margin: 0 -1rem;
+        }
+
         .blog__item {
             max-width: calc(~"100% / 3");
+            padding: 0 1rem 5rem;
         }
 
         .blog__link {
             img {
-                height: 8.5rem;
+                height: 18rem;
             }
         }
     }
 
     @media @large-up {
         .blog__item {
-            max-width: calc(~"100% / 5");
+            max-width: calc(~"100% / 4");
         }
     }
 }
