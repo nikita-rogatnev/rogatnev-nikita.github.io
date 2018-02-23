@@ -1,0 +1,25 @@
+// ------------------------------------------ //
+// GENERAL
+// ------------------------------------------ //
+@import "./general/config.scss";
+@import "./general/mixins.scss";
+@import "./general/global.scss";
+@import "./general/aos.scss";
+
+// ------------------------------------------ //
+// COMMON BLOCKS
+// ------------------------------------------ //
+@import "./blocks/button.scss";
+@import "./blocks/lightbox.scss";
+
+// ------------------------------------------ //
+// PAGE BLOCKS
+// ------------------------------------------ //
+@import "./blocks/intro.scss";
+@import "./blocks/blog.scss";
+@import "./blocks/certificates.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/resume.scss";
+@import "./blocks/skills.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/footer.scss";

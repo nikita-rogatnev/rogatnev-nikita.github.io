@@ -1,0 +1,70 @@
+/* ------------------------------------------ */
+/* CERTIFICATES BLOCK
+/* ------------------------------------------ */
+.skills {
+    @include wrapper;
+    @include heading;
+
+    .skills__heading {
+        width: 100%;
+    }
+
+    .skills__wrapper {
+        display: flex;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+    }
+
+    .skills__content {
+        width: 100%;
+
+        text-align: center;
+
+        svg {
+            stroke: rgba(235, 224, 202, 0.15);
+            stroke-width: 2;
+        }
+    }
+
+    .skills__items {
+        display: flex;
+
+        margin: 0 -0.5rem 4rem;
+
+        flex-flow: column wrap;
+    }
+
+    .skills__item {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .skills__action {
+        width: 100%;
+
+        text-align: center;
+
+        a {
+            margin: 0;
+        }
+    }
+
+    @media (min-width: $medium-up) {
+        .skills__content {
+            width: calc(100% / 2);
+        }
+    }
+
+    @media (min-width: $large-up) {
+        .skills__content {
+            width: calc(100% / 4);
+
+            text-align: left;
+        }
+    }
+}

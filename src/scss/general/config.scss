@@ -1,0 +1,57 @@
+// ------------------------------------------ //
+// VARIABLES
+// ------------------------------------------ //
+
+// FONT SIZES
+$html-font-size: 62.5%; // 1rem = 10px
+
+$font-size--5: 0.8rem; // 8px
+$font-size--4: 1.0rem; // 10px
+$font-size--3: 1.2rem; // 12px
+$font-size--2: 1.4rem; // 14px
+$font-size--1: 1.6rem; // 16px
+$font-size-00: 1.8rem; // 18px
+$font-size-01: 2.0rem; // 20px
+$font-size-02: 2.5rem; // 25px
+$font-size-03: 3.5rem; // 35px
+$font-size-04: 4.5rem; // 45px
+$font-size-05: 5.5rem; // 55px
+$font-size-06: 6.5rem; // 65px
+
+$base-font-size: $font-size--1;
+
+// FONT WEIGHTS
+$light-font-weight: 300;
+$regular-font-weight: 400;
+$medium-font-weight: 500;
+$semi-bold-font-weight: 600;
+$bold-font-weight: 700;
+
+// COLORS
+$color-accent: rgba(237, 64, 64, 1);
+$color-accent-dark: $color-accent;
+$color-accent-light: $color-accent;
+$color-primary: #121214;
+$color-primary-dark: $color-primary;
+$color-primary-light: $color-primary;
+$color-secondary: rgba(235, 224, 202, 0.8);
+$color-secondary-dark: $color-secondary;
+$color-secondary-light: $color-secondary;
+$color-primary-text-dark: rgba(0, 0, 0, 1);
+$color-primary-text-light: rgba(255, 255, 255, 1);
+
+// TRANSITIONS
+$transition: 0.3s;
+
+// FONT FAMILIES
+$font-family-primary: 'Rajdhani', Arial, sans-serif;
+$font-family-secondary: 'Open Sans Condensed', Arial, sans-serif;
+
+// BREAKPOINTS
+$screen-s-min: 320px;
+$screen-m-min: 768px;
+$screen-l-min: 1170px;
+$screen-xl-min: 1550px;
+$medium-up: $screen-m-min;
+$large-up: $screen-l-min;
+$extra-large-up: $screen-xl-min;

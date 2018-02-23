@@ -1,0 +1,40 @@
+/* ------------------------------------------ */
+/* CERTIFICATES BLOCK
+/* ------------------------------------------ */
+.certificates {
+    @include wrapper;
+    @include heading;
+
+    .certificates__items {
+        display: flex;
+
+        flex-flow: column wrap;
+    }
+
+    .certificates__item {
+        width: 100%;
+        padding: 0 0 1.5rem;
+    }
+
+    @media (min-width: $medium-up) {
+        .certificates__items {
+            max-height: 135rem;
+            margin: 0 -1rem;
+        }
+
+        .certificates__item {
+            width: calc(100% / 3);
+            padding: 0 1rem 1.5rem;
+        }
+    }
+
+    @media (min-width: $large-up) {
+        .certificates__items {
+            max-height: 70rem;
+        }
+
+        .certificates__item {
+            width: calc(100% / 5);
+        }
+    }
+}
