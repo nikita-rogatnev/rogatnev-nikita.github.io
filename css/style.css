@@ -712,7 +712,7 @@ a {
 /* ------------------------------------------ */
 .footer {
   position: relative;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -729,6 +729,7 @@ a {
     position: fixed;
     right: 0;
     bottom: 0;
+    padding: 1rem;
     text-align: right;
   }
   .footer span::before {
