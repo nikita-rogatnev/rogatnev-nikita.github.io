@@ -3,13 +3,16 @@
 // ------------------------------------------ //
 .wrapper {
     position: relative;
+
     display: flex;
     flex-direction: column;
+
+    min-height: 100vh;
+    padding: 10rem 0;
+
     align-items: center;
     align-content: center;
     justify-content: center;
-    min-height: 100vh;
-    padding: 10rem 0;
 
     &__wrapper {
         width: 100%;
@@ -18,11 +21,13 @@
 
         @media @medium-up {
             width: @screen-m-min;
+            max-width: calc(~"100% - 4rem");
             margin-right: 0;
         }
 
         @media @large-up {
             width: @screen-l-min;
+            max-width: calc(~"100% - 10rem");
         }
 
         @media @extra-large-up {
@@ -34,33 +39,39 @@
 .heading {
     &__heading {
         span {
-            font-size: @font-size--5;
             color: @color-accent;
+
+            font-size: @font-size--5;
         }
 
         h1 {
-            font-size: @font-size-00;
-            line-height: 1;
-            font-weight: @regular-font-weight;
-            text-transform: uppercase;
-            color: @color-primary-text-light;
             white-space: nowrap;
             letter-spacing: 0.2rem;
+            text-transform: uppercase;
+
+            color: @color-primary-text-light;
+
+            font-size: @font-size-00;
+            font-weight: @regular-font-weight;
+            line-height: 1;
         }
 
         @media @medium-up {
             position: absolute;
             top: 50%;
             left: 1rem;
+
             display: inline-flex;
             flex-direction: column;
-            text-align: center;
+
             transform: rotate(-90deg) translateX(-50%);
             transform-origin: left top 0;
+            text-align: center;
 
             h1 {
-                font-size: @font-size-02;
                 margin-bottom: 0;
+
+                font-size: @font-size-02;
             }
         }
     }

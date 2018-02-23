@@ -3,26 +3,26 @@
 /* ------------------------------------------ */
 .button {
     display: inline-block;
+
     min-width: 5rem;
     margin: 0.5rem 0;
     padding: 0.5rem 2rem;
 
-    color: @color-accent;
+    transition: background-color @transition ease;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
 
-    background: fade(@color-accent, 10%);
+    color: @color-accent;
     border: 0.1rem solid @color-accent;
-
-    transition: background-color @transition ease;
+    background: fade(@color-accent, 10%);
 
     &:hover {
         color: @color-primary-text-light;
         background-color: @color-accent;
     }
 
-    &--big{
+    &--big {
         min-width: 10rem;
         margin: 3rem auto 0;
         padding: 1rem 6rem;

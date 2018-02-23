@@ -8,26 +8,33 @@
     .resume__content {
         h2 {
             margin: 4rem 0 2rem;
+
             text-align: center;
-            font-size: @font-size-01;
-            line-height: 1;
-            font-weight: @regular-font-weight;
+
             color: @color-primary-text-light;
+
+            font-size: @font-size-01;
+            font-weight: @regular-font-weight;
+            line-height: 1;
         }
     }
 
     .resume__items {
         position: relative;
+
         display: flex;
         flex-direction: row;
+
         flex-wrap: wrap;
     }
 
     .resume__item {
         display: flex;
         flex-direction: column;
+
         width: 100%;
         margin-bottom: 4rem;
+
         text-align: center;
 
         img {
@@ -37,31 +44,39 @@
 
         h3 {
             position: relative;
+
             display: inline-block;
+
             margin: 1rem 0 0.5rem;
             padding: 0.3rem 2rem;
-            line-height: 1;
-            color: @color-primary-text-light;
+
             letter-spacing: 0;
+
+            color: @color-primary-text-light;
             background: @color-accent;
+
+            line-height: 1;
 
             &::before,
             &::after {
-                content: "";
                 position: absolute;
                 top: 40%;
                 left: -1.5rem;
-                display: block;
-                border: 10px solid @color-accent;
 
-                border-right-width: 20px;
+                display: block;
+
+                content: "";
+
+                border: 10px solid @color-accent;
                 border-color: @color-accent @color-accent @color-accent transparent;
+                border-right-width: 20px;
             }
 
             &::after {
-                left: auto;
                 right: -1.5rem;
-                border-color: @color-accent transparent @color-accent @color-accent
+                left: auto;
+
+                border-color: @color-accent transparent @color-accent @color-accent;
             }
         }
 
@@ -78,12 +93,14 @@
     .resume__position {
         display: flex;
         flex-direction: column;
+
         align-content: center;
         align-items: center;
     }
 
     .resume__description {
         margin: 0.5rem 0 0;
+
         text-align: left;
     }
 
@@ -91,6 +108,7 @@
         .resume__content {
             h2 {
                 margin: 0 0 3rem;
+
                 font-size: @font-size-03;
             }
         }

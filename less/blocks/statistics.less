@@ -12,6 +12,7 @@
     .statistics__wrapper {
         display: flex;
         flex-direction: row;
+
         flex-wrap: wrap;
         align-content: flex-start;
         align-items: flex-start;
@@ -30,8 +31,10 @@
 
     .statistics__items {
         display: flex;
-        flex-flow: column wrap;
+
         margin: 0 -0.5rem 4rem;
+
+        flex-flow: column wrap;
     }
 
     .statistics__item {
@@ -41,6 +44,7 @@
 
     .statistics__action {
         width: 100%;
+
         text-align: center;
 
         a {
@@ -51,14 +55,12 @@
     @media @medium-up {
         .statistics__content {
             width: calc(~"100% / 2");
-
         }
     }
 
     @media @large-up {
         .statistics__content {
             width: calc(~"100% / 4");
-
         }
     }
 }

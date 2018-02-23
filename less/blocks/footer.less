@@ -3,36 +3,46 @@
 /* ------------------------------------------ */
 .footer {
     position: relative;
+
     padding: 0.5rem;
-    font-size: @font-size--5;
+
     text-align: center;
+
+    font-size: @font-size--5;
 
     cite {
         display: block;
+
         font-style: normal;
     }
 
     span {
-        display: block;
         position: relative;
+
+        display: block;
     }
 
     @media @medium-up {
         position: fixed;
-        bottom: 0;
         right: 0;
+        bottom: 0;
+
         text-align: right;
 
         span {
             &::before {
-                content: "";
                 position: absolute;
                 top: 50%;
+
                 display: block;
+
                 width: 2.5rem;
                 height: 0.05rem;
-                background: @color-accent;
+
+                content: "";
                 transform: translateY(-50%);
+
+                background: @color-accent;
             }
         }
     }

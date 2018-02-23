@@ -1,14 +1,6 @@
 /* ------------------------------------------ */
 /* GLOBAL
 /* ------------------------------------------ */
-* {
-    //outline: 1px dashed lightgrey;
-}
-
-section {
-    border-bottom: 1px dashed red;
-}
-
 ::-webkit-scrollbar {
     width: 0.3rem;
 }
@@ -25,20 +17,22 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
 body {
+    color: @color-secondary;
+    background: #000000 url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
+
     font-family: @font-family-primary;
     font-size: @base-font-size;
     font-weight: @regular-font-weight;
     line-height: 1.2;
-    color: @color-secondary;
-
-    background: #000 url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -57,7 +51,7 @@ img {
 
 h1,
 h2,
-h3{
+h3 {
     margin: 0.5rem 0;
 }
 
@@ -67,5 +61,24 @@ p {
 
 a {
     text-decoration: none;
+
     color: @color-accent;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    animation: fadein 2s;
+    opacity: 1;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
