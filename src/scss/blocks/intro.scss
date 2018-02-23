@@ -4,10 +4,10 @@
 .intro {
     animation: slide 60s linear infinite;
 
-    background: url("../img/intro/background.png") repeat-x center;
+    background: url("../img/background.png") repeat-x center;
 
-    .wrapper;
-    .heading;
+    @include wrapper;
+    @include heading;
 
     .intro__content {
         h3 {
@@ -74,7 +74,7 @@
     }
 }
 
-$keyframes slide {
+@keyframes slide {
     from {
         background-position: 0 0;
     }

@@ -2,8 +2,8 @@
 /* CERTIFICATES BLOCK
 /* ------------------------------------------ */
 .skills {
-    .wrapper;
-    .heading;
+    @include wrapper;
+    @include heading;
 
     .skills__heading {
         width: 100%;

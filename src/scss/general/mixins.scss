@@ -1,7 +1,7 @@
 // ------------------------------------------ //
 // MIXINS
 // ------------------------------------------ //
-$mixin wrapper() {
+@mixin wrapper {
     position: relative;
 
     display: flex;
@@ -25,18 +25,18 @@ $mixin wrapper() {
             margin-right: 0;
         }
 
-        @media ($large-up) {
+        @media (min-width: $large-up) {
             width: $screen-l-min;
             max-width: calc(100% - 10rem);
         }
 
-        @media ($extra-large-up) {
+        @media (min-width: $extra-large-up) {
             width: $screen-xl-min;
         }
     }
 }
 
-$mixin heading() {
+@mixin heading {
     &__heading {
         position: relative;
 

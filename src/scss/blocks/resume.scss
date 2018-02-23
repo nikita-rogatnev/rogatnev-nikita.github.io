@@ -2,8 +2,8 @@
 /* RESUME BLOCK
 /* ------------------------------------------ */
 .resume {
-    .wrapper;
-    .heading;
+    @include wrapper;
+    @include heading;
 
     .resume__content {
         h2 {

@@ -31,15 +31,12 @@ $bold-font-weight: 700;
 $color-accent: rgba(237, 64, 64, 1);
 $color-accent-dark: $color-accent;
 $color-accent-light: $color-accent;
-
 $color-primary: #121214;
 $color-primary-dark: $color-primary;
 $color-primary-light: $color-primary;
-
 $color-secondary: rgba(235, 224, 202, 0.8);
 $color-secondary-dark: $color-secondary;
 $color-secondary-light: $color-secondary;
-
 $color-primary-text-dark: rgba(0, 0, 0, 1);
 $color-primary-text-light: rgba(255, 255, 255, 1);
 
@@ -55,6 +52,6 @@ $screen-s-min: 320px;
 $screen-m-min: 768px;
 $screen-l-min: 1170px;
 $screen-xl-min: 1550px;
-
 $medium-up: $screen-m-min;
 $large-up: $screen-l-min;
+$extra-large-up: $screen-xl-min;

@@ -2,8 +2,8 @@
 /* BLOG BLOCK
 /* ------------------------------------------ */
 .blog {
-    .wrapper;
-    .heading;
+    @include wrapper;
+    @include heading;
 
     .blog__items {
         display: flex;

@@ -168,6 +168,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/scss/blocks/blog.scss">
           <value>
             <set />
@@ -218,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/scss/general/aos.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/scss/general/config.scss">
           <value>
             <set />
@@ -229,6 +239,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/scss/general/mixins.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/scss/style.scss">
           <value>
             <set />
           </value>

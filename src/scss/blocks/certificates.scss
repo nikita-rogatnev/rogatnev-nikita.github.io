@@ -2,8 +2,8 @@
 /* CERTIFICATES BLOCK
 /* ------------------------------------------ */
 .certificates {
-    @include wrapper();
-    @include heading();
+    @include wrapper;
+    @include heading;
 
     .certificates__items {
         display: flex;
@@ -30,7 +30,7 @@
 
     @media (min-width: $large-up) {
         .certificates__items {
-            max-height: 90rem;
+            max-height: 70rem;
         }
 
         .certificates__item {

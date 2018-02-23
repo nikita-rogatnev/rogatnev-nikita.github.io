@@ -3,7 +3,7 @@
 // Определим константу с папками
 const dirs = {
     source: 'src',  // папка с исходниками (путь от корня проекта)
-    build: 'build', // папка с результатом работы (путь от корня проекта)
+    build: 'build' // папка с результатом работы (путь от корня проекта)
 };
 
 // Определим необходимые инструменты
@@ -47,24 +47,18 @@ let postCssPlugins = [
     mqpacker({                                               // объединение медиавыражений с последующей их сортировкой
         sort: true
     }),
-    objectFitImages(),                                       // возможность применять object-fit
+    objectFitImages()                                        // возможность применять object-fit
 ];
 
 // Изображения, которые нужно копировать
 let images = [
-    dirs.source + '/img/*.{gif,png,jpg,jpeg,svg,ico}',
-    dirs.source + '/blocks/**/img/*.{gif,png,jpg,jpeg,svg}',
-    '!' + dirs.source + '/blocks/sprite-png/png/*',
-    '!' + dirs.source + '/blocks/sprite-svg/svg/*',
+    dirs.source + '/img/**/*.{gif,png,jpg,jpeg,svg,ico}'
 ];
 
 // Cписок обрабатываемых файлов в указанной последовательности
 let jsList = [
-    './node_modules/jquery/dist/jquery.min.js',
-    './node_modules/jquery-migrate/dist/jquery-migrate.min.js',
-    './node_modules/owl.carousel/dist/owl.carousel.min.js',
-    './node_modules/object-fit-images/dist/ofi.js',
-    './node_modules/ismobilejs/isMobile.min.js',
+    dirs.source + '/js/jquery-3.3.1.js',
+    dirs.source + '/js/aos.js',
     dirs.source + '/js/script.js'
 ];
 
@@ -103,7 +97,7 @@ gulp.task('html', function () {
 gulp.task('pug', function () {
     return gulp.src([
         dirs.source + '/*.pug',
-        '!' + dirs.source + '/mixins.pug',
+        '!' + dirs.source + '/mixins.pug'
     ])
         .pipe(plumber())
         .pipe(pug())
@@ -128,7 +122,7 @@ gulp.task('copy:img', function () {
 // Копирование шрифтов
 gulp.task('copy:fonts', function () {
     return gulp.src([
-        dirs.source + '/fonts/*.{ttf,woff,woff2,eot,svg}',
+        dirs.source + '/fonts/**/*.{ttf,woff,woff2,eot,svg}',
     ])
         .pipe(gulp.dest(dirs.build + '/fonts'));
 });
@@ -153,7 +147,7 @@ gulp.task('img:opt', function (callback) {
 });
 
 // Сборка SVG-спрайта
-let spriteSvgPath = dirs.source + '/blocks/sprite-svg/svg/';
+let spriteSvgPath = dirs.source + '/scss/blocks/sprite-svg/svg/';
 gulp.task('sprite:svg', function (callback) {
     if (fileExist(spriteSvgPath) !== false) {
         return gulp.src(spriteSvgPath + '*.svg')
@@ -176,7 +170,7 @@ gulp.task('sprite:svg', function (callback) {
                 }
             }))
             .pipe(rename('sprite-svg.svg'))
-            .pipe(gulp.dest(dirs.source + '/blocks/sprite-svg/img/'));
+            .pipe(gulp.dest(dirs.source + '/scss/blocks/sprite-svg/img/'));
     }
     else {
         console.log('SVG-спрайт: нет папки ' + spriteSvgPath);
@@ -185,7 +179,7 @@ gulp.task('sprite:svg', function (callback) {
 });
 
 // Сборка PNG-спрайта
-let spritePngPath = dirs.source + '/blocks/sprite-png/png/';
+let spritePngPath = dirs.source + '/scss/blocks/sprite-png/png/';
 gulp.task('sprite:png', function () {
     let fileName = 'sprite-' + Math.random().toString().replace(/[^0-9]/g, '') + '.png';
     let spriteData = gulp.src(spritePngPath + '*.png')
@@ -199,9 +193,9 @@ gulp.task('sprite:png', function () {
     let imgStream = spriteData.img
         .pipe(buffer())
         .pipe(imagemin())
-        .pipe(gulp.dest(dirs.source + '/blocks/sprite-png/img/'));
+        .pipe(gulp.dest(dirs.source + '/scss/blocks/sprite-png/img/'));
     let cssStream = spriteData.css
-        .pipe(gulp.dest(dirs.source + '/blocks/sprite-png/'));
+        .pipe(gulp.dest(dirs.source + '/scss/blocks/sprite-png/'));
     return merge(imgStream, cssStream);
 });
 
@@ -210,7 +204,7 @@ gulp.task('clean', function () {
     return del([
         dirs.build + '/**/*',
         '!' + dirs.build + '/readme.md',
-        dirs.source + '/blocks/sprite-png/img',
+        dirs.source + '/scss/blocks/sprite-png/img'
     ]);
 });
 
@@ -220,7 +214,7 @@ gulp.task('js', function () {
         return gulp.src(jsList)
             .pipe(plumber({errorHandler: onError}))             // не останавливаем автоматику при ошибках
             .pipe(concat('script.min.js'))                        // конкатенируем все файлы в один с указанным именем
-            .pipe(uglify())                                       // сжимаем
+            //.pipe(uglify())                                       // сжимаем
             .pipe(gulp.dest(dirs.build + '/js'));                 // записываем
     }
     else {
@@ -250,21 +244,21 @@ gulp.task('serve', ['build'], function () {
         server: dirs.build,
         startPath: 'index.html',
         open: false,
-        port: 8080,
+        port: 8080
     });
     // Слежение за стилями
     gulp.watch([
         dirs.source + '/scss/style.scss',
         dirs.source + '/scss/variables.scss',
-        dirs.source + '/blocks/**/*.scss',
+        dirs.source + '/scss/blocks/**/*.scss'
     ], ['style']);
     // Слежение за html
     gulp.watch([
-        dirs.source + '/*.html',
+        dirs.source + '/*.html'
     ], ['watch:html']);
     // Слежение за pug
     gulp.watch([
-        dirs.source + '/**/*.pug',
+        dirs.source + '/**/*.pug'
     ], ['watch:pug']);
     // Слежение за изображениями
     if (images.length) {
@@ -315,7 +309,7 @@ function fileExist(path) {
 
 var onError = function (err) {
     notify.onError({
-        title: 'Error in ' + err.plugin,
+        title: 'Error in ' + err.plugin
     })(err);
     this.emit('end');
 };

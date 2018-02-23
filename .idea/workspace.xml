@@ -2,182 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18ca49f-e76f-412c-8b01-2a02b5bff42e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/script.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/general/config.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/alison.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/ccna-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/ccna-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/ccna-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/ccna-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/googlep-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/googlep-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/mta-html5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/mta-mcp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/mta-wosf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/bitrix24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/ccna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/googlep.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/iwa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/mcp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/other/w3c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/schneideruniversities-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/w3c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/certificates/yandex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/android-icon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/ms-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/ms-icon-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/ms-icon-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/favicon/ms-icon-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/header__profile-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/header__profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/profile.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/header/profile__zoom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/intro/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/airbnbopen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/championshockeyleague.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/concacafchampionsleague.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/moovy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/oneworldobservatory.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/positive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/tattoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/portfolio/vocord.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/entechsolutions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/htmlacademy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/mamk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/omnigon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/positivecommunications.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/img/resume/spbgut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/js/aos.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/js/jquery-3.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/js/script.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/less/general/config.less" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/alison.jpg" afterPath="$PROJECT_DIR$/src/img/certificates/alison.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/ccna-1.png" afterPath="$PROJECT_DIR$/src/img/certificates/ccna-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/ccna-2.png" afterPath="$PROJECT_DIR$/src/img/certificates/ccna-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/ccna-3.png" afterPath="$PROJECT_DIR$/src/img/certificates/ccna-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/ccna-4.png" afterPath="$PROJECT_DIR$/src/img/certificates/ccna-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/googlep-1.png" afterPath="$PROJECT_DIR$/src/img/certificates/googlep-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/googlep-2.png" afterPath="$PROJECT_DIR$/src/img/certificates/googlep-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/mta-html5.png" afterPath="$PROJECT_DIR$/src/img/certificates/mta-html5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/mta-mcp.png" afterPath="$PROJECT_DIR$/src/img/certificates/mta-mcp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/mta-wosf.png" afterPath="$PROJECT_DIR$/src/img/certificates/mta-wosf.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/bitrix24.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/bitrix24.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/ccna.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/ccna.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/googlep.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/googlep.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/iwa.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/iwa.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/mcp.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/mcp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/other/w3c.png" afterPath="$PROJECT_DIR$/src/img/certificates/other/w3c.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-1.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-2.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-3.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-4.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-5.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-6.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-7.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/schneideruniversities-8.png" afterPath="$PROJECT_DIR$/src/img/certificates/schneideruniversities-8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/w3c.png" afterPath="$PROJECT_DIR$/src/img/certificates/w3c.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/certificates/yandex.png" afterPath="$PROJECT_DIR$/src/img/certificates/yandex.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-144x144.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-192x192.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-36x36.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-48x48.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-72x72.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon/android-icon-96x96.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-114x114.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-120x120.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-144x144.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-152x152.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-180x180.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-57x57.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-60x60.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-72x72.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-76x76.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/apple-icon.png" afterPath="$PROJECT_DIR$/src/img/favicon/apple-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterPath="$PROJECT_DIR$/src/img/favicon/favicon-16x16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterPath="$PROJECT_DIR$/src/img/favicon/favicon-32x32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/favicon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon/favicon-96x96.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" afterPath="$PROJECT_DIR$/src/img/favicon/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon/ms-icon-144x144.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/src/img/favicon/ms-icon-150x150.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/src/img/favicon/ms-icon-310x310.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/favicon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/src/img/favicon/ms-icon-70x70.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/head.png" afterPath="$PROJECT_DIR$/build/img/head.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header/header__profile-big.png" afterPath="$PROJECT_DIR$/src/img/header/header__profile-big.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header/header__profile.png" afterPath="$PROJECT_DIR$/src/img/header/header__profile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header/profile.jpg" afterPath="$PROJECT_DIR$/src/img/header/profile.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header/profile.png" afterPath="$PROJECT_DIR$/src/img/header/profile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header/profile__zoom.jpg" afterPath="$PROJECT_DIR$/src/img/header/profile__zoom.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/intro/background.png" afterPath="$PROJECT_DIR$/src/img/intro/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/airbnbopen.png" afterPath="$PROJECT_DIR$/src/img/portfolio/airbnbopen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/championshockeyleague.jpg" afterPath="$PROJECT_DIR$/src/img/portfolio/championshockeyleague.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/concacafchampionsleague.jpg" afterPath="$PROJECT_DIR$/src/img/portfolio/concacafchampionsleague.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/moovy.png" afterPath="$PROJECT_DIR$/src/img/portfolio/moovy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/oneworldobservatory.jpg" afterPath="$PROJECT_DIR$/src/img/portfolio/oneworldobservatory.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/positive.png" afterPath="$PROJECT_DIR$/src/img/portfolio/positive.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/tattoo.png" afterPath="$PROJECT_DIR$/src/img/portfolio/tattoo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/portfolio/vocord.png" afterPath="$PROJECT_DIR$/src/img/portfolio/vocord.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/entechsolutions.png" afterPath="$PROJECT_DIR$/src/img/resume/entechsolutions.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/htmlacademy.svg" afterPath="$PROJECT_DIR$/src/img/resume/htmlacademy.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/mamk.png" afterPath="$PROJECT_DIR$/src/img/resume/mamk.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/omnigon.svg" afterPath="$PROJECT_DIR$/src/img/resume/omnigon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/positivecommunications.svg" afterPath="$PROJECT_DIR$/src/img/resume/positivecommunications.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/resume/spbgut.png" afterPath="$PROJECT_DIR$/src/img/resume/spbgut.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/aos.min.js" afterPath="$PROJECT_DIR$/src/js/aos.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/src/js/jquery-3.3.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/script.min.js" afterPath="$PROJECT_DIR$/src/js/script.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/img/head.png" afterPath="$PROJECT_DIR$/src/img/head.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/blog.less" afterPath="$PROJECT_DIR$/src/scss/blocks/blog.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/button.less" afterPath="$PROJECT_DIR$/src/scss/blocks/button.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/certificates.less" afterPath="$PROJECT_DIR$/src/scss/blocks/certificates.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/contact.less" afterPath="$PROJECT_DIR$/src/scss/blocks/contact.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/footer.less" afterPath="$PROJECT_DIR$/src/scss/blocks/footer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/intro.less" afterPath="$PROJECT_DIR$/src/scss/blocks/intro.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/lightbox.less" afterPath="$PROJECT_DIR$/src/scss/blocks/lightbox.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/portfolio.less" afterPath="$PROJECT_DIR$/src/scss/blocks/portfolio.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/resume.less" afterPath="$PROJECT_DIR$/src/scss/blocks/resume.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/blocks/skills.less" afterPath="$PROJECT_DIR$/src/scss/blocks/skills.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/general/aos.less" afterPath="$PROJECT_DIR$/src/scss/general/aos.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/general/global.less" afterPath="$PROJECT_DIR$/src/scss/general/global.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/general/mixins.less" afterPath="$PROJECT_DIR$/src/scss/general/mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/less/style.less" afterPath="$PROJECT_DIR$/src/scss/style.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/aos.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/jquery-3.3.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/script.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/blog.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/certificates.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/certificates.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/contact.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/intro.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/intro.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/lightbox.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/lightbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/portfolio.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/portfolio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/resume.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/resume.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/blocks/skills.scss" afterPath="$PROJECT_DIR$/src/scss/blocks/skills.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/general/aos.scss" afterPath="$PROJECT_DIR$/src/scss/general/aos.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/general/config.scss" afterPath="$PROJECT_DIR$/src/scss/general/config.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/general/mixins.scss" afterPath="$PROJECT_DIR$/src/scss/general/mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/style.scss" afterPath="$PROJECT_DIR$/src/scss/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -192,83 +35,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="button.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/button.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="certificates.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/certificates.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/contact.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/intro.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <marker date="1519371314623" expanded="true" signature="928:951" ph="(...)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lightbox.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/lightbox.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/portfolio.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="109" column="43" lean-forward="false" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/resume.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="96" column="28" lean-forward="true" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -277,8 +48,18 @@
       <file leaf-file-name="skills.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/blocks/skills.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="32" />
+            <state relative-caret-position="184">
+              <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/general/aos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -287,8 +68,74 @@
       <file leaf-file-name="config.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/general/config.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/general/global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/general/mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/resume.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/portfolio.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -298,11 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>deploy_directory</find>
-      <find>lin</find>
-      <find>GIT_DEPLOY_DIR</find>
-      <find>homepage</find>
-      <find>&quot; width=&quot;&quot; height=&quot;&quot;&gt;</find>
       <find>width=&quot;303&quot; height=&quot;212&quot;&gt;</find>
       <find>Lead web developer in Teplodo</find>
       <find>statistics</find>
@@ -327,6 +169,12 @@
       <find>boo</find>
       <find>~&quot;</find>
       <find>@</find>
+      <find>less</find>
+      <find>'/blocks/</find>
+      <find>js</find>
+      <find>/img/certificates/</find>
+      <find>/img/portfolio/</find>
+      <find>/img/resume/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -347,7 +195,6 @@
         <option value="$PROJECT_DIR$/source/less/blocks/resume.less" />
         <option value="$PROJECT_DIR$/.editorconfig" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/less/blocks/skills.less" />
         <option value="$PROJECT_DIR$/source/less/blocks/footer.less" />
         <option value="$PROJECT_DIR$/source/js/jquery.viewportchecker.min.js" />
@@ -362,20 +209,24 @@
         <option value="$PROJECT_DIR$/source/index.html" />
         <option value="$PROJECT_DIR$/source/less/blocks/lightbox.less" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/button.scss" />
-        <option value="$PROJECT_DIR$/src/scss/general/global.scss" />
-        <option value="$PROJECT_DIR$/src/scss/general/mixins.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/blog.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/certificates.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/lightbox.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/resume.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/skills.scss" />
+        <option value="$PROJECT_DIR$/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/src/scss/general/config.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/certificates.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/button.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/blog.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/contact.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/footer.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/intro.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/lightbox.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/portfolio.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/skills.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/resume.scss" />
+        <option value="$PROJECT_DIR$/src/scss/general/aos.scss" />
+        <option value="$PROJECT_DIR$/src/scss/general/global.scss" />
+        <option value="$PROJECT_DIR$/src/scss/general/mixins.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -645,23 +496,22 @@
       <option name="presentableId" value="Default" />
       <updated>1519349933189</updated>
       <workItem from="1519349934528" duration="1498000" />
-      <workItem from="1519351751184" duration="16363000" />
+      <workItem from="1519351751184" duration="18535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17861000" />
+    <option name="totallyTimeSpent" value="20033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.20243205" sideWeight="0.50463575" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.49933776" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.50066227" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.50066227" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297568" sideWeight="0.50988144" order="4" side_tool="false" content_ui="tabs" x="578" y="272" width="283" height="374" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.49536425" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -757,14 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -963,112 +805,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="485">
+          <caret line="216" column="14" lean-forward="false" selection-start-line="216" selection-start-column="14" selection-end-line="216" selection-end-column="14" />
+          <folding>
+            <element signature="e#2392#3767#0" expanded="false" />
+            <element signature="e#3883#4070#0" expanded="false" />
+            <element signature="e#4121#4341#0" expanded="false" />
+            <element signature="e#4406#4737#0" expanded="false" />
+            <element signature="e#4800#4943#0" expanded="false" />
+            <element signature="e#5108#5570#0" expanded="false" />
+            <element signature="e#5706#6583#0" expanded="false" />
+            <element signature="e#6711#7384#0" expanded="false" />
+            <element signature="e#7461#7591#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/general/aos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/general/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/general/mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/certificates.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/lightbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/resume.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="96" column="28" lean-forward="true" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/skills.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/general/config.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        <state relative-caret-position="154">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/certificates.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1083,18 +863,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/intro.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <marker date="1519371314623" expanded="true" signature="928:951" ph="(...)" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/lightbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="109" column="43" lean-forward="false" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
+        <state relative-caret-position="215">
+          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/resume.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/skills.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/general/aos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/general/config.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/general/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/general/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>

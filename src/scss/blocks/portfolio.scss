@@ -2,8 +2,8 @@
 /* PORTFOLIO BLOCK
 /* ------------------------------------------ */
 .portfolio {
-    .wrapper;
-    .heading;
+    @include wrapper;
+    @include heading;
 
     .portfolio__items {
         display: flex;

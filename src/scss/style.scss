@@ -1,25 +1,25 @@
 // ------------------------------------------ //
 // GENERAL
 // ------------------------------------------ //
-@import "./general/config.less";
-@import "./general/mixins.less";
-@import "./general/global.less";
-@import "./general/aos.less";
+@import "./general/config.scss";
+@import "./general/mixins.scss";
+@import "./general/global.scss";
+@import "./general/aos.scss";
 
 // ------------------------------------------ //
 // COMMON BLOCKS
 // ------------------------------------------ //
-@import "./blocks/button.less";
-@import "./blocks/lightbox.less";
+@import "./blocks/button.scss";
+@import "./blocks/lightbox.scss";
 
 // ------------------------------------------ //
 // PAGE BLOCKS
 // ------------------------------------------ //
-@import "./blocks/intro.less";
-@import "./blocks/blog.less";
-@import "./blocks/certificates.less";
-@import "./blocks/portfolio.less";
-@import "./blocks/resume.less";
-@import "./blocks/skills.less";
-@import "./blocks/contact.less";
-@import "./blocks/footer.less";
+@import "./blocks/intro.scss";
+@import "./blocks/blog.scss";
+@import "./blocks/certificates.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/resume.scss";
+@import "./blocks/skills.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/footer.scss";
