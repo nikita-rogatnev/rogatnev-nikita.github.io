@@ -1231,7 +1231,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
   text-transform: uppercase;
   color: #ed4040;
   border: 0.1rem solid #ed4040;
-  background: fade(#ed4040, 10%);
+  background: rgba(237, 64, 64, 0.5);
   font-size: 1.6rem; }
   .button:hover {
     color: white;
@@ -1848,14 +1848,12 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
             align-items: flex-start;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: flex-start;
-    justify-items: flex-start; }
+            justify-content: flex-start; }
   .skills .skills__content {
     width: 100%;
     text-align: center; }
     .skills .skills__content svg {
-      stroke: rgba(235, 224, 202, 0.15);
-      stroke-width: 2; }
+      stroke: rgba(235, 224, 202, 0.15); }
   .skills .skills__items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1954,7 +1952,6 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    justify-items: center;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
