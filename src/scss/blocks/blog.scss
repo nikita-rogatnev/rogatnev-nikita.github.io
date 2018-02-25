@@ -24,6 +24,10 @@
         padding: 0 0 5rem;
     }
 
+    .blog__item-date {
+        text-transform: uppercase;
+    }
+
     .blog__description {
         display: flex;
         flex-direction: column;
@@ -46,6 +50,12 @@
     .blog__link {
         font-size: 0;
         line-height: 0;
+
+        filter: grayscale(70%);
+
+        &:hover {
+            filter: none;
+        }
     }
 
     @media (min-width: $medium-up) {
