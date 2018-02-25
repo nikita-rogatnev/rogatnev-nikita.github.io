@@ -1231,7 +1231,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
   text-transform: uppercase;
   color: #ed4040;
   border: 0.1rem solid #ed4040;
-  background: rgba(237, 64, 64, 0.5);
+  background: rgba(237, 64, 64, 0.85);
   font-size: 1.6rem; }
   .button:hover {
     color: white;
