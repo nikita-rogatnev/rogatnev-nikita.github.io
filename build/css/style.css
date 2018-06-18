@@ -1231,7 +1231,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
   text-transform: uppercase;
   color: #ed4040;
   border: 0.1rem solid #ed4040;
-  background: rgba(237, 64, 64, 0.5);
+  background: rgba(237, 64, 64, 0.15);
   font-size: 1.6rem; }
   .button:hover {
     color: white;
@@ -1322,7 +1322,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
               transform: translateX(-50%);
       border-top: 0.1rem dotted #ed4040; }
   .intro .intro__content h3 {
-    margin: 0 0 0 4rem;
+    margin: 0 0 0 10rem;
     padding: 0;
     white-space: nowrap;
     text-transform: uppercase;

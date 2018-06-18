@@ -1,0 +1,10 @@
+.DS_Store
+*.ai
+*.log
+*.idea
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+npm-debug.*
+Thumbs.db

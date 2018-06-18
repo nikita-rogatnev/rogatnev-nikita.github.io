@@ -1,0 +1,68 @@
+/* ------------------------------------------ */
+/* GLOBAL
+/* ------------------------------------------ */
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $color-primary;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $color-accent;
+}
+
+html {
+    box-sizing: border-box;
+
+    font-size: $html-font-size;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $color-secondary;
+    background: $color-primary-text-dark url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
+
+    font-family: $font-family-primary;
+    font-size: $base-font-size;
+    font-weight: $regular-font-weight;
+    line-height: 1.2;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 1rem 0;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+
+    color: $color-accent;
+}
