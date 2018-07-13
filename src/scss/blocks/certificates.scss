@@ -6,35 +6,32 @@
     @include heading;
 
     .certificates__items {
-        display: flex;
-
-        flex-flow: column wrap;
+        column-count: 1;
+        column-gap: 2rem;
     }
 
     .certificates__item {
+        display: inline-block;
+        vertical-align: top;
         width: 100%;
-        padding: 0 0 1.5rem;
+        font-size: 0;
+        line-height: 0;
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     @media (min-width: $medium-up) {
         .certificates__items {
-            max-height: 135rem;
-            margin: 0 -1rem;
-        }
-
-        .certificates__item {
-            width: calc(100% / 3);
-            padding: 0 1rem 1.5rem;
+            column-count: 2;
         }
     }
 
     @media (min-width: $large-up) {
         .certificates__items {
-            max-height: 70rem;
-        }
-
-        .certificates__item {
-            width: calc(100% / 5);
+            column-count: 4;
         }
     }
 }

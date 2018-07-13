@@ -1,6 +1,6 @@
 AOS.init({
     duration: 1200
-})
+});
 
 
 jQuery(document).ready(function ($) {
@@ -136,4 +136,4 @@ EEEEEEEEEEEEEEEEEEEEEEE::;::::::,:::::::::::::::::::::::,,::::::::::::::::::::::
 EEEEEEEEEEEEEEEEEEEEEEE.:;::::::,:::::::::::::,:::::::::::::::::::::::::::::::::::,;;;;;,i;;;;;;;:EE
 EEEEEEEEEEEEEEEEEEEEEtE::;::::::,:::::::::::::,::::::::::::::::::::::::,:::::::;::,;;;;;,i;;;;;;;:EE
 EEEEEEEEEEEEEEEEEEEEEEE::;::::::,::::::::;:::::,:::::::::::::::::::::::,:::::::;::,;;;;;,i;;;;;;,:::
-`, "font-family:monospace")
+`, "font-family:monospace");

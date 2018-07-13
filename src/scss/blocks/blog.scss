@@ -6,22 +6,19 @@
     @include heading;
 
     .blog__items {
-        display: flex;
-        flex-direction: row;
-
-        margin: 0 -0.5rem;
-
-        flex-wrap: wrap;
-        align-content: flex-start;
-        justify-content: space-between;
+        column-count: 1;
+        column-gap: 2rem;
     }
 
     .blog__item {
         display: flex;
         flex-direction: column;
-
         width: 100%;
-        padding: 0 0 5rem;
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     .blog__item-date {
@@ -60,12 +57,7 @@
 
     @media (min-width: $medium-up) {
         .blog__items {
-            margin: 0 -1rem;
-        }
-
-        .blog__item {
-            max-width: calc(100% / 3);
-            padding: 0 1rem 5rem;
+            column-count: 2;
         }
 
         .blog__link {
@@ -75,8 +67,8 @@
         }
     }
     @media (min-width: $large-up) {
-        .blog__item {
-            max-width: calc(100% / 4);
+        .blog__items {
+            column-count: 4;
         }
     }
 }
