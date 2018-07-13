@@ -1411,13 +1411,8 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
     -webkit-column-gap: 2rem;
             column-gap: 2rem; }
   .blog .blog__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: inline-block;
+    vertical-align: top;
     width: 100%;
     margin-bottom: 2rem; }
     .blog .blog__item:last-child {

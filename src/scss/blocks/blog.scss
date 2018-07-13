@@ -11,8 +11,8 @@
     }
 
     .blog__item {
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
+        vertical-align: top;
         width: 100%;
         margin-bottom: 2rem;
 
