@@ -15,8 +15,6 @@ git clone https://github.com/rogatnev-nikita/rogatnev-nikita.github.io
 cd rogatnev-nikita.github.io
 npm i
 npm run build
-
-git subtree push --prefix build origin master
 ```
 [travis-image]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?branch=master
 [travis-url]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io
