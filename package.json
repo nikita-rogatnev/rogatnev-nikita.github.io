@@ -31,7 +31,7 @@
         "gulp-sourcemaps": "^2.6.1",
         "gulp-svgmin": "^1.2.2",
         "gulp-svgstore": "^6.0.0",
-        "gulp-uglify": "^3.0.0",
+        "gulp-uglify": "^3.0.1",
         "gulp-wait": "0.0.2",
         "gulp.spritesmith": "^6.3.0",
         "imagemin-pngquant": "^5.0.0",
