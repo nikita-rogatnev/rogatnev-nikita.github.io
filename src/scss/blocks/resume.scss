@@ -37,6 +37,7 @@
 
         text-align: center;
 
+        svg,
         img {
             width: auto;
             height: 4.5rem;
@@ -102,6 +103,12 @@
         margin: 0.5rem 0 0;
 
         text-align: left;
+
+        strong {
+            display: block;
+
+            margin: 1rem 0 0.5rem;
+        }
     }
 
     @media (min-width: $large-up) {

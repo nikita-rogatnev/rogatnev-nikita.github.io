@@ -1719,6 +1719,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
     width: 100%;
     margin-bottom: 4rem;
     text-align: center; }
+    .resume .resume__item svg,
     .resume .resume__item img {
       width: auto;
       height: 4.5rem; }
@@ -1765,6 +1766,9 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
   .resume .resume__description {
     margin: 0.5rem 0 0;
     text-align: left; }
+    .resume .resume__description strong {
+      display: block;
+      margin: 1rem 0 0.5rem; }
 
 /* ------------------------------------------ */
 /* CERTIFICATES BLOCK
