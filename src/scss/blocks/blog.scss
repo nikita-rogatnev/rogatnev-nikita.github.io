@@ -12,9 +12,11 @@
 
     .blog__item {
         display: inline-block;
-        vertical-align: top;
+
         width: 100%;
         margin-bottom: 2rem;
+
+        vertical-align: top;
 
         &:last-child {
             margin-bottom: 0;

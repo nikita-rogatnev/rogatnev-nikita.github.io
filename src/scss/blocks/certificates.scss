@@ -12,11 +12,14 @@
 
     .certificates__item {
         display: inline-block;
-        vertical-align: top;
+
         width: 100%;
+        margin-bottom: 2rem;
+
+        vertical-align: top;
+
         font-size: 0;
         line-height: 0;
-        margin-bottom: 2rem;
 
         &:last-child {
             margin-bottom: 0;

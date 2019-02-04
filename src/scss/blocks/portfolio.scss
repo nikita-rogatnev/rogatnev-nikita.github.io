@@ -94,22 +94,6 @@
             flex-wrap: nowrap;
             align-items: center;
 
-            &::after {
-                position: absolute;
-                top: 50%;
-                left: calc(55% - 1.5rem);
-
-                display: block;
-
-                width: 3rem;
-                height: 0.1rem;
-
-                content: "";
-                transform: translate(-50%);
-
-                border-top: 0.1rem dotted $color-accent;
-            }
-
             &:nth-child(4n),
             &:nth-child(4n-1) {
                 flex-direction: row-reverse;
