@@ -9,7 +9,7 @@
         "autoprefixer": "^8.0.0",
         "browser-sync": "^2.26.3",
         "css-mqpacker": "^6.0.1",
-        "del": "^3.0.0",
+        "del": "^4.0.0",
         "gift": "^0.10.2",
         "gulp": "^3.9.1",
         "gulp-base64": "^0.1.3",
