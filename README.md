@@ -1,26 +1,10 @@
-# Rogatnev Nikita Website v4.0
+# Simple webpack 4 template with babel and eslint
 
-[![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
+### ***download***
 
-## Summary
-* High Resolution: Yes
-* Compatible Browsers: Edge, Firefox, Safari, Opera, Chrome
-* Technologies: BEM, HTML5, SCSS, Gulp
-* Files Included: HTML Files, SCSS Files, CSS Files, JS Files, Images
-* Layout: Responsive
-
-## Install & Run
-```bash
-git clone https://github.com/rogatnev-nikita/rogatnev-nikita.github.io
-cd rogatnev-nikita.github.io
-npm i
-npm run build
-```
-[travis-image]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?branch=master
-[travis-url]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io
-
-[dependency-image]: https://david-dm.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?style=flat-square
-[dependency-url]: https://david-dm.org/rogatnev-nikita/rogatnev-nikita.github.io
-
-[dev-dependency-image]: https://david-dm.org/rogatnev-nikita/rogatnev-nikita.github.io/dev-status.svg?style=flat-square
-[dev-dependency-url]: https://david-dm.org/rogatnev-nikita/rogatnev-nikita.github.io#info=devDependencies
+> - Download this zip and extract it to desired location (or clone via terminal).
+> - In your location to enter the terminal commands: 
+> - - npm install --save-dev
+> - - npm prune --save-dev
+> - - npm run watch
+> - (The npm 6.0.1 and node 10.0.0 was installed)

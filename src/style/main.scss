@@ -1,0 +1,25 @@
+// ------------------------------------------ //
+// GENERAL
+// ------------------------------------------ //
+@import "general/config";
+@import "general/mixins";
+@import "general/global";
+@import "general/aos";
+
+// ------------------------------------------ //
+// COMMON BLOCKS
+// ------------------------------------------ //
+@import "blocks/button";
+@import "blocks/lightbox";
+
+// ------------------------------------------ //
+// PAGE BLOCKS
+// ------------------------------------------ //
+@import "blocks/intro";
+@import "blocks/blog";
+@import "blocks/certificates";
+@import "blocks/portfolio";
+@import "blocks/resume";
+@import "blocks/skills";
+@import "blocks/contact";
+@import "blocks/footer";
