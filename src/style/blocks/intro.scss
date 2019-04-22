@@ -4,7 +4,7 @@
 .intro {
     animation: slide 60s linear infinite;
 
-    background: url("/background.png") repeat-x center;
+    background: url("/img/background.png") repeat-x center;
 
     @include wrapper;
     @include heading;
