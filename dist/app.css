@@ -1030,6 +1030,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 /* ------------------------------------------ */
 .intro {
   animation: slide 60s linear infinite;
+  background: url("/background.png") repeat-x center;
   position: relative;
   display: flex;
   flex-direction: column;
