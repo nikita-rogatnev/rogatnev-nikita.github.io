@@ -90,7 +90,7 @@
 
             &::before {
                 position: absolute;
-                top: 50%;
+                top: 0.85rem;
                 left: 0;
 
                 display: block;
@@ -99,7 +99,6 @@
                 height: 0.3rem;
 
                 content: '';
-                transform: translateY(-50%);
 
                 border-radius: 50%;
                 background-color: $color-secondary;
@@ -149,7 +148,7 @@
             padding: 0 1rem;
 
             &--wide {
-                width: 100%;
+                width: 75%;
                 padding: 0 1rem;
             }
         }
