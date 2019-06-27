@@ -1,6 +1,8 @@
 /* ------------------------------------------ */
 /* RESUME BLOCK
 /* ------------------------------------------ */
+@import "../../scss/mixins";
+
 .resume {
     @include wrapper;
     @include heading;

@@ -1,6 +1,8 @@
 /* ------------------------------------------ */
 /* BLOG BLOCK
 /* ------------------------------------------ */
+@import "../../scss/mixins";
+
 .blog {
     @include wrapper;
     @include heading;

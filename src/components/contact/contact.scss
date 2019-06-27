@@ -1,6 +1,8 @@
 /* ------------------------------------------ */
 /* CONTACT BLOCK
 /* ------------------------------------------ */
+@import "../../scss/mixins";
+
 .contact {
     @include wrapper;
     @include heading;

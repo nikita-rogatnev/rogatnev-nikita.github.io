@@ -1,6 +1,8 @@
 /* ------------------------------------------ */
 /* CERTIFICATES BLOCK
 /* ------------------------------------------ */
+@import "../../scss/mixins";
+
 .skills {
     @include wrapper;
     @include heading;

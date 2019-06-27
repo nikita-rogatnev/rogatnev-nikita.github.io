@@ -1,4 +1,5 @@
 import React from "react";
+import ModalImage from "react-modal-image";
 
 class Certificates extends React.PureComponent {
     render() {
@@ -11,101 +12,203 @@ class Certificates extends React.PureComponent {
                     </div>
                     <div className="certificates__content">
                         <div className="certificates__items">
-                            <a href="./img/javascript3.jpg" className="certificates__item">
-                                <img src="./img/javascript3.jpg" alt="javascript" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/javascript3.jpg"
+                                medium="./img/certificates/medium/javascript3.jpg"
+                                large="./img/certificates/original/javascript3.jpg"
+                                alt="javascript 3"
+                            />
 
-                            <a href="./img/javascript2.jpg" className="certificates__item">
-                                <img src="./img/javascript2.jpg" alt="javascript" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/javascript2.jpg"
+                                medium="./img/certificates/medium/javascript2.jpg"
+                                large="./img/certificates/original/javascript2.jpg"
+                                alt="javascript 2"
+                            />
 
-                            <a href="./img/javascript.jpg" className="certificates__item">
-                                <img src="./img/javascript.jpg" alt="javascript" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/javascript.jpg"
+                                medium="./img/certificates/medium/javascript.jpg"
+                                large="./img/certificates/original/javascript.jpg"
+                                alt="javascript"
+                            />
 
-                            <a href="./img/web-designer-basics.jpg" className="certificates__item">
-                                <img src="./img/web-designer-basics.jpg" alt="web-designer-basics"
-                                     width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/web-designer-basics.jpg"
+                                medium="./img/certificates/medium/web-designer-basics.jpg"
+                                large="./img/certificates/original/web-designer-basics.jpg"
+                                alt="web designer basics"
+                            />
 
-                            <a href="./img/digital-sales-certification.jpg"
-                               className="certificates__item">
-                                <img src="./img/digital-sales-certification.jpg"
-                                     alt="digital-sales-certification" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/digital-sales-certification.jpg"
+                                medium="./img/certificates/medium/digital-sales-certification.jpg"
+                                large="./img/certificates/original/digital-sales-certification.jpg"
+                                alt="digital sales certification"
+                            />
 
-                            <a href="./img/fundamentals-of-digital-marketing.jpg"
-                               className="certificates__item">
-                                <img src="./img/fundamentals-of-digital-marketing.jpg"
-                                     alt="fundamentals-of-digital-marketing" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/fundamentals-of-digital-marketing.jpg"
+                                medium="./img/certificates/medium/fundamentals-of-digital-marketing.jpg"
+                                large="./img/certificates/original/fundamentals-of-digital-marketing.jpg"
+                                alt="fundamentals of digital marketing"
+                            />
 
-                            <a href="./img/creative-certification-exam.jpg"
-                               className="certificates__item">
-                                <img src="./img/creative-certification-exam.jpg"
-                                     alt="creative-certification-exam"
-                                     width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/creative-certification-exam.jpg"
+                                medium="./img/certificates/medium/creative-certification-exam.jpg"
+                                large="./img/certificates/original/creative-certification-exam.jpg"
+                                alt="creative certification exam"
+                            />
 
-                            <a href="./img/architect.jpg" className="certificates__item">
-                                <img src="./img/architect.jpg" alt="architect" width="500" alt="SA"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/architect.jpg"
+                                medium="./img/certificates/medium/architect.jpg"
+                                large="./img/certificates/original/architect.jpg"
+                                alt="architect"
+                            />
 
-                            <a href="./img/analytics-individual-qualification.jpg"
-                               className="certificates__item">
-                                <img src="./img/analytics-individual-qualification.jpg"
-                                     alt="analytics-individual-qualification"
-                                     width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/analytics-individual-qualification.jpg"
+                                medium="./img/certificates/medium/analytics-individual-qualification.jpg"
+                                large="./img/certificates/original/analytics-individual-qualification.jpg"
+                                alt="analytics individual qualification"
+                            />
 
-                            <a href="./img/yandex.jpg" className="certificates__item">
-                                <img src="./img/yandex.jpg" alt="yandex" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/yandex.jpg"
+                                medium="./img/certificates/medium/yandex.jpg"
+                                large="./img/certificates/original/yandex.jpg"
+                                alt="yandex"
+                            />
 
-                            <a href="./img/googlep-2.jpg" className="certificates__item">
-                                <img src="./img/googlep-2.jpg" alt="googlep" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/googlep-2.jpg"
+                                medium="./img/certificates/medium/googlep-2.jpg"
+                                large="./img/certificates/original/googlep-2.jpg"
+                                alt="googlep-2"
+                            />
 
-                            <a href="./img/googlep-1.jpg" className="certificates__item">
-                                <img src="./img/googlep-1.jpg" alt="googlep" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/googlep-1.jpg"
+                                medium="./img/certificates/medium/googlep-1.jpg"
+                                large="./img/certificates/original/googlep-1.jpg"
+                                alt="googlep-1"
+                            />
 
-                            <a href="./img/ccna-4.jpg" className="certificates__item">
-                                <img src="./img/ccna-4.jpg" alt="ccna" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/ccna-4.jpg"
+                                medium="./img/certificates/medium/ccna-4.jpg"
+                                large="./img/certificates/original/ccna-4.jpg"
+                                alt="ccna 4"
+                            />
 
-                            <a href="./img/ccna-3.jpg" className="certificates__item">
-                                <img src="./img/ccna-3.jpg" alt="ccna" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/ccna-3.jpg"
+                                medium="./img/certificates/medium/ccna-3.jpg"
+                                large="./img/certificates/original/ccna-3.jpg"
+                                alt="ccna 3"
+                            />
 
-                            <a href="./img/ccna-2.jpg" className="certificates__item">
-                                <img src="./img/ccna-2.jpg" alt="ccna" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/ccna-2.jpg"
+                                medium="./img/certificates/medium/ccna-2.jpg"
+                                large="./img/certificates/original/ccna-2.jpg"
+                                alt="ccna 2"
+                            />
 
-                            <a href="./img/ccna-1.jpg" className="certificates__item">
-                                <img src="./img/ccna-1.jpg" alt="ccna" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/ccna-1.jpg"
+                                medium="./img/certificates/medium/ccna-1.jpg"
+                                large="./img/certificates/original/ccna-1.jpg"
+                                alt="ccna 1"
+                            />
 
-                            <a href="./img/w3c.jpg" className="certificates__item">
-                                <img src="./img/w3c.jpg" alt="w3c" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/w3c.jpg"
+                                medium="./img/certificates/medium/w3c.jpg"
+                                large="./img/certificates/original/w3c.jpg"
+                                alt="w3c"
+                            />
 
-                            <a href="./img/alison.jpg" className="certificates__item">
-                                <img src="./img/alison.jpg" alt="alison" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/alison.jpg"
+                                medium="./img/certificates/medium/alison.jpg"
+                                large="./img/certificates/original/alison.jpg"
+                                alt="alison"
+                            />
 
-                            <a href="./img/mta-html5.jpg" className="certificates__item">
-                                <img src="./img/mta-html5.jpg" alt="mta" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/mta-html5.jpg"
+                                medium="./img/certificates/medium/mta-html5.jpg"
+                                large="./img/certificates/original/mta-html5.jpg"
+                                alt="mta html5"
+                            />
 
-                            <a href="./img/mta-wosf.jpg" className="certificates__item">
-                                <img src="./img/mta-wosf.jpg" alt="mta" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/mta-wosf.jpg"
+                                medium="./img/certificates/medium/mta-wosf.jpg"
+                                large="./img/certificates/original/mta-wosf.jpg"
+                                alt="mta wosf"
+                            />
 
-                            <a href="./img/schneideruniversities.jpg" className="certificates__item">
-                                <img src="./img/schneideruniversities.jpg"
-                                     alt="schneideruniversities" width="500"/>
-                            </a>
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/mta-mcp.jpg"
+                                medium="./img/certificates/medium/mta-mcp.jpg"
+                                large="./img/certificates/original/mta-mcp.jpg"
+                                alt="mta cp"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/schneider-universities.jpg"
+                                medium="./img/certificates/medium/schneider-universities.jpg"
+                                large="./img/certificates/original/schneider-universities.jpg"
+                                alt="schneider universities"
+                            />
                         </div>
                     </div>
                 </div>

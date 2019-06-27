@@ -1,6 +1,8 @@
 /* ------------------------------------------ */
 /* PORTFOLIO BLOCK
 /* ------------------------------------------ */
+@import "../../scss/mixins";
+
 .portfolio {
     @include wrapper;
     @include heading;
@@ -82,8 +84,6 @@
 
     @media (min-width: $large-up) {
         .portfolio__item {
-            position: relative;
-
             display: flex;
             flex-direction: row;
 

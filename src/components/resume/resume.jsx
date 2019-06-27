@@ -16,7 +16,7 @@ class Resume extends React.PureComponent {
                             <div className="resume__item resume__item--active resume__item--wide">
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" rel="nofollow" target="_blank">
-                                        <img src="./img/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
                                     <h3>May 2019 – Present</h3>
                                     <h4>Dev Lead in iX.co (USA)</h4>
@@ -84,7 +84,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.omnigon.com" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/omnigon.svg" alt="Omnigon LLC" height="135"/>
+                                        <img src="./img/resume/omnigon.svg" alt="Omnigon LLC" height="135"/>
                                     </a>
                                     <h3>May 2018 – May 2019</h3>
                                     <h4>Dev Lead in Omnigon Communications, LLC (USA)</h4>
@@ -135,7 +135,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.omnigon.com" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/omnigon.svg" alt="Omnigon LLC" height="135"/>
+                                        <img src="./img/resume/omnigon.svg" alt="Omnigon LLC" height="135"/>
                                     </a>
                                     <h3>May 2017 – May 2018</h3>
                                     <h4>Senior HTML/CSS Developer in Omnigon Communications, LLC (USA)</h4>
@@ -167,7 +167,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://htmlacademy.ru/" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/htmlacademy.svg" alt="HTML Academy" height="135"/>
+                                        <img src="./img/resume/htmlacademy.svg" alt="HTML Academy" height="135"/>
                                     </a>
                                     <h3>Mar 2015 – Present</h3>
                                     <h4>Senior Mentor HTML Academy (Russia)</h4>
@@ -217,7 +217,7 @@ class Resume extends React.PureComponent {
                             <div className="resume__item">
                                 <div className="resume__position">
                                     <a href="https://liga-a.ru" className="resume__link" rel="nofollow" target="_blank">
-                                        <img src="./img/league-a.svg" alt="League A" height="135"/>
+                                        <img src="./img/resume/league-a.svg" alt="League A" height="135"/>
                                     </a>
                                     <h3>Jan 2018 – Oct 2018</h3>
                                     <h4>Mentor in League A (Russia)</h4>
@@ -258,7 +258,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://www.entechsolutions.com" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/entechsolutions.png" alt="ENTech Solutions" height="135"/>
+                                        <img src="./img/resume/entechsolutions.png" alt="ENTech Solutions" height="135"/>
                                     </a>
                                     <h3>Jun 2016 – May 2017</h3>
                                     <h4>Front-End Engineer in ENTech Solutions (USA)</h4>
@@ -296,7 +296,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://positivecommunications.ru" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/positivecommunications.svg" alt="Positive Communications"
+                                        <img src="./img/resume/positivecommunications.svg" alt="Positive Communications"
                                              height="135"/>
                                     </a>
                                     <h3>Feb 2013 – Jun 2016</h3>
@@ -433,7 +433,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://www.mamk.fi/" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/moscow-business-school.svg" alt="Moscow Business School"
+                                        <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
                                              height="135"/>
                                     </a>
                                     <h3>Jan 2019 – Dec 2020</h3>
@@ -453,7 +453,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://www.mamk.fi/" className="resume__link" rel="nofollow"
                                        target="_blank">
-                                        <img src="./img/mamk.png" alt="Mikkelin ammattikorkeakoulu/" height="135"/>
+                                        <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/" height="135"/>
                                     </a>
                                     <h3>Aug 2012 – May 2015</h3>
                                     <h4>
@@ -476,7 +476,7 @@ class Resume extends React.PureComponent {
                             <div className="resume__item">
                                 <div className="resume__position">
                                     <a className="resume__link" rel="nofollow" target="_blank">
-                                        <img src="./img/spbgut.png" alt="spbgut" width="135"/>
+                                        <img src="./img/resume/spbgut.png" alt="spbgut" width="135"/>
                                     </a>
                                     <h3>2009 – 2012</h3>
                                     <h4>Master of digital information processing in GBOU liceum at St. Petersburg State

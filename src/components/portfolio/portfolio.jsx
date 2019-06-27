@@ -15,7 +15,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://saimaabrewingco.fi" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/saimaabrewingco.jpg" alt="saimaabrewingco" width="500"
+                                    <img src="./img/portfolio/saimaabrewingco.jpg" alt="saimaabrewingco" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -38,7 +38,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://www.hammerseries.com" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/hammerseries.jpg" alt="hammerseries" width="500"
+                                    <img src="./img/portfolio/hammerseries.jpg" alt="hammerseries" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -60,7 +60,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://www.velon.cc" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/velon.jpg" alt="velon" width="500"
+                                    <img src="./img/portfolio/velon.jpg" alt="velon" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -81,7 +81,7 @@ class Portfolio extends React.PureComponent {
                                 <a href="https://www.internationalchampionscup.com" className="portfolio__link"
                                    rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/internationalchampionscup.jpg"
+                                    <img src="./img/portfolio/internationalchampionscup.jpg"
                                          alt="internationalchampionscup" width="500"
                                          height="350"/>
                                 </a>
@@ -106,7 +106,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://aspirenewyork.com" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/aspire.jpg" alt="aspire" width="500"
+                                    <img src="./img/portfolio/aspire.jpg" alt="aspire" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -127,7 +127,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://www.legends.net" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/legends.png" alt="legends" width="500"
+                                    <img src="./img/portfolio/legends.png" alt="legends" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -148,7 +148,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://oneworldobservatory.com" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/oneworldobservatory.jpg" alt="oneworldobservatory"
+                                    <img src="./img/portfolio/oneworldobservatory.jpg" alt="oneworldobservatory"
                                          width="500"
                                          height="350"/>
                                 </a>
@@ -170,7 +170,7 @@ class Portfolio extends React.PureComponent {
                                 <a href="https://www.championshockeyleague.com" className="portfolio__link"
                                    rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/championshockeyleague.jpg" alt="championshockeyleague"
+                                    <img src="./img/portfolio/championshockeyleague.jpg" alt="championshockeyleague"
                                          width="500"
                                          height="350"/>
                                 </a>
@@ -193,7 +193,7 @@ class Portfolio extends React.PureComponent {
                                 <a href="https://www.concacafchampionsleague.com" className="portfolio__link"
                                    rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/concacafchampionsleague.jpg" alt="concacaf" width="500"
+                                    <img src="./img/portfolio/concacafchampionsleague.jpg" alt="concacaf" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -216,7 +216,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="https://airbnbopen.com" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/airbnbopen.png" alt="airbnbopen" width="500"
+                                    <img src="./img/portfolio/airbnbopen.png" alt="airbnbopen" width="500"
                                          height="350"/>
                                 </a>
                                 <div className="portfolio__description">
@@ -238,7 +238,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="http://www.vocord.ru" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/vocord.png" alt="vocord" width="500" height="350"/>
+                                    <img src="./img/portfolio/vocord.png" alt="vocord" width="500" height="350"/>
                                 </a>
                                 <div className="portfolio__description">
                                     <h2>Vocord</h2>
@@ -259,7 +259,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="http://positivecommunications.ru" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/positive.png" alt="positive" width="500" height="350"/>
+                                    <img src="./img/portfolio/positive.png" alt="positive" width="500" height="350"/>
                                 </a>
                                 <div className="portfolio__description">
                                     <h2>Positive Communications</h2>
@@ -282,7 +282,7 @@ class Portfolio extends React.PureComponent {
                                 <a href="https://rogatnev-nikita.github.io/moovy/html/" className="portfolio__link"
                                    rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/moovy.png" alt="moovy" width="500" height="350"/>
+                                    <img src="./img/portfolio/moovy.png" alt="moovy" width="500" height="350"/>
                                 </a>
                                 <div className="portfolio__description">
                                     <h2>MOOVY Template</h2>
@@ -306,7 +306,7 @@ class Portfolio extends React.PureComponent {
                             <article className="portfolio__item">
                                 <a href="http://www.olesya-tattoo.ru" className="portfolio__link" rel="nofollow"
                                    target="_blank">
-                                    <img src="./img/tattoo.png" alt="tattoo" width="500" height="350"/>
+                                    <img src="./img/portfolio/tattoo.png" alt="tattoo" width="500" height="350"/>
                                 </a>
                                 <div className="portfolio__description">
                                     <h2>Olesya Tattoo</h2>
