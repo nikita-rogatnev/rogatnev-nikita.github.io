@@ -1,8 +1,0 @@
-{
-    "parserOptions": {
-        "ecmaVersion": 7
-    },
-    "rules": {
-        "semi": 2
-    }
-}
