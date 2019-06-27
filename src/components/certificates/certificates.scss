@@ -29,21 +29,36 @@
         }
     }
 
+    .__react_modal_image__header {
+        position: fixed;
+        top: 0;
+    }
+
     .__react_modal_image__modal_container {
         position: fixed;
         top: 0;
+
         width: 100vw;
         height: 100vh;
     }
 
     .__react_modal_image__medium_img {
-        width: auto;
-        height: 500px;
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+        max-height: 90vh;
     }
 
     @media (min-width: $medium-up) {
         .certificates__items {
             column-count: 2;
+        }
+
+        .__react_modal_image__medium_img {
+            width: auto;
+            max-width: 90vw;
+            height: auto;
+            max-height: 90vh;
         }
     }
 
