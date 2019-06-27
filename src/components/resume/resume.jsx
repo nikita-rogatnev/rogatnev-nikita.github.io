@@ -15,7 +15,7 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item resume__item--active resume__item--wide">
                                 <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" rel="nofollow" target="_blank">
+                                    <a href="https://www.ix.co" className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
                                     <h3>May 2019 – Present</h3>
@@ -82,8 +82,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item resume__item">
                                 <div className="resume__position">
-                                    <a href="https://www.omnigon.com" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="https://www.omnigon.com" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/omnigon.svg" alt="Omnigon LLC" height="135"/>
                                     </a>
                                     <h3>May 2018 – May 2019</h3>
@@ -121,7 +121,7 @@ class Resume extends React.PureComponent {
                                         on
                                         helping clients achieve returns on the strategic, creative and technical
                                         investments
-                                        they've made. We are working with celebrated, global brands including Fox
+                                        they&apos;ve made. We are working with celebrated, global brands including Fox
                                         Broadcasting,
                                         Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football
                                         Association (DFB),
@@ -133,8 +133,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="https://www.omnigon.com" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="https://www.omnigon.com" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/omnigon.svg" alt="Omnigon LLC" height="135"/>
                                     </a>
                                     <h3>May 2017 – May 2018</h3>
@@ -165,8 +165,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item resume__item--active">
                                 <div className="resume__position">
-                                    <a href="https://htmlacademy.ru/" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="https://htmlacademy.ru/" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/htmlacademy.svg" alt="HTML Academy" height="135"/>
                                     </a>
                                     <h3>Mar 2015 – Present</h3>
@@ -216,7 +216,7 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="https://liga-a.ru" className="resume__link" rel="nofollow" target="_blank">
+                                    <a href="https://liga-a.ru" className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/league-a.svg" alt="League A" height="135"/>
                                     </a>
                                     <h3>Jan 2018 – Oct 2018</h3>
@@ -227,7 +227,7 @@ class Resume extends React.PureComponent {
                                         League A is a teaching and production department HTML Academy. We have already
                                         worked on
                                         commercial programs under the supervision of mentors and completed more than 90
-                                        projects. Mentor is an important part of the project's workflow in League A. He
+                                        projects. Mentor is an important part of the project&apos;s workflow in League A. He
                                         ensures
                                         the interaction between the performers and business, help with complex issues
                                         that the
@@ -256,8 +256,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="http://www.entechsolutions.com" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="http://www.entechsolutions.com" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/entechsolutions.png" alt="ENTech Solutions" height="135"/>
                                     </a>
                                     <h3>Jun 2016 – May 2017</h3>
@@ -294,8 +294,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="http://positivecommunications.ru" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="http://positivecommunications.ru" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/positivecommunications.svg" alt="Positive Communications"
                                              height="135"/>
                                     </a>
@@ -431,8 +431,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="http://www.mamk.fi/" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="http://www.mamk.fi/" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
                                              height="135"/>
                                     </a>
@@ -451,8 +451,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="http://www.mamk.fi/" className="resume__link" rel="nofollow"
-                                       target="_blank">
+                                    <a href="http://www.mamk.fi/" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/" height="135"/>
                                     </a>
                                     <h3>Aug 2012 – May 2015</h3>
@@ -475,7 +475,7 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a className="resume__link" rel="nofollow" target="_blank">
+                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/spbgut.png" alt="spbgut" width="135"/>
                                     </a>
                                     <h3>2009 – 2012</h3>

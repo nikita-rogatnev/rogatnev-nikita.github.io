@@ -26219,7 +26219,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/349484/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://habrastorage.org/webt/7t/zf/h9/7tzfh9w4ytsmfpda1knfeewk10i.jpeg",
         alt: "\u041C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B"
@@ -26230,13 +26231,15 @@ function (_React$PureComponent) {
       }, "285 feb 18"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B \u0432 \u0430\u0434\u0430\u043F\u0442\u0438\u0432\u043D\u043E\u043C \u0434\u0438\u0437\u0430\u0439\u043D\u0435 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0412 \u0438\u044E\u043B\u0435 2010 \u0433\u043E\u0434\u0430 \u044F \u043D\u0430\u043F\u0438\u0441\u0430\u043B\u0430 \u0441\u0442\u0430\u0442\u044C\u044E \xAB\u041A\u0430\u043A \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C CSS3 \u043C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0438 \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u0430\u0439\u0442\u0430\xBB. \u042F \u0440\u0435\u0448\u0438\u043B\u0430 \u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u044D\u0442\u043E\u0439 \u0442\u0435\u043C\u0435, \u043F\u043E\u0441\u043A\u043E\u043B\u044C\u043A\u0443 \u0442\u0435\u043F\u0435\u0440\u044C \u0443 \u043D\u0430\u0441 \u0435\u0441\u0442\u044C \u0442\u0430\u043A\u0438\u0435 \u043C\u0435\u0442\u043E\u0434\u044B \u043A\u043E\u043C\u043F\u043E\u043D\u043E\u0432\u043A\u0438, \u043A\u0430\u043A Flexbox \u0438 CSS Grid. \u0412 \u044D\u0442\u043E\u0439 \u0441\u0442\u0430\u0442\u044C\u0435 \u043C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0438\u043C \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435 \u043C\u0435\u0442\u043E\u0434\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u043E\u0432."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/349484/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.theseus.fi/handle/10024/94414",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://i.ytimg.com/vi/e8Syghjr8YM/maxresdefault.jpg",
         alt: "theseus"
@@ -26247,13 +26250,15 @@ function (_React$PureComponent) {
       }, "28 may 15"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Responsive Web Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In this thesis I described everything regarding to the responsive web design. I summed up and compared all the possible website layout approaches. The disadvantages of fixed, fluid, adaptive and hybrid layouts are so significant that it is undoubtedly clear that the responsive approach is the best one."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.theseus.fi/handle/10024/94414",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "theseus.fi"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/company/madrobots/blog/240182/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26264,13 +26269,15 @@ function (_React$PureComponent) {
       }, "14 oct 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21166"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/company/madrobots/blog/240182/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/231689/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26281,13 +26288,15 @@ function (_React$PureComponent) {
       }, "28 aug 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21165"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0438\u044E\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/231689/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/226385/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26298,13 +26307,15 @@ function (_React$PureComponent) {
       }, "17 jul 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21164"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0438\u044E\u043D\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/226385/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/220803/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26315,13 +26326,15 @@ function (_React$PureComponent) {
       }, "7 may 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21163"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0430\u043F\u0440\u0435\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/220803/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "ontinue reading at habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/217431/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26332,13 +26345,15 @@ function (_React$PureComponent) {
       }, "30 may 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21162"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u043C\u0430\u0440\u0442 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/company/madrobots/blog/217431/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/258434/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/560/6e6/625/5606e662599455b418b01003b9958298.jpg",
         alt: "LEGO"
@@ -26349,13 +26364,15 @@ function (_React$PureComponent) {
       }, "11 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0438\u0437 LEGO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041C\u0435\u043D\u044F \u0432\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u0440\u0430\u0436\u0430\u043B\u043E, \u0447\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0435 \u0441\u0442\u0440\u043E\u044F\u0442 \u043B\u044E\u0434\u0438 \u0438\u0437 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440\u0430 LEGO: \u043E\u0442 \u0433\u0440\u043E\u043C\u0430\u0434\u043D\u044B\u0445 \u0444\u0438\u0433\u0443\u0440 \u0440\u043E\u0431\u043E\u0442\u043E\u0432 \u0438 \u0437\u0432\u0435\u0437\u0434\u043E\u043B\u0435\u0442\u043E\u0432 \u0434\u043E 3D \u043F\u0440\u0438\u043D\u0442\u0435\u0440\u043E\u0432 \u0438 \u043F\u043E\u043B\u043D\u043E\u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0445 \u0440\u0430\u0431\u043E\u0442\u0430\u044E\u0449\u0438\u0445 \u043A\u0430\u0440\u0442\u043E\u0432. LEGO \u0432\u044B\u0434\u0435\u0440\u0436\u0430\u043B\u043E \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435 \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C. \u0414\u0430\u0436\u0435 \u0441\u043F\u0443\u0441\u0442\u044F 65 \u043B\u0435\u0442 \u043F\u043E\u0441\u043B\u0435 \u0435\u0433\u043E \u0438\u0437\u043E\u0431\u0440\u0435\u0442\u0435\u043D\u0438\u044F \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u0438\u0437 LEGO \u0432\u0441\u0435 \u0435\u0449\u0435 \u043E\u0447\u0430\u0440\u043E\u0432\u044B\u0432\u0430\u044E\u0442 \u043D\u0430\u0441. \u0421\u0435\u0433\u043E\u0434\u043D\u044F \u044F \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E \u0432\u0430\u043C \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u043E\u0435 \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0434\u0435\u043D\u0438\u0435 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430 \u2014 \u043A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0438\u0437 LEGO."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/258434/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214821/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/e35/b88/38e/e35b8838e4ec19acc3d87a3e0c446030.jpg",
         alt: "DVD"
@@ -26366,13 +26383,15 @@ function (_React$PureComponent) {
       }, "9 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "DVD \u0441 \u0437\u0430\u043F\u0430\u0445\u043E\u043C \u043F\u0438\u0446\u0446\u044B!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0420\u0430\u0437\u0432\u0435 \u0432\u044B \u043D\u0435 \u043B\u044E\u0431\u0438\u0442\u0435 \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441 \u0434\u0440\u0443\u0437\u044C\u044F\u043C\u0438 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0439 \u0444\u0438\u043B\u044C\u043C\u0435\u0446 \u0441 \u043A\u0443\u0441\u043A\u043E\u043C \u043F\u0438\u0446\u0446\u044B \u0432 \u0440\u0443\u043A\u0435? \u041F\u0438\u0446\u0446\u0435\u0440\u0438\u044F Domino\u2019s Pizza \u0432 \u0411\u0440\u0430\u0437\u0438\u043B\u0438\u0438 \u0440\u0435\u0448\u0438\u043B\u0438 \u0441\u043C\u0435\u0448\u0430\u0442\u044C \u044D\u0442\u0438 \u0434\u0432\u0430 \u0443\u0434\u043E\u0432\u043E\u043B\u044C\u0441\u0442\u0432\u0438\u044F \u0432 \u043E\u0434\u043D\u043E\u0439 \u043A\u043E\u0440\u043E\u0431\u043A\u0435 \u0438 \u0432\u044B\u043F\u0443\u0441\u0442\u0438\u043B\u0438 \u0442\u0435\u0440\u043C\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 DVD \u0434\u0438\u0441\u043A, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u0438 \u043F\u0430\u0445\u043D\u0435\u0442 \u043A\u0430\u043A \u043F\u0438\u0446\u0446\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214821/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/215073/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/379/c3d/50d/379c3d50d179ff27d905c03273429782.jpg",
         alt: "Geraghty"
@@ -26383,13 +26402,15 @@ function (_React$PureComponent) {
       }, "8 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0424\u0435\u0434\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0443\u0434 \u0421\u0428\u0410 \u0440\u0430\u0437\u0440\u0435\u0448\u0438\u043B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u0440\u043E\u043D\u043E\u0432 \u0432 \u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u0446\u0435\u043B\u044Fx"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0423\u0436\u0435 \u0441\u043E\u0432\u0441\u0435\u043C \u0441\u043A\u043E\u0440\u043E \u043C\u043E\u0436\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u0443\u0441\u043B\u044B\u0448\u0430\u0442\u044C \u0436\u0443\u0436\u0436\u0430\u043D\u0438\u0435 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0445 \u043B\u043E\u043F\u0430\u0441\u0442\u0435\u0439 \u043A\u043E\u043F\u0442\u0435\u0440\u043E\u0432, \u043F\u0440\u0435\u0434\u0432\u0435\u0449\u0430\u044E\u0449\u0438\u0445 \u0434\u043E\u0441\u0442\u0430\u0432\u043A\u0443 \u0432\u0441\u0435\u0433\u043E: \u043E\u0442 \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0438\u043A\u0438, \u0434\u043E \u043F\u0438\u0446\u0446\u044B \u0438 \u043F\u0438\u0432\u0430 \u043F\u043E \u0432\u0441\u0435\u0439 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0445 \u0428\u0442\u0430\u0442\u043E\u0432 \u0410\u043C\u0435\u0440\u0438\u043A\u0438. \u042D\u0442\u043E \u0441\u0442\u0430\u043D\u0435\u0442 \u0440\u0435\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043D\u043E\u0432\u043E\u043C\u0443 \u043F\u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044E \u0444\u0435\u0434\u0435\u0440\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0443\u0434\u044C\u0438 \u041F\u0430\u0442\u0440\u0438\u043A\u0430 \u0414\u0436\u0435\u0440\u0430\u0442\u0438 (Patrick Geraghty)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/215073/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214811/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/629/171/bb3/629171bb332065ddfb570a2e7fcc73f4.jpg",
         alt: "Microsoft"
@@ -26400,13 +26421,15 @@ function (_React$PureComponent) {
       }, "7 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "SurroundWeb \u2014 3D-\u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u043E\u0442 Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Microsoft Research \u0443\u0441\u0435\u0440\u0434\u043D\u043E \u0442\u0440\u0443\u0434\u044F\u0442\u0441\u044F \u043D\u0430\u0434 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \xABSurroundWeb\xBB, \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u043E\u0439 \u0434\u043B\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u043E\u0433\u043E \u0432\u0435\u0431 \u0441\u0442\u0440\u0430\u043D\u0438\u0446 \u043F\u043E \u0432\u0441\u0435\u043C\u0443 \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0443 \u043A\u043E\u043C\u043D\u0430\u0442\u044B. SurroundWeb \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0438\u0437 \u0441\u0435\u0431\u044F, \u0441\u0432\u043E\u0435\u0433\u043E \u0440\u043E\u0434\u0430, \xAB3D \u0431\u0440\u0430\u0443\u0437\u0435\u0440\xBB, \u0441\u043E\u0437\u0434\u0430\u044E\u0449\u0435\u0439 \u044D\u0444\u0444\u0435\u043A\u0442 \u043F\u043E\u043B\u043D\u043E\u0433\u043E \u043F\u043E\u0433\u0440\u0443\u0436\u0435\u043D\u0438\u044F \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214811/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214817/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/9ea/750/f0c/9ea750f0ccc29cbd6c6aad27f378821e.jpg",
         alt: "Android"
@@ -26417,13 +26440,15 @@ function (_React$PureComponent) {
       }, "6 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Evernote \u0434\u043B\u044F Android \u0442\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0440\u0443\u043A\u043E\u043F\u0438\u0441\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041E\u0442\u043B\u0438\u0447\u043D\u0430\u044F \u043D\u043E\u0432\u043E\u0441\u0442\u044C \u0434\u043B\u044F \u043B\u044E\u0431\u0438\u0442\u0435\u043B\u0435\u0439 Evernote \u043D\u0430 Android. \u0422\u0435\u043F\u0435\u0440\u044C, \u043A\u043E\u0433\u0434\u0430 \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0431\u044B\u0441\u0442\u0440\u043E \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0443, \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043D\u0430\u0431\u0440\u043E\u0441\u043E\u043A \u043E\u0442 \u0440\u0443\u043A\u0438 \u043F\u0440\u044F\u043C\u043E \u0432 Evernote. \u0415\u0441\u043B\u0438 \u0432\u044B \u0442\u0430\u0441\u043A\u0430\u0435\u0442\u0435 \u0441 \u0441\u043E\u0431\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u043D\u0443\u044E \u043A\u043D\u0438\u0436\u043A\u0443, \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u043D\u0435 \u043B\u044E\u0431\u0438\u0442\u0435 \u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0430 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0435, \u043D\u0430\u0447\u0438\u043D\u0430\u044F \u0441 \u0441\u0435\u0433\u043E\u0434\u043D\u044F\u0448\u043D\u0435\u0433\u043E \u0434\u043D\u044F, \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F Evernote \u0441\u0442\u0430\u043D\u0435\u0442 \u0434\u043B\u044F \u0432\u0430\u0441 \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u0435\u043C."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214817/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214555/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/c78/9d9/d70/c789d9d708354b93a2eea61c2f21c536.jpg",
         alt: "\u043F\u0440\u043E\u0442\u0435\u0437"
@@ -26434,13 +26459,15 @@ function (_React$PureComponent) {
       }, "6 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041D\u0435\u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u043F\u0440\u043E\u0442\u0435\u0437 \u0434\u043B\u044F \u0431\u0430\u0440\u0430\u0431\u0430\u043D\u0449\u0438\u043A\u0430"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0414\u043B\u044F \u043C\u043D\u043E\u0433\u0438\u0445 \u0431\u0430\u0440\u0430\u0431\u0430\u043D\u0449\u0438\u043A\u043E\u0432 \u043F\u043E\u0442\u0435\u0440\u044F \u0440\u0443\u043A\u0438 \u043E\u0437\u043D\u0430\u0447\u0430\u0435\u0442 \u043E\u0434\u043D\u043E \u2014 \u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u0435 \u043A\u0430\u0440\u044C\u0435\u0440\u044B. \u041D\u043E \u043D\u0435 \u0434\u043B\u044F \u0414\u0436\u0435\u0439\u0441\u043E\u043D\u0430 \u0411\u0430\u0440\u043D\u0441\u0430 (Jason Barnes). \u0413\u0438\u043B \u0412\u0435\u0439\u043D\u0431\u0435\u0440\u0433 (Gil Weinberg), \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0438\u043D\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u0414\u0436\u043E\u0440\u0434\u0436\u0438\u0438, \u0441\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043B \u043F\u0440\u043E\u0442\u0435\u0437 \u043A\u0438\u0441\u0442\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B \u0431\u0430\u0437\u043E\u0432\u044B\u0435 \u0444\u0443\u043D\u043A\u0446\u0438\u0438 \u0440\u0443\u043A\u0438 \u0414\u0436\u0435\u0439\u0441\u043E\u043D\u0430, \u0442\u0435\u043C \u0441\u0430\u043C\u044B\u043C \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0432 \u0435\u043C\u0443 \u0438\u0433\u0440\u0430\u0442\u044C \u043A\u0430\u043A \u043F\u0440\u0435\u0436\u0434\u0435, \u043D\u043E \u0438 \u0443\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u043E\u0432\u0430\u043B \u0435\u0435."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/214555/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/212843/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
         alt: "Kickstarter"
@@ -26451,13 +26478,15 @@ function (_React$PureComponent) {
       }, "5 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21161"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0444\u0435\u0432\u0440\u0430\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://geektimes.ru/post/212843/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/214327/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://hsto.org/getpro/habr/post_images/9e4/4b2/852/9e44b28527e622fde10b4743e771ae73.png",
         alt: "\u041A\u0435\u0439\u043B\u043E\u0433\u0435\u0440"
@@ -26468,13 +26497,15 @@ function (_React$PureComponent) {
       }, "3 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u0435\u0439\u043B\u043E\u0433\u0435\u0440 iOS 7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041F\u0440\u043E\u0431\u043B\u0435\u043C\u0430 \u043A\u0435\u0439\u043B\u043E\u0433\u0435\u0440\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0432\u0441\u0435 \u0437\u0430\u043C\u0435\u0442\u043D\u0435\u0435 \u0432 \u043C\u0438\u0440\u0435 \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0445 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432. \u0423\u0436\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E \u0434\u0430\u0432\u043D\u043E \u0441\u0442\u0430\u043B\u043E \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E, \u0447\u0442\u043E \u0434\u0436\u0435\u0439\u043B\u0431\u0440\u0435\u0439\u043A\u043D\u0443\u0442\u044B\u0435 IOS 7 \u0434\u0435\u0432\u0430\u0439\u0441\u044B \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C \u0443\u044F\u0437\u0432\u0438\u043C\u044B \u0434\u043B\u044F \u043A\u0435\u0439\u043B\u043E\u0433\u0435\u0440\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0437\u0430\u043F\u0438\u0441\u044B\u0432\u0430\u044E\u0442 \u0438 \u043F\u0435\u0440\u0435\u0434\u0430\u044E\u0442 \u0432\u0441\u0435 \u0432\u0430\u0448\u0438 \u0436\u0435\u0441\u0442\u044B \u0438 \u043D\u0430\u0436\u0430\u0442\u0438\u044F \u0437\u043B\u043E\u0443\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u0438\u043A\u0430\u043C. \u0422\u0435\u043F\u0435\u0440\u044C \u044D\u0442\u043E \u043A\u0430\u0441\u0430\u0435\u0442\u0441\u044F \u0438 \u043D\u0435 \u0432\u0437\u043B\u043E\u043C\u0430\u043D\u043D\u044B\u0445 IOS \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/214327/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "blog__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/213187/",
         className: "blog__link",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://searchengineland.com/figz/wp-content/seloads/2014/07/yahoo-logo-fade-ss-1920-800x450.jpg",
         alt: "Yahoo"
@@ -26485,7 +26516,8 @@ function (_React$PureComponent) {
       }, "2 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u0430\u043A \u0443\u0434\u0430\u043B\u0438\u0442\u044C 1500000 \u0437\u0430\u043F\u0438\u0441\u0435\u0439 \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 Yahoo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041D\u0430 \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u043E\u043C \u043F\u043E \u043F\u043E\u0441\u0435\u0449\u0430\u0435\u043C\u043E\u0441\u0442\u0438 \u0441\u0430\u0439\u0442\u0435 \u2014 Yahoo.com, \u0431\u044B\u043B\u0430 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0430 \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u0430\u044F \u0443\u044F\u0437\u0432\u0438\u043C\u043E\u0441\u0442\u044C, \u043D\u0430 \u044D\u0442\u043E\u0442 \u0440\u0430\u0437 \u043D\u0430 \u043F\u043E\u0434\u0434\u043E\u043C\u0435\u043D\u0435 suggestions.yahoo.com. \u042D\u0442\u0430 \u0443\u044F\u0437\u0432\u0438\u043C\u043E\u0441\u0442\u044C \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0437\u043B\u043E\u0443\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u0438\u043A\u0443 \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u0441\u044E \u043B\u0435\u043D\u0442\u0443 \u0434\u043E\u0441\u043A\u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0439 (Yahoo Suggestion Board), \u0430 \u0442\u0430\u043A \u0436\u0435 \u0432\u0441\u0435 \u043A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0438 \u043A \u043D\u0435\u0439."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://habrahabr.ru/post/213187/",
         className: "button",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru")))))));
     }
   }]);
@@ -26781,7 +26813,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://vk.com/rogatnev_nikita",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26793,7 +26826,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "skype:rogatnev_nikita?chat",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26805,7 +26839,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "mailto:mail@rogatnev.ru",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26817,7 +26852,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/rogatnev-nikita",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26829,7 +26865,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/rogatnevnikita/",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26841,7 +26878,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.instagram.com/rogatnev_nikita/",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26853,7 +26891,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.facebook.com/rogatnevnikita",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26865,7 +26904,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://steamcommunity.com/id/nikita_rogatnev/",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 24 24",
@@ -26877,7 +26917,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://ru.stackoverflow.com/users/286565/rogatnev-nikita",
         className: "contact__social-item",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         role: "img",
         viewBox: "0 0 100 100",
@@ -27082,8 +27123,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://saimaabrewingco.fi",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/saimaabrewingco.jpg",
         alt: "saimaabrewingco",
@@ -27102,15 +27143,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://saimaabrewingco.fi",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.hammerseries.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/hammerseries.jpg",
         alt: "hammerseries",
@@ -27129,15 +27170,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.hammerseries.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.velon.cc",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/velon.jpg",
         alt: "velon",
@@ -27156,15 +27197,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.velon.cc",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.internationalchampionscup.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/internationalchampionscup.jpg",
         alt: "internationalchampionscup",
@@ -27183,15 +27224,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.internationalchampionscup.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://aspirenewyork.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/aspire.jpg",
         alt: "aspire",
@@ -27210,15 +27251,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://aspirenewyork.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.legends.net",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/legends.png",
         alt: "legends",
@@ -27237,15 +27278,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.legends.net",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://oneworldobservatory.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/oneworldobservatory.jpg",
         alt: "oneworldobservatory",
@@ -27264,15 +27305,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://oneworldobservatory.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.championshockeyleague.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/championshockeyleague.jpg",
         alt: "championshockeyleague",
@@ -27291,15 +27332,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.championshockeyleague.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.concacafchampionsleague.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/concacafchampionsleague.jpg",
         alt: "concacaf",
@@ -27318,15 +27359,15 @@ function (_React$PureComponent) {
       }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.concacafchampionsleague.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://airbnbopen.com",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/airbnbopen.png",
         alt: "airbnbopen",
@@ -27347,15 +27388,15 @@ function (_React$PureComponent) {
       }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://airbnbopen.com",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.vocord.ru",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/vocord.png",
         alt: "vocord",
@@ -27376,15 +27417,15 @@ function (_React$PureComponent) {
       }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.vocord.ru",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://positivecommunications.ru",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/positive.png",
         alt: "positive",
@@ -27405,15 +27446,15 @@ function (_React$PureComponent) {
       }, "WordPress")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://positivecommunications.ru",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://rogatnev-nikita.github.io/moovy/html/",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/moovy.png",
         alt: "moovy",
@@ -27434,15 +27475,15 @@ function (_React$PureComponent) {
       }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://rogatnev-nikita.github.io/moovy/html/",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.olesya-tattoo.ru",
         className: "portfolio__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/portfolio/tattoo.png",
         alt: "tattoo",
@@ -27461,8 +27502,8 @@ function (_React$PureComponent) {
       }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.olesya-tattoo.ru",
         className: "button",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, "Explore")))))));
     }
   }]);
@@ -27537,8 +27578,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.ix.co",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/ix.png",
         alt: "iX.co",
@@ -27554,8 +27595,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.omnigon.com",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/omnigon.svg",
         alt: "Omnigon LLC",
@@ -27571,8 +27612,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.omnigon.com",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/omnigon.svg",
         alt: "Omnigon LLC",
@@ -27586,8 +27627,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://htmlacademy.ru/",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/htmlacademy.svg",
         alt: "HTML Academy",
@@ -27601,8 +27642,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://liga-a.ru",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/league-a.svg",
         alt: "League A",
@@ -27616,8 +27657,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.entechsolutions.com",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/entechsolutions.png",
         alt: "ENTech Solutions",
@@ -27631,8 +27672,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://positivecommunications.ru",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/positivecommunications.svg",
         alt: "Positive Communications",
@@ -27672,8 +27713,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.mamk.fi/",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/moscow-business-school.svg",
         alt: "Moscow Business School",
@@ -27687,8 +27728,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://www.mamk.fi/",
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/mamk.png",
         alt: "Mikkelin ammattikorkeakoulu/",
@@ -27701,8 +27742,8 @@ function (_React$PureComponent) {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         className: "resume__link",
-        rel: "nofollow",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/spbgut.png",
         alt: "spbgut",
@@ -27955,7 +27996,8 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",
         className: "button button--big",
-        target: "_blank"
+        target: "_blank",
+        rel: "noopener noreferrer"
       }, "Print / Download CV"))));
     }
   }]);

@@ -125,7 +125,7 @@ class Skills extends React.PureComponent {
 
                     <div className="skills__action">
                         <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                           className="button button--big" target="_blank">Print / Download CV</a>
+                           className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download CV</a>
                     </div>
                 </div>
             </section>
