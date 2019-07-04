@@ -15,10 +15,46 @@ class Certificates extends React.PureComponent {
                             <ModalImage
                                 className="certificates__item"
                                 hideDownload={true}
+                                small="./img/certificates/small/V2UZ4M42BU8X.jpg"
+                                medium="./img/certificates/medium/V2UZ4M42BU8X.jpg"
+                                large="./img/certificates/original/V2UZ4M42BU8X.jpg"
+                                alt="Creating a Team Culture of Continuous Learning"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/BRTATAWKWHXA.jpg"
+                                medium="./img/certificates/medium/BRTATAWKWHXA.jpg"
+                                large="./img/certificates/original/BRTATAWKWHXA.jpg"
+                                alt="Reviews & Metrics for Software Improvements"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/F2WSASRBFN6L.jpg"
+                                medium="./img/certificates/medium/F2WSASRBFN6L.jpg"
+                                large="./img/certificates/original/F2WSASRBFN6L.jpg"
+                                alt="Software Processes and Agile Practices"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/F5DUSSJYKZ6H.jpg"
+                                medium="./img/certificates/medium/F5DUSSJYKZ6H.jpg"
+                                large="./img/certificates/original/F5DUSSJYKZ6H.jpg"
+                                alt="Introduction to Software Product Management"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
                                 small="./img/certificates/small/javascript3.jpg"
                                 medium="./img/certificates/medium/javascript3.jpg"
                                 large="./img/certificates/original/javascript3.jpg"
-                                alt="javascript 3"
+                                alt="HTMLAcademy JavaScript 3"
                             />
 
                             <ModalImage
@@ -27,7 +63,25 @@ class Certificates extends React.PureComponent {
                                 small="./img/certificates/small/javascript2.jpg"
                                 medium="./img/certificates/medium/javascript2.jpg"
                                 large="./img/certificates/original/javascript2.jpg"
-                                alt="javascript 2"
+                                alt="HTMLAcademy JavaScript 2"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/fundamentals-of-digital-marketing.jpg"
+                                medium="./img/certificates/medium/fundamentals-of-digital-marketing.jpg"
+                                large="./img/certificates/original/fundamentals-of-digital-marketing.jpg"
+                                alt="The Fundamentals of Digital Marketing"
+                            />
+
+                            <ModalImage
+                                className="certificates__item"
+                                hideDownload={true}
+                                small="./img/certificates/small/architect.jpg"
+                                medium="./img/certificates/medium/architect.jpg"
+                                large="./img/certificates/original/architect.jpg"
+                                alt="How To Become An Outstanding Solution Architect"
                             />
 
                             <ModalImage
@@ -36,7 +90,7 @@ class Certificates extends React.PureComponent {
                                 small="./img/certificates/small/javascript.jpg"
                                 medium="./img/certificates/medium/javascript.jpg"
                                 large="./img/certificates/original/javascript.jpg"
-                                alt="javascript"
+                                alt="The Complete JavaScript Course 2019"
                             />
 
                             <ModalImage
@@ -45,7 +99,7 @@ class Certificates extends React.PureComponent {
                                 small="./img/certificates/small/web-designer-basics.jpg"
                                 medium="./img/certificates/medium/web-designer-basics.jpg"
                                 large="./img/certificates/original/web-designer-basics.jpg"
-                                alt="web designer basics"
+                                alt="Web Designer Basics"
                             />
 
                             <ModalImage
@@ -60,28 +114,10 @@ class Certificates extends React.PureComponent {
                             <ModalImage
                                 className="certificates__item"
                                 hideDownload={true}
-                                small="./img/certificates/small/fundamentals-of-digital-marketing.jpg"
-                                medium="./img/certificates/medium/fundamentals-of-digital-marketing.jpg"
-                                large="./img/certificates/original/fundamentals-of-digital-marketing.jpg"
-                                alt="fundamentals of digital marketing"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
                                 small="./img/certificates/small/creative-certification-exam.jpg"
                                 medium="./img/certificates/medium/creative-certification-exam.jpg"
                                 large="./img/certificates/original/creative-certification-exam.jpg"
                                 alt="creative certification exam"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/architect.jpg"
-                                medium="./img/certificates/medium/architect.jpg"
-                                large="./img/certificates/original/architect.jpg"
-                                alt="architect"
                             />
 
                             <ModalImage
