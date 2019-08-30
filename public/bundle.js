@@ -27149,6 +27149,31 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "portfolio__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://rivedeparis.com/",
+        className: "portfolio__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/portfolio/rivedeparis.jpg",
+        alt: "rivedeparis",
+        width: "500",
+        height: "350"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "portfolio__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Rive de paris"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Rive de paris combines technological performance and the promotion of timeless elegance to guide you towards enlightened consumption, combining well-being and pleasure."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "portfolio__tags"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "portfolio__tag"
+      }, "WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "portfolio__tag"
+      }, "WooCommerce")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://rivedeparis.com/",
+        className: "button",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        className: "portfolio__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://saimaabrewingco.fi",
         className: "portfolio__link",
         target: "_blank",
@@ -27600,7 +27625,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item--active resume__item--wide"
+        className: "resume__item resume__item--active"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27612,11 +27637,28 @@ function (_React$PureComponent) {
         src: "./img/resume/ix.png",
         alt: "iX.co",
         height: "125"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2019 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Dev Lead in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "August 2019 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Technical Project Manager / Delivery Manager in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Technical Project Manager / Delivery Manager in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "resume__list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Overall responsibility for successful technical delivery of the project or area of responsibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical expertise to maintain standards and quality in further improving the system of products front-end side"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provides proactive resolutions to developing problems, and suggests modifications that may result in a permanent fix to a problem"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contributes to decisions about tools, methods and approaches;"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage Project workspace in Jira, Confluence and other management tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Project reporting, team velocity, ensuring key performance indicators reaching success level values"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Sprint planning, daily standups, interaction with Development Team, Project Owner and others as needed to resolve blockers and move project towards successful finish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Develop and keep up to date products technical documentations")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.ix.co",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/ix.png",
+        alt: "iX.co",
+        height: "125"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2019 \u2013 August 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Dev Lead in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Dev Lead in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions. With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27631,9 +27673,9 @@ function (_React$PureComponent) {
         height: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2018 \u2013 May 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Dev Lead in Omnigon Communications, LLC (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Product ProServ Dev Lead in Omnigon Communications LLC."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked as a full-time Product ProServ Dev Lead in Omnigon Communications LLC."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Providing direction, instructions, and guidance to the team of developers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Documentation writing")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React, ES6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "S3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Omnigon is a team of digital strategists, artists and technologists working exclusively in the areas of consumer loyalty, audience growth and digital content delivery. Since its founding in 2008, Omnigon has established itself as a market leader, focused on helping clients achieve returns on the strategic, creative and technical investments they've made. We are working with celebrated, global brands including Fox Broadcasting, Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football Association (DFB), IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Providing direction, instructions, and guidance to the team of developers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Documentation writing")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React, ES6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "S3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Omnigon is a team of digital strategists, artists and technologists working exclusively in the areas of consumer loyalty, audience growth and digital content delivery. Since its founding in 2008, Omnigon has established itself as a market leader, focused on helping clients achieve returns on the strategic, creative and technical investments they've made. We are working with celebrated, global brands including Fox Broadcasting, Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football Association (DFB), IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27648,7 +27690,7 @@ function (_React$PureComponent) {
         height: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2017 \u2013 May 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Senior HTML/CSS Developer in Omnigon Communications, LLC (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked as a full-time Senior HTML/CSS Developer in Omnigon Communications LLC. I was involved in Corebine development. Corebine is an audience engagement platform focused on empowering brands and content owners through an innovative set of publishing and sponsor activation tools."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked as a full-time Senior HTML/CSS Developer in Omnigon Communications LLC. I was involved in Corebine development. Corebine is an audience engagement platform focused on empowering brands and content owners through an innovative set of publishing and sponsor activation tools."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Omnigon is a team of digital strategists, artists and technologists working exclusively in the areas of consumer loyalty, audience growth and digital content delivery. Since its founding in 2008, Omnigon has established itself as a market leader, focused on helping clients achieve returns on the strategic, creative and technical investments they've made. We are working with celebrated, global brands including Fox Broadcasting, Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football Association (DFB), IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--active"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -28019,7 +28061,75 @@ function (_React$PureComponent) {
         className: "skills__item"
       }, "Apache Cordova"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Swift"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Swift"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "WebView"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "skills__content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Project Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "108px",
+        height: "24px"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        d: "M1 12 L108 12",
+        strokeLinecap: "round",
+        strokeDasharray: "0.001 3.3333333333333335"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "skills__items"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Custom Software Development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Database Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Systems Engineering"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "System Migrations / Integrations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Enterprisewide Implementations"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "skills__content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "IT Project Lifecycle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "108px",
+        height: "24px"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        d: "M1 12 L108 12",
+        strokeLinecap: "round",
+        strokeDasharray: "0.001 3.3333333333333335"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "skills__items"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Requirements Analysis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "ROI Analysis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Costing & Budgeting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Project Scheduling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Testing / QA / Rollout / Support"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "skills__content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Value-Added Leadership"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "108px",
+        height: "24px"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        d: "M1 12 L108 12",
+        strokeLinecap: "round",
+        strokeDasharray: "0.001 3.3333333333333335"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "skills__items"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Cross-Functional Supervision"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Team Building & Mentoring"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Client Relations & Presentations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Business & IT Planning"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, "Vendor Management"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__action"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",

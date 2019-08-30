@@ -13,6 +13,26 @@ class Portfolio extends React.PureComponent {
                         <div className="portfolio__items">
 
                             <article className="portfolio__item">
+                                <a href="https://rivedeparis.com/" className="portfolio__link"
+                                   target="_blank" rel="noopener noreferrer nofollow">
+                                    <img src="./img/portfolio/rivedeparis.jpg" alt="rivedeparis" width="500"
+                                         height="350"/>
+                                </a>
+                                <div className="portfolio__description">
+                                    <h2>Rive de paris</h2>
+                                    <p>Rive de paris combines technological performance and the promotion of timeless
+                                        elegance to guide you towards enlightened consumption, combining well-being and
+                                        pleasure.</p>
+                                    <ul className="portfolio__tags">
+                                        <li className="portfolio__tag">WordPress</li>
+                                        <li className="portfolio__tag">WooCommerce</li>
+                                    </ul>
+                                    <a href="https://rivedeparis.com/" className="button"
+                                       target="_blank" rel="noopener noreferrer nofollow">Explore</a>
+                                </div>
+                            </article>
+
+                            <article className="portfolio__item">
                                 <a href="https://saimaabrewingco.fi" className="portfolio__link"
                                    target="_blank" rel="noopener noreferrer nofollow">
                                     <img src="./img/portfolio/saimaabrewingco.jpg" alt="saimaabrewingco" width="500"
@@ -21,10 +41,8 @@ class Portfolio extends React.PureComponent {
                                 <div className="portfolio__description">
                                     <h2>Saimaa Brewing CO</h2>
                                     <p>Saimaa Brewing Company is agile and steady developing small brewery on the shore
-                                        of
-                                        Saimaa, which creates the world&apos;s finest flavor experiences - honestly and
-                                        boldly with
-                                        solar energy.</p>
+                                        of Saimaa, which creates the world&apos;s finest flavor experiences - honestly
+                                        and boldly with solar energy.</p>
                                     <ul className="portfolio__tags">
                                         <li className="portfolio__tag">WordPress</li>
                                         <li className="portfolio__tag">WooCommerce</li>
@@ -65,7 +83,8 @@ class Portfolio extends React.PureComponent {
                                 </a>
                                 <div className="portfolio__description">
                                     <h2>Velon</h2>
-                                    <p>VelonLive shows you how hard riders work in the world&apos;s hardest pro races (Tim de
+                                    <p>VelonLive shows you how hard riders work in the world&apos;s hardest pro races
+                                        (Tim de
                                         Waele/Getty). cc Omnigon LLC</p>
                                     <ul className="portfolio__tags">
                                         <li className="portfolio__tag">BEM</li>

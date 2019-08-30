@@ -13,12 +13,74 @@ class Resume extends React.PureComponent {
                         <h2>Work History</h2>
                         <div className="resume__items">
 
-                            <div className="resume__item resume__item--active resume__item--wide">
+                            <div className="resume__item resume__item--active">
                                 <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
+                                       rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
-                                    <h3>May 2019 – Present</h3>
+                                    <h3>August 2019 – Present</h3>
+                                    <h4>Technical Project Manager / Delivery Manager in iX.co (USA)</h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                        Working as a full-time Technical Project Manager / Delivery Manager in iX.co.
+                                    </p>
+                                    <strong>
+                                        Duties:
+                                    </strong>
+                                    <ul className="resume__list">
+                                        <li>Overall responsibility for successful technical delivery of the project or
+                                            area of responsibility
+                                        </li>
+                                        <li>Provide technical expertise to maintain standards and quality in further
+                                            improving the system of products front-end side
+                                        </li>
+                                        <li>Provides proactive resolutions to developing problems, and suggests
+                                            modifications that may result in a permanent fix to a problem
+                                        </li>
+                                        <li>Contributes to decisions about tools, methods and approaches;</li>
+                                        <li>Manage Project workspace in Jira, Confluence and other management tools</li>
+                                        <li>Project reporting, team velocity, ensuring key performance indicators
+                                            reaching success level values
+                                        </li>
+                                        <li>Sprint planning, daily standups, interaction with Development Team, Project
+                                            Owner and others as needed to resolve blockers and move project towards
+                                            successful finish
+                                        </li>
+                                        <li>Develop and keep up to date products technical documentations</li>
+                                    </ul>
+                                    <strong>
+                                        About:
+                                    </strong>
+                                    <p>
+                                        iX.co, a digital media company focused on the way data science and technology
+                                        can create more personal experiences for users while growing audiences for
+                                        content owners, bridges the gap between storytelling and technology, creating
+                                        digital platforms and experiences to help global brands engage with audiences
+                                        and monetize their investments.
+                                    </p>
+                                    <p>
+                                        iX.co works with many of the biggest names in sports, media, entertainment, and
+                                        active lifestyle, using data-driven insights to cater to audience passions and
+                                        empower businesses to make millions of lasting impressions.
+                                    </p>
+                                    <p>
+                                        With offices across North America, Europe, and Asia, iX.co is proud of the
+                                        impact it has helped create for elite organizations like the PGA TOUR, NASCAR,
+                                        FOX, Chelsea FC, AS Roma, the International Ski Federation and the International
+                                        Basketball Federation, among countless others.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="resume__item">
+                                <div className="resume__position">
+                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
+                                       rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                    </a>
+                                    <h3>May 2019 – August 2019</h3>
                                     <h4>Dev Lead in iX.co (USA)</h4>
                                 </div>
                                 <div className="resume__description">
@@ -37,8 +99,7 @@ class Resume extends React.PureComponent {
                                         </li>
                                         <li>Guide team development efforts towards successful project delivery</li>
                                         <li>Maintain high standards of software quality by establishing good practices
-                                            and
-                                            habits
+                                            and habits
                                         </li>
                                         <li>Identify and encourage areas for growth and improvement within the team</li>
                                         <li>Provide third-level support to business users</li>
@@ -46,36 +107,36 @@ class Resume extends React.PureComponent {
                                             on-budget
                                         </li>
                                         <li>Collaborate with software developers, BAs and SAs to plan, design, develop,
-                                            test,
-                                            and maintain web-based applications
-                                        </li>
-                                        <li>Prepare reports, manuals, other documentation on the status, operation and
-                                            maintenance of software
+                                            test, and maintain web-based applications
                                         </li>
                                         <li>Assess opportunities for application and process improvement and prepare
                                             documentation of rationale to share with team members and other affected
                                             parties
                                         </li>
+                                        <li>Prepare reports, manuals, other documentation on the status, operation and
+                                            maintenance of software
+                                        </li>
                                     </ul>
+                                    <strong>
+                                        About:
+                                    </strong>
                                     <p>
                                         iX.co, a digital media company focused on the way data science and technology
-                                        can create
-                                        more personal experiences for users while growing audiences for content owners,
-                                        bridges
-                                        the gap between storytelling and technology, creating digital platforms and
-                                        experiences
-                                        to help global brands engage with audiences and monetize their investments.
+                                        can create more personal experiences for users while growing audiences for
+                                        content owners, bridges the gap between storytelling and technology, creating
+                                        digital platforms and experiences to help global brands engage with audiences
+                                        and monetize their investments.
                                     </p>
                                     <p>
                                         iX.co works with many of the biggest names in sports, media, entertainment, and
-                                        active
-                                        lifestyle, using data-driven insights to cater to audience passions and empower
-                                        businesses to make millions of lasting impressions. With offices across North
-                                        America,
-                                        Europe, and Asia, iX.co is proud of the impact it has helped create for elite
-                                        organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the
-                                        International Ski
-                                        Federation and the International Basketball Federation, among countless others.
+                                        active lifestyle, using data-driven insights to cater to audience passions and
+                                        empower businesses to make millions of lasting impressions.
+                                    </p>
+                                    <p>
+                                        With offices across North America, Europe, and Asia, iX.co is proud of the
+                                        impact it has helped create for elite organizations like the PGA TOUR, NASCAR,
+                                        FOX, Chelsea FC, AS Roma, the International Ski Federation and the International
+                                        Basketball Federation, among countless others.
                                     </p>
                                 </div>
                             </div>
@@ -91,7 +152,7 @@ class Resume extends React.PureComponent {
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                        Working as a full-time Product ProServ Dev Lead in Omnigon Communications LLC.
+                                        Worked as a full-time Product ProServ Dev Lead in Omnigon Communications LLC.
                                     </p>
                                     <strong>
                                         Duties:
@@ -112,6 +173,9 @@ class Resume extends React.PureComponent {
                                         <li>Bitbucket</li>
                                         <li>S3</li>
                                     </ul>
+                                    <strong>
+                                        About:
+                                    </strong>
                                     <p>
                                         Omnigon is a team of digital strategists, artists and technologists working
                                         exclusively
@@ -160,6 +224,25 @@ class Resume extends React.PureComponent {
                                         <li>Gulp, Webpack</li>
                                         <li>Bitbucket</li>
                                     </ul>
+                                    <strong>
+                                        About:
+                                    </strong>
+                                    <p>
+                                        Omnigon is a team of digital strategists, artists and technologists working
+                                        exclusively
+                                        in the areas of consumer loyalty, audience growth and digital content delivery.
+                                        Since
+                                        its founding in 2008, Omnigon has established itself as a market leader, focused
+                                        on
+                                        helping clients achieve returns on the strategic, creative and technical
+                                        investments
+                                        they&apos;ve made. We are working with celebrated, global brands including Fox
+                                        Broadcasting,
+                                        Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football
+                                        Association (DFB),
+                                        IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless
+                                        others.
+                                    </p>
                                 </div>
                             </div>
 
@@ -216,7 +299,8 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item">
                                 <div className="resume__position">
-                                    <a href="https://liga-a.ru" className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://liga-a.ru" className="resume__link" target="_blank"
+                                       rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/league-a.svg" alt="League A" height="135"/>
                                     </a>
                                     <h3>Jan 2018 – Oct 2018</h3>
@@ -227,7 +311,8 @@ class Resume extends React.PureComponent {
                                         League A is a teaching and production department HTML Academy. We have already
                                         worked on
                                         commercial programs under the supervision of mentors and completed more than 90
-                                        projects. Mentor is an important part of the project&apos;s workflow in League A. He
+                                        projects. Mentor is an important part of the project&apos;s workflow in League
+                                        A. He
                                         ensures
                                         the interaction between the performers and business, help with complex issues
                                         that the
@@ -258,7 +343,8 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://www.entechsolutions.com" className="resume__link"
                                        target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/entechsolutions.png" alt="ENTech Solutions" height="135"/>
+                                        <img src="./img/resume/entechsolutions.png" alt="ENTech Solutions"
+                                             height="135"/>
                                     </a>
                                     <h3>Jun 2016 – May 2017</h3>
                                     <h4>Front-End Engineer in ENTech Solutions (USA)</h4>
@@ -453,7 +539,8 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="http://www.mamk.fi/" className="resume__link"
                                        target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/" height="135"/>
+                                        <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/"
+                                             height="135"/>
                                     </a>
                                     <h3>Aug 2012 – May 2015</h3>
                                     <h4>

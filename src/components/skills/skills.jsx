@@ -120,12 +120,56 @@ class Skills extends React.PureComponent {
                         <ul className="skills__items">
                             <li className="skills__item">Apache Cordova</li>
                             <li className="skills__item">Swift</li>
+                            <li className="skills__item">WebView</li>
+                        </ul>
+                    </div>
+
+                    <div className="skills__content">
+                        <h2>Project Management</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
+                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
+                        </svg>
+                        <ul className="skills__items">
+                            <li className="skills__item">Custom Software Development</li>
+                            <li className="skills__item">Database Design</li>
+                            <li className="skills__item">Systems Engineering</li>
+                            <li className="skills__item">System Migrations / Integrations</li>
+                            <li className="skills__item">Enterprisewide Implementations</li>
+                        </ul>
+                    </div>
+
+                    <div className="skills__content">
+                        <h2>IT Project Lifecycle</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
+                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
+                        </svg>
+                        <ul className="skills__items">
+                            <li className="skills__item">Requirements Analysis</li>
+                            <li className="skills__item">ROI Analysis</li>
+                            <li className="skills__item">Costing & Budgeting</li>
+                            <li className="skills__item">Project Scheduling</li>
+                            <li className="skills__item">Testing / QA / Rollout / Support</li>
+                        </ul>
+                    </div>
+
+                    <div className="skills__content">
+                        <h2>Value-Added Leadership</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
+                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
+                        </svg>
+                        <ul className="skills__items">
+                            <li className="skills__item">Cross-Functional Supervision</li>
+                            <li className="skills__item">Team Building & Mentoring</li>
+                            <li className="skills__item">Client Relations & Presentations</li>
+                            <li className="skills__item">Business & IT Planning</li>
+                            <li className="skills__item">Vendor Management</li>
                         </ul>
                     </div>
 
                     <div className="skills__action">
                         <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                           className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download CV</a>
+                           className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
+                            CV</a>
                     </div>
                 </div>
             </section>
