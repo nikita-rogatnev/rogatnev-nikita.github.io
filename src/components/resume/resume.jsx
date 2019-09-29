@@ -39,7 +39,7 @@ class Resume extends React.PureComponent {
                                         <li>Provides proactive resolutions to developing problems, and suggests
                                             modifications that may result in a permanent fix to a problem
                                         </li>
-                                        <li>Contributes to decisions about tools, methods and approaches;</li>
+                                        <li>Contributes to decisions about tools, methods and approaches</li>
                                         <li>Manage Project workspace in Jira, Confluence and other management tools</li>
                                         <li>Project reporting, team velocity, ensuring key performance indicators
                                             reaching success level values
