@@ -27017,7 +27017,7 @@ function (_React$PureComponent) {
         className: "footer__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Rogatnev Nikita"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2019"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Rogatnev Nikita"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2020"))));
     }
   }]);
 
@@ -27079,7 +27079,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Front", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u2013End"), " Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Rogatnev Nikita"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Technical"), " Product Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Rogatnev Nikita"))));
     }
   }]);
 
@@ -27705,7 +27705,7 @@ function (_React$PureComponent) {
         height: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2015 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Senior Mentor HTML Academy (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We train full-fledged and demanded specialists who are ready to work in the web industry. From the very beginning, we teach how to work with live code and independently solve problems that are close to real ones. High-quality intensives training is impossible without the participation of a mentor who will guide the student, point out mistakes, check homework and gradually lead to the implementation of the final project sharing his experience and best practices."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Student counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Junior mentors counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Dispute resolution")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Participating:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Profession \xABFrontend Developer\xBB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "LESS, SASS, SCSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ECMAScript 5.1, 6)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Grunt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We train full-fledged and demanded specialists who are ready to work in the web industry. From the very beginning, we teach how to work with live code and independently solve problems that are close to real ones. High-quality intensives training is impossible without the participation of a mentor who will guide the student, point out mistakes, check homework and gradually lead to the implementation of the final project sharing his experience and best practices."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Student counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Junior mentors counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Dispute resolution")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Participating:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Profession \xABFrontend Developer\xBB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "LESS, SASS, SCSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ECMAScript 5.1, 6)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27774,7 +27774,24 @@ function (_React$PureComponent) {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2010 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Web Developer as a Freelancer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "More than 180 websites for individual and corporate clients have been developed since 2010."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Pug, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, PostCSS, LESS, SASS, SCSS, Stylus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript, jQuery, Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Grunt, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "WordPress, Drupal, 1-C Bitrix, MODX Revolution, Livestreet, OpenCart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub, GitLab, BitBucket, Codebase, Microsoft Visual Studio Team Services"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "More than 180 websites for individual and corporate clients have been developed since 2010."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Pug, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, PostCSS, LESS, SASS, SCSS, Stylus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript, jQuery, Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Grunt, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "WordPress, Drupal, 1-C Bitrix, MODX Revolution, Livestreet, OpenCart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub, GitLab, BitBucket, Codebase, Microsoft Visual Studio Team Services"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Volunteer Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__items"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://www.mamk.fi/",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/pitercss-meetup.svg",
+        alt: "Moscow Business School",
+        height: "135"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Organizer of pitercss_meetup (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
@@ -27789,7 +27806,7 @@ function (_React$PureComponent) {
         src: "./img/resume/moscow-business-school.svg",
         alt: "Moscow Business School",
         height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2019 \u2013 Dec 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of Business Administration in Moscow Business School (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2019 \u2013 Dec 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of Business Administration (Marketing) in Moscow Business School (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Moscow Business School an international business school, subdivision of a Moscow Technological Institute. It is among top 10 business schools in Russia."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"

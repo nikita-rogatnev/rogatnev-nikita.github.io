@@ -7,7 +7,7 @@ class Footer extends React.PureComponent {
                 <div className="footer__wrapper">
                     <div className="footer__content">
                         <cite>Rogatnev Nikita</cite>
-                        <span>&copy; 2019</span>
+                        <span>&copy; 2020</span>
                     </div>
                 </div>
             </footer>

@@ -291,7 +291,7 @@ class Resume extends React.PureComponent {
                                         <li>HTML5</li>
                                         <li>LESS, SASS, SCSS</li>
                                         <li>JavaScript (ECMAScript 5.1, 6)</li>
-                                        <li>Gulp, Grunt</li>
+                                        <li>Gulp, Webpack</li>
                                         <li>GitHub</li>
                                     </ul>
                                 </div>
@@ -512,6 +512,29 @@ class Resume extends React.PureComponent {
                             </div>
 
                         </div>
+                        <h2>Volunteer Experience</h2>
+                        <div className="resume__items">
+
+                            <div className="resume__item">
+                                <div className="resume__position">
+                                    <a href="http://www.mamk.fi/" className="resume__link"
+                                       target="_blank" rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/pitercss-meetup.svg" alt="Moscow Business School"
+                                             height="135"/>
+                                    </a>
+                                    <h3>Mar 2019 – Dec 2019</h3>
+                                    <h4>
+                                        Organizer of pitercss_meetup (Russia)
+                                    </h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                        Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
                         <h2>Education</h2>
                         <div className="resume__items">
 
@@ -524,7 +547,7 @@ class Resume extends React.PureComponent {
                                     </a>
                                     <h3>Jan 2019 – Dec 2020</h3>
                                     <h4>
-                                        Master of Business Administration in Moscow Business School (Russia)
+                                        Master of Business Administration (Marketing) in Moscow Business School (Russia)
                                     </h4>
                                 </div>
                                 <div className="resume__description">
