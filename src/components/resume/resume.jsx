@@ -19,7 +19,63 @@ class Resume extends React.PureComponent {
                                        rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
-                                    <h3>August 2019 – Present</h3>
+                                    <h3>Mar 2020 – Present</h3>
+                                    <h4>Technical Product Manager in iX.co (USA)</h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                        Working as a full-time Technical Product Manager in iX.co.
+                                    </p>
+                                    <strong>
+                                        Duties:
+                                    </strong>
+                                    <ul className="resume__list">
+                                        <li>Gather requirements from stakeholders and structure into documentation</li>
+                                        <li>Manage functional business requirements documentation throughout project lifecycle</li>
+                                        <li>Analyse and map data from disparate sources and formats to guide design and development</li>
+                                        <li>Deliver walk-throughs and answer questions on requirements for internal development and QA team members</li>
+                                        <li>Work with development and product management team to ensure requirements are achievable and inline with best practices and project scope</li>
+                                        <li>Review test cases to ensure coverage over requirements and requirements are being accurately represented</li>
+                                        <li>Validate requirements against deliverables</li>
+                                        <li>Define requirements gathering, review, and documentation approach for projects based on scope and client needs.</li>
+                                        <li>Present business requirement documentation and designs to clients and elicit feedback</li>
+                                        <li>Work with client and project management in the prioritisation of product features with client according to scope, dependencies, urgency, cost, and return</li>
+                                        <li>Take part in product ideation and provide feedback and recommendations to the client for new opportunities, features, or products</li>
+                                        <li>Serve as product expert for any internal or external questions around the product</li>
+                                        <li>Take ownership of quality of deliverables and validate requirements with client in UAT</li>
+                                        <li>Defining and measuring KPIs for product success</li>
+                                    </ul>
+                                    <strong>
+                                        About:
+                                    </strong>
+                                    <p>
+                                        iX.co, a digital media company focused on the way data science and technology
+                                        can create more personal experiences for users while growing audiences for
+                                        content owners, bridges the gap between storytelling and technology, creating
+                                        digital platforms and experiences to help global brands engage with audiences
+                                        and monetize their investments.
+                                    </p>
+                                    <p>
+                                        iX.co works with many of the biggest names in sports, media, entertainment, and
+                                        active lifestyle, using data-driven insights to cater to audience passions and
+                                        empower businesses to make millions of lasting impressions.
+                                    </p>
+                                    <p>
+                                        With offices across North America, Europe, and Asia, iX.co is proud of the
+                                        impact it has helped create for elite organizations like the PGA TOUR, NASCAR,
+                                        FOX, Chelsea FC, AS Roma, the International Ski Federation and the International
+                                        Basketball Federation, among countless others.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="resume__item resume__item--active">
+                                <div className="resume__position">
+                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
+                                       rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                    </a>
+                                    <h3>August 2019 – Mar 2020</h3>
                                     <h4>Technical Project Manager / Delivery Manager in iX.co (USA)</h4>
                                 </div>
                                 <div className="resume__description">
