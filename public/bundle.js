@@ -27017,7 +27017,7 @@ function (_React$PureComponent) {
         className: "footer__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Rogatnev Nikita"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2020"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2020"))));
     }
   }]);
 
@@ -27079,7 +27079,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Technical"), " Product Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Rogatnev Nikita"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Manager,"), " Business and Technical Operations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita Rogatnev"))));
     }
   }]);
 
@@ -27625,7 +27625,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item--active"
+        className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27637,12 +27637,29 @@ function (_React$PureComponent) {
         src: "./img/resume/ix.png",
         alt: "iX.co",
         height: "125"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2020 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Technical Product Manager in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2020 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Manager, Business and Technical Operations in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Managing operations and responsible for the effective and successful management of labor, productivity, and quality control as established and set for the iX Products operations. Ensure safe and efficient operations, serve as a team representative on regulatory issues. Enhance the operational procedure, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and look for opportunities to expand systems. Carry out supervisory responsibilities in accordance with the company\u2019s and BU's policies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "resume__list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "As a member of the business unit Leadership team provide oversight of daily operations, Kaizen operations enhancement"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Control and optimize business unit operational costs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate closely with CPO and CTO and produce reports"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Implement business unit strategies according to the approved Annual Budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Continuously evaluate business unit performance by analyzing and interpreting data and metrics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define comprehensive business unit goals for performance and growth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Enable employees to achieve maximum performance, culture, and vision"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Partner with HR and other departments to develop and implement staffing programs to attract the best applicants and improve employee retention"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage relationships with partners and vendors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Own the operational, technical, business and partnership documentation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.ix.co",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/ix.png",
+        alt: "iX.co",
+        height: "125"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2020 \u2013 Jul 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Technical Product Manager in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Technical Product Manager in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gather requirements from stakeholders and structure into documentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage functional business requirements documentation throughout project lifecycle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analyse and map data from disparate sources and formats to guide design and development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Deliver walk-throughs and answer questions on requirements for internal development and QA team members"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with development and product management team to ensure requirements are achievable and inline with best practices and project scope"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Review test cases to ensure coverage over requirements and requirements are being accurately represented"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Validate requirements against deliverables"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define requirements gathering, review, and documentation approach for projects based on scope and client needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Present business requirement documentation and designs to clients and elicit feedback"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with client and project management in the prioritisation of product features with client according to scope, dependencies, urgency, cost, and return"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take part in product ideation and provide feedback and recommendations to the client for new opportunities, features, or products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Serve as product expert for any internal or external questions around the product"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take ownership of quality of deliverables and validate requirements with client in UAT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Defining and measuring KPIs for product success")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item--active"
+        className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {

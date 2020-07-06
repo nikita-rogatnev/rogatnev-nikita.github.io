@@ -6,7 +6,7 @@ class Footer extends React.PureComponent {
             <footer className="footer">
                 <div className="footer__wrapper">
                     <div className="footer__content">
-                        <cite>Rogatnev Nikita</cite>
+                        <cite>Nikita Rogatnev</cite>
                         <span>&copy; 2020</span>
                     </div>
                 </div>
