@@ -109,7 +109,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, "/* ------------------------------------------ */\n/* GLOBAL\n/* ------------------------------------------ */\n::-webkit-scrollbar {\n  width: 0.3rem; }\n\n::-webkit-scrollbar-track {\n  background-color: #121214; }\n\n::-webkit-scrollbar-thumb {\n  background-color: #ed4040; }\n\nhtml {\n  box-sizing: border-box;\n  font-size: 62.5%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  position: relative;\n  color: rgba(235, 224, 202, 0.8);\n  background: black url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);\n  font-family: \"Rajdhani\", Arial, sans-serif;\n  font-size: 1.6rem;\n  font-weight: 400;\n  line-height: 1.2;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility; }\n\nul {\n  list-style-type: none; }\n\nimg {\n  width: 100%;\n  max-width: 100%;\n  height: auto; }\n\nh1,\nh2,\nh3 {\n  margin: 1rem 0; }\n\np {\n  margin: 0.5rem 0; }\n\na {\n  text-decoration: none;\n  color: #ed4040; }\n\n/* ------------------------------------------ */\n/* BUTTON BLOCK\n/* ------------------------------------------ */\n.button {\n  display: inline-block;\n  min-width: 5rem;\n  margin: 0.5rem 0;\n  padding: 0.5rem 2rem;\n  transition: background-color 0.3s ease;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  color: #ed4040;\n  border: 0.1rem solid #ed4040;\n  background: rgba(237, 64, 64, 0.15);\n  font-size: 1.6rem; }\n  .button:hover {\n    color: white;\n    background-color: #ed4040; }\n  .button--big {\n    min-width: 10rem;\n    margin: 3rem auto 0;\n    padding: 1rem 6rem; }\n  .blog .button {\n    width: 100%; }\n\n/* ------------------------------------------ */\n/* INTRO BLOCK\n/* ------------------------------------------ */\n.intro {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .intro__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .intro__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .intro__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .intro__wrapper {\n        width: 1550px; } }\n  .intro__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .intro__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .intro__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .intro__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .intro__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .intro__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .intro__heading::after {\n          display: none; } }\n  .intro .intro__content h3 {\n    margin: 0 0 0 0.4rem;\n    padding: 0;\n    text-transform: uppercase;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .intro .intro__content span {\n    color: #ed4040; }\n  .intro .intro__content h2 {\n    margin: 0;\n    padding: 0;\n    white-space: normal;\n    text-transform: uppercase;\n    color: white;\n    font-size: 6.5rem;\n    font-weight: 700;\n    line-height: 1; }\n  @media (min-width: 768px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.3rem;\n      font-size: 2.3rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 6.5rem; } }\n  @media (min-width: 1170px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.4rem;\n      font-size: 3.17rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 9rem; } }\n\n@keyframes slide {\n  from {\n    background-position: 0 0; }\n  to {\n    background-position: -100rem 0; } }\n\n/* ------------------------------------------ */\n/* BLOG BLOCK\n/* ------------------------------------------ */\n.blog {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .blog__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .blog__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .blog__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .blog__wrapper {\n        width: 1550px; } }\n  .blog__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .blog__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .blog__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .blog__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .blog__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .blog__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .blog__heading::after {\n          display: none; } }\n  .blog .blog__items {\n    column-count: 1;\n    column-gap: 2rem; }\n  .blog .blog__item {\n    display: inline-block;\n    width: 100%;\n    margin-bottom: 2rem;\n    vertical-align: top; }\n    .blog .blog__item:last-child {\n      margin-bottom: 0; }\n  .blog .blog__item-date {\n    text-transform: uppercase; }\n  .blog .blog__description {\n    display: flex;\n    flex-direction: column;\n    margin-top: 1.5rem;\n    align-items: flex-start;\n    flex-grow: 1; }\n    .blog .blog__description h1,\n    .blog .blog__description p {\n      font-family: \"Open Sans Condensed\", Arial, sans-serif; }\n    .blog .blog__description p {\n      font-weight: 300; }\n  .blog .blog__link {\n    font-size: 0;\n    line-height: 0;\n    filter: grayscale(70%); }\n    .blog .blog__link:hover {\n      filter: none; }\n  @media (min-width: 768px) {\n    .blog .blog__items {\n      column-count: 2; }\n    .blog .blog__link img {\n      height: 18rem; } }\n  @media (min-width: 1170px) {\n    .blog .blog__items {\n      column-count: 4; } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.certificates {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .certificates__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .certificates__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .certificates__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .certificates__wrapper {\n        width: 1550px; } }\n  .certificates__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .certificates__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .certificates__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .certificates__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .certificates__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .certificates__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .certificates__heading::after {\n          display: none; } }\n  .certificates .certificates__items {\n    column-count: 1;\n    column-gap: 2rem; }\n    .certificates .certificates__items > div {\n      display: inline-block;\n      width: 100%;\n      margin-bottom: 2rem;\n      vertical-align: top;\n      font-size: 0;\n      line-height: 0; }\n      .certificates .certificates__items > div:last-child {\n        margin-bottom: 0; }\n  .certificates .__react_modal_image__header {\n    position: fixed;\n    top: 0; }\n  .certificates .__react_modal_image__modal_container {\n    position: fixed;\n    top: 0;\n    width: 100vw;\n    height: 100vh; }\n  .certificates .__react_modal_image__medium_img {\n    width: 100%;\n    max-width: 90vw;\n    height: auto;\n    max-height: 90vh; }\n  @media (min-width: 768px) {\n    .certificates .certificates__items {\n      column-count: 2; }\n    .certificates .__react_modal_image__medium_img {\n      width: auto;\n      max-width: 90vw;\n      height: auto;\n      max-height: 90vh; } }\n  @media (min-width: 1170px) {\n    .certificates .certificates__items {\n      column-count: 4; } }\n\n/* ------------------------------------------ */\n/* PORTFOLIO BLOCK\n/* ------------------------------------------ */\n.portfolio {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .portfolio__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .portfolio__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .portfolio__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .portfolio__wrapper {\n        width: 1550px; } }\n  .portfolio__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .portfolio__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .portfolio__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .portfolio__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .portfolio__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .portfolio__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .portfolio__heading::after {\n          display: none; } }\n  .portfolio .portfolio__items {\n    display: flex;\n    flex-direction: row;\n    margin: 0;\n    flex-wrap: wrap;\n    align-content: flex-start;\n    justify-content: space-between; }\n  .portfolio .portfolio__item {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    padding: 0 0 5rem; }\n  .portfolio .portfolio__description {\n    display: flex;\n    flex-direction: column;\n    margin-top: 1.5rem;\n    align-items: flex-start;\n    flex-grow: 1; }\n  .portfolio .portfolio__link {\n    font-size: 0;\n    line-height: 0;\n    filter: grayscale(70%); }\n    .portfolio .portfolio__link:hover {\n      filter: none; }\n  .portfolio .portfolio__tags {\n    display: flex;\n    flex-direction: row;\n    margin-bottom: 0.5rem;\n    flex-wrap: nowrap;\n    align-content: flex-start;\n    align-items: flex-start; }\n  .portfolio .portfolio__tag::after {\n    content: \" / \";\n    white-space: pre; }\n  .portfolio .portfolio__tag:last-child::after {\n    content: \"\"; }\n  @media (min-width: 768px) {\n    .portfolio .portfolio__items {\n      margin: 0 -1rem; }\n    .portfolio .portfolio__item {\n      max-width: calc(100% / 3);\n      padding: 0 1rem 5rem; } }\n  @media (min-width: 1170px) {\n    .portfolio .portfolio__item {\n      display: flex;\n      flex-direction: row;\n      max-width: calc(100% / 2);\n      margin-bottom: 4rem;\n      padding: 0 1rem 0 0;\n      flex-wrap: nowrap;\n      align-items: center; }\n      .portfolio .portfolio__item:nth-child(4n), .portfolio .portfolio__item:nth-child(4n-1) {\n        flex-direction: row-reverse; }\n        .portfolio .portfolio__item:nth-child(4n)::after, .portfolio .portfolio__item:nth-child(4n-1)::after {\n          left: calc(45% + 0.5rem); }\n    .portfolio .portfolio__link {\n      width: 55%; }\n    .portfolio .portfolio__description {\n      width: 45%;\n      margin: 0 1rem;\n      text-align: center;\n      align-items: center; } }\n\n/* ------------------------------------------ */\n/* RESUME BLOCK\n/* ------------------------------------------ */\n.resume {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .resume__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .resume__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .resume__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .resume__wrapper {\n        width: 1550px; } }\n  .resume__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .resume__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .resume__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .resume__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .resume__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .resume__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .resume__heading::after {\n          display: none; } }\n  .resume .resume__content h2 {\n    margin: 0 0 2rem;\n    text-align: center;\n    color: white;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .resume .resume__items {\n    position: relative;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n  .resume .resume__item {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin-bottom: 4rem; }\n    .resume .resume__item svg,\n    .resume .resume__item img {\n      width: auto;\n      height: 4.5rem; }\n    .resume .resume__item h3 {\n      position: relative;\n      display: inline-block;\n      margin: 2rem 0 0.5rem;\n      padding: 0.3rem 2rem;\n      letter-spacing: 0;\n      color: white;\n      background: #ed4040;\n      line-height: 1; }\n      .resume .resume__item h3::before, .resume .resume__item h3::after {\n        position: absolute;\n        top: 40%;\n        left: -1.5rem;\n        display: block;\n        content: \"\";\n        border: 1rem solid #ed4040;\n        border-color: #ed4040 #ed4040 #ed4040 transparent;\n        border-right-width: 20px; }\n      .resume .resume__item h3::after {\n        right: -1.5rem;\n        left: auto;\n        border-color: #ed4040 transparent #ed4040 #ed4040; }\n    .resume .resume__item h4 {\n      margin: 2rem 0 0; }\n    .resume .resume__item li {\n      position: relative;\n      padding-left: 1rem; }\n      .resume .resume__item li::before {\n        position: absolute;\n        top: 0.85rem;\n        left: 0;\n        display: block;\n        width: 0.3rem;\n        height: 0.3rem;\n        content: '';\n        border-radius: 50%;\n        background-color: rgba(235, 224, 202, 0.8); }\n  .resume .resume__link {\n    font-size: 0;\n    line-height: 0; }\n  .resume .resume__position {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start; }\n  .resume .resume__description {\n    display: flex;\n    flex-direction: column;\n    margin: 0.5rem 0 0;\n    text-align: left; }\n    .resume .resume__description strong {\n      display: block;\n      margin: 1rem 0 0.5rem; }\n  @media (min-width: 1170px) {\n    .resume .resume__content {\n      margin: 0 -1rem; }\n      .resume .resume__content h2 {\n        margin: 4rem 0 3rem;\n        font-size: 3.5rem; }\n    .resume .resume__item {\n      width: 50%;\n      padding: 0 1rem; }\n      .resume .resume__item--wide {\n        width: 75%;\n        padding: 0 1rem; } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.skills {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .skills__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .skills__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .skills__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .skills__wrapper {\n        width: 1550px; } }\n  .skills__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .skills__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .skills__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .skills__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .skills__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .skills__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .skills__heading::after {\n          display: none; } }\n  .skills .skills__heading {\n    width: 100%; }\n  .skills .skills__wrapper {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    align-content: flex-start;\n    align-items: flex-start;\n    justify-content: flex-start; }\n  .skills .skills__content {\n    width: 100%;\n    text-align: center; }\n    .skills .skills__content svg {\n      stroke: rgba(235, 224, 202, 0.15); }\n  .skills .skills__items {\n    display: flex;\n    margin: 0 -0.5rem 4rem;\n    flex-flow: column wrap; }\n  .skills .skills__item {\n    width: 100%;\n    padding: 0.5rem; }\n  .skills .skills__action {\n    width: 100%;\n    text-align: center; }\n    .skills .skills__action a {\n      margin: 0; }\n  @media (min-width: 768px) {\n    .skills .skills__content {\n      width: calc(100% / 2); } }\n  @media (min-width: 1170px) {\n    .skills .skills__content {\n      width: calc(100% / 4);\n      text-align: left; } }\n\n/* ------------------------------------------ */\n/* CONTACT BLOCK\n/* ------------------------------------------ */\n.contact {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .contact__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .contact__wrapper {\n        width: 768px;\n        max-width: calc(100% - 8rem);\n        margin-right: 0; } }\n    @media (min-width: 1170px) {\n      .contact__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 10rem); } }\n    @media (min-width: 1550px) {\n      .contact__wrapper {\n        width: 1550px; } }\n  .contact__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .contact__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .contact__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .contact__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .contact__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .contact__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .contact__heading::after {\n          display: none; } }\n  .contact .contact__content {\n    display: flex;\n    flex-direction: column; }\n    .contact .contact__content h2 {\n      text-transform: uppercase;\n      color: white;\n      font-size: 3rem;\n      font-weight: 700;\n      line-height: 1; }\n  .contact .contact__socials {\n    display: flex;\n    flex-direction: row;\n    margin: 0 -1rem;\n    align-content: center;\n    align-items: center;\n    justify-content: flex-start;\n    flex-wrap: wrap; }\n  .contact .contact__social {\n    position: relative;\n    display: flex;\n    width: 7rem;\n    height: 7rem;\n    margin: 1rem;\n    border: 1rem solid rgba(43, 31, 49, 0.5);\n    background: #2b1f31;\n    background-clip: padding-box;\n    font-size: 0;\n    line-height: 0;\n    align-items: center;\n    align-content: space-around;\n    justify-content: center; }\n    .contact .contact__social:hover {\n      border: 0; }\n  .contact .contact__social-item {\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center; }\n  .contact svg {\n    width: 2.5rem;\n    height: 2.5rem;\n    fill: white; }\n  @media (min-width: 768px) {\n    .contact .contact__content h2 {\n      font-size: 5rem; } }\n  @media (min-width: 1170px) {\n    .contact .contact__content {\n      display: flex;\n      flex-direction: row; }\n      .contact .contact__content h2 {\n        font-size: 8rem; }\n    .contact .contact__socials {\n      width: 40%;\n      margin: 0 0 0 10rem;\n      justify-content: center; } }\n\n/* ------------------------------------------ */\n/* FOOTER BLOCK\n/* ------------------------------------------ */\n.footer {\n  position: relative;\n  padding: 1rem 1rem 3rem;\n  text-align: center;\n  font-size: 1.2rem; }\n  .footer cite {\n    display: block;\n    font-style: normal; }\n  .footer span {\n    position: relative;\n    display: block; }\n  @media (min-width: 768px) {\n    .footer {\n      position: fixed;\n      right: 0;\n      bottom: 0;\n      padding: 1rem;\n      text-align: right; }\n      .footer span::before {\n        position: absolute;\n        top: 50%;\n        display: block;\n        width: 2.5rem;\n        height: 0.05rem;\n        content: \"\";\n        transform: translateY(-50%);\n        background: #ed4040; } }\n\n[data-aos][data-aos][data-aos-duration=\"2000\"],\nbody[data-aos-duration=\"2000\"] [data-aos] {\n  transition-duration: 2s; }\n\n[data-aos=zoom-in] {\n  transform: scale(0.6); }\n\n[data-aos^=zoom][data-aos^=zoom].aos-animate {\n  transform: none; }\n", ""]);
+exports.push([module.i, "/* ------------------------------------------ */\n/* GLOBAL\n/* ------------------------------------------ */\n::-webkit-scrollbar {\n  width: 0.3rem; }\n\n::-webkit-scrollbar-track {\n  background-color: #ffffff; }\n\n::-webkit-scrollbar-thumb {\n  background-color: #ed4040; }\n\nhtml {\n  box-sizing: border-box;\n  font-size: 62.5%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  position: relative;\n  color: #000000;\n  background: #ffffff url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);\n  font-family: \"Rajdhani\", Arial, sans-serif;\n  font-size: 1.6rem;\n  font-weight: 400;\n  line-height: 1.2;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility; }\n\nul {\n  list-style-type: none; }\n\nimg {\n  width: 100%;\n  max-width: 100%;\n  height: auto; }\n\nh1,\nh2,\nh3 {\n  margin: 1rem 0; }\n\np {\n  margin: 0.5rem 0; }\n\na {\n  text-decoration: none;\n  color: #ed4040; }\n\n/* ------------------------------------------ */\n/* BUTTON BLOCK\n/* ------------------------------------------ */\n.button {\n  display: inline-block;\n  min-width: 5rem;\n  margin: 0.5rem 0;\n  padding: 0.5rem 2rem;\n  transition: background-color 0.3s ease;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  color: white;\n  background-color: #000000;\n  font-size: 1.6rem;\n  font-weight: 700; }\n  .button:hover {\n    background: rgba(0, 0, 0, 0.8); }\n  .button--big {\n    min-width: 10rem;\n    margin: 3rem auto 0;\n    padding: 1rem 6rem; }\n  .blog .button {\n    width: 100%; }\n\n/* ------------------------------------------ */\n/* INTRO BLOCK\n/* ------------------------------------------ */\n.intro {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .intro__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .intro__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .intro__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .intro__wrapper {\n        width: 1550px; } }\n  .intro__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .intro__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .intro__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .intro__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .intro__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .intro__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .intro__heading::after {\n          display: none; } }\n  .intro .intro__content h3 {\n    margin: 0 0 0 0.4rem;\n    padding: 0;\n    text-transform: uppercase;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .intro .intro__content h4 {\n    margin: 0 0 0 0.4rem;\n    padding: 0; }\n  .intro .intro__content span {\n    color: #ed4040; }\n  .intro .intro__content h2 {\n    margin: 0;\n    padding: 0;\n    white-space: normal;\n    text-transform: uppercase;\n    color: #000000;\n    font-size: 6.5rem;\n    font-weight: 700;\n    line-height: 1; }\n  @media (min-width: 768px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.3rem;\n      font-size: 2.3rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 6.5rem; } }\n  @media (min-width: 1170px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.4rem;\n      font-size: 3.17rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 9rem; } }\n\n@keyframes slide {\n  from {\n    background-position: 0 0; }\n  to {\n    background-position: -100rem 0; } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.certificates {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .certificates__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .certificates__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .certificates__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .certificates__wrapper {\n        width: 1550px; } }\n  .certificates__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .certificates__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .certificates__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .certificates__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .certificates__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .certificates__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .certificates__heading::after {\n          display: none; } }\n  .certificates .certificates__items {\n    column-count: 4;\n    column-gap: 2rem; }\n    .certificates .certificates__items > div {\n      display: inline-block;\n      width: 100%;\n      margin-bottom: 2rem;\n      vertical-align: top;\n      font-size: 0;\n      line-height: 0; }\n      .certificates .certificates__items > div:last-child {\n        margin-bottom: 0; }\n  .certificates .certificates__content h2 {\n    margin: 0 0 2rem;\n    text-align: center;\n    color: #000000;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .certificates .__react_modal_image__header {\n    position: fixed;\n    top: 0; }\n  .certificates .__react_modal_image__modal_container {\n    position: fixed;\n    top: 0;\n    width: 100vw;\n    height: 100vh; }\n  .certificates .__react_modal_image__medium_img {\n    width: 100%;\n    max-width: 90vw;\n    height: auto;\n    max-height: 90vh; }\n  @media (min-width: 768px) {\n    .certificates .certificates__items {\n      column-count: 5; }\n    .certificates .__react_modal_image__medium_img {\n      width: auto;\n      max-width: 90vw;\n      height: auto;\n      max-height: 90vh; } }\n  @media (min-width: 1170px) {\n    .certificates .certificates__items {\n      column-count: 8; }\n    .certificates .certificates__content h2 {\n      margin: 4rem 0 3rem;\n      font-size: 3.5rem; } }\n\n/* ------------------------------------------ */\n/* RESUME BLOCK\n/* ------------------------------------------ */\n.resume {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .resume__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .resume__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .resume__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .resume__wrapper {\n        width: 1550px; } }\n  .resume__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .resume__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .resume__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .resume__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .resume__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .resume__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .resume__heading::after {\n          display: none; } }\n  .resume .resume__action {\n    width: 100%;\n    margin-bottom: 3.5rem;\n    text-align: center; }\n    .resume .resume__action a {\n      margin: 0; }\n  .resume .resume__content h2 {\n    margin: 0 0 2rem;\n    text-align: center;\n    color: #000000;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .resume .resume__items {\n    position: relative;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n  .resume .resume__item {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin-bottom: 4rem; }\n    .resume .resume__item svg,\n    .resume .resume__item img {\n      width: auto;\n      height: 3rem; }\n    .resume .resume__item h3 {\n      position: relative;\n      display: inline-block;\n      margin: 2rem 0 0.5rem;\n      padding: 0.3rem 2rem;\n      letter-spacing: 0;\n      color: white;\n      background: #ed4040;\n      line-height: 1; }\n      .resume .resume__item h3::before, .resume .resume__item h3::after {\n        position: absolute;\n        top: 40%;\n        left: -1.5rem;\n        display: block;\n        content: \"\";\n        border: 1rem solid #ed4040;\n        border-color: #ed4040 #ed4040 #ed4040 transparent;\n        border-right-width: 20px; }\n      .resume .resume__item h3::after {\n        right: -1.5rem;\n        left: auto;\n        border-color: #ed4040 transparent #ed4040 #ed4040; }\n    .resume .resume__item h4 {\n      margin: 2rem 0 0; }\n    .resume .resume__item li {\n      position: relative;\n      padding-left: 1rem; }\n      .resume .resume__item li::before {\n        position: absolute;\n        top: 0.85rem;\n        left: 0;\n        display: block;\n        width: 0.3rem;\n        height: 0.3rem;\n        content: '';\n        border-radius: 50%;\n        background-color: #000000; }\n  .resume .resume__link {\n    font-size: 0;\n    line-height: 0; }\n  .resume .resume__position {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start; }\n  .resume .resume__description {\n    display: flex;\n    flex-direction: column;\n    margin: 0.5rem 0 0;\n    text-align: left; }\n    .resume .resume__description strong {\n      display: block;\n      margin: 1rem 0 0.5rem; }\n  @media (min-width: 1170px) {\n    .resume .resume__content {\n      margin: 0 -1rem; }\n      .resume .resume__content h2 {\n        margin: 4rem 0 3rem;\n        font-size: 3.5rem; }\n    .resume .resume__item {\n      width: 50%;\n      padding: 0 1rem; }\n      .resume .resume__item--compact {\n        width: calc(100% / 3); } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.skills {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .skills__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .skills__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .skills__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .skills__wrapper {\n        width: 1550px; } }\n  .skills__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .skills__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .skills__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .skills__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .skills__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .skills__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .skills__heading::after {\n          display: none; } }\n  .skills .skills__heading {\n    width: 100%; }\n  .skills .skills__wrapper {\n    display: flex;\n    flex-direction: row;\n    margin: 0 auto;\n    flex-wrap: wrap;\n    align-content: flex-start;\n    align-items: flex-start;\n    justify-content: flex-start; }\n  .skills .skills__content {\n    width: 100%;\n    text-align: center; }\n    .skills .skills__content svg {\n      stroke: rgba(235, 224, 202, 0.15); }\n  .skills .skills__items {\n    display: flex;\n    margin: 0 -0.5rem 4rem;\n    flex-flow: column wrap; }\n  .skills .skills__item {\n    width: 100%;\n    padding: 0.5rem; }\n    .skills .skills__item b {\n      display: block; }\n  @media (min-width: 768px) {\n    .skills .skills__content {\n      width: calc(100% / 2);\n      padding: 0.5rem 3em 0.5rem 0; } }\n  @media (min-width: 1170px) {\n    .skills .skills__content {\n      width: calc(100% / 3);\n      text-align: left; } }\n\n/* ------------------------------------------ */\n/* CONTACT BLOCK\n/* ------------------------------------------ */\n.contact {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .contact__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .contact__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .contact__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .contact__wrapper {\n        width: 1550px; } }\n  .contact__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .contact__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .contact__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .contact__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .contact__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .contact__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .contact__heading::after {\n          display: none; } }\n  .contact .contact__content {\n    display: flex;\n    flex-direction: column; }\n    .contact .contact__content h2 {\n      margin: 0 0 2rem;\n      text-align: center;\n      color: #000000;\n      font-size: 2rem;\n      font-weight: 400;\n      line-height: 1; }\n  .contact .contact__socials {\n    display: flex;\n    flex-direction: row;\n    margin: 0 auto;\n    align-content: center;\n    align-items: center;\n    justify-content: flex-start;\n    flex-wrap: wrap; }\n  .contact .contact__social {\n    position: relative;\n    display: flex;\n    width: 7rem;\n    height: 7rem;\n    margin: 1rem;\n    background: #000000;\n    font-size: 0;\n    line-height: 0;\n    align-items: center;\n    align-content: space-around;\n    justify-content: center; }\n    .contact .contact__social:hover {\n      background: rgba(0, 0, 0, 0.8); }\n  .contact .contact__social-item {\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center; }\n  .contact svg {\n    width: 2.5rem;\n    height: 2.5rem;\n    fill: white; }\n  @media (min-width: 1170px) {\n    .contact .contact__content h2 {\n      margin: 0 0 3rem;\n      font-size: 3.5rem; } }\n\n/* ------------------------------------------ */\n/* FOOTER BLOCK\n/* ------------------------------------------ */\n.footer {\n  position: relative;\n  padding: 1rem 1rem 3rem;\n  text-align: center;\n  font-size: 1.2rem; }\n  .footer cite {\n    display: block;\n    font-style: normal; }\n  .footer span {\n    position: relative;\n    display: block; }\n  @media (min-width: 768px) {\n    .footer {\n      position: fixed;\n      right: 0;\n      bottom: 0;\n      padding: 1rem;\n      text-align: right; }\n      .footer span::before {\n        position: absolute;\n        top: 50%;\n        display: block;\n        width: 2.5rem;\n        height: 0.05rem;\n        content: \"\";\n        transform: translateY(-50%);\n        background: #ed4040; } }\n\n[data-aos][data-aos][data-aos-duration=\"2000\"],\nbody[data-aos-duration=\"2000\"] [data-aos] {\n  transition-duration: 2s; }\n\n[data-aos=zoom-in] {\n  transform: scale(0.6); }\n\n[data-aos^=zoom][data-aos^=zoom].aos-animate {\n  transform: none; }\n", ""]);
 
 // exports
 
@@ -26091,12 +26091,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _intro_intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../intro/intro */ "./src/components/intro/intro.jsx");
 /* harmony import */ var _resume_resume__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../resume/resume */ "./src/components/resume/resume.jsx");
-/* harmony import */ var _portfolio_portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../portfolio/portfolio */ "./src/components/portfolio/portfolio.jsx");
-/* harmony import */ var _skills_skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../skills/skills */ "./src/components/skills/skills.jsx");
-/* harmony import */ var _certificates_certificates__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../certificates/certificates */ "./src/components/certificates/certificates.jsx");
-/* harmony import */ var _blog_blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../blog/blog */ "./src/components/blog/blog.jsx");
-/* harmony import */ var _contact_contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../contact/contact */ "./src/components/contact/contact.jsx");
-/* harmony import */ var _footer_footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../footer/footer */ "./src/components/footer/footer.jsx");
+/* harmony import */ var _skills_skills__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../skills/skills */ "./src/components/skills/skills.jsx");
+/* harmony import */ var _certificates_certificates__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../certificates/certificates */ "./src/components/certificates/certificates.jsx");
+/* harmony import */ var _contact_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../contact/contact */ "./src/components/contact/contact.jsx");
+/* harmony import */ var _footer_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../footer/footer */ "./src/components/footer/footer.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26114,8 +26112,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
 
 
 
@@ -26147,7 +26143,7 @@ function (_React$PureComponent) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_intro_intro__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_resume_resume__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_portfolio_portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills_skills__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_certificates_certificates__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blog_blog__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_contact_contact__WEBPACK_IMPORTED_MODULE_8__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_footer__WEBPACK_IMPORTED_MODULE_9__["default"], null));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_intro_intro__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills_skills__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_resume_resume__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_certificates_certificates__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_contact_contact__WEBPACK_IMPORTED_MODULE_6__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
@@ -26155,377 +26151,6 @@ function (_React$PureComponent) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
-
-/***/ }),
-
-/***/ "./src/components/blog/blog.jsx":
-/*!**************************************!*\
-  !*** ./src/components/blog/blog.jsx ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-var Blog =
-/*#__PURE__*/
-function (_React$PureComponent) {
-  _inherits(Blog, _React$PureComponent);
-
-  function Blog() {
-    _classCallCheck(this, Blog);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Blog).apply(this, arguments));
-  }
-
-  _createClass(Blog, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "blog",
-        "data-aos": "zoom-in"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__wrapper"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 05"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Blog")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/349484/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://habrastorage.org/webt/7t/zf/h9/7tzfh9w4ytsmfpda1knfeewk10i.jpeg",
-        alt: "\u041C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "285 feb 18"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B \u0432 \u0430\u0434\u0430\u043F\u0442\u0438\u0432\u043D\u043E\u043C \u0434\u0438\u0437\u0430\u0439\u043D\u0435 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0412 \u0438\u044E\u043B\u0435 2010 \u0433\u043E\u0434\u0430 \u044F \u043D\u0430\u043F\u0438\u0441\u0430\u043B\u0430 \u0441\u0442\u0430\u0442\u044C\u044E \xAB\u041A\u0430\u043A \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C CSS3 \u043C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u044B \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0438 \u0432\u0430\u0448\u0435\u0433\u043E \u0441\u0430\u0439\u0442\u0430\xBB. \u042F \u0440\u0435\u0448\u0438\u043B\u0430 \u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u044D\u0442\u043E\u0439 \u0442\u0435\u043C\u0435, \u043F\u043E\u0441\u043A\u043E\u043B\u044C\u043A\u0443 \u0442\u0435\u043F\u0435\u0440\u044C \u0443 \u043D\u0430\u0441 \u0435\u0441\u0442\u044C \u0442\u0430\u043A\u0438\u0435 \u043C\u0435\u0442\u043E\u0434\u044B \u043A\u043E\u043C\u043F\u043E\u043D\u043E\u0432\u043A\u0438, \u043A\u0430\u043A Flexbox \u0438 CSS Grid. \u0412 \u044D\u0442\u043E\u0439 \u0441\u0442\u0430\u0442\u044C\u0435 \u043C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0438\u043C \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435 \u043C\u0435\u0442\u043E\u0434\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043C\u0435\u0434\u0438\u0430-\u0437\u0430\u043F\u0440\u043E\u0441\u043E\u0432."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/349484/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.theseus.fi/handle/10024/94414",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://i.ytimg.com/vi/e8Syghjr8YM/maxresdefault.jpg",
-        alt: "theseus"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "28 may 15"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Responsive Web Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In this thesis I described everything regarding to the responsive web design. I summed up and compared all the possible website layout approaches. The disadvantages of fixed, fluid, adaptive and hybrid layouts are so significant that it is undoubtedly clear that the responsive approach is the best one."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.theseus.fi/handle/10024/94414",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "theseus.fi"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/company/madrobots/blog/240182/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "14 oct 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21166"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/company/madrobots/blog/240182/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/231689/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "28 aug 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21165"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0438\u044E\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/231689/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/226385/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "17 jul 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21164"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0438\u044E\u043D\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/226385/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/220803/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "7 may 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21163"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0430\u043F\u0440\u0435\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/220803/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "ontinue reading at habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/217431/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "30 may 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21162"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u043C\u0430\u0440\u0442 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/company/madrobots/blog/217431/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/258434/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/560/6e6/625/5606e662599455b418b01003b9958298.jpg",
-        alt: "LEGO"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "11 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0438\u0437 LEGO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041C\u0435\u043D\u044F \u0432\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u0440\u0430\u0436\u0430\u043B\u043E, \u0447\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0435 \u0441\u0442\u0440\u043E\u044F\u0442 \u043B\u044E\u0434\u0438 \u0438\u0437 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440\u0430 LEGO: \u043E\u0442 \u0433\u0440\u043E\u043C\u0430\u0434\u043D\u044B\u0445 \u0444\u0438\u0433\u0443\u0440 \u0440\u043E\u0431\u043E\u0442\u043E\u0432 \u0438 \u0437\u0432\u0435\u0437\u0434\u043E\u043B\u0435\u0442\u043E\u0432 \u0434\u043E 3D \u043F\u0440\u0438\u043D\u0442\u0435\u0440\u043E\u0432 \u0438 \u043F\u043E\u043B\u043D\u043E\u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0445 \u0440\u0430\u0431\u043E\u0442\u0430\u044E\u0449\u0438\u0445 \u043A\u0430\u0440\u0442\u043E\u0432. LEGO \u0432\u044B\u0434\u0435\u0440\u0436\u0430\u043B\u043E \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0435 \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C. \u0414\u0430\u0436\u0435 \u0441\u043F\u0443\u0441\u0442\u044F 65 \u043B\u0435\u0442 \u043F\u043E\u0441\u043B\u0435 \u0435\u0433\u043E \u0438\u0437\u043E\u0431\u0440\u0435\u0442\u0435\u043D\u0438\u044F \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u0438\u0437 LEGO \u0432\u0441\u0435 \u0435\u0449\u0435 \u043E\u0447\u0430\u0440\u043E\u0432\u044B\u0432\u0430\u044E\u0442 \u043D\u0430\u0441. \u0421\u0435\u0433\u043E\u0434\u043D\u044F \u044F \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E \u0432\u0430\u043C \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u043E\u0435 \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0434\u0435\u043D\u0438\u0435 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430 \u2014 \u043A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0438\u0437 LEGO."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/258434/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214821/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/e35/b88/38e/e35b8838e4ec19acc3d87a3e0c446030.jpg",
-        alt: "DVD"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "9 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "DVD \u0441 \u0437\u0430\u043F\u0430\u0445\u043E\u043C \u043F\u0438\u0446\u0446\u044B!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0420\u0430\u0437\u0432\u0435 \u0432\u044B \u043D\u0435 \u043B\u044E\u0431\u0438\u0442\u0435 \u043F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441 \u0434\u0440\u0443\u0437\u044C\u044F\u043C\u0438 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0439 \u0444\u0438\u043B\u044C\u043C\u0435\u0446 \u0441 \u043A\u0443\u0441\u043A\u043E\u043C \u043F\u0438\u0446\u0446\u044B \u0432 \u0440\u0443\u043A\u0435? \u041F\u0438\u0446\u0446\u0435\u0440\u0438\u044F Domino\u2019s Pizza \u0432 \u0411\u0440\u0430\u0437\u0438\u043B\u0438\u0438 \u0440\u0435\u0448\u0438\u043B\u0438 \u0441\u043C\u0435\u0448\u0430\u0442\u044C \u044D\u0442\u0438 \u0434\u0432\u0430 \u0443\u0434\u043E\u0432\u043E\u043B\u044C\u0441\u0442\u0432\u0438\u044F \u0432 \u043E\u0434\u043D\u043E\u0439 \u043A\u043E\u0440\u043E\u0431\u043A\u0435 \u0438 \u0432\u044B\u043F\u0443\u0441\u0442\u0438\u043B\u0438 \u0442\u0435\u0440\u043C\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 DVD \u0434\u0438\u0441\u043A, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u0438 \u043F\u0430\u0445\u043D\u0435\u0442 \u043A\u0430\u043A \u043F\u0438\u0446\u0446\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214821/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/215073/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/379/c3d/50d/379c3d50d179ff27d905c03273429782.jpg",
-        alt: "Geraghty"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "8 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0424\u0435\u0434\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0443\u0434 \u0421\u0428\u0410 \u0440\u0430\u0437\u0440\u0435\u0448\u0438\u043B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u0440\u043E\u043D\u043E\u0432 \u0432 \u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u0446\u0435\u043B\u044Fx"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0423\u0436\u0435 \u0441\u043E\u0432\u0441\u0435\u043C \u0441\u043A\u043E\u0440\u043E \u043C\u043E\u0436\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u0443\u0441\u043B\u044B\u0448\u0430\u0442\u044C \u0436\u0443\u0436\u0436\u0430\u043D\u0438\u0435 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0445 \u043B\u043E\u043F\u0430\u0441\u0442\u0435\u0439 \u043A\u043E\u043F\u0442\u0435\u0440\u043E\u0432, \u043F\u0440\u0435\u0434\u0432\u0435\u0449\u0430\u044E\u0449\u0438\u0445 \u0434\u043E\u0441\u0442\u0430\u0432\u043A\u0443 \u0432\u0441\u0435\u0433\u043E: \u043E\u0442 \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0438\u043A\u0438, \u0434\u043E \u043F\u0438\u0446\u0446\u044B \u0438 \u043F\u0438\u0432\u0430 \u043F\u043E \u0432\u0441\u0435\u0439 \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0445 \u0428\u0442\u0430\u0442\u043E\u0432 \u0410\u043C\u0435\u0440\u0438\u043A\u0438. \u042D\u0442\u043E \u0441\u0442\u0430\u043D\u0435\u0442 \u0440\u0435\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043D\u043E\u0432\u043E\u043C\u0443 \u043F\u043E\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044E \u0444\u0435\u0434\u0435\u0440\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0443\u0434\u044C\u0438 \u041F\u0430\u0442\u0440\u0438\u043A\u0430 \u0414\u0436\u0435\u0440\u0430\u0442\u0438 (Patrick Geraghty)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/215073/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214811/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/629/171/bb3/629171bb332065ddfb570a2e7fcc73f4.jpg",
-        alt: "Microsoft"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "7 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "SurroundWeb \u2014 3D-\u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u043E\u0442 Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Microsoft Research \u0443\u0441\u0435\u0440\u0434\u043D\u043E \u0442\u0440\u0443\u0434\u044F\u0442\u0441\u044F \u043D\u0430\u0434 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \xABSurroundWeb\xBB, \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u043E\u0439 \u0434\u043B\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u043E\u0433\u043E \u0432\u0435\u0431 \u0441\u0442\u0440\u0430\u043D\u0438\u0446 \u043F\u043E \u0432\u0441\u0435\u043C\u0443 \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0443 \u043A\u043E\u043C\u043D\u0430\u0442\u044B. SurroundWeb \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0438\u0437 \u0441\u0435\u0431\u044F, \u0441\u0432\u043E\u0435\u0433\u043E \u0440\u043E\u0434\u0430, \xAB3D \u0431\u0440\u0430\u0443\u0437\u0435\u0440\xBB, \u0441\u043E\u0437\u0434\u0430\u044E\u0449\u0435\u0439 \u044D\u0444\u0444\u0435\u043A\u0442 \u043F\u043E\u043B\u043D\u043E\u0433\u043E \u043F\u043E\u0433\u0440\u0443\u0436\u0435\u043D\u0438\u044F \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F \u0432 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214811/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214817/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/9ea/750/f0c/9ea750f0ccc29cbd6c6aad27f378821e.jpg",
-        alt: "Android"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "6 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Evernote \u0434\u043B\u044F Android \u0442\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0440\u0443\u043A\u043E\u043F\u0438\u0441\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041E\u0442\u043B\u0438\u0447\u043D\u0430\u044F \u043D\u043E\u0432\u043E\u0441\u0442\u044C \u0434\u043B\u044F \u043B\u044E\u0431\u0438\u0442\u0435\u043B\u0435\u0439 Evernote \u043D\u0430 Android. \u0422\u0435\u043F\u0435\u0440\u044C, \u043A\u043E\u0433\u0434\u0430 \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0431\u044B\u0441\u0442\u0440\u043E \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0443, \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043D\u0430\u0431\u0440\u043E\u0441\u043E\u043A \u043E\u0442 \u0440\u0443\u043A\u0438 \u043F\u0440\u044F\u043C\u043E \u0432 Evernote. \u0415\u0441\u043B\u0438 \u0432\u044B \u0442\u0430\u0441\u043A\u0430\u0435\u0442\u0435 \u0441 \u0441\u043E\u0431\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u043D\u0443\u044E \u043A\u043D\u0438\u0436\u043A\u0443, \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u043D\u0435 \u043B\u044E\u0431\u0438\u0442\u0435 \u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0430 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0435, \u043D\u0430\u0447\u0438\u043D\u0430\u044F \u0441 \u0441\u0435\u0433\u043E\u0434\u043D\u044F\u0448\u043D\u0435\u0433\u043E \u0434\u043D\u044F, \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F Evernote \u0441\u0442\u0430\u043D\u0435\u0442 \u0434\u043B\u044F \u0432\u0430\u0441 \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u0435\u043C."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214817/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214555/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/c78/9d9/d70/c789d9d708354b93a2eea61c2f21c536.jpg",
-        alt: "\u043F\u0440\u043E\u0442\u0435\u0437"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "6 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041D\u0435\u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u043F\u0440\u043E\u0442\u0435\u0437 \u0434\u043B\u044F \u0431\u0430\u0440\u0430\u0431\u0430\u043D\u0449\u0438\u043A\u0430"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0414\u043B\u044F \u043C\u043D\u043E\u0433\u0438\u0445 \u0431\u0430\u0440\u0430\u0431\u0430\u043D\u0449\u0438\u043A\u043E\u0432 \u043F\u043E\u0442\u0435\u0440\u044F \u0440\u0443\u043A\u0438 \u043E\u0437\u043D\u0430\u0447\u0430\u0435\u0442 \u043E\u0434\u043D\u043E \u2014 \u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u0435 \u043A\u0430\u0440\u044C\u0435\u0440\u044B. \u041D\u043E \u043D\u0435 \u0434\u043B\u044F \u0414\u0436\u0435\u0439\u0441\u043E\u043D\u0430 \u0411\u0430\u0440\u043D\u0441\u0430 (Jason Barnes). \u0413\u0438\u043B \u0412\u0435\u0439\u043D\u0431\u0435\u0440\u0433 (Gil Weinberg), \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0438\u043D\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u0414\u0436\u043E\u0440\u0434\u0436\u0438\u0438, \u0441\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043B \u043F\u0440\u043E\u0442\u0435\u0437 \u043A\u0438\u0441\u0442\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B \u0431\u0430\u0437\u043E\u0432\u044B\u0435 \u0444\u0443\u043D\u043A\u0446\u0438\u0438 \u0440\u0443\u043A\u0438 \u0414\u0436\u0435\u0439\u0441\u043E\u043D\u0430, \u0442\u0435\u043C \u0441\u0430\u043C\u044B\u043C \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0432 \u0435\u043C\u0443 \u0438\u0433\u0440\u0430\u0442\u044C \u043A\u0430\u043A \u043F\u0440\u0435\u0436\u0434\u0435, \u043D\u043E \u0438 \u0443\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u043E\u0432\u0430\u043B \u0435\u0435."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/214555/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/212843/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/12e/e06/53d/12ee0653d7347e963f09adfbcb52b9f2.jpg",
-        alt: "Kickstarter"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "5 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u0415\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u044B\u0445 IT-\u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u043D\u0430 Kickstarter \u21161"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0418\u0437\u043E\u0431\u0440\u0435\u0442\u0430\u0442\u0435\u043B\u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442 \u043F\u043E\u043F\u043E\u043B\u043D\u044F\u0442\u044C Kickstarter \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0439\u0448\u0438\u043C\u0438 IT \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C\u0438. \u041F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E \u0432\u0442\u043E\u0440\u043E\u0439 \u0435\u0436\u0435\u043C\u0435\u0441\u044F\u0447\u043D\u044B\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442 \u0437\u0430 \u0444\u0435\u0432\u0440\u0430\u043B\u044C 2014 \u0433\u043E\u0434\u0430."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://geektimes.ru/post/212843/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "geektimes.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/214327/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hsto.org/getpro/habr/post_images/9e4/4b2/852/9e44b28527e622fde10b4743e771ae73.png",
-        alt: "\u041A\u0435\u0439\u043B\u043E\u0433\u0435\u0440"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "3 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u0435\u0439\u043B\u043E\u0433\u0435\u0440 iOS 7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041F\u0440\u043E\u0431\u043B\u0435\u043C\u0430 \u043A\u0435\u0439\u043B\u043E\u0433\u0435\u0440\u043E\u0432 \u0434\u043B\u044F \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0432\u0441\u0435 \u0437\u0430\u043C\u0435\u0442\u043D\u0435\u0435 \u0432 \u043C\u0438\u0440\u0435 \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u044B\u0445 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432. \u0423\u0436\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E \u0434\u0430\u0432\u043D\u043E \u0441\u0442\u0430\u043B\u043E \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E, \u0447\u0442\u043E \u0434\u0436\u0435\u0439\u043B\u0431\u0440\u0435\u0439\u043A\u043D\u0443\u0442\u044B\u0435 IOS 7 \u0434\u0435\u0432\u0430\u0439\u0441\u044B \u043C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C \u0443\u044F\u0437\u0432\u0438\u043C\u044B \u0434\u043B\u044F \u043A\u0435\u0439\u043B\u043E\u0433\u0435\u0440\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0437\u0430\u043F\u0438\u0441\u044B\u0432\u0430\u044E\u0442 \u0438 \u043F\u0435\u0440\u0435\u0434\u0430\u044E\u0442 \u0432\u0441\u0435 \u0432\u0430\u0448\u0438 \u0436\u0435\u0441\u0442\u044B \u0438 \u043D\u0430\u0436\u0430\u0442\u0438\u044F \u0437\u043B\u043E\u0443\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u0438\u043A\u0430\u043C. \u0422\u0435\u043F\u0435\u0440\u044C \u044D\u0442\u043E \u043A\u0430\u0441\u0430\u0435\u0442\u0441\u044F \u0438 \u043D\u0435 \u0432\u0437\u043B\u043E\u043C\u0430\u043D\u043D\u044B\u0445 IOS \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/214327/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "blog__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/213187/",
-        className: "blog__link",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://searchengineland.com/figz/wp-content/seloads/2014/07/yahoo-logo-fade-ss-1920-800x450.jpg",
-        alt: "Yahoo"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "blog__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "blog__item-date"
-      }, "2 mar 14"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "\u041A\u0430\u043A \u0443\u0434\u0430\u043B\u0438\u0442\u044C 1500000 \u0437\u0430\u043F\u0438\u0441\u0435\u0439 \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 Yahoo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u041D\u0430 \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u043E\u043C \u043F\u043E \u043F\u043E\u0441\u0435\u0449\u0430\u0435\u043C\u043E\u0441\u0442\u0438 \u0441\u0430\u0439\u0442\u0435 \u2014 Yahoo.com, \u0431\u044B\u043B\u0430 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0430 \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u0430\u044F \u0443\u044F\u0437\u0432\u0438\u043C\u043E\u0441\u0442\u044C, \u043D\u0430 \u044D\u0442\u043E\u0442 \u0440\u0430\u0437 \u043D\u0430 \u043F\u043E\u0434\u0434\u043E\u043C\u0435\u043D\u0435 suggestions.yahoo.com. \u042D\u0442\u0430 \u0443\u044F\u0437\u0432\u0438\u043C\u043E\u0441\u0442\u044C \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0437\u043B\u043E\u0443\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u0438\u043A\u0443 \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u0441\u044E \u043B\u0435\u043D\u0442\u0443 \u0434\u043E\u0441\u043A\u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0439 (Yahoo Suggestion Board), \u0430 \u0442\u0430\u043A \u0436\u0435 \u0432\u0441\u0435 \u043A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0438 \u043A \u043D\u0435\u0439."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://habrahabr.ru/post/213187/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Continue reading at", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "habrahabr.ru")))))));
-    }
-  }]);
-
-  return Blog;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
-
-/* harmony default export */ __webpack_exports__["default"] = (Blog);
 
 /***/ }),
 
@@ -26583,9 +26208,9 @@ function (_React$PureComponent) {
         className: "certificates__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 04"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Certificates")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 03"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Certificates")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Latest Certifications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
         className: "certificates__item",
@@ -26832,14 +26457,14 @@ function (_React$PureComponent) {
         className: "contact__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 06"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Contact Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 04"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Contact Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "LET'S", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "SOCIALIZE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "LET'S SOCIALIZE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "contact__socials"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://vk.com/rogatnev_nikita",
+        href: "https://www.linkedin.com/in/rogatnevnikita/",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -26848,20 +26473,7 @@ function (_React$PureComponent) {
         viewBox: "0 0 24 24",
         xmlns: "http://www.w3.org/2000/svg"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M11.701 18.771h1.437s.433-.047.654-.284c.21-.221.21-.63.21-.63s-.031-1.927.869-2.21c.887-.281 2.012 1.86 3.211 2.683.916.629 1.605.494 1.605.494l3.211-.044s1.682-.105.887-1.426c-.061-.105-.451-.975-2.371-2.76-2.012-1.861-1.742-1.561.676-4.787 1.469-1.965 2.07-3.166 1.875-3.676-.166-.48-1.26-.361-1.26-.361l-3.602.031s-.27-.031-.465.09c-.195.119-.314.391-.314.391s-.572 1.529-1.336 2.82c-1.623 2.729-2.268 2.879-2.523 2.699-.604-.391-.449-1.58-.449-2.432 0-2.641.404-3.75-.781-4.035-.39-.091-.681-.15-1.685-.166-1.29-.014-2.378.01-2.995.311-.405.203-.72.652-.539.675.24.03.779.146 1.064.537.375.506.359 1.636.359 1.636s.211 3.116-.494 3.503c-.495.262-1.155-.28-2.595-2.756-.735-1.26-1.291-2.67-1.291-2.67s-.105-.256-.299-.406c-.227-.165-.557-.225-.557-.225l-3.435.03s-.51.016-.689.24c-.166.195-.016.615-.016.615s2.686 6.287 5.732 9.453c2.79 2.902 5.956 2.715 5.956 2.715l-.05-.055z"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "contact__social"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "skype:rogatnev_nikita?chat",
-        className: "contact__social-item",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M12.069 18.874c-4.023 0-5.82-1.979-5.82-3.464 0-.765.561-1.296 1.333-1.296 1.723 0 1.273 2.477 4.487 2.477 1.641 0 2.55-.895 2.55-1.811 0-.551-.269-1.16-1.354-1.429l-3.576-.895c-2.88-.724-3.403-2.286-3.403-3.751 0-3.047 2.861-4.191 5.549-4.191 2.471 0 5.393 1.373 5.393 3.199 0 .784-.688 1.24-1.453 1.24-1.469 0-1.198-2.037-4.164-2.037-1.469 0-2.292.664-2.292 1.617s1.153 1.258 2.157 1.487l2.637.587c2.891.649 3.624 2.346 3.624 3.944 0 2.476-1.902 4.324-5.722 4.324m11.084-4.882l-.029.135-.044-.24c.015.045.044.074.059.12.12-.675.181-1.363.181-2.052 0-1.529-.301-3.012-.898-4.42-.569-1.348-1.395-2.562-2.427-3.596-1.049-1.033-2.247-1.856-3.595-2.426-1.318-.631-2.801-.93-4.328-.93-.72 0-1.444.07-2.143.204l.119.06-.239-.033.119-.025C8.91.274 7.829 0 6.731 0c-1.789 0-3.47.698-4.736 1.967C.729 3.235.032 4.923.032 6.716c0 1.143.292 2.265.844 3.258l.02-.124.041.239-.06-.115c-.114.645-.172 1.299-.172 1.955 0 1.53.3 3.017.884 4.416.568 1.362 1.378 2.576 2.427 3.609 1.034 1.05 2.247 1.857 3.595 2.442 1.394.6 2.877.898 4.404.898.659 0 1.334-.06 1.977-.179l-.119-.062.24.046-.135.03c1.002.569 2.126.871 3.294.871 1.783 0 3.459-.69 4.733-1.963 1.259-1.259 1.962-2.951 1.962-4.749 0-1.138-.299-2.262-.853-3.266"
+        d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -26878,6 +26490,19 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://vk.com/rogatnev_nikita",
+        className: "contact__social-item",
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        role: "img",
+        viewBox: "0 0 24 24",
+        xmlns: "http://www.w3.org/2000/svg"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        d: "M11.701 18.771h1.437s.433-.047.654-.284c.21-.221.21-.63.21-.63s-.031-1.927.869-2.21c.887-.281 2.012 1.86 3.211 2.683.916.629 1.605.494 1.605.494l3.211-.044s1.682-.105.887-1.426c-.061-.105-.451-.975-2.371-2.76-2.012-1.861-1.742-1.561.676-4.787 1.469-1.965 2.07-3.166 1.875-3.676-.166-.48-1.26-.361-1.26-.361l-3.602.031s-.27-.031-.465.09c-.195.119-.314.391-.314.391s-.572 1.529-1.336 2.82c-1.623 2.729-2.268 2.879-2.523 2.699-.604-.391-.449-1.58-.449-2.432 0-2.641.404-3.75-.781-4.035-.39-.091-.681-.15-1.685-.166-1.29-.014-2.378.01-2.995.311-.405.203-.72.652-.539.675.24.03.779.146 1.064.537.375.506.359 1.636.359 1.636s.211 3.116-.494 3.503c-.495.262-1.155-.28-2.595-2.756-.735-1.26-1.291-2.67-1.291-2.67s-.105-.256-.299-.406c-.227-.165-.557-.225-.557-.225l-3.435.03s-.51.016-.689.24c-.166.195-.016.615-.016.615s2.686 6.287 5.732 9.453c2.79 2.902 5.956 2.715 5.956 2.715l-.05-.055z"
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "contact__social"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/rogatnev-nikita",
         className: "contact__social-item",
         target: "_blank",
@@ -26888,19 +26513,6 @@ function (_React$PureComponent) {
         xmlns: "http://www.w3.org/2000/svg"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
         d: "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "contact__social"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.linkedin.com/in/rogatnevnikita/",
-        className: "contact__social-item",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -26927,19 +26539,6 @@ function (_React$PureComponent) {
         xmlns: "http://www.w3.org/2000/svg"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
         d: "M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "contact__social"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://steamcommunity.com/id/nikita_rogatnev/",
-        className: "contact__social-item",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27017,7 +26616,7 @@ function (_React$PureComponent) {
         className: "footer__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2020"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2021"))));
     }
   }]);
 
@@ -27079,7 +26678,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Manager,"), " Business and Technical Operations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita Rogatnev"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Operations"), " Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / ITSM / ITIL 4 / Servant Leadership"))));
     }
   }]);
 
@@ -27087,484 +26686,6 @@ function (_React$PureComponent) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
-
-/***/ }),
-
-/***/ "./src/components/portfolio/portfolio.jsx":
-/*!************************************************!*\
-  !*** ./src/components/portfolio/portfolio.jsx ***!
-  \************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-var Portfolio =
-/*#__PURE__*/
-function (_React$PureComponent) {
-  _inherits(Portfolio, _React$PureComponent);
-
-  function Portfolio() {
-    _classCallCheck(this, Portfolio);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Portfolio).apply(this, arguments));
-  }
-
-  _createClass(Portfolio, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-        className: "portfolio",
-        "data-aos": "zoom-in"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__wrapper"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 02"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Latest Works")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://rivedeparis.com/",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/rivedeparis.jpg",
-        alt: "rivedeparis",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Rive de paris"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Rive de paris combines technological performance and the promotion of timeless elegance to guide you towards enlightened consumption, combining well-being and pleasure."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "WooCommerce")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://rivedeparis.com/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://saimaabrewingco.fi",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/saimaabrewingco.jpg",
-        alt: "saimaabrewingco",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Saimaa Brewing CO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Saimaa Brewing Company is agile and steady developing small brewery on the shore of Saimaa, which creates the world's finest flavor experiences - honestly and boldly with solar energy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "WooCommerce"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://saimaabrewingco.fi",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.hammerseries.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/hammerseries.jpg",
-        alt: "hammerseries",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Hammer Series"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The Hammer Series is a series of cycling races in which teams compete against each other to determine the winning formation, instead of individual riders. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.hammerseries.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.velon.cc",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/velon.jpg",
-        alt: "velon",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Velon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "VelonLive shows you how hard riders work in the world's hardest pro races (Tim de Waele/Getty). cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.velon.cc",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.internationalchampionscup.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/internationalchampionscup.jpg",
-        alt: "internationalchampionscup",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "International Champions Cup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It\u2019s the International Champions Cup, the summer\u2019s biggest club competition, and its mix of megastar glamour and debutante mystery is as compelling a proposition as the game has to offer. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.internationalchampionscup.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://aspirenewyork.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/aspire.jpg",
-        alt: "aspire",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Aspire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The private events space of One World Observatory, available for corporate events, celebrations and more. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://aspirenewyork.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.legends.net",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/legends.png",
-        alt: "legends",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Legends"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Legends is a holistic agency that specializes in delivering solutions for legendary brands. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.legends.net",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://oneworldobservatory.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/oneworldobservatory.jpg",
-        alt: "oneworldobservatory",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "One World Observatory"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Climb 102 floors in 47 seconds to the top of One World Trade Center at One World Observatory! cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://oneworldobservatory.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.championshockeyleague.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/championshockeyleague.jpg",
-        alt: "championshockeyleague",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Champions Hockey League"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The Champions Hockey League is a European ice hockey tournament. Launched in the 2014\u201315 season by 26 clubs, 6 leagues and the IIHF. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.championshockeyleague.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.concacafchampionsleague.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/concacafchampionsleague.jpg",
-        alt: "concacaf",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "CONCACAF Champions League"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The CONCACAF Champions League is an annual continental club football competition for the top football clubs in North America, Central America, and the Caribbean. cc Omnigon LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.concacafchampionsleague.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://airbnbopen.com",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/airbnbopen.png",
-        alt: "airbnbopen",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Airbnb Open 2016"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Airbnb Open is a community-powered festival of travel and hospitality that celebrates a city and its neighborhoods."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://airbnbopen.com",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.vocord.ru",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/vocord.png",
-        alt: "vocord",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vocord"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Vocord is a developer and manufacturer of high-tech security systems based on computer vision and intelligent video processing algorithms."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.vocord.ru",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://positivecommunications.ru",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/positive.png",
-        alt: "positive",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Positive Communications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We do not create holidays, we organize events that affect not only company's microclimate and level of internal communications, but also the efficiency of the business as a whole!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "WordPress")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://positivecommunications.ru",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://rogatnev-nikita.github.io/moovy/html/",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/moovy.png",
-        alt: "moovy",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "MOOVY Template"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "MOOVY \u2013 emotional and laconic responsive HTML5 theme built specifically for film campaigns and movie marketing. In addition to the promotion of the film, it also may be used as a showreel of various projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "BEM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://rogatnev-nikita.github.io/moovy/html/",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-        className: "portfolio__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.olesya-tattoo.ru",
-        className: "portfolio__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/portfolio/tattoo.png",
-        alt: "tattoo",
-        width: "500",
-        height: "350"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Olesya Tattoo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi, my name is Olesya, I have been doing artistic tattoos since 2010. I love to make people a little more beautiful every day."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "portfolio__tags"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "portfolio__tag"
-      }, "JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.olesya-tattoo.ru",
-        className: "button",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, "Explore")))))));
-    }
-  }]);
-
-  return Portfolio;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
-
-/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
 
@@ -27620,9 +26741,9 @@ function (_React$PureComponent) {
         className: "resume__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 01"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 02"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Latest Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
@@ -27639,9 +26760,9 @@ function (_React$PureComponent) {
         height: "125"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2020 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Manager, Business and Technical Operations in iX.co (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Managing operations and responsible for the effective and successful management of labor, productivity, and quality control as established and set for the iX Products operations. Ensure safe and efficient operations, serve as a team representative on regulatory issues. Enhance the operational procedure, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and look for opportunities to expand systems. Carry out supervisory responsibilities in accordance with the company\u2019s and BU's policies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Nikita reports to the CPO and is responsible for all business and technical operations in iX Products division, which involves the effective execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance. As a member of the iX Products Leadership team provides oversight of daily operations and represents technical, business, and support operations offices. Enhances the operational procedure, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and looks for opportunities to expand systems. Carries out supervisory responsibilities in accordance with the company\u2019s and division's policies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "As a member of the business unit Leadership team provide oversight of daily operations, Kaizen operations enhancement"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Control and optimize business unit operational costs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate closely with CPO and CTO and produce reports"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Implement business unit strategies according to the approved Annual Budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Continuously evaluate business unit performance by analyzing and interpreting data and metrics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define comprehensive business unit goals for performance and growth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Enable employees to achieve maximum performance, culture, and vision"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Partner with HR and other departments to develop and implement staffing programs to attract the best applicants and improve employee retention"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage relationships with partners and vendors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Own the operational, technical, business and partnership documentation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "As a member of the business unit Leadership team provide oversight of daily operations, Kaizen operations enhancement"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Control and optimize business unit operational costs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate closely with CPO and CTO and produce reports"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Implement business unit strategies according to the approved Annual Budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Continuously evaluate business unit performance by analyzing and interpreting data and metrics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define comprehensive business unit goals for performance and growth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Enable employees to achieve maximum performance, culture, and vision"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Partner with HR and other departments to develop and implement staffing programs to attract the best applicants and improve employee retention"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage relationships with partners and vendors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Own the operational, technical, business and partnership documentation")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27658,7 +26779,7 @@ function (_React$PureComponent) {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Technical Product Manager in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gather requirements from stakeholders and structure into documentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage functional business requirements documentation throughout project lifecycle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analyse and map data from disparate sources and formats to guide design and development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Deliver walk-throughs and answer questions on requirements for internal development and QA team members"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with development and product management team to ensure requirements are achievable and inline with best practices and project scope"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Review test cases to ensure coverage over requirements and requirements are being accurately represented"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Validate requirements against deliverables"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define requirements gathering, review, and documentation approach for projects based on scope and client needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Present business requirement documentation and designs to clients and elicit feedback"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with client and project management in the prioritisation of product features with client according to scope, dependencies, urgency, cost, and return"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take part in product ideation and provide feedback and recommendations to the client for new opportunities, features, or products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Serve as product expert for any internal or external questions around the product"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take ownership of quality of deliverables and validate requirements with client in UAT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Defining and measuring KPIs for product success")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gather requirements from stakeholders and structure into documentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage functional business requirements documentation throughout project lifecycle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analyse and map data from disparate sources and formats to guide design and development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Deliver walk-throughs and answer questions on requirements for internal development and QA team members"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with development and product management team to ensure requirements are achievable and inline with best practices and project scope"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Review test cases to ensure coverage over requirements and requirements are being accurately represented"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Validate requirements against deliverables"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Define requirements gathering, review, and documentation approach for projects based on scope and client needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Present business requirement documentation and designs to clients and elicit feedback"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Work with client and project management in the prioritisation of product features with client according to scope, dependencies, urgency, cost, and return"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take part in product ideation and provide feedback and recommendations to the client for new opportunities, features, or products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Serve as product expert for any internal or external questions around the product"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Take ownership of quality of deliverables and validate requirements with client in UAT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Defining and measuring KPIs for product success")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27675,7 +26796,7 @@ function (_React$PureComponent) {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Technical Project Manager / Delivery Manager in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Overall responsibility for successful technical delivery of the project or area of responsibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical expertise to maintain standards and quality in further improving the system of products front-end side"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provides proactive resolutions to developing problems, and suggests modifications that may result in a permanent fix to a problem"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contributes to decisions about tools, methods and approaches"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage Project workspace in Jira, Confluence and other management tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Project reporting, team velocity, ensuring key performance indicators reaching success level values"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Sprint planning, daily standups, interaction with Development Team, Project Owner and others as needed to resolve blockers and move project towards successful finish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Develop and keep up to date products technical documentations")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Overall responsibility for successful technical delivery of the project or area of responsibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical expertise to maintain standards and quality in further improving the system of products front-end side"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provides proactive resolutions to developing problems, and suggests modifications that may result in a permanent fix to a problem"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contributes to decisions about tools, methods and approaches"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Manage Project workspace in Jira, Confluence and other management tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Project reporting, team velocity, ensuring key performance indicators reaching success level values"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Sprint planning, daily standups, interaction with Development Team, Project Owner and others as needed to resolve blockers and move project towards successful finish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Develop and keep up to date products technical documentations")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -27692,143 +26813,17 @@ function (_React$PureComponent) {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Dev Lead in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co, a digital media company focused on the way data science and technology can create more personal experiences for users while growing audiences for content owners, bridges the gap between storytelling and technology, creating digital platforms and experiences to help global brands engage with audiences and monetize their investments."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "iX.co works with many of the biggest names in sports, media, entertainment, and active lifestyle, using data-driven insights to cater to audience passions and empower businesses to make millions of lasting impressions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With offices across North America, Europe, and Asia, iX.co is proud of the impact it has helped create for elite organizations like the PGA TOUR, NASCAR, FOX, Chelsea FC, AS Roma, the International Ski Federation and the International Basketball Federation, among countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__action"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.omnigon.com",
-        className: "resume__link",
+        href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",
+        className: "button button--big",
         target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/omnigon.svg",
-        alt: "Omnigon LLC",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2018 \u2013 May 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Dev Lead in Omnigon Communications, LLC (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked as a full-time Product ProServ Dev Lead in Omnigon Communications LLC."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Providing direction, instructions, and guidance to the team of developers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Documentation writing")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React, ES6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "S3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Omnigon is a team of digital strategists, artists and technologists working exclusively in the areas of consumer loyalty, audience growth and digital content delivery. Since its founding in 2008, Omnigon has established itself as a market leader, focused on helping clients achieve returns on the strategic, creative and technical investments they've made. We are working with celebrated, global brands including Fox Broadcasting, Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football Association (DFB), IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.omnigon.com",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/omnigon.svg",
-        alt: "Omnigon LLC",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2017 \u2013 May 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Senior HTML/CSS Developer in Omnigon Communications, LLC (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worked as a full-time Senior HTML/CSS Developer in Omnigon Communications LLC. I was involved in Corebine development. Corebine is an audience engagement platform focused on empowering brands and content owners through an innovative set of publishing and sponsor activation tools."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JSX"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Bitbucket")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "About:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Omnigon is a team of digital strategists, artists and technologists working exclusively in the areas of consumer loyalty, audience growth and digital content delivery. Since its founding in 2008, Omnigon has established itself as a market leader, focused on helping clients achieve returns on the strategic, creative and technical investments they've made. We are working with celebrated, global brands including Fox Broadcasting, Verizon, the PGA TOUR, FC Bayern Munich, AS Roma, the German Football Association (DFB), IRONMAN, NASCAR, World Rugby, the United States Golf Association and countless others."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item--active"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://htmlacademy.ru/",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/htmlacademy.svg",
-        alt: "HTML Academy",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2015 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Senior Mentor HTML Academy (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We train full-fledged and demanded specialists who are ready to work in the web industry. From the very beginning, we teach how to work with live code and independently solve problems that are close to real ones. High-quality intensives training is impossible without the participation of a mentor who will guide the student, point out mistakes, check homework and gradually lead to the implementation of the final project sharing his experience and best practices."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Student counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Junior mentors counseling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Dispute resolution")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Participating:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Professional HTML and CSS course level 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Profession \xABFrontend Developer\xBB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "LESS, SASS, SCSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ECMAScript 5.1, 6)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://liga-a.ru",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/league-a.svg",
-        alt: "League A",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2018 \u2013 Oct 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Mentor in League A (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "League A is a teaching and production department HTML Academy. We have already worked on commercial programs under the supervision of mentors and completed more than 90 projects. Mentor is an important part of the project's workflow in League A. He ensures the interaction between the performers and business, help with complex issues that the juniors cannot solve themselves."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Code review"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Student counseling")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Pug"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "SCSS/SASS, Stylus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript, jQuery, Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "WordPress, 1-C Bitrix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub, GitLab, BitBucket")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.entechsolutions.com",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/entechsolutions.png",
-        alt: "ENTech Solutions",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jun 2016 \u2013 May 2017"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Front-End Engineer in ENTech Solutions (USA)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Worded as a full-time Front-End engineer in ENTech Solutions. We built and deployed scalable Microsoft .Net stack web applications (SaaS) such as Eventgrid, follow Agile Process and methodology. Eventgrid is an easy way to set up online registration and ticketing for conferences, seminars, concerts, tours and festivals. Our suite of tools provides event managers and marketers the ability to manage all of the elements of their events from a single platform \u2013 including everything from the initial announcements and marketing campaigns, to registration, ticketing and CRM; as well as follow-up messaging and analytics."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Participate in requirements, design and development phases"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Build tools and automation for smooth CI/CD operations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and document test scenarios")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://positivecommunications.ru",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/positivecommunications.svg",
-        alt: "Positive Communications",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Feb 2013 \u2013 Jun 2016"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Webmaster in Positive Communications (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty \u2013 maintaining the \xABRWM Capital\xBB management company websites in English and Russian languages; Positive Communications company website development."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Plan software development tasks and coordinate operations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "IT related issues solving"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Backup automation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Perform other responsibilities as IT manager")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML4/5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, PostCSS, LESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript, jQuery, Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "WordPress, 1-C Bitrix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub, GitLab")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Dec 2013 \u2013 Mar 2014"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Webmaster in Saytoriya (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Development of websites on MODx Revolution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Analysis, design and implement the data migration process")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "May 2013 \u2013 Oct 2013"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Senior Back-End developer in Adhere mobile (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Development of Kazakhstan mobile social network based on WAP and Yii PHP Framework.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, Yii")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Nov 2012 \u2013 Apr 2013"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Front-End developer and designer in Arkvision (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Websites design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Front-End implementation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CMS: WordPress, Livestreet")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item resume__item--active"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2010 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Web Developer as a Freelancer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "More than 180 websites for individual and corporate clients have been developed since 2010."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5, Pug, Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3, PostCSS, LESS, SASS, SCSS, Stylus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript, jQuery, Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Gulp, Grunt, Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PHP, MySQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "WordPress, Drupal, 1-C Bitrix, MODX Revolution, Livestreet, OpenCart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "GitHub, GitLab, BitBucket, Codebase, Microsoft Visual Studio Team Services"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Volunteer Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        rel: "noopener noreferrer"
+      }, "Print / Download the full CV")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__position"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://www.mamk.fi/",
-        className: "resume__link",
-        target: "_blank",
-        rel: "noopener noreferrer nofollow"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "./img/resume/pitercss-meetup.svg",
-        alt: "Moscow Business School",
-        height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Organizer of pitercss_meetup (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
+        className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27843,7 +26838,7 @@ function (_React$PureComponent) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2019 \u2013 Dec 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of Business Administration (Marketing) in Moscow Business School (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Moscow Business School an international business school, subdivision of a Moscow Technological Institute. It is among top 10 business schools in Russia."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
+        className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27858,7 +26853,7 @@ function (_React$PureComponent) {
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Aug 2012 \u2013 May 2015"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Bachelor of engineering in Mikkelin Ammattikorkeakoulu / now XAMK (Finland)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department. Mikkelin Ammattikorkeakoulu was ranked as the best Finnish university of applied sciences in 2014."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__item"
+        className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -27871,7 +26866,24 @@ function (_React$PureComponent) {
         width: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2009 \u2013 2012"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of digital information processing in GBOU liceum at St. Petersburg State University of Telecommunications (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).")))))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Volunteer Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__items"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://www.mamk.fi/",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/pitercss-meetup.svg",
+        alt: "Moscow Business School",
+        height: "135"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Organizer of pitercss_meetup (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))))));
     }
   }]);
 
@@ -27934,9 +26946,9 @@ function (_React$PureComponent) {
         className: "skills__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 03"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 01"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Leadership Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "108px",
         height: "24px"
@@ -27948,21 +26960,23 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "BEM, OOCSS, SMACSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "People Management:"), " Recruiting, hiring, training, mentoring, coaching, onboarding, team building, conflict management, critical thinking, mediation, motivation, negotiating, relationship building"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Gulp / Grunt / Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Management:"), " Business knowledge, finance, vendor management, policy deployment, delegating, planning, strategic thinking."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Adaptive Design / Responsive Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Collaboration Leadership:"), " Analyzing problems, brainstorming solutions, compromising, defining roles, facilitating discussion, employee engagement."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Mobile First / Desktop First"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Decision Making:"), " Prioritizing tasks, research, ethical decision making, team decision making, problem analysis, consensus-building."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Pixel Perfect"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving:"), " Perceptiveness, data gathering, fact finding, problem analysis, brainstorming, research, test development, testing, evaluation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Search Engine Optimization"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Agile/Scrum/Lean:"), " Meeting facilitation, Agile planning, enforcing rules, shielding the team, servant leadership, removing impediments, value stream mapping, Kanban, policy deployment, 5S, Six Sigma, inventory reduction, setup reduction."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Phabricator"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Business Writing:"), " Report writing, business case writing, press release writing, newsletter writing, analysis, research, content management."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Planning:"), " Analysis, conceptual skills, brainstorming, decision-making, forecasting, logistics, problem-solving skills, cost-assessment, requirements-gathering."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "CI and Git"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Technical Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "108px",
         height: "24px"
@@ -27974,21 +26988,23 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Git / GitHub / Bitbucket"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Web:"), " 10+ years of development experience with HTML, CSS, LESS, SASS, PostCSS, Stylus, JavaScript, React, Git, GitHub, Bitbucket, GitLab, Travis, Jenkins, Bamboo, Webpack, SEO, WordPress, Content Management Systems (CMS), Apache Cordova."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "GitLab CI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "IT:"), " Google Workspace, architecture, databases, social media, enterprise systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Travis CI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Advanced IT:"), " Web development, open source, data structures, coding, security, machine learning, debugging."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Jenkins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enterprise Systems:"), " Payment processing, automated billing systems, customer relationship management, business continuity planning, enterprise resource planning."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Bamboo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Hardware:"), " System administration, network configuration, software installation, security, Cisco."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Codebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Research:"), " Source checking, intellectual property rights, networking, outreach, advanced Google search."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Visual Studio Team Services"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Technical Writing:"), " Analysis, planning, data visualization, feedback gathering, preparing documents, product knowledge, research, collaboration."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "skills__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving:"), " Data analysis, process analysis, project design, solution design, benchmark development, troubleshooting."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Coding"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Org and Ops Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
         xmlns: "http://www.w3.org/2000/svg",
         width: "108px",
         height: "24px"
@@ -28000,194 +27016,15 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "HTML5 / CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Department Leadership:"), " Management of a 20+ employee Operations department consisting of Support Operations, Business Operations and Technical Operations (QA/AQA, DevOps and Tech Writers teams)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Bootstrap 3/4, Foundation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ITSM / ITIL 4:"), " Preparation of an ITIL implementation project, determine the structure of IT services, defining ITIL roles and owners of these roles, analysis and assessment of current processes \"as is\", determination of the structure of processes \"as it should be\", definition of process interfaces, implementation of a process control system, detailed design of processes, technical infrastructure set up, ITIL process implementation and training."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "Pug / Handlebars"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "KPIs:"), " Devise and implementation of automated KPI tracking system with dashboard visualizations and ChatOps alerting for quicker issues escalation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "CSS3 / LESS / SASS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "8 Standard Dimensions:"), " Effective execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, "PostCSS / Stylus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "JavaScript, jQuery, React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "PHP / MySQL / Yii"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Sketch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Zeplin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Adobe Photoshop CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Adobe Illustrator CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Adobe InDesign CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Avacode"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "CMS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "1-C Bitrix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "MODX Revolution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Livestreet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Drupal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Opencart"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Payment Integration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Yandex Kassa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Robokassa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "PayPal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Stripe"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Google Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Adobe Analytics"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Mobile Development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Apache Cordova"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Swift"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "WebView"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Project Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Custom Software Development"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Database Design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Systems Engineering"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "System Migrations / Integrations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Enterprisewide Implementations"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "IT Project Lifecycle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Requirements Analysis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "ROI Analysis"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Costing & Budgeting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Project Scheduling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Testing / QA / Rollout / Support"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Value-Added Leadership"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "skills__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Cross-Functional Supervision"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Team Building & Mentoring"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Client Relations & Presentations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Business & IT Planning"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "skills__item"
-      }, "Vendor Management"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "skills__action"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",
-        className: "button button--big",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Print / Download CV"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Operations execution:"), " Enhancement of the operational procedures, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and search for opportunities to expand systems. Carrying out supervisory responsibilities in accordance with the company\u2019s and division\u2019s policies.")))));
     }
   }]);
 

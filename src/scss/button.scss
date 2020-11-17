@@ -13,15 +13,14 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    color: $color-accent;
-    border: 0.1rem solid $color-accent;
-    background: transparentize($color-accent, 0.85);
+    color: $color-primary-text-light;
+    background-color: $color-secondary;
 
     font-size: $font-size--1;
+    font-weight: $bold-font-weight;
 
     &:hover {
-        color: $color-primary-text-light;
-        background-color: $color-accent;
+        background: transparentize($color-secondary, 0.2);
     }
 
     &--big {

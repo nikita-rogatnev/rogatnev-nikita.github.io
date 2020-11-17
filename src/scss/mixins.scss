@@ -21,13 +21,12 @@
 
         @media (min-width: $medium-up) {
             width: $screen-m-min;
-            max-width: calc(100% - 8rem);
-            margin-right: 0;
+            max-width: calc(100% - 16rem);
         }
 
         @media (min-width: $large-up) {
             width: $screen-l-min;
-            max-width: calc(100% - 10rem);
+            max-width: calc(100% - 20rem);
         }
 
         @media (min-width: $extra-large-up) {

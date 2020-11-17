@@ -6,171 +6,121 @@ class Skills extends React.PureComponent {
             <section className="skills" data-aos="zoom-in">
                 <div className="skills__wrapper">
                     <div className="skills__heading">
-                        <span>CHAPTER 03</span>
+                        <span>CHAPTER 01</span>
                         <h2>skills</h2>
                     </div>
 
                     <div className="skills__content">
-                        <h2>Development</h2>
+                        <h2>Leadership Skills</h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
                             <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
                         </svg>
                         <ul className="skills__items">
-                            <li className="skills__item">BEM, OOCSS, SMACSS</li>
-                            <li className="skills__item">Gulp / Grunt / Webpack</li>
-                            <li className="skills__item">Adaptive Design / Responsive Design</li>
-                            <li className="skills__item">Mobile First / Desktop First</li>
-                            <li className="skills__item">Pixel Perfect</li>
-                            <li className="skills__item">Search Engine Optimization</li>
-                            <li className="skills__item">Phabricator</li>
+                            <li className="skills__item"><b>People Management:</b> Recruiting, hiring, training,
+                                mentoring, coaching, onboarding, team building, conflict management, critical thinking,
+                                mediation, motivation, negotiating, relationship building
+                            </li>
+                            <li className="skills__item"><b>Management:</b> Business knowledge, finance, vendor
+                                management, policy deployment, delegating, planning, strategic thinking.
+                            </li>
+                            <li className="skills__item"><b>Collaboration Leadership:</b> Analyzing problems,
+                                brainstorming solutions, compromising, defining roles, facilitating discussion, employee
+                                engagement.
+                            </li>
+                            <li className="skills__item"><b>Decision Making:</b> Prioritizing tasks, research, ethical
+                                decision making, team decision making, problem analysis, consensus-building.
+                            </li>
+                            <li className="skills__item"><b>Problem Solving:</b> Perceptiveness, data gathering, fact
+                                finding, problem analysis, brainstorming, research, test development, testing,
+                                evaluation.
+                            </li>
+                            <li className="skills__item"><b>Agile/Scrum/Lean:</b> Meeting facilitation, Agile planning,
+                                enforcing rules, shielding the team, servant leadership, removing impediments, value
+                                stream mapping, Kanban, policy deployment, 5S, Six Sigma, inventory reduction, setup
+                                reduction.
+                            </li>
+                            <li className="skills__item"><b>Business Writing:</b> Report writing, business case writing,
+                                press release writing, newsletter writing, analysis, research, content management.
+                            </li>
+                            <li className="skills__item"><b>Planning:</b> Analysis, conceptual skills, brainstorming,
+                                decision-making, forecasting, logistics, problem-solving skills, cost-assessment,
+                                requirements-gathering.
+                            </li>
                         </ul>
                     </div>
 
                     <div className="skills__content">
-                        <h2>CI and Git</h2>
+                        <h2>Technical Skills</h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
                             <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
                         </svg>
                         <ul className="skills__items">
-                            <li className="skills__item">Git / GitHub / Bitbucket</li>
-                            <li className="skills__item">GitLab CI</li>
-                            <li className="skills__item">Travis CI</li>
-                            <li className="skills__item">Jenkins</li>
-                            <li className="skills__item">Bamboo</li>
-                            <li className="skills__item">Codebase</li>
-                            <li className="skills__item">Visual Studio Team Services</li>
+                            <li className="skills__item"><b>Web:</b> 10+ years of development experience with HTML, CSS,
+                                LESS, SASS, PostCSS, Stylus, JavaScript, React, Git, GitHub, Bitbucket, GitLab, Travis,
+                                Jenkins, Bamboo, Webpack, SEO, WordPress, Content Management Systems (CMS), Apache
+                                Cordova.
+                            </li>
+                            <li className="skills__item"><b>IT:</b> Google Workspace, architecture,
+                                databases, social media, enterprise systems.
+                            </li>
+                            <li className="skills__item"><b>Advanced IT:</b> Web development, open source,
+                                data structures, coding, security, machine learning, debugging.
+                            </li>
+                            <li className="skills__item"><b>Enterprise Systems:</b> Payment processing, automated
+                                billing systems, customer relationship management, business continuity planning,
+                                enterprise resource planning.
+                            </li>
+                            <li className="skills__item"><b>Hardware:</b> System administration, network
+                                configuration, software installation, security, Cisco.
+                            </li>
+                            <li className="skills__item"><b>Research:</b> Source checking, intellectual property rights,
+                                networking, outreach, advanced Google search.
+                            </li>
+                            <li className="skills__item"><b>Technical Writing:</b> Analysis, planning, data
+                                visualization, feedback gathering, preparing documents, product knowledge, research,
+                                collaboration.
+                            </li>
+                            <li className="skills__item"><b>Problem Solving:</b> Data analysis, process analysis,
+                                project design, solution design, benchmark development, troubleshooting.
+                            </li>
                         </ul>
                     </div>
 
                     <div className="skills__content">
-                        <h2>Coding</h2>
+                        <h2>Org and Ops Skills</h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
                             <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
                         </svg>
                         <ul className="skills__items">
-                            <li className="skills__item">HTML5 / CSS3</li>
-                            <li className="skills__item">Bootstrap 3/4, Foundation</li>
-                            <li className="skills__item">Pug / Handlebars</li>
-                            <li className="skills__item">CSS3 / LESS / SASS</li>
-                            <li className="skills__item">PostCSS / Stylus</li>
-                            <li className="skills__item">JavaScript, jQuery, React</li>
-                            <li className="skills__item">PHP / MySQL / Yii</li>
+                            <li className="skills__item"><b>Department Leadership:</b> Management of a 20+ employee
+                                Operations department consisting of Support Operations, Business Operations and
+                                Technical Operations (QA/AQA, DevOps and Tech Writers teams).
+                            </li>
+                            <li className="skills__item"><b>ITSM / ITIL 4:</b> Preparation of an ITIL implementation
+                                project, determine the structure of IT services, defining ITIL roles
+                                and owners of these roles, analysis and assessment of current processes "as is",
+                                determination of the structure of processes "as it should be", definition of process
+                                interfaces, implementation of a process control system, detailed design of processes,
+                                technical infrastructure set up, ITIL process implementation and training.
+                            </li>
+                            <li className="skills__item"><b>KPIs:</b> Devise and implementation of automated KPI
+                                tracking system with dashboard visualizations and ChatOps alerting for quicker issues
+                                escalation.
+                            </li>
+                            <li className="skills__item"><b>8 Standard Dimensions:</b> Effective execution of the 8
+                                Standard Dimensions: stakeholder management, growth enablement, commercial management,
+                                people management, schedule and scope management, risk and issue management,
+                                collaboration management, and quality assurance.
+                            </li>
+                            <li className="skills__item"><b>Operations execution:</b> Enhancement of the operational
+                                procedures, systems, and principles in the areas of information flow and management,
+                                business processes, enhanced management reporting, and search for opportunities to
+                                expand systems. Carrying out supervisory responsibilities in accordance with the
+                                company’s and division’s policies.
+                            </li>
                         </ul>
                     </div>
 
-                    <div className="skills__content">
-                        <h2>Design</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Sketch</li>
-                            <li className="skills__item">Zeplin</li>
-                            <li className="skills__item">Adobe Photoshop CC</li>
-                            <li className="skills__item">Adobe Illustrator CC</li>
-                            <li className="skills__item">Adobe InDesign CC</li>
-                            <li className="skills__item">Avacode</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>CMS</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">WordPress</li>
-                            <li className="skills__item">1-C Bitrix</li>
-                            <li className="skills__item">MODX Revolution</li>
-                            <li className="skills__item">Livestreet</li>
-                            <li className="skills__item">Drupal</li>
-                            <li className="skills__item">Opencart</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>Payment Integration</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Yandex Kassa</li>
-                            <li className="skills__item">Robokassa</li>
-                            <li className="skills__item">PayPal</li>
-                            <li className="skills__item">Stripe</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>Analytics</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Google Analytics</li>
-                            <li className="skills__item">Adobe Analytics</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>Mobile Development</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Apache Cordova</li>
-                            <li className="skills__item">Swift</li>
-                            <li className="skills__item">WebView</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>Project Management</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Custom Software Development</li>
-                            <li className="skills__item">Database Design</li>
-                            <li className="skills__item">Systems Engineering</li>
-                            <li className="skills__item">System Migrations / Integrations</li>
-                            <li className="skills__item">Enterprisewide Implementations</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>IT Project Lifecycle</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Requirements Analysis</li>
-                            <li className="skills__item">ROI Analysis</li>
-                            <li className="skills__item">Costing & Budgeting</li>
-                            <li className="skills__item">Project Scheduling</li>
-                            <li className="skills__item">Testing / QA / Rollout / Support</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__content">
-                        <h2>Value-Added Leadership</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
-                        <ul className="skills__items">
-                            <li className="skills__item">Cross-Functional Supervision</li>
-                            <li className="skills__item">Team Building & Mentoring</li>
-                            <li className="skills__item">Client Relations & Presentations</li>
-                            <li className="skills__item">Business & IT Planning</li>
-                            <li className="skills__item">Vendor Management</li>
-                        </ul>
-                    </div>
-
-                    <div className="skills__action">
-                        <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                           className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
-                            CV</a>
-                    </div>
                 </div>
             </section>
         );

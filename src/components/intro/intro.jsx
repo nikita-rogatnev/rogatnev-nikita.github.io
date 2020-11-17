@@ -6,8 +6,9 @@ class Intro extends React.PureComponent {
             <section className="intro">
                 <div className="intro__wrapper">
                     <div className="intro__content">
-                        <h3><span>Manager,</span> Business and Technical Operations</h3>
+                        <h3><span>Operations</span> Manager</h3>
                         <h2>Nikita&#10;Rogatnev</h2>
+                        <h4>MBA / ITSM / ITIL 4 / Servant Leadership</h4>
                     </div>
                 </div>
             </section>

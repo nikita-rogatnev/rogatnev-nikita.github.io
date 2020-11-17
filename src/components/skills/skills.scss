@@ -14,6 +14,7 @@
     .skills__wrapper {
         display: flex;
         flex-direction: row;
+        margin: 0 auto;
 
         flex-wrap: wrap;
         align-content: flex-start;
@@ -42,27 +43,22 @@
     .skills__item {
         width: 100%;
         padding: 0.5rem;
-    }
 
-    .skills__action {
-        width: 100%;
-
-        text-align: center;
-
-        a {
-            margin: 0;
+        b {
+            display: block;
         }
     }
 
     @media (min-width: $medium-up) {
         .skills__content {
             width: calc(100% / 2);
+            padding: 0.5rem 3em 0.5rem 0;
         }
     }
 
     @media (min-width: $large-up) {
         .skills__content {
-            width: calc(100% / 4);
+            width: calc(100% / 3);
 
             text-align: left;
         }

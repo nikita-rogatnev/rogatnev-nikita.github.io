@@ -7,13 +7,23 @@
     @include wrapper;
     @include heading;
 
+    .resume__action {
+        width: 100%;
+        margin-bottom: 3.5rem;
+        text-align: center;
+
+        a {
+            margin: 0;
+        }
+    }
+
     .resume__content {
         h2 {
             margin: 0 0 2rem;
 
             text-align: center;
 
-            color: $color-primary-text-light;
+            color: $color-secondary;
 
             font-size: $font-size-01;
             font-weight: $regular-font-weight;
@@ -40,7 +50,7 @@
         svg,
         img {
             width: auto;
-            height: 4.5rem;
+            height: 3rem;
         }
 
         h3 {
@@ -150,9 +160,8 @@
             width: 50%;
             padding: 0 1rem;
 
-            &--wide {
-                width: 75%;
-                padding: 0 1rem;
+            &--compact {
+                width: calc(100% / 3);
             }
         }
     }

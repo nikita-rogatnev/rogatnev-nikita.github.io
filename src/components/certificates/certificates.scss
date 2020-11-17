@@ -8,7 +8,7 @@
     @include heading;
 
     .certificates__items {
-        column-count: 1;
+        column-count: 4;
         column-gap: 2rem;
 
 
@@ -26,6 +26,21 @@
             &:last-child {
                 margin-bottom: 0;
             }
+        }
+    }
+
+
+    .certificates__content {
+        h2 {
+            margin: 0 0 2rem;
+
+            text-align: center;
+
+            color: $color-secondary;
+
+            font-size: $font-size-01;
+            font-weight: $regular-font-weight;
+            line-height: 1;
         }
     }
 
@@ -51,7 +66,7 @@
 
     @media (min-width: $medium-up) {
         .certificates__items {
-            column-count: 2;
+            column-count: 5;
         }
 
         .__react_modal_image__medium_img {
@@ -64,7 +79,15 @@
 
     @media (min-width: $large-up) {
         .certificates__items {
-            column-count: 4;
+            column-count: 8;
+        }
+
+        .certificates__content {
+            h2 {
+                margin: 4rem 0 3rem;
+
+                font-size: $font-size-03;
+            }
         }
     }
 }

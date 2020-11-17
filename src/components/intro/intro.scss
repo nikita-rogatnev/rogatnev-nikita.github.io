@@ -19,6 +19,11 @@
             line-height: 1;
         }
 
+        h4 {
+            margin: 0 0 0 0.4rem;
+            padding: 0;
+        }
+
         span {
             color: $color-accent;
         }
@@ -30,7 +35,7 @@
             white-space: normal;
             text-transform: uppercase;
 
-            color: $color-primary-text-light;
+            color: $color-secondary;
 
             font-size: $font-size-06;
             font-weight: $bold-font-weight;
