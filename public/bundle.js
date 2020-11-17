@@ -25545,6 +25545,8 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2020 - Google Ads Search Certification, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2020 - Divemaster (DM), PADI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2019 - Primary & Secondary Care CPR / First Aid, PADI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
