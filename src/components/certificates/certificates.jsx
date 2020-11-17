@@ -1,5 +1,4 @@
 import React from "react";
-import ModalImage from "react-modal-image";
 
 class Certificates extends React.PureComponent {
     render() {
@@ -11,243 +10,71 @@ class Certificates extends React.PureComponent {
                         <h2>Certificates</h2>
                     </div>
                     <div className="certificates__content">
-                        <h2>Latest Certifications</h2>
+                        <h2 className="title">Certifications</h2>
+                        <ul className="certificates__items">
+                            <li className="certificates__item">2020 - Divemaster (DM), PADI</li>
+                            <li className="certificates__item">2019 - Primary & Secondary Care CPR / First Aid, PADI
+                            </li>
+                            <li className="certificates__item">2019 - Rescue Diver, PADI</li>
+                            <li className="certificates__item">2019 - Web Designer Basics, Google</li>
+                            <li className="certificates__item">2019 - The Fundamentals of Digital Marketing, Google</li>
+                            <li className="certificates__item">2019 - JavaScript Level 3, HTML Academy</li>
+                            <li className="certificates__item">2019 - JavaScript Level 2, HTML Academy</li>
+                            <li className="certificates__item">2019 - Understanding Information Control For IT Managers
+                                Certificate,
+                                Alison
+                            </li>
+                            <li className="certificates__item">2019 - Digital Sales Certification, Google</li>
+                            <li className="certificates__item">2019 - Creative Certification Exam, Google</li>
+                            <li className="certificates__item">2019 - Google Analytics Individual Qualification,
+                                Google
+                            </li>
+                            <li className="certificates__item">2019 - Software Processes and Agile Practices, Coursera
+                            </li>
+                            <li className="certificates__item">2019 - Reviews & Metrics for Software Improvements,
+                                Coursera
+                            </li>
+                            <li className="certificates__item">2019 - Introduction to Software Product Management,
+                                Coursera
+                            </li>
+                            <li className="certificates__item">2019 - Creating a Team Culture of Continuous Learning,
+                                Coursera
+                            </li>
+                            <li className="certificates__item">2016 - Google AdWords Certification - Shopping
+                                Advertising, Google
+                            </li>
+                            <li className="certificates__item">2016 - Google Analytics Individual Qualification,
+                                Google
+                            </li>
+                            <li className="certificates__item">2016 - Yandex Direct Certified Professional, Yandex</li>
 
-                        <div className="certificates__items">
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/V2UZ4M42BU8X.jpg"
-                                medium="./img/certificates/medium/V2UZ4M42BU8X.jpg"
-                                large="./img/certificates/original/V2UZ4M42BU8X.jpg"
-                                alt="Creating a Team Culture of Continuous Learning"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/BRTATAWKWHXA.jpg"
-                                medium="./img/certificates/medium/BRTATAWKWHXA.jpg"
-                                large="./img/certificates/original/BRTATAWKWHXA.jpg"
-                                alt="Reviews & Metrics for Software Improvements"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/F2WSASRBFN6L.jpg"
-                                medium="./img/certificates/medium/F2WSASRBFN6L.jpg"
-                                large="./img/certificates/original/F2WSASRBFN6L.jpg"
-                                alt="Software Processes and Agile Practices"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/F5DUSSJYKZ6H.jpg"
-                                medium="./img/certificates/medium/F5DUSSJYKZ6H.jpg"
-                                large="./img/certificates/original/F5DUSSJYKZ6H.jpg"
-                                alt="Introduction to Software Product Management"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/javascript3.jpg"
-                                medium="./img/certificates/medium/javascript3.jpg"
-                                large="./img/certificates/original/javascript3.jpg"
-                                alt="HTMLAcademy JavaScript 3"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/javascript2.jpg"
-                                medium="./img/certificates/medium/javascript2.jpg"
-                                large="./img/certificates/original/javascript2.jpg"
-                                alt="HTMLAcademy JavaScript 2"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/fundamentals-of-digital-marketing.jpg"
-                                medium="./img/certificates/medium/fundamentals-of-digital-marketing.jpg"
-                                large="./img/certificates/original/fundamentals-of-digital-marketing.jpg"
-                                alt="The Fundamentals of Digital Marketing"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/architect.jpg"
-                                medium="./img/certificates/medium/architect.jpg"
-                                large="./img/certificates/original/architect.jpg"
-                                alt="How To Become An Outstanding Solution Architect"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/javascript.jpg"
-                                medium="./img/certificates/medium/javascript.jpg"
-                                large="./img/certificates/original/javascript.jpg"
-                                alt="The Complete JavaScript Course 2019"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/web-designer-basics.jpg"
-                                medium="./img/certificates/medium/web-designer-basics.jpg"
-                                large="./img/certificates/original/web-designer-basics.jpg"
-                                alt="Web Designer Basics"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/digital-sales-certification.jpg"
-                                medium="./img/certificates/medium/digital-sales-certification.jpg"
-                                large="./img/certificates/original/digital-sales-certification.jpg"
-                                alt="digital sales certification"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/creative-certification-exam.jpg"
-                                medium="./img/certificates/medium/creative-certification-exam.jpg"
-                                large="./img/certificates/original/creative-certification-exam.jpg"
-                                alt="creative certification exam"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/analytics-individual-qualification.jpg"
-                                medium="./img/certificates/medium/analytics-individual-qualification.jpg"
-                                large="./img/certificates/original/analytics-individual-qualification.jpg"
-                                alt="analytics individual qualification"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/yandex.jpg"
-                                medium="./img/certificates/medium/yandex.jpg"
-                                large="./img/certificates/original/yandex.jpg"
-                                alt="yandex"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/googlep-2.jpg"
-                                medium="./img/certificates/medium/googlep-2.jpg"
-                                large="./img/certificates/original/googlep-2.jpg"
-                                alt="googlep-2"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/googlep-1.jpg"
-                                medium="./img/certificates/medium/googlep-1.jpg"
-                                large="./img/certificates/original/googlep-1.jpg"
-                                alt="googlep-1"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/ccna-4.jpg"
-                                medium="./img/certificates/medium/ccna-4.jpg"
-                                large="./img/certificates/original/ccna-4.jpg"
-                                alt="ccna 4"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/ccna-3.jpg"
-                                medium="./img/certificates/medium/ccna-3.jpg"
-                                large="./img/certificates/original/ccna-3.jpg"
-                                alt="ccna 3"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/ccna-2.jpg"
-                                medium="./img/certificates/medium/ccna-2.jpg"
-                                large="./img/certificates/original/ccna-2.jpg"
-                                alt="ccna 2"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/ccna-1.jpg"
-                                medium="./img/certificates/medium/ccna-1.jpg"
-                                large="./img/certificates/original/ccna-1.jpg"
-                                alt="ccna 1"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/w3c.jpg"
-                                medium="./img/certificates/medium/w3c.jpg"
-                                large="./img/certificates/original/w3c.jpg"
-                                alt="w3c"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/alison.jpg"
-                                medium="./img/certificates/medium/alison.jpg"
-                                large="./img/certificates/original/alison.jpg"
-                                alt="alison"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/mta-html5.jpg"
-                                medium="./img/certificates/medium/mta-html5.jpg"
-                                large="./img/certificates/original/mta-html5.jpg"
-                                alt="mta html5"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/mta-wosf.jpg"
-                                medium="./img/certificates/medium/mta-wosf.jpg"
-                                large="./img/certificates/original/mta-wosf.jpg"
-                                alt="mta wosf"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/mta-mcp.jpg"
-                                medium="./img/certificates/medium/mta-mcp.jpg"
-                                large="./img/certificates/original/mta-mcp.jpg"
-                                alt="mta cp"
-                            />
-
-                            <ModalImage
-                                className="certificates__item"
-                                hideDownload={true}
-                                small="./img/certificates/small/schneider-universities.jpg"
-                                medium="./img/certificates/medium/schneider-universities.jpg"
-                                large="./img/certificates/original/schneider-universities.jpg"
-                                alt="schneider universities"
-                            />
-                        </div>
+                            <li className="certificates__item">2015 - Fundamentals Of Network Security Certificate,
+                                Alison
+                            </li>
+                            <li className="certificates__item">2015 - CCNA 3 - Scaling Networks, Cisco</li>
+                            <li className="certificates__item">2015 - CCNA 4 - Connecting networks, Cisco</li>
+                            <li className="certificates__item">2015 - MTA: Windows Operating System Fundamentals,
+                                Microsoft
+                            </li>
+                            <li className="certificates__item">2014 - MTA: HTML5 Application Development Fundamentals,
+                                Microsoft
+                            </li>
+                            <li className="certificates__item">2014 - Data Center University Associate Development Path,
+                                Schneider Electric
+                            </li>
+                            <li className="certificates__item">2014 - MCP: Microsoft Certified Professional, Microsoft
+                            </li>
+                            <li className="certificates__item">2014 - CCNA 2 - Routing and Switching Essentials, Cisco
+                            </li>
+                            <li className="certificates__item">2013 - CCNA 1 - Introduction to Networks, Cisco</li>
+                            <li className="certificates__item">2013 - PHP Developer Certificate, W3Schools</li>
+                            <li className="certificates__item">2012 - Information Storage and Management, EMC</li>
+                            <li className="certificates__item">2012 - Master of digital information processing, GBOU
+                                liceum at SPB State University of Telecommunications
+                            </li>
+                            <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>

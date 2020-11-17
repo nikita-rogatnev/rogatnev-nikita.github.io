@@ -10,7 +10,7 @@ class Resume extends React.PureComponent {
                         <h2>Resume</h2>
                     </div>
                     <div className="resume__content">
-                        <h2>Latest Work History</h2>
+                        <h2 className="title">Latest Work History</h2>
                         <div className="resume__items">
 
                             <div className="resume__item">
@@ -207,13 +207,7 @@ class Resume extends React.PureComponent {
 
                         </div>
 
-                        <div className="resume__action">
-                            <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                               className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
-                                the full CV</a>
-                        </div>
-
-                        <h2>Education</h2>
+                        <h2 className="title">Education</h2>
                         <div className="resume__items">
 
                             <div className="resume__item resume__item--compact">
@@ -280,7 +274,7 @@ class Resume extends React.PureComponent {
                             </div>
                         </div>
 
-                        <h2>Volunteer Experience</h2>
+                        <h2 className="title">Volunteer Experience</h2>
                         <div className="resume__items">
 
                             <div className="resume__item resume__item--compact">
@@ -301,6 +295,12 @@ class Resume extends React.PureComponent {
                                     </p>
                                 </div>
                             </div>
+                        </div>
+
+                        <div className="resume__action">
+                            <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
+                               className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
+                                the full CV</a>
                         </div>
 
                     </div>

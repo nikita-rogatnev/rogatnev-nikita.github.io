@@ -109,7 +109,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, "/* ------------------------------------------ */\n/* GLOBAL\n/* ------------------------------------------ */\n::-webkit-scrollbar {\n  width: 0.3rem; }\n\n::-webkit-scrollbar-track {\n  background-color: #ffffff; }\n\n::-webkit-scrollbar-thumb {\n  background-color: #ed4040; }\n\nhtml {\n  box-sizing: border-box;\n  font-size: 62.5%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  position: relative;\n  color: #000000;\n  background: #ffffff url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);\n  font-family: \"Rajdhani\", Arial, sans-serif;\n  font-size: 1.6rem;\n  font-weight: 400;\n  line-height: 1.2;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility; }\n\nul {\n  list-style-type: none; }\n\nimg {\n  width: 100%;\n  max-width: 100%;\n  height: auto; }\n\nh1,\nh2,\nh3 {\n  margin: 1rem 0; }\n\np {\n  margin: 0.5rem 0; }\n\na {\n  text-decoration: none;\n  color: #ed4040; }\n\n/* ------------------------------------------ */\n/* BUTTON BLOCK\n/* ------------------------------------------ */\n.button {\n  display: inline-block;\n  min-width: 5rem;\n  margin: 0.5rem 0;\n  padding: 0.5rem 2rem;\n  transition: background-color 0.3s ease;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  color: white;\n  background-color: #000000;\n  font-size: 1.6rem;\n  font-weight: 700; }\n  .button:hover {\n    background: rgba(0, 0, 0, 0.8); }\n  .button--big {\n    min-width: 10rem;\n    margin: 3rem auto 0;\n    padding: 1rem 6rem; }\n  .blog .button {\n    width: 100%; }\n\n/* ------------------------------------------ */\n/* INTRO BLOCK\n/* ------------------------------------------ */\n.intro {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .intro__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .intro__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .intro__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .intro__wrapper {\n        width: 1550px; } }\n  .intro__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .intro__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .intro__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .intro__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .intro__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .intro__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .intro__heading::after {\n          display: none; } }\n  .intro .intro__content h3 {\n    margin: 0 0 0 0.4rem;\n    padding: 0;\n    text-transform: uppercase;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .intro .intro__content h4 {\n    margin: 0 0 0 0.4rem;\n    padding: 0; }\n  .intro .intro__content span {\n    color: #ed4040; }\n  .intro .intro__content h2 {\n    margin: 0;\n    padding: 0;\n    white-space: normal;\n    text-transform: uppercase;\n    color: #000000;\n    font-size: 6.5rem;\n    font-weight: 700;\n    line-height: 1; }\n  @media (min-width: 768px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.3rem;\n      font-size: 2.3rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 6.5rem; } }\n  @media (min-width: 1170px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.4rem;\n      font-size: 3.17rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 9rem; } }\n\n@keyframes slide {\n  from {\n    background-position: 0 0; }\n  to {\n    background-position: -100rem 0; } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.certificates {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .certificates__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .certificates__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .certificates__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .certificates__wrapper {\n        width: 1550px; } }\n  .certificates__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .certificates__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .certificates__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .certificates__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .certificates__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .certificates__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .certificates__heading::after {\n          display: none; } }\n  .certificates .certificates__items {\n    column-count: 4;\n    column-gap: 2rem; }\n    .certificates .certificates__items > div {\n      display: inline-block;\n      width: 100%;\n      margin-bottom: 2rem;\n      vertical-align: top;\n      font-size: 0;\n      line-height: 0; }\n      .certificates .certificates__items > div:last-child {\n        margin-bottom: 0; }\n  .certificates .certificates__content h2 {\n    margin: 0 0 2rem;\n    text-align: center;\n    color: #000000;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .certificates .__react_modal_image__header {\n    position: fixed;\n    top: 0; }\n  .certificates .__react_modal_image__modal_container {\n    position: fixed;\n    top: 0;\n    width: 100vw;\n    height: 100vh; }\n  .certificates .__react_modal_image__medium_img {\n    width: 100%;\n    max-width: 90vw;\n    height: auto;\n    max-height: 90vh; }\n  @media (min-width: 768px) {\n    .certificates .certificates__items {\n      column-count: 5; }\n    .certificates .__react_modal_image__medium_img {\n      width: auto;\n      max-width: 90vw;\n      height: auto;\n      max-height: 90vh; } }\n  @media (min-width: 1170px) {\n    .certificates .certificates__items {\n      column-count: 8; }\n    .certificates .certificates__content h2 {\n      margin: 4rem 0 3rem;\n      font-size: 3.5rem; } }\n\n/* ------------------------------------------ */\n/* RESUME BLOCK\n/* ------------------------------------------ */\n.resume {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .resume__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .resume__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .resume__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .resume__wrapper {\n        width: 1550px; } }\n  .resume__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .resume__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .resume__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .resume__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .resume__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .resume__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .resume__heading::after {\n          display: none; } }\n  .resume .resume__action {\n    width: 100%;\n    margin-bottom: 3.5rem;\n    text-align: center; }\n    .resume .resume__action a {\n      margin: 0; }\n  .resume .resume__content h2 {\n    margin: 0 0 2rem;\n    text-align: center;\n    color: #000000;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .resume .resume__items {\n    position: relative;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n  .resume .resume__item {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin-bottom: 4rem; }\n    .resume .resume__item svg,\n    .resume .resume__item img {\n      width: auto;\n      height: 3rem; }\n    .resume .resume__item h3 {\n      position: relative;\n      display: inline-block;\n      margin: 2rem 0 0.5rem;\n      padding: 0.3rem 2rem;\n      letter-spacing: 0;\n      color: white;\n      background: #ed4040;\n      line-height: 1; }\n      .resume .resume__item h3::before, .resume .resume__item h3::after {\n        position: absolute;\n        top: 40%;\n        left: -1.5rem;\n        display: block;\n        content: \"\";\n        border: 1rem solid #ed4040;\n        border-color: #ed4040 #ed4040 #ed4040 transparent;\n        border-right-width: 20px; }\n      .resume .resume__item h3::after {\n        right: -1.5rem;\n        left: auto;\n        border-color: #ed4040 transparent #ed4040 #ed4040; }\n    .resume .resume__item h4 {\n      margin: 2rem 0 0; }\n    .resume .resume__item li {\n      position: relative;\n      padding-left: 1rem; }\n      .resume .resume__item li::before {\n        position: absolute;\n        top: 0.85rem;\n        left: 0;\n        display: block;\n        width: 0.3rem;\n        height: 0.3rem;\n        content: '';\n        border-radius: 50%;\n        background-color: #000000; }\n  .resume .resume__link {\n    font-size: 0;\n    line-height: 0; }\n  .resume .resume__position {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start; }\n  .resume .resume__description {\n    display: flex;\n    flex-direction: column;\n    margin: 0.5rem 0 0;\n    text-align: left; }\n    .resume .resume__description strong {\n      display: block;\n      margin: 1rem 0 0.5rem; }\n  @media (min-width: 1170px) {\n    .resume .resume__content {\n      margin: 0 -1rem; }\n      .resume .resume__content h2 {\n        margin: 4rem 0 3rem;\n        font-size: 3.5rem; }\n    .resume .resume__item {\n      width: 50%;\n      padding: 0 1rem; }\n      .resume .resume__item--compact {\n        width: calc(100% / 3); } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.skills {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .skills__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .skills__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .skills__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .skills__wrapper {\n        width: 1550px; } }\n  .skills__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .skills__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .skills__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .skills__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .skills__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .skills__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .skills__heading::after {\n          display: none; } }\n  .skills .skills__heading {\n    width: 100%; }\n  .skills .skills__wrapper {\n    display: flex;\n    flex-direction: row;\n    margin: 0 auto;\n    flex-wrap: wrap;\n    align-content: flex-start;\n    align-items: flex-start;\n    justify-content: flex-start; }\n  .skills .skills__content {\n    width: 100%;\n    text-align: center; }\n    .skills .skills__content svg {\n      stroke: rgba(235, 224, 202, 0.15); }\n  .skills .skills__items {\n    display: flex;\n    margin: 0 -0.5rem 4rem;\n    flex-flow: column wrap; }\n  .skills .skills__item {\n    width: 100%;\n    padding: 0.5rem; }\n    .skills .skills__item b {\n      display: block; }\n  @media (min-width: 768px) {\n    .skills .skills__content {\n      width: calc(100% / 2);\n      padding: 0.5rem 3em 0.5rem 0; } }\n  @media (min-width: 1170px) {\n    .skills .skills__content {\n      width: calc(100% / 3);\n      text-align: left; } }\n\n/* ------------------------------------------ */\n/* CONTACT BLOCK\n/* ------------------------------------------ */\n.contact {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .contact__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .contact__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .contact__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .contact__wrapper {\n        width: 1550px; } }\n  .contact__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .contact__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .contact__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .contact__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .contact__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .contact__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .contact__heading::after {\n          display: none; } }\n  .contact .contact__content {\n    display: flex;\n    flex-direction: column; }\n    .contact .contact__content h2 {\n      margin: 0 0 2rem;\n      text-align: center;\n      color: #000000;\n      font-size: 2rem;\n      font-weight: 400;\n      line-height: 1; }\n  .contact .contact__socials {\n    display: flex;\n    flex-direction: row;\n    margin: 0 auto;\n    align-content: center;\n    align-items: center;\n    justify-content: flex-start;\n    flex-wrap: wrap; }\n  .contact .contact__social {\n    position: relative;\n    display: flex;\n    width: 7rem;\n    height: 7rem;\n    margin: 1rem;\n    background: #000000;\n    font-size: 0;\n    line-height: 0;\n    align-items: center;\n    align-content: space-around;\n    justify-content: center; }\n    .contact .contact__social:hover {\n      background: rgba(0, 0, 0, 0.8); }\n  .contact .contact__social-item {\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center; }\n  .contact svg {\n    width: 2.5rem;\n    height: 2.5rem;\n    fill: white; }\n  @media (min-width: 1170px) {\n    .contact .contact__content h2 {\n      margin: 0 0 3rem;\n      font-size: 3.5rem; } }\n\n/* ------------------------------------------ */\n/* FOOTER BLOCK\n/* ------------------------------------------ */\n.footer {\n  position: relative;\n  padding: 1rem 1rem 3rem;\n  text-align: center;\n  font-size: 1.2rem; }\n  .footer cite {\n    display: block;\n    font-style: normal; }\n  .footer span {\n    position: relative;\n    display: block; }\n  @media (min-width: 768px) {\n    .footer {\n      position: fixed;\n      right: 0;\n      bottom: 0;\n      padding: 1rem;\n      text-align: right; }\n      .footer span::before {\n        position: absolute;\n        top: 50%;\n        display: block;\n        width: 2.5rem;\n        height: 0.05rem;\n        content: \"\";\n        transform: translateY(-50%);\n        background: #ed4040; } }\n\n[data-aos][data-aos][data-aos-duration=\"2000\"],\nbody[data-aos-duration=\"2000\"] [data-aos] {\n  transition-duration: 2s; }\n\n[data-aos=zoom-in] {\n  transform: scale(0.6); }\n\n[data-aos^=zoom][data-aos^=zoom].aos-animate {\n  transform: none; }\n", ""]);
+exports.push([module.i, "/* ------------------------------------------ */\n/* GLOBAL\n/* ------------------------------------------ */\n::-webkit-scrollbar {\n  width: 0.3rem; }\n\n::-webkit-scrollbar-track {\n  background-color: #ffffff; }\n\n::-webkit-scrollbar-thumb {\n  background-color: #ed4040; }\n\nhtml {\n  box-sizing: border-box;\n  font-size: 62.5%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  position: relative;\n  color: #000000;\n  background: #ffffff url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);\n  font-family: \"Rajdhani\", Arial, sans-serif;\n  font-size: 1.6rem;\n  font-weight: 400;\n  line-height: 1.2;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-rendering: optimizeLegibility; }\n\nul {\n  list-style-type: none; }\n\nimg {\n  width: 100%;\n  max-width: 100%;\n  height: auto; }\n\nh1,\nh2,\nh3 {\n  margin: 1rem 0; }\n\nh4 {\n  font-weight: 400; }\n\np {\n  margin: 0.5rem 0; }\n\na {\n  text-decoration: none;\n  color: #ed4040; }\n\n/* ------------------------------------------ */\n/* BUTTON BLOCK\n/* ------------------------------------------ */\n.button {\n  display: inline-block;\n  min-width: 5rem;\n  margin: 0.5rem 0;\n  padding: 0.5rem 2rem;\n  transition: background-color 0.3s ease;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n  color: white;\n  background-color: #000000;\n  font-size: 1.6rem;\n  font-weight: 700; }\n  .button:hover {\n    background: rgba(0, 0, 0, 0.8); }\n  .button--big {\n    min-width: 10rem;\n    margin: 3rem auto 0;\n    padding: 1rem 6rem; }\n  .blog .button {\n    width: 100%; }\n\n@media (min-width: 768px) {\n  .title {\n    margin: 0 0 4rem;\n    font-size: 3.5rem; } }\n\n.title--center {\n  text-align: center; }\n\n/* ------------------------------------------ */\n/* INTRO BLOCK\n/* ------------------------------------------ */\n.intro {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .intro__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .intro__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .intro__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .intro__wrapper {\n        width: 1550px; } }\n  .intro__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .intro__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .intro__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .intro__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .intro__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .intro__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .intro__heading::after {\n          display: none; } }\n  .intro .intro__content h3 {\n    margin: 0 0 0 0.4rem;\n    padding: 0;\n    text-transform: uppercase;\n    font-size: 2rem;\n    font-weight: 400;\n    line-height: 1; }\n  .intro .intro__content h4 {\n    margin: 0 0 0 0.4rem;\n    padding: 0; }\n  .intro .intro__content span {\n    color: #ed4040; }\n  .intro .intro__content h2 {\n    margin: 0;\n    padding: 0;\n    white-space: normal;\n    text-transform: uppercase;\n    color: #000000;\n    font-size: 6.5rem;\n    font-weight: 700;\n    line-height: 1; }\n  @media (min-width: 768px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.3rem;\n      font-size: 2.3rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 6.5rem; } }\n  @media (min-width: 1170px) {\n    .intro .intro__content h3 {\n      margin: 0 0 0 0.4rem;\n      font-size: 3.17rem; }\n    .intro .intro__content h2 {\n      white-space: nowrap;\n      font-size: 9rem; } }\n\n@keyframes slide {\n  from {\n    background-position: 0 0; }\n  to {\n    background-position: -100rem 0; } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.certificates {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .certificates__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .certificates__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .certificates__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .certificates__wrapper {\n        width: 1550px; } }\n  .certificates__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .certificates__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .certificates__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .certificates__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .certificates__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .certificates__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .certificates__heading::after {\n          display: none; } }\n  .certificates .certificates__items {\n    column-count: 1; }\n  .certificates .certificates__item {\n    position: relative;\n    padding-left: 1rem; }\n    .certificates .certificates__item::before {\n      position: absolute;\n      top: 0.85rem;\n      left: 0;\n      display: block;\n      width: 0.3rem;\n      height: 0.3rem;\n      content: '';\n      border-radius: 50%;\n      background-color: #000000; }\n  @media (min-width: 1170px) {\n    .certificates .certificates__items {\n      column-count: 2; } }\n\n/* ------------------------------------------ */\n/* RESUME BLOCK\n/* ------------------------------------------ */\n.resume {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .resume__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .resume__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .resume__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .resume__wrapper {\n        width: 1550px; } }\n  .resume__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .resume__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .resume__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .resume__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .resume__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .resume__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .resume__heading::after {\n          display: none; } }\n  .resume .resume__action {\n    width: 100%;\n    margin-bottom: 3.5rem;\n    text-align: center; }\n    .resume .resume__action a {\n      margin: 0; }\n  .resume .resume__items {\n    position: relative;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n  .resume .resume__item {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin-bottom: 4rem; }\n    .resume .resume__item svg,\n    .resume .resume__item img {\n      width: auto;\n      height: 3rem; }\n    .resume .resume__item h3 {\n      position: relative;\n      display: inline-block;\n      margin: 2rem 0 0.5rem 1.5rem;\n      padding: 0.3rem 2rem;\n      letter-spacing: 0;\n      color: white;\n      background: #ed4040;\n      line-height: 1; }\n      .resume .resume__item h3::before, .resume .resume__item h3::after {\n        position: absolute;\n        top: 40%;\n        left: -1.5rem;\n        display: block;\n        content: \"\";\n        border: 1rem solid #ed4040;\n        border-color: #ed4040 #ed4040 #ed4040 transparent;\n        border-right-width: 20px; }\n      .resume .resume__item h3::after {\n        right: -1.5rem;\n        left: auto;\n        border-color: #ed4040 transparent #ed4040 #ed4040; }\n    .resume .resume__item h4 {\n      margin: 2rem 0 0; }\n    .resume .resume__item li {\n      position: relative;\n      padding-left: 1rem; }\n      .resume .resume__item li::before {\n        position: absolute;\n        top: 0.85rem;\n        left: 0;\n        display: block;\n        width: 0.3rem;\n        height: 0.3rem;\n        content: '';\n        border-radius: 50%;\n        background-color: #000000; }\n  .resume .resume__link {\n    font-size: 0;\n    line-height: 0; }\n  .resume .resume__position {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start; }\n  .resume .resume__description {\n    display: flex;\n    flex-direction: column;\n    margin: 0.5rem 0 0;\n    text-align: left; }\n    .resume .resume__description strong {\n      display: block;\n      margin: 1rem 0 0.5rem; }\n  @media (min-width: 1170px) {\n    .resume .resume__content {\n      margin: 0 -1rem; }\n    .resume .resume__item {\n      width: 50%;\n      padding: 0 1rem; }\n      .resume .resume__item--compact {\n        width: calc(100% / 3); } }\n\n/* ------------------------------------------ */\n/* CERTIFICATES BLOCK\n/* ------------------------------------------ */\n.skills {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .skills__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .skills__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .skills__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .skills__wrapper {\n        width: 1550px; } }\n  .skills__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .skills__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .skills__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .skills__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .skills__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .skills__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .skills__heading::after {\n          display: none; } }\n  .skills .skills__heading {\n    width: 100%; }\n  .skills .skills__wrapper {\n    display: flex;\n    flex-direction: row;\n    margin: 0 auto;\n    flex-wrap: wrap;\n    align-content: flex-start;\n    align-items: flex-start;\n    justify-content: flex-start; }\n  .skills .skills__content {\n    width: 100%; }\n    .skills .skills__content svg {\n      stroke: rgba(235, 224, 202, 0.15); }\n  .skills .skills__items {\n    display: flex;\n    margin: 0 -0.5rem 4rem;\n    flex-flow: column wrap; }\n  .skills .skills__item {\n    width: 100%;\n    padding: 0.5rem; }\n    .skills .skills__item b {\n      display: block; }\n  @media (min-width: 768px) {\n    .skills .skills__content {\n      padding: 0.5rem 3em 0.5rem 0; } }\n  @media (min-width: 1170px) {\n    .skills .skills__content {\n      width: calc(100% / 3);\n      text-align: left; } }\n\n/* ------------------------------------------ */\n/* CONTACT BLOCK\n/* ------------------------------------------ */\n.contact {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  padding: 10rem 0;\n  align-items: center;\n  align-content: center;\n  justify-content: center; }\n  .contact__wrapper {\n    width: 100%;\n    margin: 0 auto;\n    padding: 1.5rem; }\n    @media (min-width: 768px) {\n      .contact__wrapper {\n        width: 768px;\n        max-width: calc(100% - 16rem); } }\n    @media (min-width: 1170px) {\n      .contact__wrapper {\n        width: 1170px;\n        max-width: calc(100% - 20rem); } }\n    @media (min-width: 1550px) {\n      .contact__wrapper {\n        width: 1550px; } }\n  .contact__heading {\n    position: relative;\n    margin-bottom: 5rem;\n    text-align: center; }\n    .contact__heading span {\n      color: #ed4040;\n      font-size: 1.2rem; }\n    .contact__heading h1 {\n      white-space: nowrap;\n      letter-spacing: 0.2rem;\n      text-transform: uppercase;\n      color: white;\n      font-size: 1.8rem;\n      font-weight: 400;\n      line-height: 1; }\n    .contact__heading::after {\n      position: absolute;\n      bottom: -1rem;\n      left: 50%;\n      display: block;\n      width: 3rem;\n      height: 0.1rem;\n      content: \"\";\n      transform: translateX(-50%);\n      border-top: 0.1rem dotted #ed4040; }\n    @media (min-width: 768px) {\n      .contact__heading {\n        position: absolute;\n        top: 50%;\n        left: 1rem;\n        display: inline-flex;\n        flex-direction: column;\n        margin-bottom: 0;\n        transform: rotate(-90deg) translateX(-50%);\n        transform-origin: left top 0;\n        text-align: center; }\n        .contact__heading h1 {\n          margin-bottom: 0;\n          font-size: 4.5rem; }\n        .contact__heading::after {\n          display: none; } }\n  .contact .contact__content {\n    display: flex;\n    flex-direction: column; }\n  .contact .contact__socials {\n    display: flex;\n    flex-direction: row;\n    justify-content: flex-start;\n    flex-wrap: wrap; }\n  .contact .contact__social {\n    position: relative;\n    display: flex;\n    width: 7rem;\n    height: 7rem;\n    margin: 0 1rem 1rem 0;\n    background: #000000;\n    font-size: 0;\n    line-height: 0;\n    align-items: center;\n    align-content: space-around;\n    justify-content: center; }\n    .contact .contact__social:hover {\n      background: rgba(0, 0, 0, 0.8); }\n  .contact .contact__social-item {\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center; }\n  .contact svg {\n    width: 2.5rem;\n    height: 2.5rem;\n    fill: white; }\n\n/* ------------------------------------------ */\n/* FOOTER BLOCK\n/* ------------------------------------------ */\n.footer {\n  position: relative;\n  padding: 1rem 1rem 3rem;\n  text-align: center;\n  font-size: 1.2rem; }\n  .footer cite {\n    display: block;\n    font-style: normal; }\n  .footer span {\n    position: relative;\n    display: block; }\n  @media (min-width: 768px) {\n    .footer {\n      position: fixed;\n      right: 0;\n      bottom: 0;\n      padding: 1rem;\n      text-align: right; }\n      .footer span::before {\n        position: absolute;\n        top: 50%;\n        display: block;\n        width: 2.5rem;\n        height: 0.05rem;\n        content: \"\";\n        transform: translateY(-50%);\n        background: #ed4040; } }\n\n[data-aos][data-aos][data-aos-duration=\"2000\"],\nbody[data-aos-duration=\"2000\"] [data-aos] {\n  transition-duration: 2s; }\n\n[data-aos=zoom-in] {\n  transform: scale(0.6); }\n\n[data-aos^=zoom][data-aos^=zoom].aos-animate {\n  transform: none; }\n", ""]);
 
 // exports
 
@@ -21778,675 +21778,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/react-modal-image/es/Header.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-modal-image/es/Header.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ "./node_modules/react-modal-image/es/icons.js");
-
-
-
-
-var Header = function Header(_ref) {
-  var image = _ref.image,
-      alt = _ref.alt,
-      zoomed = _ref.zoomed,
-      toggleZoom = _ref.toggleZoom,
-      toggleRotate = _ref.toggleRotate,
-      onClose = _ref.onClose,
-      enableDownload = _ref.enableDownload,
-      enableZoom = _ref.enableZoom,
-      enableRotate = _ref.enableRotate;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "div",
-    { className: "__react_modal_image__header" },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "span",
-      { className: "__react_modal_image__icon_menu" },
-      enableDownload && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "a",
-        { href: image, download: true },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["DownloadIcon"], null)
-      ),
-      enableZoom && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "a",
-        { onClick: toggleZoom },
-        zoomed ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["ZoomOutIcon"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["ZoomInIcon"], null)
-      ),
-      enableRotate && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "a",
-        { onClick: toggleRotate },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["RotateIcon"], null)
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "a",
-        { onClick: onClose },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["CloseIcon"], null)
-      )
-    ),
-    alt && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "span",
-      { className: "__react_modal_image__caption" },
-      alt
-    )
-  );
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-image/es/Image.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-modal-image/es/Image.js ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Image; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ "./node_modules/react-modal-image/es/icons.js");
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-var Image = function (_Component) {
-  _inherits(Image, _Component);
-
-  function Image() {
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, Image);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.state = {
-      loading: true
-    }, _this.handleOnLoad = function () {
-      _this.setState({ loading: false });
-    }, _this.handleOnContextMenu = function (event) {
-      !_this.props.contextMenu && event.preventDefault();
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  Image.prototype.render = function render() {
-    var _props = this.props,
-        id = _props.id,
-        className = _props.className,
-        src = _props.src,
-        style = _props.style,
-        handleDoubleClick = _props.handleDoubleClick;
-
-
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "div",
-      null,
-      this.state.loading && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons__WEBPACK_IMPORTED_MODULE_1__["SpinnerIcon"], null),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        id: id,
-        className: className,
-        src: src,
-        style: style,
-        onLoad: this.handleOnLoad,
-        onDoubleClick: handleDoubleClick,
-        onContextMenu: this.handleOnContextMenu
-      })
-    );
-  };
-
-  return Image;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-image/es/Lightbox.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-modal-image/es/Lightbox.js ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Lightbox; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./node_modules/react-modal-image/es/styles.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./node_modules/react-modal-image/es/Header.js");
-/* harmony import */ var _Image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Image */ "./node_modules/react-modal-image/es/Image.js");
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-
-var Lightbox = function (_Component) {
-  _inherits(Lightbox, _Component);
-
-  function Lightbox() {
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, Lightbox);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.state = {
-      move: { x: 0, y: 0 },
-      moveStart: undefined,
-      zoomed: false,
-      rotationDeg: 0
-    }, _this.handleKeyDown = function (event) {
-      // ESC or ENTER closes the modal
-      if (event.keyCode === 27 || event.keyCode === 13) {
-        _this.props.onClose();
-      }
-    }, _this.getCoordinatesIfOverImg = function (event) {
-      var point = event.changedTouches ? event.changedTouches[0] : event;
-
-      if (point.target.id !== "react-modal-image-img") {
-        // the img was not a target of the coordinates
-        return;
-      }
-
-      var dim = _this.contentEl.getBoundingClientRect();
-      var x = point.clientX - dim.left;
-      var y = point.clientY - dim.top;
-
-      return { x: x, y: y };
-    }, _this.handleMouseDownOrTouchStart = function (event) {
-      event.preventDefault();
-
-      if (event.touches && event.touches.length > 1) {
-        // more than one finger, ignored
-        return;
-      }
-
-      var coords = _this.getCoordinatesIfOverImg(event);
-
-      if (!coords) {
-        // click outside the img => close modal
-        _this.props.onClose();
-      }
-
-      if (!_this.state.zoomed) {
-        // do not allow drag'n'drop if zoom has not been applied
-        return;
-      }
-
-      _this.setState(function (prev) {
-        return {
-          moveStart: {
-            x: coords.x - prev.move.x,
-            y: coords.y - prev.move.y
-          }
-        };
-      });
-    }, _this.handleMouseMoveOrTouchMove = function (event) {
-      event.preventDefault();
-
-      if (!_this.state.zoomed || !_this.state.moveStart) {
-        // do not allow drag'n'drop if zoom has not been applied
-        // or if there has not been a click
-        return;
-      }
-
-      if (event.touches && event.touches.length > 1) {
-        // more than one finger, ignored
-        return;
-      }
-
-      var coords = _this.getCoordinatesIfOverImg(event);
-
-      if (!coords) {
-        return;
-      }
-
-      _this.setState(function (prev) {
-        return {
-          move: {
-            x: coords.x - prev.moveStart.x,
-            y: coords.y - prev.moveStart.y
-          }
-        };
-      });
-    }, _this.handleMouseUpOrTouchEnd = function (event) {
-      _this.setState({
-        moveStart: undefined
-      });
-    }, _this.toggleZoom = function (event) {
-      event.preventDefault();
-      _this.setState(function (prev) {
-        return {
-          zoomed: !prev.zoomed,
-          // reset position if zoomed out
-          move: prev.zoomed ? { x: 0, y: 0 } : prev.move
-        };
-      });
-    }, _this.toggleRotate = function (event) {
-      event.preventDefault();
-
-      var rotationDeg = _this.state.rotationDeg;
-
-
-      if (rotationDeg === 360) {
-        _this.setState({ rotationDeg: 90 });
-        return;
-      }
-
-      _this.setState(function (prevState) {
-        return {
-          rotationDeg: prevState.rotationDeg += 90
-        };
-      });
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  Lightbox.prototype.componentDidMount = function componentDidMount() {
-    document.addEventListener("keydown", this.handleKeyDown, false);
-  };
-
-  Lightbox.prototype.componentWillUnmount = function componentWillUnmount() {
-    document.removeEventListener("keydown", this.handleKeyDown, false);
-  };
-
-  Lightbox.prototype.render = function render() {
-    var _this2 = this;
-
-    var _props = this.props,
-        medium = _props.medium,
-        large = _props.large,
-        alt = _props.alt,
-        onClose = _props.onClose,
-        hideDownload = _props.hideDownload,
-        hideZoom = _props.hideZoom,
-        showRotate = _props.showRotate,
-        _props$imageBackgroun = _props.imageBackgroundColor,
-        imageBackgroundColor = _props$imageBackgroun === undefined ? "black" : _props$imageBackgroun;
-    var _state = this.state,
-        move = _state.move,
-        zoomed = _state.zoomed,
-        rotationDeg = _state.rotationDeg;
-
-
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "div",
-      null,
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        name: "__react_modal_image__lightbox",
-        css: Object(_styles__WEBPACK_IMPORTED_MODULE_1__["lightboxStyles"])({ imageBackgroundColor: imageBackgroundColor })
-      }),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
-        { className: "__react_modal_image__modal_container" },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          "div",
-          {
-            className: "__react_modal_image__modal_content",
-            onMouseDown: this.handleMouseDownOrTouchStart,
-            onMouseUp: this.handleMouseUpOrTouchEnd,
-            onMouseMove: this.handleMouseMoveOrTouchMove,
-            onTouchStart: this.handleMouseDownOrTouchStart,
-            onTouchEnd: this.handleMouseUpOrTouchEnd,
-            onTouchMove: this.handleMouseMoveOrTouchMove,
-            ref: function ref(el) {
-              _this2.contentEl = el;
-            }
-          },
-          zoomed && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
-            id: "react-modal-image-img",
-            className: "__react_modal_image__large_img",
-            src: large || medium,
-            style: {
-              transform: "translate3d(-50%, -50%, 0) translate3d(" + move.x + "px, " + move.y + "px, 0) rotate(" + rotationDeg + "deg)",
-              WebkitTransform: "translate3d(-50%, -50%, 0) translate3d(" + move.x + "px, " + move.y + "px, 0) rotate(" + rotationDeg + "deg)",
-              MsTransform: "translate3d(-50%, -50%, 0) translate3d(" + move.x + "px, " + move.y + "px, 0) rotate(" + rotationDeg + "deg)"
-            },
-            handleDoubleClick: this.toggleZoom
-          }),
-          !zoomed && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
-            id: "react-modal-image-img",
-            className: "__react_modal_image__medium_img",
-            src: medium || large,
-            handleDoubleClick: this.toggleZoom,
-            contextMenu: !medium,
-            style: {
-              transform: "translate3d(-50%, -50%, 0) rotate(" + rotationDeg + "deg)",
-              WebkitTransform: "translate3d(-50%, -50%, 0) rotate(" + rotationDeg + "deg)",
-              MsTransform: "translate3d(-50%, -50%, 0) rotate(" + rotationDeg + "deg)"
-            }
-          })
-        ),
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          image: large || medium,
-          alt: alt,
-          zoomed: zoomed,
-          toggleZoom: this.toggleZoom,
-          toggleRotate: this.toggleRotate,
-          onClose: onClose,
-          enableDownload: !hideDownload,
-          enableZoom: !hideZoom,
-          enableRotate: !!showRotate
-        })
-      )
-    );
-  };
-
-  return Lightbox;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-image/es/icons.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-modal-image/es/icons.js ***!
-  \****************************************************/
-/*! exports provided: ZoomInIcon, ZoomOutIcon, DownloadIcon, CloseIcon, SpinnerIcon, RotateIcon */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZoomInIcon", function() { return ZoomInIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZoomOutIcon", function() { return ZoomOutIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DownloadIcon", function() { return DownloadIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CloseIcon", function() { return CloseIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpinnerIcon", function() { return SpinnerIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RotateIcon", function() { return RotateIcon; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* 
-  Icons from https://material.io/icons/
-*/
-
-
-
-var ZoomInIcon = function ZoomInIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      height: "24",
-      viewBox: "0 0 24 24",
-      width: "24",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M0 0h24v24H0z", fill: "none" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" })
-  );
-};
-
-var ZoomOutIcon = function ZoomOutIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      height: "24",
-      viewBox: "0 0 24 24",
-      width: "24",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M0 0h24v24H0z", fill: "none" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" })
-  );
-};
-
-var DownloadIcon = function DownloadIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      height: "24",
-      viewBox: "0 0 24 24",
-      width: "24",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M0 0h24v24H0z", fill: "none" })
-  );
-};
-
-var CloseIcon = function CloseIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      height: "24",
-      viewBox: "0 0 24 24",
-      width: "24",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M0 0h24v24H0z", fill: "none" })
-  );
-};
-
-var SpinnerIcon = function SpinnerIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      height: "48",
-      viewBox: "0 0 24 24",
-      width: "48",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M0 0h24v24H0V0z", fill: "none" })
-  );
-};
-
-var RotateIcon = function RotateIcon() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    "svg",
-    {
-      fill: "#ffffff",
-      width: "24",
-      height: "24",
-      viewBox: "0 0 24 24",
-      xmlns: "http://www.w3.org/2000/svg"
-    },
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { fill: "none", d: "M0 0h24v24H0V0zm0 0h24v24H0V0z" }),
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", { d: "M7.47 21.49C4.2 19.93 1.86 16.76 1.5 13H0c.51 6.16 5.66 11 11.95 11 .23 0 .44-.02.66-.03L8.8 20.15l-1.33 1.34zM12.05 0c-.23 0-.44.02-.66.04l3.81 3.81 1.33-1.33C19.8 4.07 22.14 7.24 22.5 11H24c-.51-6.16-5.66-11-11.95-11zM16 14h2V8c0-1.11-.9-2-2-2h-6v2h6v6zm-8 2V4H6v2H4v2h2v8c0 1.1.89 2 2 2h8v2h2v-2h2v-2H8z" })
-  );
-};
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-image/es/index.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-modal-image/es/index.js ***!
-  \****************************************************/
-/*! exports provided: Lightbox, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _default; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Lightbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Lightbox */ "./node_modules/react-modal-image/es/Lightbox.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Lightbox", function() { return _Lightbox__WEBPACK_IMPORTED_MODULE_1__["default"]; });
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-var _default = function (_Component) {
-  _inherits(_default, _Component);
-
-  function _default() {
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, _default);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.state = { modalOpen: false }, _this.toggleModal = function () {
-      _this.setState(function (prev) {
-        return {
-          modalOpen: !prev.modalOpen
-        };
-      });
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _default.prototype.render = function render() {
-    var _props = this.props,
-        className = _props.className,
-        small = _props.small,
-        smallSrcSet = _props.smallSrcSet,
-        medium = _props.medium,
-        large = _props.large,
-        alt = _props.alt,
-        hideDownload = _props.hideDownload,
-        hideZoom = _props.hideZoom,
-        showRotate = _props.showRotate,
-        imageBackgroundColor = _props.imageBackgroundColor;
-    var modalOpen = this.state.modalOpen;
-
-
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "div",
-      null,
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: className,
-        style: {
-          cursor: "pointer",
-          maxWidth: "100%",
-          maxHeight: "100%"
-        },
-        onClick: this.toggleModal,
-        src: small,
-        srcSet: smallSrcSet,
-        alt: alt
-      }),
-      modalOpen && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Lightbox__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        medium: medium,
-        large: large,
-        alt: alt,
-        onClose: this.toggleModal,
-        hideDownload: hideDownload,
-        hideZoom: hideZoom,
-        showRotate: showRotate,
-        imageBackgroundColor: imageBackgroundColor
-      })
-    );
-  };
-
-  return _default;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
-
-/***/ }),
-
-/***/ "./node_modules/react-modal-image/es/styles.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/react-modal-image/es/styles.js ***!
-  \*****************************************************/
-/*! exports provided: default, lightboxStyles */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return StyleInjector; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lightboxStyles", function() { return lightboxStyles; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-function appendStyle(id, css) {
-  if (!document.head.querySelector("#" + id)) {
-    var node = document.createElement("style");
-    node.textContent = css;
-    node.type = "text/css";
-    node.id = id;
-
-    document.head.appendChild(node);
-  }
-}
-
-var StyleInjector = function (_Component) {
-  _inherits(StyleInjector, _Component);
-
-  function StyleInjector() {
-    _classCallCheck(this, StyleInjector);
-
-    return _possibleConstructorReturn(this, _Component.apply(this, arguments));
-  }
-
-  StyleInjector.prototype.componentDidMount = function componentDidMount() {
-    appendStyle(this.props.name, this.props.css);
-  };
-
-  StyleInjector.prototype.componentWillUnmount = function componentWillUnmount() {
-    var node = document.getElementById(this.props.name);
-    node.parentNode.removeChild(node);
-  };
-
-  StyleInjector.prototype.render = function render() {
-    return null;
-  };
-
-  return StyleInjector;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
-
-
-var lightboxStyles = function lightboxStyles(_ref) {
-  var imageBackgroundColor = _ref.imageBackgroundColor;
-  return "\n  body {\n    overflow: hidden;\n  }\n\n  .__react_modal_image__modal_container {\n    position: fixed;\n    z-index: 1000;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.8);\n    touch-action: none;\n    overflow: hidden;\n  }\n\n  .__react_modal_image__modal_content {\n    position: relative;\n    height: 100%;\n    width: 100%;\n  }\n\n  .__react_modal_image__modal_content img, \n  .__react_modal_image__modal_content svg {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate3d(-50%, -50%, 0);\n    -webkit-transform: translate3d(-50%, -50%, 0);\n    -ms-transform: translate3d(-50%, -50%, 0);\n    overflow: hidden;\n  }\n\n  .__react_modal_image__medium_img {\n    max-width: 98%;\n    max-height: 98%;\n    background-color: " + imageBackgroundColor + ";\n  }\n\n  .__react_modal_image__large_img {\n    cursor: move;\n    background-color: " + imageBackgroundColor + "\n  }\n\n  .__react_modal_image__icon_menu a {\n    display: inline-block;\n    font-size: 40px;\n    cursor: pointer;\n    line-height: 40px;\n    box-sizing: border-box;\n    border: none;\n    padding: 0px 5px 0px 5px;\n    margin-left: 10px;\n    color: white;\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  .__react_modal_image__icon_menu {\n    display: inline-block;\n    float: right;\n  }\n\n  .__react_modal_image__caption {\n    display: inline-block;\n    color: white;\n    font-size: 120%;\n    padding: 10px;\n    margin: 0;\n  }\n\n  .__react_modal_image__header {\n    position: absolute;\n    top: 0;\n    width: 100%;\n    background-color: rgba(0, 0, 0, 0.7);\n    overflow: hidden;\n  }\n";
-};
-
-/***/ }),
-
 /***/ "./node_modules/react/cjs/react.development.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
@@ -26165,7 +25496,6 @@ function (_React$PureComponent) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_modal_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-modal-image */ "./node_modules/react-modal-image/es/index.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26183,7 +25513,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
 
 
 
@@ -26210,191 +25539,73 @@ function (_React$PureComponent) {
         className: "certificates__heading"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 03"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Certificates")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Latest Certifications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Certifications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "certificates__items"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/V2UZ4M42BU8X.jpg",
-        medium: "./img/certificates/medium/V2UZ4M42BU8X.jpg",
-        large: "./img/certificates/original/V2UZ4M42BU8X.jpg",
-        alt: "Creating a Team Culture of Continuous Learning"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/BRTATAWKWHXA.jpg",
-        medium: "./img/certificates/medium/BRTATAWKWHXA.jpg",
-        large: "./img/certificates/original/BRTATAWKWHXA.jpg",
-        alt: "Reviews & Metrics for Software Improvements"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/F2WSASRBFN6L.jpg",
-        medium: "./img/certificates/medium/F2WSASRBFN6L.jpg",
-        large: "./img/certificates/original/F2WSASRBFN6L.jpg",
-        alt: "Software Processes and Agile Practices"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/F5DUSSJYKZ6H.jpg",
-        medium: "./img/certificates/medium/F5DUSSJYKZ6H.jpg",
-        large: "./img/certificates/original/F5DUSSJYKZ6H.jpg",
-        alt: "Introduction to Software Product Management"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/javascript3.jpg",
-        medium: "./img/certificates/medium/javascript3.jpg",
-        large: "./img/certificates/original/javascript3.jpg",
-        alt: "HTMLAcademy JavaScript 3"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/javascript2.jpg",
-        medium: "./img/certificates/medium/javascript2.jpg",
-        large: "./img/certificates/original/javascript2.jpg",
-        alt: "HTMLAcademy JavaScript 2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/fundamentals-of-digital-marketing.jpg",
-        medium: "./img/certificates/medium/fundamentals-of-digital-marketing.jpg",
-        large: "./img/certificates/original/fundamentals-of-digital-marketing.jpg",
-        alt: "The Fundamentals of Digital Marketing"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/architect.jpg",
-        medium: "./img/certificates/medium/architect.jpg",
-        large: "./img/certificates/original/architect.jpg",
-        alt: "How To Become An Outstanding Solution Architect"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/javascript.jpg",
-        medium: "./img/certificates/medium/javascript.jpg",
-        large: "./img/certificates/original/javascript.jpg",
-        alt: "The Complete JavaScript Course 2019"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/web-designer-basics.jpg",
-        medium: "./img/certificates/medium/web-designer-basics.jpg",
-        large: "./img/certificates/original/web-designer-basics.jpg",
-        alt: "Web Designer Basics"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/digital-sales-certification.jpg",
-        medium: "./img/certificates/medium/digital-sales-certification.jpg",
-        large: "./img/certificates/original/digital-sales-certification.jpg",
-        alt: "digital sales certification"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/creative-certification-exam.jpg",
-        medium: "./img/certificates/medium/creative-certification-exam.jpg",
-        large: "./img/certificates/original/creative-certification-exam.jpg",
-        alt: "creative certification exam"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/analytics-individual-qualification.jpg",
-        medium: "./img/certificates/medium/analytics-individual-qualification.jpg",
-        large: "./img/certificates/original/analytics-individual-qualification.jpg",
-        alt: "analytics individual qualification"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/yandex.jpg",
-        medium: "./img/certificates/medium/yandex.jpg",
-        large: "./img/certificates/original/yandex.jpg",
-        alt: "yandex"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/googlep-2.jpg",
-        medium: "./img/certificates/medium/googlep-2.jpg",
-        large: "./img/certificates/original/googlep-2.jpg",
-        alt: "googlep-2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/googlep-1.jpg",
-        medium: "./img/certificates/medium/googlep-1.jpg",
-        large: "./img/certificates/original/googlep-1.jpg",
-        alt: "googlep-1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/ccna-4.jpg",
-        medium: "./img/certificates/medium/ccna-4.jpg",
-        large: "./img/certificates/original/ccna-4.jpg",
-        alt: "ccna 4"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/ccna-3.jpg",
-        medium: "./img/certificates/medium/ccna-3.jpg",
-        large: "./img/certificates/original/ccna-3.jpg",
-        alt: "ccna 3"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/ccna-2.jpg",
-        medium: "./img/certificates/medium/ccna-2.jpg",
-        large: "./img/certificates/original/ccna-2.jpg",
-        alt: "ccna 2"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/ccna-1.jpg",
-        medium: "./img/certificates/medium/ccna-1.jpg",
-        large: "./img/certificates/original/ccna-1.jpg",
-        alt: "ccna 1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/w3c.jpg",
-        medium: "./img/certificates/medium/w3c.jpg",
-        large: "./img/certificates/original/w3c.jpg",
-        alt: "w3c"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/alison.jpg",
-        medium: "./img/certificates/medium/alison.jpg",
-        large: "./img/certificates/original/alison.jpg",
-        alt: "alison"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/mta-html5.jpg",
-        medium: "./img/certificates/medium/mta-html5.jpg",
-        large: "./img/certificates/original/mta-html5.jpg",
-        alt: "mta html5"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/mta-wosf.jpg",
-        medium: "./img/certificates/medium/mta-wosf.jpg",
-        large: "./img/certificates/original/mta-wosf.jpg",
-        alt: "mta wosf"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/mta-mcp.jpg",
-        medium: "./img/certificates/medium/mta-mcp.jpg",
-        large: "./img/certificates/original/mta-mcp.jpg",
-        alt: "mta cp"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_modal_image__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: "certificates__item",
-        hideDownload: true,
-        small: "./img/certificates/small/schneider-universities.jpg",
-        medium: "./img/certificates/medium/schneider-universities.jpg",
-        large: "./img/certificates/original/schneider-universities.jpg",
-        alt: "schneider universities"
-      })))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2020 - Divemaster (DM), PADI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Primary & Secondary Care CPR / First Aid, PADI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Rescue Diver, PADI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Web Designer Basics, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - The Fundamentals of Digital Marketing, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - JavaScript Level 3, HTML Academy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - JavaScript Level 2, HTML Academy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Understanding Information Control For IT Managers Certificate, Alison"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Digital Sales Certification, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Creative Certification Exam, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Google Analytics Individual Qualification, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Software Processes and Agile Practices, Coursera"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Reviews & Metrics for Software Improvements, Coursera"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Introduction to Software Product Management, Coursera"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2019 - Creating a Team Culture of Continuous Learning, Coursera"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2016 - Google AdWords Certification - Shopping Advertising, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2016 - Google Analytics Individual Qualification, Google"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2016 - Yandex Direct Certified Professional, Yandex"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2015 - Fundamentals Of Network Security Certificate, Alison"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2015 - CCNA 3 - Scaling Networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2015 - CCNA 4 - Connecting networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2015 - MTA: Windows Operating System Fundamentals, Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2014 - MTA: HTML5 Application Development Fundamentals, Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2014 - Data Center University Associate Development Path, Schneider Electric"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2014 - MCP: Microsoft Certified Professional, Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2014 - CCNA 2 - Routing and Switching Essentials, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2013 - CCNA 1 - Introduction to Networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2013 - PHP Developer Certificate, W3Schools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2012 - Information Storage and Management, EMC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2012 - Master of digital information processing, GBOU liceum at SPB State University of Telecommunications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2011 - Internet and Computing Core Certification, Basis")))));
     }
   }]);
 
@@ -26459,7 +25670,9 @@ function (_React$PureComponent) {
         className: "contact__heading"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 04"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Contact Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "LET'S SOCIALIZE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Let's Socialize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "contact__socials"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
@@ -26743,7 +25956,9 @@ function (_React$PureComponent) {
         className: "resume__heading"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 02"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Latest Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Latest Work History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item"
@@ -26813,14 +26028,9 @@ function (_React$PureComponent) {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Working as a full-time Dev Lead in iX.co."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Duties:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "resume__action"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",
-        className: "button button--big",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, "Print / Download the full CV")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Design, develop, and unit test applications in accordance with established standards"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Peer-reviews of solution designs and related code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide technical leadership to teammates through coaching and mentorship"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Guide team development efforts towards successful project delivery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintain high standards of software quality by establishing good practices and habits"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Identify and encourage areas for growth and improvement within the team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Provide third-level support to business users"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Adhere to high-quality dev principles while delivering solutions on-time and on-budget"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Collaborate with software developers, BAs and SAs to plan, design, develop, test, and maintain web-based applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Prepare reports, manuals, other documentation on the status, operation and maintenance of software"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
@@ -26866,7 +26076,9 @@ function (_React$PureComponent) {
         width: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2009 \u2013 2012"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of digital information processing in GBOU liceum at St. Petersburg State University of Telecommunications (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Volunteer Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Volunteer Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
@@ -26883,7 +26095,14 @@ function (_React$PureComponent) {
         height: "135"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Organizer of pitercss_meetup (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__action"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true",
+        className: "button button--big",
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, "Print / Download the full CV")))));
     }
   }]);
 
@@ -26946,17 +26165,11 @@ function (_React$PureComponent) {
         className: "skills__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__heading"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 01"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "CHAPTER 01"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Leadership Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Leadership Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
@@ -26976,15 +26189,9 @@ function (_React$PureComponent) {
         className: "skills__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Planning:"), " Analysis, conceptual skills, brainstorming, decision-making, forecasting, logistics, problem-solving skills, cost-assessment, requirements-gathering."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Technical Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Technical Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
@@ -27004,15 +26211,9 @@ function (_React$PureComponent) {
         className: "skills__item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving:"), " Data analysis, process analysis, project design, solution design, benchmark development, troubleshooting."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Org and Ops Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        xmlns: "http://www.w3.org/2000/svg",
-        width: "108px",
-        height: "24px"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M1 12 L108 12",
-        strokeLinecap: "round",
-        strokeDasharray: "0.001 3.3333333333333335"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "title"
+      }, "Org and Ops Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"

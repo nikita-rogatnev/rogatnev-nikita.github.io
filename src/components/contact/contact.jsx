@@ -10,7 +10,7 @@ class Contact extends React.PureComponent {
                         <h2>Contact Me</h2>
                     </div>
                     <div className="contact__content">
-                        <h2>LET&apos;S SOCIALIZE</h2>
+                        <h2 className="title">Let&apos;s Socialize</h2>
                         <ul className="contact__socials">
                             <li className="contact__social">
                                 <a href="https://www.linkedin.com/in/rogatnevnikita/" className="contact__social-item"

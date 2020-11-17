@@ -8,86 +8,34 @@
     @include heading;
 
     .certificates__items {
-        column-count: 4;
-        column-gap: 2rem;
-
-
-        & > div {
-            display: inline-block;
-
-            width: 100%;
-            margin-bottom: 2rem;
-
-            vertical-align: top;
-
-            font-size: 0;
-            line-height: 0;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
+        column-count: 1;
     }
 
+    .certificates__item {
+        position: relative;
 
-    .certificates__content {
-        h2 {
-            margin: 0 0 2rem;
+        padding-left: 1rem;
 
-            text-align: center;
+        &::before {
+            position: absolute;
+            top: 0.85rem;
+            left: 0;
 
-            color: $color-secondary;
+            display: block;
 
-            font-size: $font-size-01;
-            font-weight: $regular-font-weight;
-            line-height: 1;
-        }
-    }
+            width: 0.3rem;
+            height: 0.3rem;
 
-    .__react_modal_image__header {
-        position: fixed;
-        top: 0;
-    }
+            content: '';
 
-    .__react_modal_image__modal_container {
-        position: fixed;
-        top: 0;
-
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .__react_modal_image__medium_img {
-        width: 100%;
-        max-width: 90vw;
-        height: auto;
-        max-height: 90vh;
-    }
-
-    @media (min-width: $medium-up) {
-        .certificates__items {
-            column-count: 5;
-        }
-
-        .__react_modal_image__medium_img {
-            width: auto;
-            max-width: 90vw;
-            height: auto;
-            max-height: 90vh;
+            border-radius: 50%;
+            background-color: $color-secondary;
         }
     }
 
     @media (min-width: $large-up) {
         .certificates__items {
-            column-count: 8;
-        }
-
-        .certificates__content {
-            h2 {
-                margin: 4rem 0 3rem;
-
-                font-size: $font-size-03;
-            }
+            column-count: 2;
         }
     }
 }

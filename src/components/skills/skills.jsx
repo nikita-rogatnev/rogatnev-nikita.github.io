@@ -7,14 +7,11 @@ class Skills extends React.PureComponent {
                 <div className="skills__wrapper">
                     <div className="skills__heading">
                         <span>CHAPTER 01</span>
-                        <h2>skills</h2>
+                        <h2>Skills</h2>
                     </div>
 
                     <div className="skills__content">
-                        <h2>Leadership Skills</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
+                        <h2 className="title">Leadership Skills</h2>
                         <ul className="skills__items">
                             <li className="skills__item"><b>People Management:</b> Recruiting, hiring, training,
                                 mentoring, coaching, onboarding, team building, conflict management, critical thinking,
@@ -50,10 +47,7 @@ class Skills extends React.PureComponent {
                     </div>
 
                     <div className="skills__content">
-                        <h2>Technical Skills</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
+                        <h2 className="title">Technical Skills</h2>
                         <ul className="skills__items">
                             <li className="skills__item"><b>Web:</b> 10+ years of development experience with HTML, CSS,
                                 LESS, SASS, PostCSS, Stylus, JavaScript, React, Git, GitHub, Bitbucket, GitLab, Travis,
@@ -87,10 +81,7 @@ class Skills extends React.PureComponent {
                     </div>
 
                     <div className="skills__content">
-                        <h2>Org and Ops Skills</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="108px" height="24px">
-                            <path d="M1 12 L108 12" strokeLinecap="round" strokeDasharray="0.001 3.3333333333333335"/>
-                        </svg>
+                        <h2 className="title">Org and Ops Skills</h2>
                         <ul className="skills__items">
                             <li className="skills__item"><b>Department Leadership:</b> Management of a 20+ employee
                                 Operations department consisting of Support Operations, Business Operations and

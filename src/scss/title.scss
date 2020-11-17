@@ -1,0 +1,11 @@
+.title {
+
+    @media (min-width: $medium-up) {
+        margin: 0 0 4rem;
+        font-size: $font-size-03;
+    }
+
+    &--center {
+        text-align: center;
+    }
+}

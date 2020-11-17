@@ -10,28 +10,11 @@
     .contact__content {
         display: flex;
         flex-direction: column;
-
-        h2 {
-            margin: 0 0 2rem;
-
-            text-align: center;
-
-            color: $color-secondary;
-
-            font-size: $font-size-01;
-            font-weight: $regular-font-weight;
-            line-height: 1;
-        }
     }
 
     .contact__socials {
         display: flex;
         flex-direction: row;
-
-        margin: 0 auto;
-
-        align-content: center;
-        align-items: center;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
@@ -43,7 +26,7 @@
 
         width: 7rem;
         height: 7rem;
-        margin: 1rem;
+        margin: 0 1rem 1rem 0;
 
         background: $color-secondary;
 
@@ -74,15 +57,5 @@
         height: 2.5rem;
 
         fill: $color-primary-text-light;
-    }
-
-    @media (min-width: $large-up) {
-        .contact__content {
-            h2 {
-                margin: 0 0 3rem;
-
-                font-size: $font-size-03;
-            }
-        }
     }
 }
