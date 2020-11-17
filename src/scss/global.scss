@@ -31,7 +31,7 @@ body {
     position: relative;
 
     color: $color-secondary;
-    background: $color-primary url(https://rm-content.s3-accelerate.amazonaws.com/5285014aa6d855ba50004d11/942208/upload-db9555b0-f6da-11e7-8e5b-7ddd49f1b502.png);
+    background: repeat fixed center/0.6rem url(https://nassar.netlify.app/assets/images/dot.png);
 
     font-family: $font-family-primary;
     font-size: $base-font-size;
