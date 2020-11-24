@@ -20,43 +20,43 @@ class Resume extends React.PureComponent {
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
                                     <h3>Mar 2020 – Present</h3>
-                                    <h4>Manager, Business and Technical Operations in iX.co (USA)</h4>
+                                    <h4>Operations Manager in iX.co (USA)</h4>
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                        Nikita reports to the CPO and is responsible for all business and technical
-                                        operations in iX Products division, which involves the effective execution of
-                                        the 8 Standard Dimensions: stakeholder management, growth enablement, commercial
-                                        management, people management, schedule and scope management, risk and issue
-                                        management, collaboration management, and quality assurance. As a member of the
-                                        iX Products Leadership team provides oversight of daily operations and
-                                        represents technical, business, and support operations offices. Enhances the
-                                        operational procedure, systems, and principles in the areas of information flow
-                                        and management, business processes, enhanced management reporting, and looks for
-                                        opportunities to expand systems. Carries out supervisory responsibilities in
-                                        accordance with the company’s and division's policies.
+                                        Reports to the Chief Product Officer and is responsible for all business and
+                                        technical operations in iX Products division, which involves the effective
+                                        execution of the 8 Standard Dimensions: stakeholder management, growth
+                                        enablement, commercial management, people management, schedule and scope
+                                        management, risk and issue management, collaboration management, and quality
+                                        assurance. As a member of the iX Products division Leadership team provides
+                                        oversight of daily operations and represents technical, business, and support
+                                        operations offices. Enhances the operational procedure, systems, and principles
+                                        in the areas of information flow and management, business processes, enhanced
+                                        management reporting and looks for opportunities to expand systems. Carries out
+                                        supervisory responsibilities in accordance with the company and division
+                                        policies.
                                     </p>
                                     <strong>
                                         Duties:
                                     </strong>
                                     <ul className="resume__list">
-                                        <li>As a member of the business unit Leadership team provide oversight of daily
-                                            operations, Kaizen operations enhancement
+                                        <li>As a member of the iX Products division Leadership team provide oversight of
+                                            daily operations, Kaizen operations enhancement
                                         </li>
-                                        <li>Control and optimize business unit operational costs</li>
+                                        <li>Control and optimize division operational costs</li>
                                         <li>Collaborate closely with CPO and CTO and produce reports</li>
-                                        <li>Implement business unit strategies according to the approved Annual Budget
+                                        <li>Implement division strategies according to the approved Annual Budget</li>
+                                        <li>Continuously evaluate division performance by analyzing and interpreting
+                                            data and metrics
                                         </li>
-                                        <li>Continuously evaluate business unit performance by analyzing and
-                                            interpreting data and metrics
-                                        </li>
-                                        <li>Define comprehensive business unit goals for performance and growth</li>
+                                        <li>Define comprehensive division goals for performance and growth</li>
                                         <li>Enable employees to achieve maximum performance, culture, and vision</li>
                                         <li>Partner with HR and other departments to develop and implement staffing
                                             programs to attract the best applicants and improve employee retention
                                         </li>
                                         <li>Manage relationships with partners and vendors</li>
-                                        <li>Own the operational, technical, business and partnership documentation</li>
+                                        <li>Own the operational, technical, business, and partnership documentation</li>
                                     </ul>
                                 </div>
                             </div>

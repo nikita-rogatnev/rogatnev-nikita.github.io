@@ -13,6 +13,7 @@ class Certificates extends React.PureComponent {
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
                             <li className="certificates__item">2020 - Google Ads Search Certification, Google</li>
+                            <li className="certificates__item">2020 - Google Ads Search Certification, Google</li>
                             <li className="certificates__item">2020 - Divemaster (DM), PADI</li>
                             <li className="certificates__item">2019 - Primary & Secondary Care CPR / First Aid, PADI
                             </li>
