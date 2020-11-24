@@ -26177,21 +26177,21 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "People Management:"), " Recruiting, hiring, training, mentoring, coaching, onboarding, team building, conflict management, critical thinking, mediation, motivation, negotiating, relationship building"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "People Management"), " Recruiting, hiring, training, mentoring, coaching, onboarding, team building, conflict management, critical thinking, mediation, motivation, negotiating, relationship building"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Management:"), " Business knowledge, finance, vendor management, policy deployment, delegating, planning, strategic thinking."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Management"), " Business knowledge, finance, vendor management, policy deployment, delegating, planning, strategic thinking."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Collaboration Leadership:"), " Analyzing problems, brainstorming solutions, compromising, defining roles, facilitating discussion, employee engagement."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Collaboration Leadership"), " Analyzing problems, brainstorming solutions, compromising, defining roles, facilitating discussion, employee engagement."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Decision Making:"), " Prioritizing tasks, research, ethical decision making, team decision making, problem analysis, consensus-building."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Decision Making"), " Prioritizing tasks, research, ethical decision making, team decision making, problem analysis, consensus-building."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving:"), " Perceptiveness, data gathering, fact finding, problem analysis, brainstorming, research, test development, testing, evaluation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving"), " Perceptiveness, data gathering, fact finding, problem analysis, brainstorming, research, test development, testing, evaluation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Agile/Scrum/Lean:"), " Meeting facilitation, Agile planning, enforcing rules, shielding the team, servant leadership, removing impediments, value stream mapping, Kanban, policy deployment, 5S, Six Sigma, inventory reduction, setup reduction."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Agile/Scrum/Lean"), " Meeting facilitation, Agile planning, enforcing rules, shielding the team, servant leadership, removing impediments, value stream mapping, Kanban, policy deployment, 5S, Six Sigma, inventory reduction, setup reduction."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Business Writing:"), " Report writing, business case writing, press release writing, newsletter writing, analysis, research, content management."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Business Writing"), " Report writing, business case writing, press release writing, newsletter writing, analysis, research, content management."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Planning:"), " Analysis, conceptual skills, brainstorming, decision-making, forecasting, logistics, problem-solving skills, cost-assessment, requirements-gathering."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Planning"), " Analysis, conceptual skills, brainstorming, decision-making, forecasting, logistics, problem-solving skills, cost-assessment, requirements-gathering."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "title"
@@ -26199,21 +26199,21 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Web:"), " 10+ years of development experience with HTML, CSS, LESS, SASS, PostCSS, Stylus, JavaScript, React, Git, GitHub, Bitbucket, GitLab, Travis, Jenkins, Bamboo, Webpack, SEO, WordPress, Content Management Systems (CMS), Apache Cordova."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Web"), " 10+ years of development experience with HTML, CSS, LESS, SASS, PostCSS, Stylus, JavaScript, React, Git, GitHub, Bitbucket, GitLab, Travis, Jenkins, Bamboo, Webpack, SEO, WordPress, Content Management Systems (CMS), Apache Cordova."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "IT:"), " Google Workspace, architecture, databases, social media, enterprise systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "IT"), " Google Workspace, architecture, databases, social media, enterprise systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Advanced IT:"), " Web development, open source, data structures, coding, security, machine learning, debugging."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Advanced IT"), " Web development, open source, data structures, coding, security, machine learning, debugging."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enterprise Systems:"), " Payment processing, automated billing systems, customer relationship management, business continuity planning, enterprise resource planning."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enterprise Systems"), " Payment processing, automated billing systems, customer relationship management, business continuity planning, enterprise resource planning."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Hardware:"), " System administration, network configuration, software installation, security, Cisco."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Hardware"), " System administration, network configuration, software installation, security, Cisco."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Research:"), " Source checking, intellectual property rights, networking, outreach, advanced Google search."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Research"), " Source checking, intellectual property rights, networking, outreach, advanced Google search."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Technical Writing:"), " Analysis, planning, data visualization, feedback gathering, preparing documents, product knowledge, research, collaboration."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Technical Writing"), " Analysis, planning, data visualization, feedback gathering, preparing documents, product knowledge, research, collaboration."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving:"), " Data analysis, process analysis, project design, solution design, benchmark development, troubleshooting."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Problem Solving"), " Data analysis, process analysis, project design, solution design, benchmark development, troubleshooting."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "skills__content"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "title"
@@ -26221,15 +26221,15 @@ function (_React$PureComponent) {
         className: "skills__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Department Leadership:"), " Management of a 20+ employee Operations department consisting of Support Operations, Business Operations and Technical Operations (QA/AQA, DevOps and Tech Writers teams)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Department Leadership"), " Management of a 20+ employee Operations department consisting of Support Operations, Business Operations and Technical Operations (QA/AQA, DevOps and Tech Writers teams)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ITSM / ITIL 4:"), " Preparation of an ITIL implementation project, determine the structure of IT services, defining ITIL roles and owners of these roles, analysis and assessment of current processes \"as is\", determination of the structure of processes \"as it should be\", definition of process interfaces, implementation of a process control system, detailed design of processes, technical infrastructure set up, ITIL process implementation and training."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ITSM / ITIL 4"), " Preparation of an ITIL implementation project, determine the structure of IT services, defining ITIL roles and owners of these roles, analysis and assessment of current processes \"as is\", determination of the structure of processes \"as it should be\", definition of process interfaces, implementation of a process control system, detailed design of processes, technical infrastructure set up, ITIL process implementation and training."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "KPIs:"), " Devise and implementation of automated KPI tracking system with dashboard visualizations and ChatOps alerting for quicker issues escalation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "KPIs"), " Devise and implementation of automated KPI tracking system with dashboard visualizations and ChatOps alerting for quicker issues escalation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "8 Standard Dimensions:"), " Effective execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "The 8 Standard Dimensions"), " Effective execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "skills__item"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Operations execution:"), " Enhancement of the operational procedures, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and search for opportunities to expand systems. Carrying out supervisory responsibilities in accordance with the company\u2019s and division\u2019s policies.")))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Operations execution"), " Enhancement of the operational procedures, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting, and search for opportunities to expand systems. Carrying out supervisory responsibilities in accordance with the company\u2019s and division\u2019s policies.")))));
     }
   }]);
 
