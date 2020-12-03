@@ -19,7 +19,7 @@ class Resume extends React.PureComponent {
                                        rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
-                                    <h3>Mar 2020 – Present</h3>
+                                    <h3>Jul 2020 – Present</h3>
                                     <h4>Operations Manager in iX.co (USA)</h4>
                                 </div>
                                 <div className="resume__description">
