@@ -29,7 +29,7 @@ html {
 
 body {
     position: relative;
-
+    min-height: 100vh;
     color: $color-secondary;
     background: repeat fixed center/0.6rem url(https://nassar.netlify.app/assets/images/dot.png);
 
