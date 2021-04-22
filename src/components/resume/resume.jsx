@@ -19,7 +19,23 @@ class Resume extends React.PureComponent {
                                        rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
                                     </a>
-                                    <h3>Jul 2020 – Present</h3>
+                                    <h3>Mar 2021 – May 2021</h3>
+                                    <h4>Associate Director, Operations in iX.co (USA)</h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                        Reports to the VP, Operations and is responsible for the effective company global execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance. Enhances the operational procedure, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting and looks for opportunities to expand systems.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="resume__item">
+                                <div className="resume__position">
+                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
+                                       rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                    </a>
+                                    <h3>Jul 2020 – Mar 2021</h3>
                                     <h4>Operations Manager in iX.co (USA)</h4>
                                 </div>
                                 <div className="resume__description">
@@ -207,6 +223,12 @@ class Resume extends React.PureComponent {
 
                         </div>
 
+                        <div className="resume__action">
+                            <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
+                               className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
+                                the full CV</a>
+                        </div>
+                        
                         <h2 className="title">Education</h2>
                         <div className="resume__items">
 
@@ -295,12 +317,6 @@ class Resume extends React.PureComponent {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="resume__action">
-                            <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                               className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
-                                the full CV</a>
                         </div>
 
                     </div>

@@ -12,6 +12,8 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2021 - Yandex.Direct Expert, Yandex</li>
+                            <li className="certificates__item">2021 - The Complete Finance Manager Course 2021, Udemy</li>
                             <li className="certificates__item">2020 - Apple Search Ads, Apple</li>
                             <li className="certificates__item">2020 - The Complete Salesforce Development Course, Udemy</li>
                             <li className="certificates__item">2020 - Google Ads Search Certification, Google</li>
