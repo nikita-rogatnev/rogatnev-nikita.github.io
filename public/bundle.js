@@ -26077,7 +26077,7 @@ function (_React$PureComponent) {
         src: "./img/resume/moscow-business-school.svg",
         alt: "Moscow Business School",
         height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2019 \u2013 Dec 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of Business Administration (Marketing) in Moscow Business School (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2019 \u2013 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Master of Business Administration (Marketing) in Moscow Business School (Russia)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Moscow Business School an international business school, subdivision of a Moscow Technological Institute. It is among top 10 business schools in Russia."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
@@ -26092,7 +26092,7 @@ function (_React$PureComponent) {
         src: "./img/resume/mamk.png",
         alt: "Mikkelin ammattikorkeakoulu/",
         height: "135"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Aug 2012 \u2013 May 2015"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Bachelor of engineering in Mikkelin Ammattikorkeakoulu / now XAMK (Finland)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2012 \u2013 2015"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Bachelor of engineering in Mikkelin Ammattikorkeakoulu / now XAMK (Finland)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department. Mikkelin Ammattikorkeakoulu was ranked as the best Finnish university of applied sciences in 2014."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"

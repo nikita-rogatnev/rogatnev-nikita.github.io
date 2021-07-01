@@ -228,7 +228,7 @@ class Resume extends React.PureComponent {
                                className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download
                                 the full CV</a>
                         </div>
-                        
+
                         <h2 className="title">Education</h2>
                         <div className="resume__items">
 
@@ -239,7 +239,7 @@ class Resume extends React.PureComponent {
                                         <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
                                              height="135"/>
                                     </a>
-                                    <h3>Jan 2019 – Dec 2020</h3>
+                                    <h3>2019 – 2020</h3>
                                     <h4>
                                         Master of Business Administration (Marketing) in Moscow Business School (Russia)
                                     </h4>
@@ -259,7 +259,7 @@ class Resume extends React.PureComponent {
                                         <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/"
                                              height="135"/>
                                     </a>
-                                    <h3>Aug 2012 – May 2015</h3>
+                                    <h3>2012 – 2015</h3>
                                     <h4>
                                         Bachelor of engineering in Mikkelin Ammattikorkeakoulu / now XAMK (Finland)
                                     </h4>
