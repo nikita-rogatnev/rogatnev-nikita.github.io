@@ -13,11 +13,39 @@ class Resume extends React.PureComponent {
                         <h2 className="title">Latest Work History</h2>
                         <div className="resume__items">
 
+                          <div className="resume__item">
+                              <div className="resume__position">
+                                  <a href="https://numatic.co" className="resume__link" target="_blank"
+                                     rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
+                                  </a>
+                                  <h3>May 2021 - Present</h3>
+                                  <h4>TBA</h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>
+                                    Overseeing the organization’s ongoing operations and procedures, establishing policies that promote company culture and vision through its operations. Responsible for the efficiency of the business, which includes maintaining control of diverse business operations and establishing and following a set of operational procedures, systems, and principles in the areas of information flow and management. Managing the organizational structure, financial reporting, and best practices.
+                                  </p>
+                                  <p>
+                                    Numatic is a Digital Ventures studio that bridges the gap between nascent product idea and product-market fit. By focusing on our 3 world-class strengths: Strategy, Brand & Technology, we make things the right way, with less time spent on arbitrarily defined deliverables, meetings, and presentations. This is all we do.
+                                  </p>
+                                  <p>
+                                    We help organizations and entrepreneurs better understand their customers and businesses, determine whether there is demand for their products and services, define and ship category-leading digital products & services, and create unforgettable brands that people love.
+                                  </p>
+                                  <p>
+                                    Our clients participate directly with us using an agile process based on specific measures of success, collaborative design, rapid prototyping, and continuous testing and improvement.
+                                  </p>
+                                  <p>
+                                    Our model is relatively simple. We hire only the most proven strategists, designers and engineers in the world. No fluff, buzzwords or bloated team. Every client gets the A-team.
+                                  </p>
+                              </div>
+                          </div>
+
                             <div className="resume__item">
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" target="_blank"
                                        rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
                                     </a>
                                     <h3>Mar 2021 – May 2021</h3>
                                     <h4>Associate Director, Operations in iX.co (USA)</h4>
@@ -33,7 +61,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" target="_blank"
                                        rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
                                     </a>
                                     <h3>Jul 2020 – Mar 2021</h3>
                                     <h4>Operations Manager in iX.co (USA)</h4>
@@ -81,7 +109,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" target="_blank"
                                        rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
                                     </a>
                                     <h3>Mar 2020 – Jul 2020</h3>
                                     <h4>Technical Product Manager in iX.co (USA)</h4>
@@ -139,7 +167,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" target="_blank"
                                        rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
                                     </a>
                                     <h3>August 2019 – Mar 2020</h3>
                                     <h4>Technical Project Manager / Delivery Manager in iX.co (USA)</h4>
@@ -179,7 +207,7 @@ class Resume extends React.PureComponent {
                                 <div className="resume__position">
                                     <a href="https://www.ix.co" className="resume__link" target="_blank"
                                        rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125"/>
+                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
                                     </a>
                                     <h3>May 2019 – August 2019</h3>
                                     <h4>Dev Lead in iX.co (USA)</h4>
@@ -237,7 +265,7 @@ class Resume extends React.PureComponent {
                                     <a href="http://www.mamk.fi/" className="resume__link"
                                        target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
-                                             height="135"/>
+                                             height="135" className="resume__img resume__img--big"/>
                                     </a>
                                     <h3>2019 – 2020</h3>
                                     <h4>
@@ -257,7 +285,7 @@ class Resume extends React.PureComponent {
                                     <a href="http://www.mamk.fi/" className="resume__link"
                                        target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/"
-                                             height="135"/>
+                                             height="135" className="resume__img resume__img--big"/>
                                     </a>
                                     <h3>2012 – 2015</h3>
                                     <h4>
@@ -280,7 +308,7 @@ class Resume extends React.PureComponent {
                             <div className="resume__item resume__item--compact">
                                 <div className="resume__position">
                                     <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/spbgut.png" alt="spbgut" width="135"/>
+                                        <img src="./img/resume/spbgut.png" alt="spbgut" width="135" className="resume__img resume__img--margin"/>
                                     </a>
                                     <h3>2009 – 2012</h3>
                                     <h4>Master of digital information processing in GBOU liceum at St. Petersburg State
@@ -304,7 +332,7 @@ class Resume extends React.PureComponent {
                                     <a href="http://www.mamk.fi/" className="resume__link"
                                        target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/pitercss-meetup.svg" alt="Moscow Business School"
-                                             height="135"/>
+                                             height="135" className="resume__img resume__img--big"/>
                                     </a>
                                     <h3>Mar 2019 – Dec 2019</h3>
                                     <h4>
