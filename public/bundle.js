@@ -25687,7 +25687,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.linkedin.com/in/rogatnevnikita/",
+        href: "https://www.linkedin.com/in/nikitarogatnev/",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -25713,7 +25713,7 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://vk.com/rogatnev_nikita",
+        href: "https://vk.com/nikita.rogatnev",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -25739,7 +25739,7 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.instagram.com/rogatnev_nikita/",
+        href: "https://www.instagram.com/nikita.rogatnev/",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -25752,7 +25752,7 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.facebook.com/rogatnevnikita",
+        href: "https://www.facebook.com/nikita.rogatnev/",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -25765,7 +25765,7 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://ru.stackoverflow.com/users/286565/rogatnev-nikita",
+        href: "https://ru.stackoverflow.com/users/286565/nikita-rogatnev",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
@@ -25839,7 +25839,7 @@ function (_React$PureComponent) {
         className: "footer__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2021"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2022"))));
     }
   }]);
 
