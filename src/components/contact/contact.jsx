@@ -13,7 +13,7 @@ class Contact extends React.PureComponent {
                         <h2 className="title">Let&apos;s Socialize</h2>
                         <ul className="contact__socials">
                             <li className="contact__social">
-                                <a href="https://www.linkedin.com/in/rogatnevnikita/" className="contact__social-item"
+                                <a href="https://www.linkedin.com/in/nikitarogatnev/" className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 24 24"
                                          xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@ class Contact extends React.PureComponent {
                                 </a>
                             </li>
                             <li className="contact__social">
-                                <a href="https://vk.com/rogatnev_nikita" className="contact__social-item"
+                                <a href="https://vk.com/nikita.rogatnev" className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 24 24"
                                          xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ class Contact extends React.PureComponent {
                                 </a>
                             </li>
                             <li className="contact__social">
-                                <a href="https://www.instagram.com/rogatnev_nikita/" className="contact__social-item"
+                                <a href="https://www.instagram.com/nikita.rogatnev/" className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 24 24"
                                          xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ class Contact extends React.PureComponent {
                                 </a>
                             </li>
                             <li className="contact__social">
-                                <a href="https://www.facebook.com/rogatnevnikita" className="contact__social-item"
+                                <a href="https://www.facebook.com/nikita.rogatnev/" className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 24 24"
                                          xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ class Contact extends React.PureComponent {
                                 </a>
                             </li>
                             <li className="contact__social">
-                                <a href="https://ru.stackoverflow.com/users/286565/rogatnev-nikita"
+                                <a href="https://ru.stackoverflow.com/users/286565/nikita-rogatnev"
                                    className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 100 100"
