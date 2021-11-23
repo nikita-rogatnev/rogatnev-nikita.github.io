@@ -43,7 +43,7 @@ class Contact extends React.PureComponent {
                                 </a>
                             </li>
                             <li className="contact__social">
-                                <a href="https://github.com/rogatnev-nikita" className="contact__social-item"
+                                <a href="https://github.com/nikita-rogatnev" className="contact__social-item"
                                    target="_blank" rel="noopener noreferrer">
                                     <svg role="img" viewBox="0 0 24 24"
                                          xmlns="http://www.w3.org/2000/svg">

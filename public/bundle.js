@@ -25726,7 +25726,7 @@ function (_React$PureComponent) {
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/rogatnev-nikita",
+        href: "https://github.com/nikita-rogatnev",
         className: "contact__social-item",
         target: "_blank",
         rel: "noopener noreferrer"
