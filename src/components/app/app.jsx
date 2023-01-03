@@ -3,7 +3,6 @@ import AOS from "aos";
 
 import Intro from "../intro/intro";
 import Resume from "../resume/resume";
-import Skills from "../skills/skills";
 import Certificates from "../certificates/certificates";
 import Contact from "../contact/contact";
 import Footer from "../footer/footer";
@@ -20,7 +19,6 @@ class App extends React.PureComponent {
             <React.Fragment>
                 <main>
                     <Intro/>
-                    <Skills/>
                     <Resume/>
                     <Certificates/>
                     <Contact/>

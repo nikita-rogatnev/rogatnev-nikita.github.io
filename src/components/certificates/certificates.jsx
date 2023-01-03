@@ -6,7 +6,7 @@ class Certificates extends React.PureComponent {
             <section className="certificates" data-aos="zoom-in">
                 <div className="certificates__wrapper">
                     <div className="certificates__heading">
-                        <span>CHAPTER 03</span>
+                        <span>CHAPTER 02</span>
                         <h2>Certificates</h2>
                     </div>
                     <div className="certificates__content">

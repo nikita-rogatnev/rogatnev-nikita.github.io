@@ -6,7 +6,7 @@ class Resume extends React.PureComponent {
             <section className="resume" data-aos="zoom-in">
                 <div className="resume__wrapper">
                     <div className="resume__heading">
-                        <span>CHAPTER 02</span>
+                        <span>CHAPTER 01</span>
                         <h2>Resume</h2>
                     </div>
                     <div className="resume__content">
@@ -20,23 +20,20 @@ class Resume extends React.PureComponent {
                                       <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
                                   </a>
                                   <h3>May 2021 - Present</h3>
-                                  <h4>TBA</h4>
+                                  <h4>Chief Operating Officer</h4>
                               </div>
                               <div className="resume__description">
                                   <p>
-                                    Overseeing the organization’s ongoing operations and procedures, establishing policies that promote company culture and vision through its operations. Responsible for the efficiency of the business, which includes maintaining control of diverse business operations and establishing and following a set of operational procedures, systems, and principles in the areas of information flow and management. Managing the organizational structure, financial reporting, and best practices.
+                                  Overseeing the organization’s ongoing operations and procedures, establishing policies that promote company culture and vision through its operations. Responsible for the efficiency of the business, which includes maintaining control of diverse business operations and establishing and following a set of operational procedures, systems, and principles in the areas of information flow and management. Managing the organizational structure, financial reporting, and best practices.
                                   </p>
                                   <p>
-                                    Numatic is a Digital Ventures studio that bridges the gap between nascent product idea and product-market fit. By focusing on our 3 world-class strengths: Strategy, Brand & Technology, we make things the right way, with less time spent on arbitrarily defined deliverables, meetings, and presentations. This is all we do.
+                                  Numatic Ventures is a hybrid company - one part venture studio, one part professional services - dedicated to solving today’s business challenges while building expertise in the emerging technologies that will unlock entirely new opportunities in the near future (e.g. Web3, AR/VR, AI/ML, etc.).
                                   </p>
                                   <p>
-                                    We help organizations and entrepreneurs better understand their customers and businesses, determine whether there is demand for their products and services, define and ship category-leading digital products & services, and create unforgettable brands that people love.
+                                  At Numatic, we ideate, validate, and launch products and startups for ourselves and our investor partners. We bring to bear decades of expertise in strategy, brand, and technology for our portfolio of companies, as well as third party clients. We help organizations and entrepreneurs better understand their customers and businesses, develop category-leading products & services, and create brands that truly connect with customers.
                                   </p>
                                   <p>
-                                    Our clients participate directly with us using an agile process based on specific measures of success, collaborative design, rapid prototyping, and continuous testing and improvement.
-                                  </p>
-                                  <p>
-                                    Our model is relatively simple. We hire only the most proven strategists, designers and engineers in the world. No fluff, buzzwords or bloated team. Every client gets the A-team.
+                                  We take pride in doing things the right way - more time on research and data-driven decisions, and less time spent on arbitrarily defined deliverables, meetings, and presentations. Numatic’s business model boils down to this: only hire the best strategists, operators, designers and engineers in the world. No fluff, buzzwords, or bloat. Every project and client gets the A-team.
                                   </p>
                               </div>
                           </div>

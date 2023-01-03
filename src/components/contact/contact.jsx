@@ -6,7 +6,7 @@ class Contact extends React.PureComponent {
             <section className="contact" data-aos="zoom-in">
                 <div className="contact__wrapper">
                     <div className="contact__heading">
-                        <span>CHAPTER 04</span>
+                        <span>CHAPTER 03</span>
                         <h2>Contact Me</h2>
                     </div>
                     <div className="contact__content">
