@@ -25543,6 +25543,10 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2023 - Semrush for Digital Agencies Certification"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2023 - Semrush SEO Toolkit Course"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2021 - Yandex.Direct Expert, Yandex"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2021 - The Complete Finance Manager Course 2021, Udemy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
