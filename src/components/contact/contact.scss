@@ -28,7 +28,8 @@
         height: 7rem;
         margin: 0 1rem 1rem 0;
 
-        background: $color-secondary;
+        background: $color-primary;
+        border: 0.1rem solid $color-secondary;
 
         font-size: 0;
         line-height: 0;
@@ -38,7 +39,7 @@
         justify-content: center;
 
         &:hover {
-            background: transparentize($color-secondary, 0.2);
+            background: transparentize($color-accent, 0.2);
         }
     }
 

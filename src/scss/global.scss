@@ -31,7 +31,7 @@ body {
     position: relative;
     min-height: 100vh;
     color: $color-secondary;
-    background: repeat center/0.6rem url(https://nassar.netlify.app/assets/images/dot.png);
+    background: $color-primary;
 
     font-family: $font-family-primary;
     font-size: $base-font-size;
