@@ -25543,6 +25543,10 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2023 - Lean Six Sigma Yellow Belt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2023 - Lean Six Sigma White Belt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2023 - Professional Scrum Master\u2122 I (PSM I), Scrum.org"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2023 - LinkedIn Certified Marketing Insider, LinkedIn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -25639,6 +25643,13 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/badges/psm-1.png",
         alt: "scrum",
+        height: "175",
+        className: "certificates__badges-item"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        targt: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/badges/yellow.png",
+        alt: "six-sigma",
         height: "175",
         className: "certificates__badges-item"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -25993,7 +26004,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Chief ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Operating"), " Officer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / BEng / PSM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Confident, empowering, and positive Chief Operating Officer with a strong foundation in leadership, and managing others with 12+ total years experience towards enhancing the operational procedures, systems, and principles in the areas of information flow and management, and business processes. Excels at overcoming business challenges through data-based analysis, facilitating consensus, rapid implementation of agreed-upon solutions, and managing the team or organization through change. OCD towards processes, organization, naming conventions, quality improvements, and training development."))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Chief ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Operating"), " Officer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / BEng / LSSYB / PSM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Confident, empowering, and positive Chief Operating Officer with a strong foundation in leadership, and managing others with 12+ total years experience towards enhancing the operational procedures, systems, and principles in the areas of information flow and management, and business processes. Excels at overcoming business challenges through data-based analysis, facilitating consensus, rapid implementation of agreed-upon solutions, and managing the team or organization through change. OCD towards processes, organization, naming conventions, quality improvements, and training development."))));
     }
   }]);
 
