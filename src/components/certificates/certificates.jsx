@@ -52,8 +52,8 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2016 - Google Analytics Individual Qualification, Google</li>
                             <li className="certificates__item">2016 - Yandex Direct Certified Professional, Yandex</li>
                             <li className="certificates__item">2015 - Fundamentals Of Network Security Certificate,Alison</li>
-                            <li className="certificates__item">2015 - CCNA 3 - Scaling Networks, Cisco</li>
                             <li className="certificates__item">2015 - CCNA 4 - Connecting networks, Cisco</li>
+                            <li className="certificates__item">2015 - CCNA 3 - Scaling Networks, Cisco</li>
                             <li className="certificates__item">2015 - MTA: Windows Operating System Fundamentals, Microsoft</li>
                             <li className="certificates__item">2014 - MTA: HTML5 Application Development Fundamentals, Microsoft</li>
                             <li className="certificates__item">2014 - Data Center University Associate Development Path, Schneider Electric</li>

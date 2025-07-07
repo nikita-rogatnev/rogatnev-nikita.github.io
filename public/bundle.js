@@ -25623,9 +25623,9 @@ function (_React$PureComponent) {
         className: "certificates__item"
       }, "2015 - Fundamentals Of Network Security Certificate,Alison"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
-      }, "2015 - CCNA 3 - Scaling Networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "certificates__item"
       }, "2015 - CCNA 4 - Connecting networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2015 - CCNA 3 - Scaling Networks, Cisco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2015 - MTA: Windows Operating System Fundamentals, Microsoft"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
@@ -25824,32 +25824,6 @@ function (_React$PureComponent) {
         xmlns: "http://www.w3.org/2000/svg"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
         d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "contact__social"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "mailto:mail@rogatnev.ru",
-        className: "contact__social-item",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M23.836 4.27c-.29-.413-.86-.515-1.273-.226L.163 19.73c.167.235.437.39.747.39h22.18c.503 0 .91-.41.91-.914V4.78c-.004-.176-.058-.352-.164-.51zm-22.4-.226c-.413-.29-.982-.19-1.272.226-.107.154-.162.332-.164.51v14.45l10.664-8.736-9.227-6.45v-.002z"
-      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "contact__social"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://vk.com/nikita.rogatnev",
-        className: "contact__social-item",
-        target: "_blank",
-        rel: "noopener noreferrer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        role: "img",
-        viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-        d: "M11.701 18.771h1.437s.433-.047.654-.284c.21-.221.21-.63.21-.63s-.031-1.927.869-2.21c.887-.281 2.012 1.86 3.211 2.683.916.629 1.605.494 1.605.494l3.211-.044s1.682-.105.887-1.426c-.061-.105-.451-.975-2.371-2.76-2.012-1.861-1.742-1.561.676-4.787 1.469-1.965 2.07-3.166 1.875-3.676-.166-.48-1.26-.361-1.26-.361l-3.602.031s-.27-.031-.465.09c-.195.119-.314.391-.314.391s-.572 1.529-1.336 2.82c-1.623 2.729-2.268 2.879-2.523 2.699-.604-.391-.449-1.58-.449-2.432 0-2.641.404-3.75-.781-4.035-.39-.091-.681-.15-1.685-.166-1.29-.014-2.378.01-2.995.311-.405.203-.72.652-.539.675.24.03.779.146 1.064.537.375.506.359 1.636.359 1.636s.211 3.116-.494 3.503c-.495.262-1.155-.28-2.595-2.756-.735-1.26-1.291-2.67-1.291-2.67s-.105-.256-.299-.406c-.227-.165-.557-.225-.557-.225l-3.435.03s-.51.016-.689.24c-.166.195-.016.615-.016.615s2.686 6.287 5.732 9.453c2.79 2.902 5.956 2.715 5.956 2.715l-.05-.055z"
       })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "contact__social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
