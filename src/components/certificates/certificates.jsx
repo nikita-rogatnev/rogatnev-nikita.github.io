@@ -12,6 +12,10 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance</li>
+                            <li className="certificates__item">2024 - Competence in Zero Trust (CCZT v1), Cloud Security Alliance</li>
+                            <li className="certificates__item">2024 - SEO II, HubSpot Academy</li>
+                            <li className="certificates__item">2024 - Social Media Marketing Certification II, HubSpot Academy</li>
                             <li className="certificates__item">2023 - Lean Six Sigma Black Belt</li>
                             <li className="certificates__item">2023 - Lean Six Sigma Yellow Belt</li>
                             <li className="certificates__item">2023 - Lean Six Sigma White Belt</li>
@@ -62,6 +66,8 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
+                          <a targt="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
+                          <a targt="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
                           <a targt="_blank"><img src="./img/badges/black.png" alt="six sigma black" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.scrum.org/certificates/915285" targt="_blank"><img src="./img/badges/psm-1.png" alt="scrum" height="175" className="certificates__badges-item" /></a>
                           <a targt="_blanc"><img src="./img/badges/mta-badge.png" alt="mta" height="175" className="certificates__badges-item" /></a>

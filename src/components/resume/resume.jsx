@@ -15,26 +15,97 @@ class Resume extends React.PureComponent {
 
                           <div className="resume__item">
                               <div className="resume__position">
+                                  <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
+                                     rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/breakout.jpeg" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
+                                  </a>
+                                  <h3>Oct 2024 - Present</h3>
+                                  <h4>Head of Operations</h4>
+                              </div>
+                              <div className="resume__description">
+                                  <ul className="resume__list">
+                                      <li>Achieved SOC 2 Type 2 certification by establishing rigorous compliance processes, managing internal and external audits and implementing ongoing compliance strategies. Collected 160+ evidence items, trained 40 employees and contractors, validated 52 vendors, implemented 29 policies, mitigated 26 risks and maintained 8 key registers for continuous compliance.</li>
+                                      <li>Implemented over 40 new controls to achieve and maintain compliance with both the EU GDPR and India’s Digital Personal Data Protection Act (DPDP). This included enforcing Role-Based Access Control (RBAC), documenting 200+ data processing activities and conducting Data Protection Impact Assessment (DPIA). Updated internal policies, developed a unified Data Processing Agreement (DPA) with SCCs and IDTA/TRA addenda and aligned cross-border data transfer mechanisms. Embedded consent and opt-out workflows, appointed a Grievance Officer and ensured all practices meet transparency, purpose limitation and data minimization requirements.</li>
+                                      <li>Achieved TX-RAMP Level 1 certification by completing the Texas Risk and Authorization Management Program assessment, aligning security controls with state requirements, validating risk mitigation practices and documenting compliance for Texas public sector data handling.</li>
+                                      <li>Completed CSA STAR Level 1 certification by addressing over 260 rigorous security and compliance questions through the CAIQ v4.0.3, delivering detailed evidence and clearly defined Cloud Security Controls (CSC) responsibilities.</li>
+                                      <li>In 2024, drove WCAG 2.1 compliance across the platform, resulting in a VPAT (Levels "A" and "AA") and a HECVAT 3.05 Lite Score of "A", improving accessibility and institutional trust.</li>
+                                      <li>In 2025, upgraded to WCAG 2.2 Level "AA" and completed the full HECVAT 4.03, aligning with the latest accessibility and higher ed security standards.</li>
+                                      <li>Introduced continuous compliance monitoring systems for real-time tracking and fast resolution of potential issues to uphold security standards.</li>
+                                  </ul>
+                              </div>
+                          </div>
+
+                          <div className="resume__item">
+                              <div className="resume__position">
+                                  <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
+                                     rel="noopener noreferrer nofollow">
+                                     <img src="./img/resume/breakout.jpeg" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
+                                  </a>
+                                  <h3>Mar 2024 - Oct 2024</h3>
+                                  <h4>Director of Operations & Marketing</h4>
+                              </div>
+                              <div className="resume__description">
+                                  <ul className="resume__list">
+                                      <li>Automated the collection and analysis of over 200 key performance metrics for Monthly Business Reviews, streamlining reporting and enabling faster, data-driven decision-making.</li>
+                                      <li>Optimized the vendor clearance process, enhancing efficiency and reducing onboarding time by 45%.</li>
+                                      <li>Implemented social calendar automation, improving campaign scheduling, reducing manual workload, and ensuring content consistency across platforms.</li>
+                                      <li>Developed and implemented internal support and process automation, reducing response times, enhancing issue resolution efficiency, and improving overall support experience.</li>
+                                  </ul>
+                              </div>
+                          </div>
+
+
+                          <div className="resume__item">
+                              <div className="resume__position">
                                   <a href="https://numatic.co" className="resume__link" target="_blank"
                                      rel="noopener noreferrer nofollow">
                                       <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
                                   </a>
                                   <h3>May 2021 - Present</h3>
+                                  <h4>Board Member</h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>Numatic Ventures is a unique hybrid company - one part venture studio, one part professional services. Regardless of how we engage, we partner with founders of well-funded, early-stage startups to turn bold ideas into reality by leveraging our decades of experience in the areas of strategy, brand, and technology.</p>
+                              </div>
+                          </div>
+
+                          <div className="resume__item">
+                              <div className="resume__position">
+                                  <a href="https://numatic.co" className="resume__link" target="_blank"
+                                     rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
+                                  </a>
+                                  <h3>May 2021 - Apr 2024</h3>
                                   <h4>Chief Operating Officer</h4>
                               </div>
                               <div className="resume__description">
-                                  <p>
-                                  Overseeing the organization’s ongoing operations and procedures, establishing policies that promote company culture and vision through its operations. Responsible for the efficiency of the business, which includes maintaining control of diverse business operations and establishing and following a set of operational procedures, systems, and principles in the areas of information flow and management. Managing the organizational structure, financial reporting, and best practices.
-                                  </p>
-                                  <p>
-                                  Numatic Ventures is a hybrid company - one part venture studio, one part professional services - dedicated to solving today’s business challenges while building expertise in the emerging technologies that will unlock entirely new opportunities in the near future (e.g. Web3, AR/VR, AI/ML, etc.).
-                                  </p>
-                                  <p>
-                                  At Numatic, we ideate, validate, and launch products and startups for ourselves and our investor partners. We bring to bear decades of expertise in strategy, brand, and technology for our portfolio of companies, as well as third party clients. We help organizations and entrepreneurs better understand their customers and businesses, develop category-leading products & services, and create brands that truly connect with customers.
-                                  </p>
-                                  <p>
-                                  We take pride in doing things the right way - more time on research and data-driven decisions, and less time spent on arbitrarily defined deliverables, meetings, and presentations. Numatic’s business model boils down to this: only hire the best strategists, operators, designers and engineers in the world. No fluff, buzzwords, or bloat. Every project and client gets the A-team.
-                                  </p>
+                                  <ul className="resume__list">
+                                      <li>Directly contributed to achieving $2M in ARR by driving process improvements, cost optimizations, and strategic partnerships</li>
+                                      <li>Built a high-performing organization of 25 people, including Board, C-Suite, Leadership, management, and two full-cycle development teams</li>
+                                      <li>Executed a talent retention strategy that increased employee satisfaction by 20%</li>
+                                      <li>Implemented Agile methodologies, boosting on-time project delivery by 35%</li>
+                                      <li>Optimized vendor management processes, resulting in a 30% reduction in procurement costs</li>
+                                      <li>Orchestrated the relocation of 20 employees across different countries, providing comprehensive support and ensuring a smooth transition</li>
+                                  </ul>
+                              </div>
+                          </div>
+
+                          <div className="resume__item">
+                              <div className="resume__position">
+                                  <a href="https://ProFolios.ai" className="resume__link" target="_blank"
+                                     rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/profolios.jpeg" alt="ProFolios.ai" height="175" className="resume__img resume__img--big" />
+                                  </a>
+                                  <h3>Jan 2024 - Feb 2025</h3>
+                                  <h4>Vice President, Operations</h4>
+                              </div>
+                              <div className="resume__description">
+                                  <ul className="resume__list">
+                                      <li>Optimized vendor management processes, resulting in a 45% reduction in procurement costs</li>
+                                      <li>Directed the overhaul of the IT infrastructure to adopt cloud technologies, achieving a 30% reduction in operational costs while enhancing scalability and system reliability</li>
+                                      <li>Developed and implemented a risk management framework that reduced operational risks by 40%, safeguarding company assets and reputation</li>
+                                      <li>Spearheaded the adoption of DevOps practices, fostering collaboration between development and operations teams, which led to a 60% reduction in system downtime and improved customer satisfaction</li>
+                                  </ul>
                               </div>
                           </div>
 
@@ -46,11 +117,6 @@ class Resume extends React.PureComponent {
                                     </a>
                                     <h3>Mar 2021 – May 2021</h3>
                                     <h4>Associate Director, Operations in iX.co (USA)</h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                        Reports to the VP, Operations and is responsible for the effective company global execution of the 8 Standard Dimensions: stakeholder management, growth enablement, commercial management, people management, schedule and scope management, risk and issue management, collaboration management, and quality assurance. Enhances the operational procedure, systems, and principles in the areas of information flow and management, business processes, enhanced management reporting and looks for opportunities to expand systems.
-                                    </p>
                                 </div>
                             </div>
 
@@ -259,14 +325,15 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item resume__item--compact">
                                 <div className="resume__position">
-                                    <a href="http://www.mamk.fi/" className="resume__link"
+                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                        target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
                                              height="135" className="resume__img resume__img--big"/>
                                     </a>
                                     <h3>2019 – 2020</h3>
                                     <h4>
-                                        Master of Business Administration (Marketing) in Moscow Business School (Russia)
+                                        Master of Business Administration (Marketing)
+                                        <span>Moscow Business School (Russia)</span>
                                     </h4>
                                 </div>
                                 <div className="resume__description">
@@ -286,18 +353,13 @@ class Resume extends React.PureComponent {
                                     </a>
                                     <h3>2012 – 2015</h3>
                                     <h4>
-                                        Bachelor of engineering in Mikkelin Ammattikorkeakoulu / now XAMK (Finland)
+                                        Bachelor’s Degree IT (Information Technology)
+                                        <span>Mikkelin Ammattikorkeakoulu / now XAMK (Finland)</span>
                                     </h4>
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                        From August 2012 to July 2015 I studied in Mikkeli University of Applied
-                                        Sciences,
-                                        Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.
-                                        Mikkelin
-                                        Ammattikorkeakoulu was ranked as the best Finnish university of applied sciences
-                                        in
-                                        2014.
+                                        From August 2012 to July 2015 studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) - IT (Information Technology) degree. MAMK was ranked as the best Finnish university of applied sciences in 2014.
                                     </p>
                                 </div>
                             </div>
@@ -308,15 +370,13 @@ class Resume extends React.PureComponent {
                                         <img src="./img/resume/spbgut.png" alt="spbgut" width="135" className="resume__img resume__img--margin"/>
                                     </a>
                                     <h3>2009 – 2012</h3>
-                                    <h4>Master of digital information processing in GBOU liceum at St. Petersburg State
-                                        University of
-                                        Telecommunications (Russia)</h4>
+                                    <h4>
+                                        Master of digital information processing
+                                        <span>GBOU liceum at St. Petersburg State University of Telecommunications (Russia)</span>
+                                    </h4>
                                 </div>
                                 <div className="resume__description">
-                                    <p>From September 2009 to May 2012 I participated in the
-                                        «Master of digital information
-                                        processing» major-training program in the amount of
-                                        1,020 hours).</p>
+                                    <p>From September 2009 to May 2012 participated in the «Master of digital information processing» major-training program (1,020 hours)</p>
                                 </div>
                             </div>
                         </div>
@@ -326,14 +386,55 @@ class Resume extends React.PureComponent {
 
                             <div className="resume__item resume__item--compact">
                                 <div className="resume__position">
-                                    <a href="http://www.mamk.fi/" className="resume__link"
-                                       target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/pitercss-meetup.svg" alt="Moscow Business School"
-                                             height="135" className="resume__img resume__img--big"/>
+                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                    </a>
+                                    <h3>Jun 2025 – Present</h3>
+                                    <h4>
+                                        Working Group Volunteer - Cloud Controls Matrix
+                                        <span>Cloud Security Alliance</span>
+                                    </h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                        Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="resume__item resume__item--compact">
+                                <div className="resume__position">
+                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                    </a>
+                                    <h3>Feb 2025 – Present</h3>
+                                    <h4>
+                                        Artificial Intelligence Control Framework Working Group Volunteer
+                                        <span>Cloud Security Alliance</span>
+                                    </h4>
+                                </div>
+                                <div className="resume__description">
+                                    <p>
+                                    The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems.
+                                    </p>
+                                    <ul>
+                                        <li>AI Control Framework</li>
+                                        <li>AI Governance & Compliance</li>
+                                        <li>AI Organizational Responsibilities</li>
+                                        <li>AI Technology & Risk</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="resume__item resume__item--compact">
+                                <div className="resume__position">
+                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                        <img src="./img/resume/pitercss-meetup.svg" alt="pitercss_meetup" height="135" className="resume__img resume__img--big"/>
                                     </a>
                                     <h3>Mar 2019 – Dec 2019</h3>
                                     <h4>
-                                        Organizer of pitercss_meetup (Russia)
+                                        Organizer
+                                        <span>pitercss_meetup</span>
                                     </h4>
                                 </div>
                                 <div className="resume__description">
@@ -342,6 +443,8 @@ class Resume extends React.PureComponent {
                                     </p>
                                 </div>
                             </div>
+
+
                         </div>
 
                     </div>
