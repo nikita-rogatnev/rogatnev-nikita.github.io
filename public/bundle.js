@@ -26403,7 +26403,7 @@ function (_React$PureComponent) {
         alt: "pitercss_meetup",
         height: "135",
         className: "resume__img resume__img--big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Organizer", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "pitercss_meetup (Russia)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2019 \u2013 Dec 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Conference Organizer", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "pitercss_meetup (Russia)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.")))))));
     }

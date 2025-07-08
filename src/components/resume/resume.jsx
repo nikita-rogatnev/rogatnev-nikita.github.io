@@ -447,7 +447,7 @@ class Resume extends React.PureComponent {
                                     </a>
                                     <h3>Mar 2019 – Dec 2019</h3>
                                     <h4>
-                                        Organizer
+                                        Conference Organizer
                                         <span>pitercss_meetup (Russia)</span>
                                     </h4>
                                 </div>
