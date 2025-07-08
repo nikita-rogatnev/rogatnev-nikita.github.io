@@ -35,18 +35,22 @@
 
     .certificates__badges {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: center;
       align-items: center;
       padding: 6rem 0 0;
+      text-align: center;
+    }
+
+    .certificates__badges a {
+      width: calc(50% - 4rem);
+      margin: 2rem;
     }
 
     .certificates__badges-item {
-      width: auto;
-      max-width: 20rem;
-      margin: 2rem;
+      max-width: 15rem;
     }
 
     @media (min-width: $medium-up) {
@@ -54,7 +58,12 @@
         flex-direction: row;
       }
 
+      .certificates__badges a {
+        width: auto;
+      }
+
       .certificates__badges-item {
+        max-width: 20rem;
         max-height: 10rem;
         height: auto;
       }

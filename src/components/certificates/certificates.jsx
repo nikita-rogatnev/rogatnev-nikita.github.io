@@ -66,19 +66,19 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
-                          <a targt="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blank"><img src="./img/badges/black.png" alt="six sigma black" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://www.scrum.org/certificates/915285" targt="_blank"><img src="./img/badges/psm-1.png" alt="scrum" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blanc"><img src="./img/badges/mta-badge.png" alt="mta" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://verify.skilljar.com/c/o5fm8k4z83yv" targt="_blanc"><img src="./img/badges/LinkedIn.png" alt="LinkedIn" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blanc"><img src="./img/badges/HubSpot.png" alt="HubSpot" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://skillshop.credential.net/bfdcfc87-d828-49ab-b685-883339278113?record_view=true" targt="_blanc"><img src="./img/badges/google-ads.png" alt="google" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://skillshop.credential.net/31e694ce-2736-4ba9-8759-3d5a04bd3f35?record_view=true" targt="_blanc"><img src="./img/badges/google-analytics.png" alt="google" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blanc"><img src="./img/badges/yandex-partner.png" alt="yandex" height="175" className="certificates__badges-item" /></a>
-                          <a targt="_blanc"><img src="./img/badges/ccna.png" alt="ccna" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile" target="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/linked_in_profile" target="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/black.png" alt="six sigma black" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.scrum.org/certificates/915285" target="_blank"><img src="./img/badges/psm-1.png" alt="scrum" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/mta-badge.png" alt="mta" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://verify.skilljar.com/c/o5fm8k4z83yv" target="_blank"><img src="./img/badges/LinkedIn.png" alt="LinkedIn" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/HubSpot.png" alt="HubSpot" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://skillshop.credential.net/bfdcfc87-d828-49ab-b685-883339278113?record_view=true" target="_blank"><img src="./img/badges/google-ads.png" alt="google" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://skillshop.credential.net/31e694ce-2736-4ba9-8759-3d5a04bd3f35?record_view=true" target="_blank"><img src="./img/badges/google-analytics.png" alt="google" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/yandex-partner.png" alt="yandex" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/ccna.png" alt="ccna" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.semrush.com/agencies/numatic-ventures/" alt="semrush" target="_blank"><img src="https://static.semrush.com/agency-directory/shared/badge.svg" alt="Semrush certified agency partner badge"/></a>
-                          <a targt="_blanc"><img src="./img/badges/MCP-badge.png" alt="MCP" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/MCP-badge.png" alt="MCP" height="175" className="certificates__badges-item" /></a>
                         </div>
                     </div>
                 </div>
