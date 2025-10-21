@@ -12,6 +12,7 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - Competence in Zero Trust (CCZT v1), Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - SEO II, HubSpot Academy</li>
@@ -66,6 +67,7 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
+                          <a href="https://verify.skilljar.com/c/ddvt8ro4u9z2" target="_blank"><img src="./img/badges/taise.png" alt="Trusted AI Safety Expert" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile" target="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/linked_in_profile" target="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
                           <a target="_blank"><img src="./img/badges/black.png" alt="six sigma black" height="175" className="certificates__badges-item" /></a>

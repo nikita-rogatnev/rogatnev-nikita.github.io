@@ -25543,6 +25543,8 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2024 - Competence in Zero Trust (CCZT v1), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -25648,6 +25650,14 @@ function (_React$PureComponent) {
       }, "2011 - Internet and Computing Core Certification, Basis")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__badges"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://verify.skilljar.com/c/ddvt8ro4u9z2",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/badges/taise.png",
+        alt: "Trusted AI Safety Expert",
+        height: "175",
+        className: "certificates__badges-item"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -26004,7 +26014,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Rogatnev")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / BEng / PSM / Lean Six Sigma Black Belt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With over 15 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence."))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Rogatnev")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / BEng / Trusted AI Safety Expert / PSM / Lean Six Sigma Black Belt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With over 15 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence."))));
     }
   }]);
 
@@ -26373,9 +26383,9 @@ function (_React$PureComponent) {
         alt: "Cloud Security Alliance",
         height: "135",
         className: "resume__img resume__img--big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jun 2025 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Cloud Controls Matrix", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Feb 2025 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Artificial Intelligence Control Framework", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Control Framework"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Governance & Compliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Organizational Responsibilities"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Technology & Risk")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
@@ -26388,9 +26398,24 @@ function (_React$PureComponent) {
         alt: "Cloud Security Alliance",
         height: "135",
         className: "resume__img resume__img--big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Feb 2025 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Artificial Intelligence Control Framework Working Group Volunteer", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jul 2025 \u2013 Oct 2025"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Consensus Assessments Initiative Questionnaire (CAIQ) 4.1", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Control Framework"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Governance & Compliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Organizational Responsibilities"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Technology & Risk")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The CAIQ is a foundational security questionnaire that enables cloud service providers to perform self-assessments against the CCMv4.1 as part of CSA\u2019s Security, Trust, Assurance, and Risk (STAR) Program. Aligned with the CCM, it helps organizations assess how well cloud services implement relevant security controls. CAIQ v4.1 builds upon the existing CAIQ v4.0.3 by refining current questions and introducing new ones to address emerging technologies and evolving threat landscapes. This update aims to improve the clarity, relevance, and effectiveness of the questionnaire to support the assessment and implementation transparency and accountability of cloud security best practices."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/csa.png",
+        alt: "Cloud Security Alliance",
+        height: "135",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jun 2025 \u2013 Jul 2025"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Cloud Controls Matrix (CCM)", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"

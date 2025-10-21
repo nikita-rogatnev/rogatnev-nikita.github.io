@@ -398,20 +398,44 @@ class Resume extends React.PureComponent {
                         <h2 className="title">Volunteer Experience</h2>
                         <div className="resume__items">
 
+                          <div className="resume__item resume__item--compact">
+                              <div className="resume__position">
+                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                  </a>
+                                  <h3>Feb 2025 – Present</h3>
+                                  <h4>
+                                      Working Group Volunteer - Artificial Intelligence Control Framework
+                                      <span>Cloud Security Alliance (USA)</span>
+                                  </h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>
+                                  The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems.
+                                  </p>
+                                  <ul>
+                                      <li>AI Control Framework</li>
+                                      <li>AI Governance & Compliance</li>
+                                      <li>AI Organizational Responsibilities</li>
+                                      <li>AI Technology & Risk</li>
+                                  </ul>
+                              </div>
+                          </div>
+
                             <div className="resume__item resume__item--compact">
                                 <div className="resume__position">
                                     <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
                                     </a>
-                                    <h3>Jun 2025 – Present</h3>
+                                    <h3>Jul 2025 – Oct 2025</h3>
                                     <h4>
-                                        Working Group Volunteer - Cloud Controls Matrix
+                                        Working Group Volunteer - Consensus Assessments Initiative Questionnaire (CAIQ) 4.1
                                         <span>Cloud Security Alliance (USA)</span>
                                     </h4>
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                        Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
+                                      The CAIQ is a foundational security questionnaire that enables cloud service providers to perform self-assessments against the CCMv4.1 as part of CSA’s Security, Trust, Assurance, and Risk (STAR) Program. Aligned with the CCM, it helps organizations assess how well cloud services implement relevant security controls. CAIQ v4.1 builds upon the existing CAIQ v4.0.3 by refining current questions and introducing new ones to address emerging technologies and evolving threat landscapes. This update aims to improve the clarity, relevance, and effectiveness of the questionnaire to support the assessment and implementation transparency and accountability of cloud security best practices.
                                     </p>
                                 </div>
                             </div>
@@ -421,22 +445,16 @@ class Resume extends React.PureComponent {
                                     <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                         <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
                                     </a>
-                                    <h3>Feb 2025 – Present</h3>
+                                    <h3>Jun 2025 – Jul 2025</h3>
                                     <h4>
-                                        Artificial Intelligence Control Framework Working Group Volunteer
+                                        Working Group Volunteer - Cloud Controls Matrix (CCM)
                                         <span>Cloud Security Alliance (USA)</span>
                                     </h4>
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                    The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems.
+                                        Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
                                     </p>
-                                    <ul>
-                                        <li>AI Control Framework</li>
-                                        <li>AI Governance & Compliance</li>
-                                        <li>AI Organizational Responsibilities</li>
-                                        <li>AI Technology & Risk</li>
-                                    </ul>
                                 </div>
                             </div>
 
