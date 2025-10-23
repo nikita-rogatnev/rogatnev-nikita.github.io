@@ -171,6 +171,10 @@
       line-height: 1.2;
     }
 
+    .resume__articles-item h1 a:hover {
+      opacity: 0.9;
+    }
+
     @media (min-width: $medium-up) {
       .resume__articles-item {
         max-width: calc(100% / 4 - 2rem);

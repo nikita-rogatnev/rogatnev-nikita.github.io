@@ -47,6 +47,14 @@
     .certificates__badges a {
       width: calc(50% - 4rem);
       margin: 2rem;
+      transition: opacity .3s ease,transform .3s ease
+    }
+
+    .certificates__badges a:active,
+    .certificates__badges a:focus,
+    .certificates__badges a:hover {
+      opacity: .9;
+      transform: scale(1.05)
     }
 
     .certificates__badges-item {
