@@ -25545,6 +25545,8 @@ function (_React$PureComponent) {
         className: "certificates__item"
       }, "2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2025 - Trusted AI Safety Expert (TAISE) Contributor, Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2024 - Competence in Zero Trust (CCZT v1), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {

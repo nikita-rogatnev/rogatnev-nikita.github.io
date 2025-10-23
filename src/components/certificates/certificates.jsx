@@ -13,6 +13,7 @@ class Certificates extends React.PureComponent {
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
                             <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance</li>
+                            <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE) Contributor, Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - Competence in Zero Trust (CCZT v1), Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - SEO II, HubSpot Academy</li>
