@@ -12,6 +12,8 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2025 - ISO/IEC 42001:2023 Lead Auditor, Mastermind Assurance</li>
+                            <li className="certificates__item">2025 - ISO/IEC 27001:2022 Lead Auditor, Mastermind Assurance</li>
                             <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance</li>
                             <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE) Contributor, Cloud Security Alliance</li>
                             <li className="certificates__item">2024 - Cloud Security Knowledge v.5 (CCSK v5), Cloud Security Alliance</li>
@@ -68,6 +70,8 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
+                          <a target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 42001:2023 Lead Auditor" height="175" className="certificates__badges-item" /></a>
+                          <a target="_blank"><img src="./img/badges/27001.png" alt="ISO/IEC 27001:2022 Lead Auditor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/3c26a319-7a33-4078-8cdb-4e0c00c405c2/public_url" target="_blank"><img src="./img/badges/trusted-ai-safety-expert-taise-contributor.png" alt="Trusted AI Safety Expert Contributor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://verify.skilljar.com/c/ddvt8ro4u9z2" target="_blank"><img src="./img/badges/taise.png" alt="Trusted AI Safety Expert" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile" target="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>

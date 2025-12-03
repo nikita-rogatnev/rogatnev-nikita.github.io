@@ -25543,6 +25543,10 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2025 - ISO/IEC 42001:2023 Lead Auditor, Mastermind Assurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
+      }, "2025 - ISO/IEC 27001:2022 Lead Auditor, Mastermind Assurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2025 - Trusted AI Safety Expert (TAISE) Contributor, Cloud Security Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -25652,6 +25656,20 @@ function (_React$PureComponent) {
       }, "2011 - Internet and Computing Core Certification, Basis")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__badges"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/badges/42001.png",
+        alt: "ISO/IEC 42001:2023 Lead Auditor",
+        height: "175",
+        className: "certificates__badges-item"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/badges/27001.png",
+        alt: "ISO/IEC 27001:2022 Lead Auditor",
+        height: "175",
+        className: "certificates__badges-item"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.credly.com/badges/3c26a319-7a33-4078-8cdb-4e0c00c405c2/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
