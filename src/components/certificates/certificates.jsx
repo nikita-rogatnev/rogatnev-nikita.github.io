@@ -70,12 +70,12 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
-                          <a target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 42001:2023 Lead Auditor" height="175" className="certificates__badges-item" /></a>
-                          <a target="_blank"><img src="./img/badges/27001.png" alt="ISO/IEC 27001:2022 Lead Auditor" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/a7c807c0-271a-4d3c-932e-9604f579bfcb/public_url" target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 42001:2023 Lead Auditor" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/354754a2-a6f3-4b21-afe9-6266fd1fdaa6/public_url" target="_blank"><img src="./img/badges/27001.png" alt="ISO/IEC 27001:2022 Lead Auditor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/3c26a319-7a33-4078-8cdb-4e0c00c405c2/public_url" target="_blank"><img src="./img/badges/trusted-ai-safety-expert-taise-contributor.png" alt="Trusted AI Safety Expert Contributor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://verify.skilljar.com/c/ddvt8ro4u9z2" target="_blank"><img src="./img/badges/taise.png" alt="Trusted AI Safety Expert" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile" target="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
-                          <a href="https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/linked_in_profile" target="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/public_url" target="_blank"><img src="./img/badges/ccsk.png" alt="Certificate of Cloud Security Knowledge v.5" height="175" className="certificates__badges-item" /></a>
+                          <a href="https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/public_url" target="_blank"><img src="./img/badges/cczt.png" alt="Certificate of Competence in Zero Trust (CCZT)" height="175" className="certificates__badges-item" /></a>
                           <a target="_blank"><img src="./img/badges/black.png" alt="six sigma black" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.scrum.org/certificates/915285" target="_blank"><img src="./img/badges/psm-1.png" alt="scrum" height="175" className="certificates__badges-item" /></a>
                           <a target="_blank"><img src="./img/badges/mta-badge.png" alt="mta" height="175" className="certificates__badges-item" /></a>

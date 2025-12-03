@@ -25656,6 +25656,7 @@ function (_React$PureComponent) {
       }, "2011 - Internet and Computing Core Certification, Basis")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__badges"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.credly.com/badges/a7c807c0-271a-4d3c-932e-9604f579bfcb/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/badges/42001.png",
@@ -25663,6 +25664,7 @@ function (_React$PureComponent) {
         height: "175",
         className: "certificates__badges-item"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.credly.com/badges/354754a2-a6f3-4b21-afe9-6266fd1fdaa6/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/badges/27001.png",
@@ -25686,7 +25688,7 @@ function (_React$PureComponent) {
         height: "175",
         className: "certificates__badges-item"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/linked_in_profile",
+        href: "https://www.credly.com/badges/2382ebef-8850-4678-8b44-78f78a499e0c/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/badges/ccsk.png",
@@ -25694,7 +25696,7 @@ function (_React$PureComponent) {
         height: "175",
         className: "certificates__badges-item"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/linked_in_profile",
+        href: "https://www.credly.com/badges/24742a3e-5297-4fde-92bb-c9063bbd9741/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/badges/cczt.png",
@@ -26042,7 +26044,7 @@ function (_React$PureComponent) {
         className: "intro__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Rogatnev")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA / BEng / Trusted AI Safety Expert / PSM / Lean Six Sigma Black Belt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With over 15 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence."))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nikita ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Rogatnev")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "MBA | BEng | PSM | Trusted AI Safety Expert | Lean Six Sigma Black Belt | ISO/IEC 27001:2022 & 42001:2023 Lead Auditor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With over 15 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence."))));
     }
   }]);
 
