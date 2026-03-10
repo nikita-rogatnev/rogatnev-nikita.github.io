@@ -12,6 +12,7 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2026 - Certified Information Security Officer (CISO), Global Association for Quality Management (GAQM)</li>
                             <li className="certificates__item">2025 - ISO/IEC 42001:2023 Lead Auditor, Mastermind Assurance</li>
                             <li className="certificates__item">2025 - ISO/IEC 27001:2022 Lead Auditor, Mastermind Assurance</li>
                             <li className="certificates__item">2025 - Trusted AI Safety Expert (TAISE), Cloud Security Alliance</li>
@@ -70,6 +71,7 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
+                          <a href="https://badges.openbadges.me/api/badgeitem/b267ce4f-bd5d-4537-bb73-1f139590e208/metadata?host=app.openbadges.me" target="_blank"><img src="./img/badges/CISO.png" alt="CISO" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/a7c807c0-271a-4d3c-932e-9604f579bfcb/public_url" target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 42001:2023 Lead Auditor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/354754a2-a6f3-4b21-afe9-6266fd1fdaa6/public_url" target="_blank"><img src="./img/badges/27001.png" alt="ISO/IEC 27001:2022 Lead Auditor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/3c26a319-7a33-4078-8cdb-4e0c00c405c2/public_url" target="_blank"><img src="./img/badges/trusted-ai-safety-expert-taise-contributor.png" alt="Trusted AI Safety Expert Contributor" height="175" className="certificates__badges-item" /></a>

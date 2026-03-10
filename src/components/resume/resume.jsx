@@ -13,6 +13,28 @@ class Resume extends React.PureComponent {
                         <h2 className="title">Latest Work History</h2>
                         <div className="resume__items">
 
+                        <div className="resume__item">
+                            <div className="resume__position">
+                                <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
+                                   rel="noopener noreferrer nofollow">
+                                    <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
+                                </a>
+                                <h3>Mar 2026 - Present</h3>
+                                <h4>Interim Chief Information Security Officer (CISO) <span>Breakout Learning (USA)</span></h4>
+                            </div>
+                        </div>
+
+                        <div className="resume__item">
+                            <div className="resume__position">
+                                <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
+                                   rel="noopener noreferrer nofollow">
+                                    <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
+                                </a>
+                                <h3>Mar 2026 - Present</h3>
+                                <h4>Interim Data Protection Officer (DPO), Interim Grievance Officer <span>Breakout Learning (USA)</span></h4>
+                            </div>
+                        </div>
+
                           <div className="resume__item">
                               <div className="resume__position">
                                   <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
@@ -20,7 +42,7 @@ class Resume extends React.PureComponent {
                                       <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
                                   </a>
                                   <h3>Oct 2024 - Present</h3>
-                                  <h4>Head of Operations <span>Breakout Learning (USA)</span></h4>
+                                  <h4>Head of Operations, Internal IT Compliance Auditor, Vendor Manager <span>Breakout Learning (USA)</span></h4>
                               </div>
                               <div className="resume__description">
                                   <ul className="resume__list">
@@ -401,24 +423,94 @@ class Resume extends React.PureComponent {
                           <div className="resume__item resume__item--compact">
                               <div className="resume__position">
                                   <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/soc2.jpeg" alt="SOC 2 Quality Guild" height="135" className="resume__img resume__img--big"/>
+                                  </a>
+                                  <h3>Jan 2026 – Present</h3>
+                                  <h4>
+                                      Working Group Volunteer
+                                      <span>SOC 2 Quality Guild</span>
+                                  </h4>
+                              </div>
+                              <div className="resume__description">
+                              </div>
+                          </div>
+
+                          <div className="resume__item resume__item--compact">
+                              <div className="resume__position">
+                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
                                       <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
                                   </a>
-                                  <h3>Feb 2025 – Present</h3>
+                                  <h3>Now 2025 – Present</h3>
                                   <h4>
-                                      Working Group Volunteer - Artificial Intelligence Control Framework
+                                      Working Group Volunteer - Security Controls Catalog
                                       <span>Cloud Security Alliance (USA)</span>
                                   </h4>
                               </div>
                               <div className="resume__description">
                                   <p>
-                                  The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems.
+                                    This working group focuses on expanding and standardizing cybersecurity control objectives across various technologies, including Cloud, AI, and IoT/OT. It extends the CSA Cloud Control Matrix (CCM), ensuring interoperability with global frameworks. The group also defines control implementation guidelines, maintains a repository of technical controls as code, and enables automation to streamline compliance integration and enforcement.
                                   </p>
                                   <ul>
-                                      <li>AI Control Framework</li>
-                                      <li>AI Governance & Compliance</li>
-                                      <li>AI Organizational Responsibilities</li>
-                                      <li>AI Technology & Risk</li>
+                                    <li>Expands CSA’s Cloud Control Matrix (CCM) to support diverse technologies (Cloud, AI, IoT/OT).</li>
+                                    <li>Standardizes controls for interoperability across regulatory frameworks.</li>
+                                    <li>Develops vendor-agnostic and vendor-specific implementation guidelines for control adoption.</li>
+                                    <li>Defines control objectives related to cybersecurity, privacy, safety, and accountability.</li>
+                                    <li>Establishes a repository of technical controls as code to streamline compliance integration.</li>
                                   </ul>
+                              </div>
+                          </div>
+
+                          <div className="resume__item resume__item--compact">
+                              <div className="resume__position">
+                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                  </a>
+                                  <h3>Jan 2025 – Now 2025</h3>
+                                  <h4>
+                                      Trusted AI Safety Expert (TAISE) Contributor
+                                      <span>Cloud Security Alliance (USA)</span>
+                                  </h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>
+                                    Contributed to the content development of the Cloud Security Alliance’s Trusted AI Safety Expert (TAISE) training and certificate program. Contributors demonstrated AI safety, security, and governance expertise, collaborating with CSA and Northeastern University to create a rigorous, research-backed educational framework.
+                                  </p>
+                              </div>
+                          </div>
+
+                          <div className="resume__item resume__item--compact">
+                              <div className="resume__position">
+                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                  </a>
+                                  <h3>Aug 2025 – Oct 2025</h3>
+                                  <h4>
+                                      Working Group Volunteer - AI Safety
+                                      <span>Cloud Security Alliance (USA)</span>
+                                  </h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>
+                                    Cloud Security Alliance is embarking upon a new mission to build a portfolio of best practices for the most consequential technology ever introduced. The CSA AI Safety Initiative builds upon our 15 years of earned credibility as the leader of the trusted cloud ecosystem and leverages a unique structure for rapid innovation and collaboration with governments, industry and NGOs.
+                                  </p>
+                              </div>
+                          </div>
+
+                          <div className="resume__item resume__item--compact">
+                              <div className="resume__position">
+                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
+                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
+                                  </a>
+                                  <h3>Feb 2025 – Oct 2025</h3>
+                                  <h4>
+                                      Working Group Volunteer - AI Controls
+                                      <span>Cloud Security Alliance (USA)</span>
+                                  </h4>
+                              </div>
+                              <div className="resume__description">
+                                  <p>
+                                    The CSA AI Control Framework Working Group’s goal is to define a framework of control objectives to support organizations in their secure and responsible development, management, and use of AI technologies. The framework will assist in evaluating risks and defining controls related to Generative AI (GenAI). The control objectives will cover aspects related to cybersecurity. Additionally, it will cover aspects related to safety, privacy, transparency, accountability, and explainability as far as they relate to cybersecurity.
+                                  </p>
                               </div>
                           </div>
 
@@ -453,7 +545,7 @@ class Resume extends React.PureComponent {
                                 </div>
                                 <div className="resume__description">
                                     <p>
-                                        Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
+                                      Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
                                     </p>
                                 </div>
                             </div>

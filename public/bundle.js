@@ -25543,6 +25543,8 @@ function (_React$PureComponent) {
         className: "certificates__items"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
+      }, "2026 - Certified Information Security Officer (CISO), Global Association for Quality Management (GAQM)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "certificates__item"
       }, "2025 - ISO/IEC 42001:2023 Lead Auditor, Mastermind Assurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "certificates__item"
       }, "2025 - ISO/IEC 27001:2022 Lead Auditor, Mastermind Assurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -25656,6 +25658,14 @@ function (_React$PureComponent) {
       }, "2011 - Internet and Computing Core Certification, Basis")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "certificates__badges"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://badges.openbadges.me/api/badgeitem/b267ce4f-bd5d-4537-bb73-1f139590e208/metadata?host=app.openbadges.me",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/badges/CISO.png",
+        alt: "CISO",
+        height: "175",
+        className: "certificates__badges-item"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.credly.com/badges/a7c807c0-271a-4d3c-932e-9604f579bfcb/public_url",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -25961,6 +25971,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
+var today = new Date();
 
 var Footer =
 /*#__PURE__*/
@@ -25982,7 +25993,7 @@ function (_React$PureComponent) {
         className: "footer__wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer__content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 2025"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("cite", null, "Nikita Rogatnev"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 ", today.getFullYear()))));
     }
   }]);
 
@@ -26127,7 +26138,35 @@ function (_React$PureComponent) {
         alt: "breakoutlearning.com",
         height: "175",
         className: "resume__img resume__img--big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Oct 2024 - Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Head of Operations ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Breakout Learning (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2026 - Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Interim Chief Information Security Officer (CISO) ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Breakout Learning (USA)")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://breakoutlearning.com",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/breakout.png",
+        alt: "breakoutlearning.com",
+        height: "175",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Mar 2026 - Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Interim Data Protection Officer (DPO), Interim Grievance Officer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Breakout Learning (USA)")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://breakoutlearning.com",
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/breakout.png",
+        alt: "breakoutlearning.com",
+        height: "175",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Oct 2024 - Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Head of Operations, Internal IT Compliance Auditor, Vendor Manager ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Breakout Learning (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "resume__list"
@@ -26409,13 +26448,73 @@ function (_React$PureComponent) {
         target: "_blank",
         rel: "noopener noreferrer nofollow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/soc2.jpeg",
+        alt: "SOC 2 Quality Guild",
+        height: "135",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2026 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "SOC 2 Quality Guild"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/resume/csa.png",
         alt: "Cloud Security Alliance",
         height: "135",
         className: "resume__img resume__img--big"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Feb 2025 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Artificial Intelligence Control Framework", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Now 2025 \u2013 Present"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - Security Controls Catalog", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The Cloud Security Alliance's AI Control Framework Working Group is looking for volunteers to help develop a security-focused framework for AI and Generative AI (GenAI). This initiative will define control objectives to assess risks and strengthen cybersecurity, safety, privacy, transparency, accountability, and explainability in AI systems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Control Framework"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Governance & Compliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Organizational Responsibilities"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "AI Technology & Risk")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This working group focuses on expanding and standardizing cybersecurity control objectives across various technologies, including Cloud, AI, and IoT/OT. It extends the CSA Cloud Control Matrix (CCM), ensuring interoperability with global frameworks. The group also defines control implementation guidelines, maintains a repository of technical controls as code, and enables automation to streamline compliance integration and enforcement."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Expands CSA\u2019s Cloud Control Matrix (CCM) to support diverse technologies (Cloud, AI, IoT/OT)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Standardizes controls for interoperability across regulatory frameworks."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Develops vendor-agnostic and vendor-specific implementation guidelines for control adoption."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Defines control objectives related to cybersecurity, privacy, safety, and accountability."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Establishes a repository of technical controls as code to streamline compliance integration.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/csa.png",
+        alt: "Cloud Security Alliance",
+        height: "135",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Jan 2025 \u2013 Now 2025"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Trusted AI Safety Expert (TAISE) Contributor", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Contributed to the content development of the Cloud Security Alliance\u2019s Trusted AI Safety Expert (TAISE) training and certificate program. Contributors demonstrated AI safety, security, and governance expertise, collaborating with CSA and Northeastern University to create a rigorous, research-backed educational framework."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/csa.png",
+        alt: "Cloud Security Alliance",
+        height: "135",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Aug 2025 \u2013 Oct 2025"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - AI Safety", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cloud Security Alliance is embarking upon a new mission to build a portfolio of best practices for the most consequential technology ever introduced. The CSA AI Safety Initiative builds upon our 15 years of earned credibility as the leader of the trusted cloud ecosystem and leverages a unique structure for rapid innovation and collaboration with governments, industry and NGOs."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__item resume__item--compact"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__position"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "resume__link",
+        target: "_blank",
+        rel: "noopener noreferrer nofollow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/resume/csa.png",
+        alt: "Cloud Security Alliance",
+        height: "135",
+        className: "resume__img resume__img--big"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Feb 2025 \u2013 Oct 2025"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Working Group Volunteer - AI Controls", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Cloud Security Alliance (USA)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "resume__description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The CSA AI Control Framework Working Group\u2019s goal is to define a framework of control objectives to support organizations in their secure and responsible development, management, and use of AI technologies. The framework will assist in evaluating risks and defining controls related to Generative AI (GenAI). The control objectives will cover aspects related to cybersecurity. Additionally, it will cover aspects related to safety, privacy, transparency, accountability, and explainability as far as they relate to cybersecurity."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__item resume__item--compact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume__position"
