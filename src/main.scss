@@ -1,12 +1,12 @@
-@import "scss/config";
-@import "scss/global";
-@import "scss/button";
-@import "scss/title";
-@import "components/intro/intro";
-@import "components/certificates/certificates";
-@import "components/resume/resume";
-@import "components/contact/contact";
-@import "components/footer/footer";
+@use "scss/config";
+@use "scss/global";
+@use "scss/button";
+@use "scss/title";
+@use "components/intro/intro";
+@use "components/certificates/certificates";
+@use "components/resume/resume";
+@use "components/contact/contact";
+@use "components/footer/footer";
 
 [data-aos][data-aos][data-aos-duration="2000"],
 body[data-aos-duration="2000"] [data-aos] {

@@ -1,7 +1,8 @@
 /* ------------------------------------------ */
 /* RESUME BLOCK
 /* ------------------------------------------ */
-@import "../../scss/mixins";
+@use "../../scss/config" as *;
+@use "../../scss/mixins" as *;
 
 .resume {
     @include wrapper;

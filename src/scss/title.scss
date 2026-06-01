@@ -1,3 +1,5 @@
+@use "config" as *;
+
 .title {
 
     @media (min-width: $medium-up) {

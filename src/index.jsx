@@ -1,12 +1,13 @@
 import React from "react";
-import {render} from "react-dom";
+import {createRoot} from "react-dom/client";
 
-import "./main.scss"
+import "./main.scss";
 
 import App from "./components/app/app";
 
 const initApp = () => {
-    render((<App/>), document.getElementById(`root`));
+    const root = createRoot(document.getElementById(`root`));
+    root.render(<App/>);
 };
 
 initApp();

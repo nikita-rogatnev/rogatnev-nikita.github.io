@@ -1,7 +1,8 @@
 /* ------------------------------------------ */
 /* CONTACT BLOCK
 /* ------------------------------------------ */
-@import "../../scss/mixins";
+@use "../../scss/config" as *;
+@use "../../scss/mixins" as *;
 
 .contact {
     @include wrapper;
@@ -39,7 +40,7 @@
         justify-content: center;
 
         &:hover {
-            background: transparentize($color-accent, 0.2);
+            background: rgba($color-accent, 0.8);
         }
     }
 

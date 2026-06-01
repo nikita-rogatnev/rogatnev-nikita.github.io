@@ -1,7 +1,8 @@
 /* ------------------------------------------ */
 /* INTRO BLOCK
 /* ------------------------------------------ */
-@import "../../scss/mixins";
+@use "../../scss/config" as *;
+@use "../../scss/mixins" as *;
 
 .intro {
     @include wrapper;

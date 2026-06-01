@@ -1,17 +1,20 @@
 const path = require(`path`);
+
 module.exports = {
     mode: 'development',
     entry: `./src/index.jsx`,
     output: {
         filename: `bundle.js`,
-        path: path.join(__dirname, `./public`), // eslint-disable-line
+        path: path.join(__dirname, `./public`),
     },
     devServer: {
-        contentBase: path.join(__dirname, `./public`), // eslint-disable-line
+        static: {
+            directory: path.join(__dirname, `./public`),
+        },
         port: 8080,
         compress: true,
         hot: true,
-        historyApiFallback: true
+        historyApiFallback: true,
     },
     module: {
         rules: [
@@ -25,17 +28,16 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
+                    {loader: "style-loader"},
+                    {loader: "css-loader"},
                     {
-                        loader: "style-loader" // creates style nodes from JS strings
+                        loader: "sass-loader",
+                        options: {
+                            api: "modern",
+                        },
                     },
-                    {
-                        loader: "css-loader" // translates CSS into CommonJS
-                    },
-                    {
-                        loader: "sass-loader" // compiles Sass to CSS
-                    }
-                ]
-            }
+                ],
+            },
         ],
     },
     resolve: {
