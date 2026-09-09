@@ -7,8 +7,8 @@ class Intro extends React.PureComponent {
                 <div className="intro__wrapper">
                     <div className="intro__content">
                         <h2>Nikita <span>Rogatnev</span></h2>
-                        <h4>MBA | BEng | PSM | Lean Six Sigma Black Belt | Trusted AI Safety Expert | ISO/IEC 27001/27701/42001 Lead Auditor</h4>
-                        <p>With over 15 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence.</p>
+                        <h4>MBA | BEng | PSM | Lean Six Sigma Black Belt | Trusted AI Safety Expert | ISO/IEC 27001, 27701, 42001 & STAR Lead Auditor</h4>
+                        <p>With over 17 years of experience enhancing operational and business procedures, systems, and principles in the areas of information flow and management, I approach business challenges with data-driven analysis, stakeholder alignment, and efficient execution - while guiding teams and organizations through change with clarity and confidence.</p>
                     </div>
                 </div>
             </section>

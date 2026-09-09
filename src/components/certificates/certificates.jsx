@@ -12,6 +12,8 @@ class Certificates extends React.PureComponent {
                     <div className="certificates__content">
                         <h2 className="title">Certifications</h2>
                         <ul className="certificates__items">
+                            <li className="certificates__item">2026 - STAR Lead Auditor, Cloud Security Alliance</li>
+                            <li className="certificates__item">2026 - STAR AI Controls Auditor, Cloud Security Alliance</li>
                             <li className="certificates__item">2026 - Fellow of Management Systems Auditing, Mastermind Assurance</li>
                             <li className="certificates__item">2026 - ISO/IEC 27701:2025 Lead Auditor, Mastermind Assurance</li>
                             <li className="certificates__item">2026 - Certified Information Security Officer (CISO), Global Association for Quality Management (GAQM)</li>
@@ -73,6 +75,7 @@ class Certificates extends React.PureComponent {
                             <li className="certificates__item">2011 - Internet and Computing Core Certification, Basis</li>
                         </ul>
                         <div className="certificates__badges">
+                          <a target="_blank"><img src="./img/badges/star-lead-auditor.png" alt="STAR Lead Auditor" height="175" className="certificates__badges-item certificates__badges-item--wide" /></a>
                           <a href="https://www.credly.com/badges/b5f8ad75-58c8-424f-ab5e-c120550035f3/public_url" target="_blank"><img src="./img/badges/fellow.png" alt="Fellow of Management Systems Auditing" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/3531c945-e6f2-47cf-8dfc-5508e6651033/public_url" target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 27701:2025 Lead Auditor" height="175" className="certificates__badges-item" /></a>
                           <a href="https://www.credly.com/badges/a7c807c0-271a-4d3c-932e-9604f579bfcb/public_url" target="_blank"><img src="./img/badges/42001.png" alt="ISO/IEC 42001:2023 Lead Auditor" height="175" className="certificates__badges-item" /></a>

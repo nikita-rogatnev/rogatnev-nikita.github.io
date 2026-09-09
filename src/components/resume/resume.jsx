@@ -20,20 +20,17 @@ class Resume extends React.PureComponent {
                                     <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
                                 </a>
                                 <h3>Mar 2026 - Present</h3>
-                                <h4>Interim Chief Information Security Officer (CISO) <span>Breakout Learning (USA)</span></h4>
+                                <h4>Interim Chief Information Security Officer (CISO), Interim Data Protection & Grievance Officer <span>Breakout Learning (USA)</span></h4>
+                              </div>
+                              <div className="resume__description">
+                                <ul className="resume__list">
+                                  <li>Operationalized the NIST AI Risk Management Framework across all 4 core functions (Govern, Map, Measure, Manage), implementing 34 Drata controls that address 72 requirements spanning NIST AI RMF, SOC 2 Privacy, and AI governance. Mapped controls to HECVAT 4 AIML and AILM sections and aligned with 2 state AI safe-harbor laws (Colorado SB 24-205 and Texas TRAIGA).</li>
+                                  <li>Established EU AI Act readiness for the platform's AI Discussion Assessment system, authoring an Annex III high-risk classification determination that secured Article 6(3) derogation eligibility (non-high-risk), supported by a documented AI System Inventory, 5 AI governance, risk, development, and responsible-use policies, and 3 AI conformance statements (NIST AI RMF, EU AI Act, Annex III classification).</li>
+                                  <li>Achieved 1EdTech LTI Advantage Complete certification for Breakout Learning's LTI 1.3 Tool integration — passing independent conformance testing across all 3 Advantage extension services (Deep Linking 2.0, Names and Role Provisioning Services 2.0, Assignment and Grade Services 2.0) — clearing a compliance gate for LMS integration in university security and procurement reviews and securing a listing in 1EdTech's TrustEd Apps directory.</li>
+                                  <li>Designed and built a Call List Generator that indexes US college faculty into a searchable outreach engine — 35 institutions contributing 11,550 professors, 21,307 courses, 10,271 emails, and 3,650 phone numbers — accelerating account-manager prospecting, onboarding, and research.</li>
+                              </ul>
                             </div>
-                        </div>
-
-                        <div className="resume__item">
-                            <div className="resume__position">
-                                <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
-                                   rel="noopener noreferrer nofollow">
-                                    <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
-                                </a>
-                                <h3>Mar 2026 - Present</h3>
-                                <h4>Interim Data Protection Officer (DPO), Interim Grievance Officer <span>Breakout Learning (USA)</span></h4>
-                            </div>
-                        </div>
+                          </div>
 
                           <div className="resume__item">
                               <div className="resume__position">
@@ -42,17 +39,17 @@ class Resume extends React.PureComponent {
                                       <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
                                   </a>
                                   <h3>Oct 2024 - Present</h3>
-                                  <h4>Head of Operations, Internal IT Compliance Auditor, Vendor Manager <span>Breakout Learning (USA)</span></h4>
+                                  <h4>Head of Operations and Compliance <span>Breakout Learning (USA)</span></h4>
                               </div>
                               <div className="resume__description">
                                   <ul className="resume__list">
-                                      <li>Achieved <b>SOC 2 Type 2</b> certification by establishing rigorous compliance processes, managing internal and external audits and implementing ongoing compliance strategies. Collected 160+ evidence items, trained 40 employees and contractors, validated 52 vendors, implemented 29 policies, mitigated 26 risks and maintained 8 key registers for continuous compliance.</li>
-                                      <li>Implemented over 40 new controls to achieve and maintain compliance with both the <b>EU GDPR</b> and <b>India’s Digital Personal Data Protection Act (DPDP)</b>. This included enforcing Role-Based Access Control (RBAC), documenting 200+ data processing activities and conducting Data Protection Impact Assessment (DPIA). Updated internal policies, developed a unified Data Processing Agreement (DPA) with SCCs and IDTA/TRA addenda and aligned cross-border data transfer mechanisms. Embedded consent and opt-out workflows, appointed a Grievance Officer and ensured all practices meet transparency, purpose limitation and data minimization requirements.</li>
-                                      <li>Achieved <b>TX-RAMP Level 1</b> certification by completing the Texas Risk and Authorization Management Program assessment, aligning security controls with state requirements, validating risk mitigation practices and documenting compliance for Texas public sector data handling.</li>
-                                      <li>Completed <b>CSA STAR Level 1</b> certification by addressing over 260 rigorous security and compliance questions through the <b>CAIQ v4.0.3</b>, delivering detailed evidence and clearly defined Cloud Security Controls (CSC) responsibilities.</li>
-                                      <li>In 2024, drove <b>WCAG 2.1</b> compliance across the platform, resulting in a <b>VPAT (Levels "A" and "AA")</b> and a <b>HECVAT 3.05 Lite Score of "A"</b>, improving accessibility and institutional trust.</li>
-                                      <li>In 2025, upgraded to <b>WCAG 2.2 Level "AA"</b> and completed the full <b>HECVAT 4.03</b>, aligning with the latest accessibility and higher ed security standards.</li>
-                                      <li>Introduced <b>continuous compliance monitoring systems</b> for real-time tracking and fast resolution of potential issues to uphold security standards.</li>
+                                      <li>Led company-wide operational ownership of security, privacy, compliance, accessibility, and trust programs, embedding these requirements into daily operations across product, engineering, IT, legal, customer support, and vendor management.</li>
+                                      <li>Achieved SOC 2 Type 2 certification by designing and operationalizing compliance processes, managing internal and external audits, and implementing continuous monitoring. Collected 160+ evidence items, trained 40 employees and contractors, validated 52 vendors, implemented 30+ policies, mitigated 30+ risks, and maintained 8 compliance and risk registers to support ongoing audit readiness.</li>
+                                      <li>Implemented and operationalized 300+ privacy, security, and governance controls to maintain compliance with SOC 2, FERPA, EU GDPR, UK GDPR, the EU–U.S./UK/Swiss Data Privacy Framework (DPF), Switzerland’s nFADP, Canada’s PIPEDA, India’s DPDP Act, Australia’s Privacy Act and Australian Privacy Principles (APPs), and South Africa’s Protection of Personal Information Act (POPIA). Enforced RBAC, documented 200+ data processing activities, conducted DPIAs, and updated all internal privacy and security policies.</li>
+                                      <li>Developed and standardized a unified Data Processing Agreement (DPA) with SCCs and IDTA/TRA addenda, aligning global cross-border data transfer mechanisms across customers, partners, and subprocessors.</li>
+                                      <li>Achieved TX-RAMP Level 1 authorization and completed CSA STAR Level 1 (CAIQ v4.0.3) and CSA STAR for AI Level 1 (AI CAIQ v1.0.2), addressing 570+ combined cloud security, privacy, and AI governance requirements.</li>
+                                      <li>Led platform accessibility initiatives, achieving Accessibility Conformance Report (ACR) based on WCAG 2.1 (A & AA), HECVAT 3.05 Lite Score “A,” and subsequent upgrades to WCAG 2.2 (A & AA) and HECVAT 4.1.5.</li>
+                                      <li>Introduced real-time continuous compliance monitoring to enable proactive risk detection, rapid remediation, and sustained operational resilience.</li>
                                   </ul>
 
                                   <div class="resume__articles">

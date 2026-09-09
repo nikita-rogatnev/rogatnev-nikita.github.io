@@ -45,6 +45,10 @@
       text-align: center;
     }
 
+    .certificates__badges-item--wide {
+      max-width: 240px !important;
+    }
+
     .certificates__badges a {
       width: calc(50% - 4rem);
       margin: 2rem;
