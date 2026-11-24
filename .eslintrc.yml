@@ -1,18 +1,21 @@
 env:
-  es6: true
+  es2022: true
   browser: true
   commonjs: true
 
-extends: ["plugin:react/recommended"]
+extends: ["plugin:react/recommended", "plugin:react/jsx-runtime"]
 
 parserOptions:
   ecmaFeatures:
     jsx: true
-  ecmaVersion: 6
+  ecmaVersion: 2022
   sourceType: module
 
 plugins: ["react"]
 
+rules:
+  react/prop-types: off
+
 settings:
   react:
-    version: "16"
+    version: detect

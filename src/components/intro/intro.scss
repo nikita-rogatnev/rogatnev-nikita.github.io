@@ -6,92 +6,53 @@
 
 .intro {
     @include wrapper;
-    @include heading;
 
-    .intro__content {
-        h3 {
-            margin: 0 0 0 0.4rem;
-            padding: 0;
+    .intro__name {
+        margin: 0;
+        padding: 0;
 
-            text-transform: uppercase;
+        white-space: normal;
+        text-transform: uppercase;
 
-            font-size: $font-size-01;
-            font-weight: $regular-font-weight;
-            line-height: 1;
-        }
+        color: $color-secondary;
 
-        h4 {
-            margin: 0 0 0 0.4rem;
-            padding: 0;
-            font-weight: $regular-font-weight;
-        }
+        font-size: $font-size-06;
+        font-weight: $bold-font-weight;
+        line-height: 1;
 
         span {
             color: $color-accent;
         }
+    }
 
-        h2 {
-            margin: 0;
-            padding: 0;
+    .intro__subtitle {
+        margin: 0 0 0 0.4rem;
+        padding: 0;
+    }
 
-            white-space: normal;
-            text-transform: uppercase;
+    .intro__text {
+        margin: 2rem 0 0 0.4rem;
+    }
 
-            color: $color-secondary;
-
-            font-size: $font-size-06;
-            font-weight: $bold-font-weight;
-            line-height: 1;
-        }
-
-        p {
-            margin: 2rem 0 0 0.4rem;
+    @media (max-width: 359px) {
+        .intro__name {
+            font-size: $font-size-05;
         }
     }
 
     @media (min-width: $medium-up) {
-        .intro__content {
-            h3 {
-                margin: 0 0 0 0.3rem;
-
-                font-size: 2.3rem;
-            }
-
-            h2 {
-                white-space: nowrap;
-
-                font-size: $font-size-06;
-            }
+        .intro__name {
+            white-space: nowrap;
         }
     }
 
     @media (min-width: $large-up) {
-        .intro__content {
-            h3 {
-                margin: 0 0 0 0.4rem;
-
-                font-size: 3.17rem;
-            }
-
-            h2 {
-                white-space: nowrap;
-
-                font-size: 9rem;
-            }
-
-            p {
-                max-width: 50%;
-            }
+        .intro__name {
+            font-size: 9rem;
         }
-    }
-}
 
-@keyframes slide {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: -100rem 0;
+        .intro__text {
+            max-width: 50%;
+        }
     }
 }

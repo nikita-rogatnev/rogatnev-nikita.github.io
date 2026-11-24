@@ -19,7 +19,7 @@
         font-style: normal;
     }
 
-    span {
+    .footer__content > span {
         position: relative;
 
         display: block;
@@ -34,7 +34,7 @@
 
         text-align: right;
 
-        span {
+        .footer__content > span {
             &::before {
                 position: absolute;
                 top: 50%;

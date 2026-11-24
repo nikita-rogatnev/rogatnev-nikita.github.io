@@ -1,579 +1,88 @@
-import React from "react";
+import {jobs, education, volunteering} from "../../data/resume";
 
-class Resume extends React.PureComponent {
-    render() {
-        return (
-            <section className="resume" data-aos="zoom-in">
-                <div className="resume__wrapper">
-                    <div className="resume__heading">
-                        <span>CHAPTER 01</span>
-                        <h2>Resume</h2>
-                    </div>
-                    <div className="resume__content">
-                        <h2 className="title">Latest Work History</h2>
-                        <div className="resume__items">
+const Logo = ({logo, url}) => {
+    const className = [
+        `resume__img`,
+        logo.big && `resume__img--big`,
+        logo.margin && `resume__img--margin`,
+    ].filter(Boolean).join(` `);
 
-                        <div className="resume__item">
-                            <div className="resume__position">
-                                <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
-                                   rel="noopener noreferrer nofollow">
-                                    <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
-                                </a>
-                                <h3>Mar 2026 - Present</h3>
-                                <h4>Interim Chief Information Security Officer (CISO), Interim Data Protection & Grievance Officer <span>Breakout Learning (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                <ul className="resume__list">
-                                  <li>Operationalized the NIST AI Risk Management Framework across all 4 core functions (Govern, Map, Measure, Manage), implementing 34 Drata controls that address 72 requirements spanning NIST AI RMF, SOC 2 Privacy, and AI governance. Mapped controls to HECVAT 4 AIML and AILM sections and aligned with 2 state AI safe-harbor laws (Colorado SB 24-205 and Texas TRAIGA).</li>
-                                  <li>Established EU AI Act readiness for the platform's AI Discussion Assessment system, authoring an Annex III high-risk classification determination that secured Article 6(3) derogation eligibility (non-high-risk), supported by a documented AI System Inventory, 5 AI governance, risk, development, and responsible-use policies, and 3 AI conformance statements (NIST AI RMF, EU AI Act, Annex III classification).</li>
-                                  <li>Achieved 1EdTech LTI Advantage Complete certification for Breakout Learning's LTI 1.3 Tool integration — passing independent conformance testing across all 3 Advantage extension services (Deep Linking 2.0, Names and Role Provisioning Services 2.0, Assignment and Grade Services 2.0) — clearing a compliance gate for LMS integration in university security and procurement reviews and securing a listing in 1EdTech's TrustEd Apps directory.</li>
-                                  <li>Designed and built a Call List Generator that indexes US college faculty into a searchable outreach engine — 35 institutions contributing 11,550 professors, 21,307 courses, 10,271 emails, and 3,650 phone numbers — accelerating account-manager prospecting, onboarding, and research.</li>
-                              </ul>
-                            </div>
-                          </div>
+    const image = (
+        <img src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} className={className}
+             loading="lazy" decoding="async"/>
+    );
 
-                          <div className="resume__item">
-                              <div className="resume__position">
-                                  <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
-                                     rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
-                                  </a>
-                                  <h3>Oct 2024 - Present</h3>
-                                  <h4>Head of Operations and Compliance <span>Breakout Learning (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                  <ul className="resume__list">
-                                      <li>Led company-wide operational ownership of security, privacy, compliance, accessibility, and trust programs, embedding these requirements into daily operations across product, engineering, IT, legal, customer support, and vendor management.</li>
-                                      <li>Achieved SOC 2 Type 2 certification by designing and operationalizing compliance processes, managing internal and external audits, and implementing continuous monitoring. Collected 160+ evidence items, trained 40 employees and contractors, validated 52 vendors, implemented 30+ policies, mitigated 30+ risks, and maintained 8 compliance and risk registers to support ongoing audit readiness.</li>
-                                      <li>Implemented and operationalized 300+ privacy, security, and governance controls to maintain compliance with SOC 2, FERPA, EU GDPR, UK GDPR, the EU–U.S./UK/Swiss Data Privacy Framework (DPF), Switzerland’s nFADP, Canada’s PIPEDA, India’s DPDP Act, Australia’s Privacy Act and Australian Privacy Principles (APPs), and South Africa’s Protection of Personal Information Act (POPIA). Enforced RBAC, documented 200+ data processing activities, conducted DPIAs, and updated all internal privacy and security policies.</li>
-                                      <li>Developed and standardized a unified Data Processing Agreement (DPA) with SCCs and IDTA/TRA addenda, aligning global cross-border data transfer mechanisms across customers, partners, and subprocessors.</li>
-                                      <li>Achieved TX-RAMP Level 1 authorization and completed CSA STAR Level 1 (CAIQ v4.0.3) and CSA STAR for AI Level 1 (AI CAIQ v1.0.2), addressing 570+ combined cloud security, privacy, and AI governance requirements.</li>
-                                      <li>Led platform accessibility initiatives, achieving Accessibility Conformance Report (ACR) based on WCAG 2.1 (A & AA), HECVAT 3.05 Lite Score “A,” and subsequent upgrades to WCAG 2.2 (A & AA) and HECVAT 4.1.5.</li>
-                                      <li>Introduced real-time continuous compliance monitoring to enable proactive risk detection, rapid remediation, and sustained operational resilience.</li>
-                                  </ul>
+    return url ? (
+        <a href={url} className="resume__link" target="_blank" rel="noopener noreferrer nofollow">{image}</a>
+    ) : (
+        <span className="resume__link">{image}</span>
+    );
+};
 
-                                  <div class="resume__articles">
-                                      <article className="resume__articles-item">
-                                          <a href="https://www.linkedin.com/pulse/navigating-indias-dpdp-act-breakout-learning-story-nikita-rogatnev-6ti7c/" target="_blank">
-                                              <img src="./img/resume/dpdp.png" alt="DPDP" height="300" />
-                                          </a>
-                                          <h1><a href="https://www.linkedin.com/pulse/navigating-indias-dpdp-act-breakout-learning-story-nikita-rogatnev-6ti7c/" target="_blank">🇮🇳 Navigating India’s DPDP Act: The Breakout Learning Compliance Story</a></h1>
-                                      </article>
+const Articles = ({articles}) => (
+    <ul className="resume__articles">
+        {articles.map((article) => (
+            <li className="resume__articles-item" key={article.url}>
+                <a href={article.url} target="_blank" rel="noopener noreferrer">
+                    <img src={article.image} alt="" width="420" height="236" loading="lazy" decoding="async"/>
+                    <span className="resume__articles-title">{article.title}</span>
+                </a>
+            </li>
+        ))}
+    </ul>
+);
 
-                                      <article className="resume__articles-item">
-                                          <a href="https://www.linkedin.com/pulse/unlocking-gdpr-compliance-critical-step-breakout-global-rogatnev-8ghmf/" target="_blank">
-                                              <img src="./img/resume/gdpr.png" alt="GDPR" height="300" />
-                                          </a>
-                                          <h1><a href="https://www.linkedin.com/pulse/unlocking-gdpr-compliance-critical-step-breakout-global-rogatnev-8ghmf/" target="_blank">Unlocking GDPR Compliance: A Critical Step in Breakout Learning’s Global Growth</a></h1>
-                                      </article>
+const Item = ({item, compact}) => (
+    <article className={`resume__item${compact ? ` resume__item--compact` : ``}`} data-reveal="">
+        <div className="resume__position">
+            <Logo logo={item.logo} url={item.url}/>
+            <p className="resume__period">{item.period}</p>
+            <h4 className="resume__role">
+                {item.role} <span className="resume__company">{item.company}</span>
+            </h4>
+        </div>
+        <div className="resume__description">
+            {item.summary && <p>{item.summary}</p>}
+            {item.bullets && (
+                <ul className="resume__list">
+                    {item.bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
+                </ul>
+            )}
+            {item.articles && <Articles articles={item.articles}/>}
+        </div>
+    </article>
+);
 
-                                      <article className="resume__articles-item">
-                                          <a href="https://www.linkedin.com/pulse/how-breakout-learning-achieved-csa-star-level-1-status-rogatnev-lxcif/" target="_blank">
-                                              <img src="./img/resume/star.png" alt="CSA STAR" height="300" />
-                                          </a>
-                                          <h1><a href="https://www.linkedin.com/pulse/how-breakout-learning-achieved-csa-star-level-1-status-rogatnev-lxcif/" target="_blank">How Breakout Learning Achieved CSA STAR Level 1 Status: The Road to Trust, Transparency, and What’s Next</a></h1>
-                                      </article>
-
-                                      <article className="resume__articles-item">
-                                          <a href="https://www.linkedin.com/pulse/how-we-made-soc-2-compliance-breakout-learning-success-rogatnev-9nlwf/" target="_blank">
-                                              <img src="./img/resume/soc2.png" alt="SOC 2" height="300" />
-                                          </a>
-                                          <h1><a href="https://www.linkedin.com/pulse/how-we-made-soc-2-compliance-breakout-learning-success-rogatnev-9nlwf/" target="_blank">How We Made SOC 2 Compliance a Breakout Learning Success</a></h1>
-                                      </article>
-                                  </div>
-
-                              </div>
-                          </div>
-
-                          <div className="resume__item">
-                              <div className="resume__position">
-                                  <a href="https://breakoutlearning.com" className="resume__link" target="_blank"
-                                     rel="noopener noreferrer nofollow">
-                                     <img src="./img/resume/breakout.png" alt="breakoutlearning.com" height="175" className="resume__img resume__img--big" />
-                                  </a>
-                                  <h3>Mar 2024 - Oct 2024</h3>
-                                  <h4>Director of Operations & Marketing <span>Breakout Learning (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                  <ul className="resume__list">
-                                      <li>Automated the collection and analysis of over <b>200 key performance metrics for Monthly Business Reviews</b>, streamlining reporting and enabling faster, data-driven decision-making.</li>
-                                      <li>Optimized the <b>vendor clearance process</b>, enhancing efficiency and reducing onboarding time by 45%.</li>
-                                      <li>Implemented <b>social calendar automation</b>, improving campaign scheduling, reducing manual workload, and ensuring content consistency across platforms.</li>
-                                      <li>Developed and implemented <b>internal support and process automation</b>, reducing response times, enhancing issue resolution efficiency, and improving overall support experience.</li>
-                                  </ul>
-                              </div>
-                          </div>
-
-
-                          <div className="resume__item">
-                              <div className="resume__position">
-                                  <a href="https://numatic.co" className="resume__link" target="_blank"
-                                     rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
-                                  </a>
-                                  <h3>May 2021 - Present</h3>
-                                  <h4>Board Member <span>Numatic Ventures (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>Numatic Ventures is a unique hybrid company - one part venture studio, one part professional services. Regardless of how we engage, we partner with founders of well-funded, early-stage startups to turn bold ideas into reality by leveraging our decades of experience in the areas of strategy, brand, and technology.</p>
-                              </div>
-                          </div>
-
-                          <div className="resume__item">
-                              <div className="resume__position">
-                                  <a href="https://numatic.co" className="resume__link" target="_blank"
-                                     rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/numatic.svg" alt="numatic.co" height="175" className="resume__img resume__img--big" />
-                                  </a>
-                                  <h3>May 2021 - Apr 2024</h3>
-                                  <h4>Chief Operating Officer <span>Numatic Ventures (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>
-                                      Overseeing the organization’s ongoing operations and procedures, establishing policies that promote company culture and vision through its operations. Responsible for the efficiency of the business, which includes maintaining control of diverse business operations and establishing and following a set of operational procedures, systems, and principles in the areas of information flow and management. Managing the organizational structure, financial reporting, and best practices.
-                                  </p>
-                                  <ul className="resume__list">
-                                      <li>Directly contributed to achieving <b>$2M in ARR</b> by driving process improvements, cost optimizations, and strategic partnerships</li>
-                                      <li>Built a high-performing organization of <b>25 people</b>, including Board, C-Suite, Leadership, management, and two full-cycle development teams</li>
-                                      <li>Executed a <b>talent retention strategy</b> that increased employee satisfaction by 20%</li>
-                                      <li>Implemented <b>Agile methodologies</b>, boosting on-time project delivery by 35%</li>
-                                      <li>Optimized <b>vendor management processes</b>, resulting in a 30% reduction in procurement costs</li>
-                                      <li>Orchestrated the <b>relocation of 20 employees</b> across different countries, providing comprehensive support and ensuring a smooth transition</li>
-                                  </ul>
-                              </div>
-                          </div>
-
-                          <div className="resume__item">
-                              <div className="resume__position">
-                                  <a href="https://ProFolios.ai" className="resume__link" target="_blank"
-                                     rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/profolios.jpeg" alt="ProFolios.ai" height="175" className="resume__img resume__img--big" />
-                                  </a>
-                                  <h3>Jan 2024 - Feb 2025</h3>
-                                  <h4>Vice President, Operations <span>ProFolios.ai (USA)</span></h4>
-                              </div>
-                              <div className="resume__description">
-                                  <ul className="resume__list">
-                                      <li>Optimized <b>vendor management processes</b>, resulting in a 45% reduction in procurement costs</li>
-                                      <li>Directed the overhaul of the <b>IT infrastructure</b> to adopt cloud technologies, achieving a 30% reduction in operational costs while enhancing scalability and system reliability</li>
-                                      <li>Developed and implemented a <b>risk management framework</b> that reduced operational risks by 40%, safeguarding company assets and reputation</li>
-                                      <li>Spearheaded the adoption of <b>DevOps practices</b>, fostering collaboration between development and operations teams, which led to a 60% reduction in system downtime and improved customer satisfaction</li>
-                                  </ul>
-                              </div>
-                          </div>
-
-                            <div className="resume__item">
-                                <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
-                                       rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
-                                    </a>
-                                    <h3>Mar 2021 – May 2021</h3>
-                                    <h4>Associate Director, Operations <span>iX.co (USA)</span></h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                        Reports to the Chief Product Officer and is responsible for all business and
-                                        technical operations in iX Products division, which involves the effective
-                                        execution of the 8 Standard Dimensions: stakeholder management, growth
-                                        enablement, commercial management, people management, schedule and scope
-                                        management, risk and issue management, collaboration management, and quality
-                                        assurance. As a member of the iX Products division Leadership team provides
-                                        oversight of daily operations and represents technical, business, and support
-                                        operations offices. Enhances the operational procedure, systems, and principles
-                                        in the areas of information flow and management, business processes, enhanced
-                                        management reporting and looks for opportunities to expand systems. Carries out
-                                        supervisory responsibilities in accordance with the company and division
-                                        policies.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="resume__item">
-                                <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
-                                       rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
-                                    </a>
-                                    <h3>Jul 2020 – Mar 2021</h3>
-                                    <h4>Operations Manager <span>iX.co (USA)</span></h4>
-                                </div>
-                                <div className="resume__description">
-                                    <ul className="resume__list">
-                                        <li>As a member of the iX Products division Leadership team provide oversight of
-                                            daily operations, Kaizen operations enhancement
-                                        </li>
-                                        <li>Control and optimize division operational costs</li>
-                                        <li>Collaborate closely with CPO and CTO and produce reports</li>
-                                        <li>Implement division strategies according to the approved Annual Budget</li>
-                                        <li>Continuously evaluate division performance by analyzing and interpreting
-                                            data and metrics
-                                        </li>
-                                        <li>Define comprehensive division goals for performance and growth</li>
-                                        <li>Enable employees to achieve maximum performance, culture, and vision</li>
-                                        <li>Partner with HR and other departments to develop and implement staffing
-                                            programs to attract the best applicants and improve employee retention
-                                        </li>
-                                        <li>Manage relationships with partners and vendors</li>
-                                        <li>Own the operational, technical, business, and partnership documentation</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="resume__item">
-                                <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
-                                       rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
-                                    </a>
-                                    <h3>Mar 2020 – Jul 2020</h3>
-                                    <h4>Technical Product Manager <span>iX.co (USA)</span></h4>
-                                </div>
-                                <div className="resume__description">
-                                    <ul className="resume__list">
-                                        <li>Gather requirements from stakeholders and structure into documentation</li>
-                                        <li>Manage functional business requirements documentation throughout project
-                                            lifecycle
-                                        </li>
-                                        <li>Analyse and map data from disparate sources and formats to guide design and
-                                            development
-                                        </li>
-                                        <li>Deliver walk-throughs and answer questions on requirements for internal
-                                            development and QA team members
-                                        </li>
-                                        <li>Work with development and product management team to ensure requirements are
-                                            achievable and inline with best practices and project scope
-                                        </li>
-                                        <li>Review test cases to ensure coverage over requirements and requirements are
-                                            being accurately represented
-                                        </li>
-                                        <li>Validate requirements against deliverables</li>
-                                        <li>Define requirements gathering, review, and documentation approach for
-                                            projects based on scope and client needs.
-                                        </li>
-                                        <li>Present business requirement documentation and designs to clients and elicit
-                                            feedback
-                                        </li>
-                                        <li>Work with client and project management in the prioritisation of product
-                                            features with client according to scope, dependencies, urgency, cost, and
-                                            return
-                                        </li>
-                                        <li>Take part in product ideation and provide feedback and recommendations to
-                                            the client for new opportunities, features, or products
-                                        </li>
-                                        <li>Serve as product expert for any internal or external questions around the
-                                            product
-                                        </li>
-                                        <li>Take ownership of quality of deliverables and validate requirements with
-                                            client in UAT
-                                        </li>
-                                        <li>Defining and measuring KPIs for product success</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="resume__item">
-                                <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
-                                       rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
-                                    </a>
-                                    <h3>August 2019 – Mar 2020</h3>
-                                    <h4>Technical Project Manager / Delivery Manager <span>iX.co (USA)</span></h4>
-                                </div>
-                                <div className="resume__description">
-                                    <ul className="resume__list">
-                                        <li>Overall responsibility for successful technical delivery of the project or
-                                            area of responsibility
-                                        </li>
-                                        <li>Provide technical expertise to maintain standards and quality in further
-                                            improving the system of products front-end side
-                                        </li>
-                                        <li>Provides proactive resolutions to developing problems, and suggests
-                                            modifications that may result in a permanent fix to a problem
-                                        </li>
-                                        <li>Contributes to decisions about tools, methods and approaches</li>
-                                        <li>Manage Project workspace in Jira, Confluence and other management tools</li>
-                                        <li>Project reporting, team velocity, ensuring key performance indicators
-                                            reaching success level values
-                                        </li>
-                                        <li>Sprint planning, daily standups, interaction with Development Team, Project
-                                            Owner and others as needed to resolve blockers and move project towards
-                                            successful finish
-                                        </li>
-                                        <li>Develop and keep up to date products technical documentations</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="resume__item">
-                                <div className="resume__position">
-                                    <a href="https://www.ix.co" className="resume__link" target="_blank"
-                                       rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/ix.png" alt="iX.co" height="125" className="resume__img"/>
-                                    </a>
-                                    <h3>May 2019 – August 2019</h3>
-                                    <h4>Dev Lead <span>iX.co (USA)</span></h4>
-                                </div>
-                                <div className="resume__description">
-                                    <ul className="resume__list">
-                                        <li>Design, develop, and unit test applications in accordance with established
-                                            standards
-                                        </li>
-                                        <li>Peer-reviews of solution designs and related code</li>
-                                        <li>Provide technical leadership to teammates through coaching and mentorship
-                                        </li>
-                                        <li>Guide team development efforts towards successful project delivery</li>
-                                        <li>Maintain high standards of software quality by establishing good practices
-                                            and habits
-                                        </li>
-                                        <li>Identify and encourage areas for growth and improvement within the team</li>
-                                        <li>Provide third-level support to business users</li>
-                                        <li>Adhere to high-quality dev principles while delivering solutions on-time and
-                                            on-budget
-                                        </li>
-                                        <li>Collaborate with software developers, BAs and SAs to plan, design, develop,
-                                            test, and maintain web-based applications
-                                        </li>
-                                        <li>Assess opportunities for application and process improvement and prepare
-                                            documentation of rationale to share with team members and other affected
-                                            parties
-                                        </li>
-                                        <li>Prepare reports, manuals, other documentation on the status, operation and
-                                            maintenance of software
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div className="resume__action">
-                            <a href="https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true"
-                               className="button button--big" target="_blank" rel="noopener noreferrer">Print / Download full CV</a>
-                        </div>
-
-                        <h2 className="title">Education</h2>
-                        <div className="resume__items">
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                       target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/moscow-business-school.svg" alt="Moscow Business School"
-                                             height="135" className="resume__img resume__img--big"/>
-                                    </a>
-                                    <h3>2019 – 2020</h3>
-                                    <h4>
-                                        Master of Business Administration (Marketing)
-                                        <span>Moscow Business School (Russia)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                        Moscow Business School an international business school, subdivision of a Moscow
-                                        Technological Institute. It is among top 10 business schools in Russia.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a href="http://www.mamk.fi/" className="resume__link"
-                                       target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu/"
-                                             height="135" className="resume__img resume__img--big"/>
-                                    </a>
-                                    <h3>2012 – 2015</h3>
-                                    <h4>
-                                        Bachelor’s Degree IT (Information Technology)
-                                        <span>Mikkelin Ammattikorkeakoulu / now XAMK (Finland)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                        From August 2012 to July 2015 studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) - IT (Information Technology) degree. MAMK was ranked as the best Finnish university of applied sciences in 2014.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/spbgut.png" alt="spbgut" width="135" className="resume__img resume__img--margin"/>
-                                    </a>
-                                    <h3>2009 – 2012</h3>
-                                    <h4>
-                                        Master of digital information processing
-                                        <span>GBOU liceum at St. Petersburg State University of Telecommunications (Russia)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>From September 2009 to May 2012 participated in the «Master of digital information processing» major-training program (1,020 hours)</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h2 className="title">Volunteer Experience</h2>
-                        <div className="resume__items">
-
-                          <div className="resume__item resume__item--compact">
-                              <div className="resume__position">
-                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/soc2.jpeg" alt="SOC 2 Quality Guild" height="135" className="resume__img resume__img--big"/>
-                                  </a>
-                                  <h3>Jan 2026 – Present</h3>
-                                  <h4>
-                                      Working Group Volunteer
-                                      <span>SOC 2 Quality Guild</span>
-                                  </h4>
-                              </div>
-                              <div className="resume__description">
-                              </div>
-                          </div>
-
-                          <div className="resume__item resume__item--compact">
-                              <div className="resume__position">
-                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                  </a>
-                                  <h3>Now 2025 – Present</h3>
-                                  <h4>
-                                      Working Group Volunteer - Security Controls Catalog
-                                      <span>Cloud Security Alliance (USA)</span>
-                                  </h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>
-                                    This working group focuses on expanding and standardizing cybersecurity control objectives across various technologies, including Cloud, AI, and IoT/OT. It extends the CSA Cloud Control Matrix (CCM), ensuring interoperability with global frameworks. The group also defines control implementation guidelines, maintains a repository of technical controls as code, and enables automation to streamline compliance integration and enforcement.
-                                  </p>
-                                  <ul>
-                                    <li>Expands CSA’s Cloud Control Matrix (CCM) to support diverse technologies (Cloud, AI, IoT/OT).</li>
-                                    <li>Standardizes controls for interoperability across regulatory frameworks.</li>
-                                    <li>Develops vendor-agnostic and vendor-specific implementation guidelines for control adoption.</li>
-                                    <li>Defines control objectives related to cybersecurity, privacy, safety, and accountability.</li>
-                                    <li>Establishes a repository of technical controls as code to streamline compliance integration.</li>
-                                  </ul>
-                              </div>
-                          </div>
-
-                          <div className="resume__item resume__item--compact">
-                              <div className="resume__position">
-                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                  </a>
-                                  <h3>Jan 2025 – Now 2025</h3>
-                                  <h4>
-                                      Trusted AI Safety Expert (TAISE) Contributor
-                                      <span>Cloud Security Alliance (USA)</span>
-                                  </h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>
-                                    Contributed to the content development of the Cloud Security Alliance’s Trusted AI Safety Expert (TAISE) training and certificate program. Contributors demonstrated AI safety, security, and governance expertise, collaborating with CSA and Northeastern University to create a rigorous, research-backed educational framework.
-                                  </p>
-                              </div>
-                          </div>
-
-                          <div className="resume__item resume__item--compact">
-                              <div className="resume__position">
-                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                  </a>
-                                  <h3>Aug 2025 – Oct 2025</h3>
-                                  <h4>
-                                      Working Group Volunteer - AI Safety
-                                      <span>Cloud Security Alliance (USA)</span>
-                                  </h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>
-                                    Cloud Security Alliance is embarking upon a new mission to build a portfolio of best practices for the most consequential technology ever introduced. The CSA AI Safety Initiative builds upon our 15 years of earned credibility as the leader of the trusted cloud ecosystem and leverages a unique structure for rapid innovation and collaboration with governments, industry and NGOs.
-                                  </p>
-                              </div>
-                          </div>
-
-                          <div className="resume__item resume__item--compact">
-                              <div className="resume__position">
-                                  <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                      <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                  </a>
-                                  <h3>Feb 2025 – Oct 2025</h3>
-                                  <h4>
-                                      Working Group Volunteer - AI Controls
-                                      <span>Cloud Security Alliance (USA)</span>
-                                  </h4>
-                              </div>
-                              <div className="resume__description">
-                                  <p>
-                                    The CSA AI Control Framework Working Group’s goal is to define a framework of control objectives to support organizations in their secure and responsible development, management, and use of AI technologies. The framework will assist in evaluating risks and defining controls related to Generative AI (GenAI). The control objectives will cover aspects related to cybersecurity. Additionally, it will cover aspects related to safety, privacy, transparency, accountability, and explainability as far as they relate to cybersecurity.
-                                  </p>
-                              </div>
-                          </div>
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                    </a>
-                                    <h3>Jul 2025 – Oct 2025</h3>
-                                    <h4>
-                                        Working Group Volunteer - Consensus Assessments Initiative Questionnaire (CAIQ) 4.1
-                                        <span>Cloud Security Alliance (USA)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                      The CAIQ is a foundational security questionnaire that enables cloud service providers to perform self-assessments against the CCMv4.1 as part of CSA’s Security, Trust, Assurance, and Risk (STAR) Program. Aligned with the CCM, it helps organizations assess how well cloud services implement relevant security controls. CAIQ v4.1 builds upon the existing CAIQ v4.0.3 by refining current questions and introducing new ones to address emerging technologies and evolving threat landscapes. This update aims to improve the clarity, relevance, and effectiveness of the questionnaire to support the assessment and implementation transparency and accountability of cloud security best practices.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/csa.png" alt="Cloud Security Alliance" height="135" className="resume__img resume__img--big"/>
-                                    </a>
-                                    <h3>Jun 2025 – Jul 2025</h3>
-                                    <h4>
-                                        Working Group Volunteer - Cloud Controls Matrix (CCM)
-                                        <span>Cloud Security Alliance (USA)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                      Along with releasing updated versions of the CCM and CAIQ, this working group provides addendums, control mappings, and gap analysis between the CCM and other research releases, industry standards, and regulations to keep it continually up to date.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="resume__item resume__item--compact">
-                                <div className="resume__position">
-                                    <a className="resume__link" target="_blank" rel="noopener noreferrer nofollow">
-                                        <img src="./img/resume/pitercss-meetup.svg" alt="pitercss_meetup" height="135" className="resume__img resume__img--big"/>
-                                    </a>
-                                    <h3>Mar 2019 – Dec 2019</h3>
-                                    <h4>
-                                        Conference Organizer
-                                        <span>pitercss_meetup (Russia)</span>
-                                    </h4>
-                                </div>
-                                <div className="resume__description">
-                                    <p>
-                                        Monthly Front-end meetups in St. Petersburg: CSS, SVG, typography, design.
-                                    </p>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
+const Resume = () => (
+    <section className="resume" id="resume" aria-labelledby="resume-heading">
+        <div className="resume__heading">
+            <span>CHAPTER 01</span>
+            <h2 id="resume-heading">Resume</h2>
+        </div>
+        <div className="resume__wrapper">
+            <div className="resume__content">
+                <h3 className="title" data-reveal="">Latest Work History</h3>
+                <div className="resume__items">
+                    {jobs.map((item) => <Item item={item} key={`${item.role}-${item.period}`}/>)}
                 </div>
-            </section>
-        );
-    }
-}
+
+                <div className="resume__action" data-reveal="">
+                    <a href="https://www.linkedin.com/in/nikitarogatnev/" className="button button--big"
+                       target="_blank" rel="noopener noreferrer">Full profile on LinkedIn</a>
+                </div>
+
+                <h3 className="title" data-reveal="">Education</h3>
+                <div className="resume__items">
+                    {education.map((item) => <Item item={item} compact key={`${item.company}-${item.period}`}/>)}
+                </div>
+
+                <h3 className="title" data-reveal="">Volunteer Experience</h3>
+                <div className="resume__items">
+                    {volunteering.map((item) => <Item item={item} compact key={`${item.role}-${item.period}`}/>)}
+                </div>
+            </div>
+        </div>
+    </section>
+);
 
 export default Resume;

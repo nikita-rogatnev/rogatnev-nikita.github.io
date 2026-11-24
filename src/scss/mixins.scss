@@ -10,6 +10,7 @@
     flex-direction: column;
 
     min-height: 100vh;
+    min-height: 100svh;
     padding: 10rem 0;
 
     align-items: center;
@@ -37,6 +38,8 @@
     }
 }
 
+// Chapter label: centered above the content on small screens,
+// rotated and pinned to the left edge while its section scrolls by on larger ones.
 @mixin heading {
     &__heading {
         position: relative;
@@ -51,16 +54,11 @@
             font-size: $font-size--3;
         }
 
-        h1 {
-            white-space: nowrap;
-            letter-spacing: 0.2rem;
-            text-transform: uppercase;
+        h2 {
+            margin: 1rem 0;
 
-            color: $color-primary-text-light;
-
-            font-size: $font-size-00;
-            font-weight: $regular-font-weight;
-            line-height: 1;
+            font-size: 2.4rem;
+            line-height: 1.2;
         }
 
         &::after {
@@ -80,24 +78,21 @@
         }
 
         @media (min-width: $medium-up) {
-            position: absolute;
-            top: 50%;
-            left: 1rem;
+            position: sticky;
+            z-index: 1;
+            top: 50vh;
 
-            display: inline-flex;
+            display: flex;
             flex-direction: column;
 
-            margin-bottom: 0;
+            height: 0;
+            margin: 0 0 0 1rem;
 
             transform: rotate(-90deg) translateX(-50%);
             transform-origin: left top 0;
-            text-align: center;
+            white-space: nowrap;
 
-            h1 {
-                margin-bottom: 0;
-
-                font-size: $font-size-04;
-            }
+            align-self: flex-start;
 
             &::after {
                 display: none;

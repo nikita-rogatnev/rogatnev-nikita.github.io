@@ -1,6 +1,10 @@
 @use "config" as *;
 
 .title {
+    margin: 1rem 0 2rem;
+
+    font-size: 2.4rem;
+    line-height: 1.2;
 
     @media (min-width: $medium-up) {
         margin: 0 0 4rem;

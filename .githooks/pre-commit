@@ -1,0 +1,12 @@
+#!/bin/sh
+# The hosting deploys public/ straight from the pushed commit, so a commit
+# that changes the source must carry a fresh build. Enabled by `npm install`
+# (see "prepare" in package.json).
+if git diff --cached --name-only | grep -qE '^(src/|webpack\.config\.js|package(-lock)?\.json|\.babelrc)'; then
+    echo "pre-commit: source changed, rebuilding public/ ..."
+    npm run --silent build > /dev/null || {
+        echo "pre-commit: build failed, commit aborted" >&2
+        exit 1
+    }
+    git add public/index.html public/bundle.css public/bundle.js public/fonts
+fi

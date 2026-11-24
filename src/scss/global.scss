@@ -15,10 +15,18 @@
     background-color: $color-accent;
 }
 
+::selection {
+    color: $color-primary-text-light;
+    background-color: $color-accent;
+}
+
 html {
     box-sizing: border-box;
 
     font-size: $html-font-size;
+
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 *,
@@ -69,4 +77,42 @@ a {
     text-decoration: none;
 
     color: $color-accent;
+}
+
+:focus-visible {
+    outline: 0.2rem solid $color-accent;
+    outline-offset: 0.3rem;
+}
+
+/* ------------------------------------------ */
+/* SCROLL REVEAL (see src/reveal.js)
+/* ------------------------------------------ */
+.reveal-ready [data-reveal] {
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    transform: translateY(2.4rem);
+
+    opacity: 0;
+
+    &.is-visible {
+        transform: none;
+
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-ready [data-reveal] {
+        transition: none;
+        transform: none;
+
+        opacity: 1;
+    }
+}
+
+@media print {
+    .reveal-ready [data-reveal] {
+        transform: none;
+
+        opacity: 1;
+    }
 }

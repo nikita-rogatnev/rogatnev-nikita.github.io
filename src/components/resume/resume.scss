@@ -33,93 +33,105 @@
 
         width: 100%;
         margin-bottom: 4rem;
+    }
 
-        .resume__img {
-            width: auto;
-            height: 3rem;
+    .resume__img {
+        display: block;
 
-            &--big {
-              height: 5rem;
-            }
+        width: auto;
+        height: 3rem;
 
-            &--margin {
-              margin-top: 1rem;
-              margin-bottom: 1rem;
-            }
+        &--big {
+            height: 5rem;
         }
 
-        h3 {
-            position: relative;
+        &--margin {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
 
-            display: inline-block;
+    // Date ribbon
+    .resume__period {
+        position: relative;
 
-            margin: 2rem 0 0.5rem 1.5rem;
-            padding: 0.3rem 2rem;
+        display: inline-block;
 
-            letter-spacing: 0;
+        margin: 2rem 0 0.5rem 1.5rem;
+        padding: 0.3rem 2rem;
 
-            color: $color-primary-text-light;
-            background: $color-accent;
+        letter-spacing: 0;
 
-            line-height: 1;
+        color: $color-primary-text-light;
+        background: $color-accent;
 
-            &::before,
-            &::after {
-                position: absolute;
-                top: 40%;
-                left: -1.5rem;
+        font-size: 1.9rem;
+        font-weight: $bold-font-weight;
+        line-height: 1;
 
-                display: block;
+        &::before,
+        &::after {
+            position: absolute;
+            top: 40%;
+            left: -1.5rem;
 
-                content: "";
+            display: block;
 
-                border: 1rem solid $color-accent;
-                border-color: $color-accent $color-accent $color-accent transparent;
-                border-right-width: 20px;
-            }
+            content: "";
 
-            &::after {
-                right: -1.5rem;
-                left: auto;
-
-                border-color: $color-accent transparent $color-accent $color-accent;
-            }
+            border: 1rem solid $color-accent;
+            border-color: $color-accent $color-accent $color-accent transparent;
+            border-right-width: 20px;
         }
 
-        h4 {
-            margin: 2rem 0 0;
+        &::after {
+            right: -1.5rem;
+            left: auto;
+
+            border-color: $color-accent transparent $color-accent $color-accent;
         }
+    }
 
-        span {
-          display: block;
-          color: #ed4040;
-          margin-top: 5px;
-        }
+    .resume__role {
+        margin: 2rem 0 0;
 
-        li {
-            position: relative;
+        font-size: $font-size--1;
+        font-weight: $bold-font-weight;
+    }
 
-            padding-left: 1rem;
+    .resume__company {
+        display: block;
 
-            &::before {
-                position: absolute;
-                top: 0.85rem;
-                left: 0;
+        margin-top: 0.5rem;
 
-                display: block;
+        color: $color-accent;
+    }
 
-                width: 0.3rem;
-                height: 0.3rem;
+    .resume__list li {
+        position: relative;
 
-                content: '';
+        padding-left: 1rem;
 
-                border-radius: 50%;
-                background-color: $color-secondary;
-            }
+        &::before {
+            position: absolute;
+            top: 0.85rem;
+            left: 0;
+
+            display: block;
+
+            width: 0.3rem;
+            height: 0.3rem;
+
+            content: '';
+
+            border-radius: 50%;
+            background-color: $color-secondary;
         }
     }
 
     .resume__link {
+        display: block;
+
         font-size: 0;
         line-height: 0;
     }
@@ -147,48 +159,61 @@
     }
 
     .resume__articles {
-      position: relative;
+        display: grid;
 
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
+        margin: 2rem 0 0;
 
-      flex-wrap: wrap;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
     }
 
-    .resume__articles-item {
-      display: flex;
+    .resume__articles-item a {
+        display: block;
 
-      flex-direction: column;
+        transition: opacity $transition ease;
 
-      max-width: calc(100% / 2 - 1rem);
-      margin: 2rem 0 0;
+        &:hover,
+        &:focus-visible {
+            opacity: 0.85;
+        }
     }
 
-    .resume__articles-item h1 {
-      margin: 1rem 0 0;
-      font-size: 1.6rem;
-      line-height: 1.2;
+    .resume__articles-item img {
+        display: block;
+
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
     }
 
-    .resume__articles-item h1 a:hover {
-      opacity: 0.9;
+    .resume__articles-title {
+        display: block;
+
+        margin: 1rem 0 0;
+
+        font-size: $font-size--1;
+        font-weight: $bold-font-weight;
+        line-height: 1.2;
     }
 
     @media (min-width: $medium-up) {
-      .resume__articles-item {
-        max-width: calc(100% / 4 - 2rem);
-      }
+        .resume__articles {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 2.5rem;
+        }
     }
 
     @media (min-width: $large-up) {
         .resume__articles {
-          max-width: 75%;
+            max-width: 75%;
         }
 
         .resume__content {
             margin: 0 -1rem;
+        }
+
+        .resume__content > .title,
+        .resume__action {
+            padding: 0 1rem;
         }
 
         .resume__item {

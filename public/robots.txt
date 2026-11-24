@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /
 
-Sitemap: http://rogatnev.ru/sitemap.xml
+Sitemap: https://rogatnev.ru/sitemap.xml

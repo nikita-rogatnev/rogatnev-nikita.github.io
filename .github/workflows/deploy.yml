@@ -1,0 +1,61 @@
+name: Check deploy
+
+# Deploying itself is done by the hosting: GitHub calls the Plesk Git webhook
+# on every push, Plesk pulls master and serves public/ as rogatnev.ru.
+# This workflow only watches that chain: it lints, makes sure the source still
+# builds, and fails if the live site does not pick up the pushed build.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SITE_URL: https://rogatnev.ru/
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      - name: Remember the committed page
+        run: cp public/index.html "$RUNNER_TEMP/committed.html"
+
+      - run: npm run build
+
+      - name: Committed build matches the source
+        run: |
+          if ! git diff --quiet -- public/index.html public/bundle.css public/bundle.js; then
+            echo "::warning::public/ in this commit differs from a fresh build of src. Run 'npm run build' and commit the result."
+            git diff --stat -- public/index.html public/bundle.css public/bundle.js
+          fi
+
+      - name: Live site serves this commit
+        run: |
+          for attempt in $(seq 1 12); do
+            if curl -fsS "${SITE_URL}?deploy-check=$GITHUB_RUN_ID-$attempt" -o "$RUNNER_TEMP/live.html" \
+              && cmp -s "$RUNNER_TEMP/live.html" "$RUNNER_TEMP/committed.html"; then
+              echo "Live site serves the page from this commit."
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::$SITE_URL does not serve public/index.html from this commit two minutes after the push. Check the Plesk Git repository for rogatnev.ru and the repository webhook on GitHub."
+          exit 1

@@ -29,6 +29,8 @@
         height: 7rem;
         margin: 0 1rem 1rem 0;
 
+        transition: background-color $transition ease;
+
         background: $color-primary;
         border: 0.1rem solid $color-secondary;
 
@@ -39,7 +41,8 @@
         align-content: space-around;
         justify-content: center;
 
-        &:hover {
+        &:hover,
+        &:focus-within {
             background: rgba($color-accent, 0.8);
         }
     }
