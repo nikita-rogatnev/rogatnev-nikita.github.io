@@ -23,7 +23,7 @@ Personal site, live at https://rogatnev.ru
 Automatic on push to `master`:
 
 1. GitHub calls the Plesk Git webhook (repository Settings → Webhooks).
-2. Plesk (reg.ru hosting, Git section of rogatnev.ru) pulls `master` into `/rogatnev.ru`;
+2. Plesk (reg.ru hosting, Git section of rogatnev.ru, entry `rogatnev-site.git`) pulls `master` into `/rogatnev.ru`;
    the site is served from `/rogatnev.ru/public`.
 3. `.github/workflows/deploy.yml` lints, rebuilds and fails if rogatnev.ru does not serve the pushed build.
 
