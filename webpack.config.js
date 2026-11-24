@@ -30,7 +30,9 @@ module.exports = (env, argv = {}) => {
         // Development: the React app rendered in the browser with hot reload.
         entry: isProduction ? `./src/static.js` : `./src/index.jsx`,
         output: {
-            filename: `bundle.js`,
+            // The ?v= part is a hash of the file content: it busts browser caches
+            // and is the same on every machine, unlike the compilation hash.
+            filename: isProduction ? `bundle.js?v=[contenthash:10]` : `bundle.js`,
             path: PUBLIC_DIR,
             assetModuleFilename: `fonts/[name][ext]`,
         },
@@ -77,10 +79,9 @@ module.exports = (env, argv = {}) => {
                 filename: `index.html`,
                 inject: `head`,
                 scriptLoading: `defer`,
-                hash: true,
                 content: isProduction ? prerender() : ``,
             }),
-            ...(isProduction ? [new MiniCssExtractPlugin({filename: `bundle.css`})] : []),
+            ...(isProduction ? [new MiniCssExtractPlugin({filename: `bundle.css?v=[contenthash:10]`})] : []),
         ],
         optimization: {
             minimizer: [`...`, new CssMinimizerPlugin()],
